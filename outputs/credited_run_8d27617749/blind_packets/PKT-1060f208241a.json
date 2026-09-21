@@ -1,0 +1,1580 @@
+{
+ "activations": [
+  {
+   "activation_id": "ACT-RC-01-3becdc6f",
+   "bindings": {
+    "?lot": "LOT-1",
+    "?m": "M-1",
+    "?q": "Q-1",
+    "?spec": "SPEC"
+   },
+   "filtered_graph_hash": "98f4e159b6208ac6652591ef12f84e2152b9ceb92766155bbe575ed8810cbe27",
+   "reference_id": "RC-01",
+   "reference_label": "Specification conformance of a measured quality",
+   "status": "satisfied",
+   "supporting_edges": [
+    "E022",
+    "E026",
+    "E038"
+   ]
+  },
+  {
+   "activation_id": "ACT-RC-01-015f499b",
+   "bindings": {
+    "?lot": "LOT-2",
+    "?m": "M-2",
+    "?q": "Q-2",
+    "?spec": "SPEC"
+   },
+   "filtered_graph_hash": "98f4e159b6208ac6652591ef12f84e2152b9ceb92766155bbe575ed8810cbe27",
+   "reference_id": "RC-01",
+   "reference_label": "Specification conformance of a measured quality",
+   "status": "satisfied",
+   "supporting_edges": [
+    "E023",
+    "E027",
+    "E039"
+   ]
+  },
+  {
+   "activation_id": "ACT-RC-01-bd897561",
+   "bindings": {
+    "?lot": "LOT-3",
+    "?m": "M-3",
+    "?q": "Q-3",
+    "?spec": "SPEC"
+   },
+   "filtered_graph_hash": "98f4e159b6208ac6652591ef12f84e2152b9ceb92766155bbe575ed8810cbe27",
+   "reference_id": "RC-01",
+   "reference_label": "Specification conformance of a measured quality",
+   "status": "satisfied",
+   "supporting_edges": [
+    "E024",
+    "E028",
+    "E040"
+   ]
+  },
+  {
+   "activation_id": "ACT-RC-01-80f2d643",
+   "bindings": {
+    "?lot": "LOT-4",
+    "?m": "M-4",
+    "?q": "Q-4",
+    "?spec": "SPEC"
+   },
+   "filtered_graph_hash": "98f4e159b6208ac6652591ef12f84e2152b9ceb92766155bbe575ed8810cbe27",
+   "reference_id": "RC-01",
+   "reference_label": "Specification conformance of a measured quality",
+   "status": "violated",
+   "supporting_edges": [
+    "E025",
+    "E029",
+    "E041"
+   ]
+  },
+  {
+   "activation_id": "ACT-RC-03-8a7079dc",
+   "bindings": {
+    "?lot": "LOT-4",
+    "?ncr": "NCR"
+   },
+   "filtered_graph_hash": "98f4e159b6208ac6652591ef12f84e2152b9ceb92766155bbe575ed8810cbe27",
+   "reference_id": "RC-03",
+   "reference_label": "Corrective action on a nonconformance report",
+   "status": "violated",
+   "supporting_edges": [
+    "E058"
+   ]
+  },
+  {
+   "activation_id": "ACT-RC-04-9f7e9c12",
+   "bindings": {
+    "?dec": "ACT-DEC",
+    "?dir": "DIR-CONT",
+    "?lot": "LOT-4",
+    "?ncr": "NCR"
+   },
+   "filtered_graph_hash": "98f4e159b6208ac6652591ef12f84e2152b9ceb92766155bbe575ed8810cbe27",
+   "reference_id": "RC-04",
+   "reference_label": "Nonconforming product control in directives",
+   "status": "violated",
+   "supporting_edges": [
+    "E058",
+    "E073",
+    "E075"
+   ]
+  },
+  {
+   "activation_id": "ACT-RC-06-c00c8eb0",
+   "bindings": {
+    "?c": "ACT-SHIPNOTE",
+    "?cert": "CERT",
+    "?lot": "LOT-4",
+    "?ncr": "NCR",
+    "?party": "ORG-HTA"
+   },
+   "filtered_graph_hash": "98f4e159b6208ac6652591ef12f84e2152b9ceb92766155bbe575ed8810cbe27",
+   "reference_id": "RC-06",
+   "reference_label": "Completeness of conformance communication",
+   "status": "violated",
+   "supporting_edges": [
+    "E058",
+    "E083",
+    "E084",
+    "E085"
+   ]
+  },
+  {
+   "activation_id": "ACT-RC-10-baae974f",
+   "bindings": {
+    "?lot": "LOT-4",
+    "?ncr": "NCR",
+    "?qms": "PROC-QMS",
+    "?reg": "REG"
+   },
+   "filtered_graph_hash": "98f4e159b6208ac6652591ef12f84e2152b9ceb92766155bbe575ed8810cbe27",
+   "reference_id": "RC-10",
+   "reference_label": "Regulatory notification of a safety-relevant nonconformance",
+   "status": "violated",
+   "supporting_edges": [
+    "E058",
+    "E096"
+   ]
+  },
+  {
+   "activation_id": "ACT-RC-11-06b365f7",
+   "bindings": {
+    "?c": "ACT-EMAIL",
+    "?dec": "ACT-DEC",
+    "?rep": "NCR"
+   },
+   "filtered_graph_hash": "98f4e159b6208ac6652591ef12f84e2152b9ceb92766155bbe575ed8810cbe27",
+   "reference_id": "RC-11",
+   "reference_label": "Decision informed by a preceding report communication",
+   "status": "violated",
+   "supporting_edges": [
+    "E063",
+    "E069"
+   ]
+  }
+ ],
+ "admitted_relation_types": [
+  "bearer_of",
+  "has_input",
+  "has_output",
+  "has_recipient",
+  "is_a_measurement_of",
+  "is_about",
+  "precedes",
+  "prescribes"
+ ],
+ "discrepancies": [
+  {
+   "activation_id": "ACT-RC-01-80f2d643",
+   "bindings": {
+    "?lot": "LOT-4",
+    "?m": "M-4",
+    "?q": "Q-4",
+    "?spec": "SPEC"
+   },
+   "discrepancy_id": "D-RC-01-80f2d643",
+   "prescribed_kind": "value_constraint",
+   "reference_id": "RC-01",
+   "reference_label": "Specification conformance of a measured quality",
+   "satisfaction_condition": "Every measurement of the prescribed quality lies within the specification bounds, or the artifact is segregated by a rework act.",
+   "status": "violated",
+   "witness": {
+    "offending_edges": [],
+    "present_edges": [
+     "E025",
+     "E029",
+     "E041"
+    ],
+    "required_absent_edges": [],
+    "value_facts": [
+     {
+      "constraint": [
+       "?m.value",
+       "within",
+       "?spec.lower",
+       "?spec.upper"
+      ],
+      "values": {
+       "?m.value": 12.013,
+       "?spec.lower": 11.99,
+       "?spec.upper": 12.01
+      }
+     }
+    ]
+   },
+   "witness_edge_ids": [
+    "E025",
+    "E029",
+    "E041"
+   ]
+  },
+  {
+   "activation_id": "ACT-RC-03-8a7079dc",
+   "bindings": {
+    "?lot": "LOT-4",
+    "?ncr": "NCR"
+   },
+   "discrepancy_id": "D-RC-03-8a7079dc",
+   "prescribed_kind": "exists",
+   "reference_id": "RC-03",
+   "reference_label": "Corrective action on a nonconformance report",
+   "satisfaction_condition": "A corrective-action act has the nonconformance report as input.",
+   "status": "violated",
+   "witness": {
+    "offending_edges": [],
+    "present_edges": [
+     "E058"
+    ],
+    "required_absent_edges": [
+     {
+      "predicate": "has_input",
+      "source": "?ca",
+      "source_spec": {
+       "attributes": {
+        "kind": "corrective_action"
+       },
+       "type": "Planned Act"
+      },
+      "target": "NCR",
+      "target_spec": {}
+     }
+    ],
+    "value_facts": []
+   },
+   "witness_edge_ids": [
+    "E058"
+   ]
+  },
+  {
+   "activation_id": "ACT-RC-04-9f7e9c12",
+   "bindings": {
+    "?dec": "ACT-DEC",
+    "?dir": "DIR-CONT",
+    "?lot": "LOT-4",
+    "?ncr": "NCR"
+   },
+   "discrepancy_id": "D-RC-04-9f7e9c12",
+   "prescribed_kind": "exists",
+   "reference_id": "RC-04",
+   "reference_label": "Nonconforming product control in directives",
+   "satisfaction_condition": "The decision act that produced the directive has the nonconformance report as input.",
+   "status": "violated",
+   "witness": {
+    "offending_edges": [],
+    "present_edges": [
+     "E058",
+     "E073",
+     "E075"
+    ],
+    "required_absent_edges": [
+     {
+      "predicate": "has_input",
+      "source": "ACT-DEC",
+      "source_spec": {},
+      "target": "NCR",
+      "target_spec": {}
+     }
+    ],
+    "value_facts": []
+   },
+   "witness_edge_ids": [
+    "E058",
+    "E073",
+    "E075"
+   ]
+  },
+  {
+   "activation_id": "ACT-RC-06-c00c8eb0",
+   "bindings": {
+    "?c": "ACT-SHIPNOTE",
+    "?cert": "CERT",
+    "?lot": "LOT-4",
+    "?ncr": "NCR",
+    "?party": "ORG-HTA"
+   },
+   "discrepancy_id": "D-RC-06-c00c8eb0",
+   "prescribed_kind": "exists",
+   "reference_id": "RC-06",
+   "reference_label": "Completeness of conformance communication",
+   "satisfaction_condition": "The recipient of the certificate has also received the nonconformance report.",
+   "status": "violated",
+   "witness": {
+    "offending_edges": [],
+    "present_edges": [
+     "E058",
+     "E083",
+     "E084",
+     "E085"
+    ],
+    "required_absent_edges": [
+     {
+      "predicate": "has_input",
+      "source": "?c2",
+      "source_spec": {
+       "type": "Act of Communication"
+      },
+      "target": "NCR",
+      "target_spec": {}
+     },
+     {
+      "predicate": "has_recipient",
+      "source": "?c2",
+      "source_spec": {
+       "type": "Act of Communication"
+      },
+      "target": "ORG-HTA",
+      "target_spec": {}
+     }
+    ],
+    "value_facts": []
+   },
+   "witness_edge_ids": [
+    "E058",
+    "E083",
+    "E084",
+    "E085"
+   ]
+  },
+  {
+   "activation_id": "ACT-RC-10-baae974f",
+   "bindings": {
+    "?lot": "LOT-4",
+    "?ncr": "NCR",
+    "?qms": "PROC-QMS",
+    "?reg": "REG"
+   },
+   "discrepancy_id": "D-RC-10-baae974f",
+   "prescribed_kind": "exists",
+   "reference_id": "RC-10",
+   "reference_label": "Regulatory notification of a safety-relevant nonconformance",
+   "satisfaction_condition": "A government organization has received a communication carrying the nonconformance report.",
+   "status": "violated",
+   "witness": {
+    "offending_edges": [],
+    "present_edges": [
+     "E058",
+     "E096"
+    ],
+    "required_absent_edges": [
+     {
+      "predicate": "has_input",
+      "source": "?c",
+      "source_spec": {},
+      "target": "NCR",
+      "target_spec": {}
+     },
+     {
+      "predicate": "has_recipient",
+      "source": "?c",
+      "source_spec": {},
+      "target": "?gov",
+      "target_spec": {
+       "type": "Government Organization"
+      }
+     }
+    ],
+    "value_facts": []
+   },
+   "witness_edge_ids": [
+    "E058",
+    "E096"
+   ]
+  },
+  {
+   "activation_id": "ACT-RC-11-06b365f7",
+   "bindings": {
+    "?c": "ACT-EMAIL",
+    "?dec": "ACT-DEC",
+    "?rep": "NCR"
+   },
+   "discrepancy_id": "D-RC-11-06b365f7",
+   "prescribed_kind": "exists",
+   "reference_id": "RC-11",
+   "reference_label": "Decision informed by a preceding report communication",
+   "satisfaction_condition": "The decision act has the communicated report as input.",
+   "status": "violated",
+   "witness": {
+    "offending_edges": [],
+    "present_edges": [
+     "E063",
+     "E069"
+    ],
+    "required_absent_edges": [
+     {
+      "predicate": "has_input",
+      "source": "ACT-DEC",
+      "source_spec": {},
+      "target": "NCR",
+      "target_spec": {}
+     }
+    ],
+    "value_facts": []
+   },
+   "witness_edge_ids": [
+    "E063",
+    "E069"
+   ]
+  }
+ ],
+ "filtered_graph": {
+  "edges": [
+   {
+    "edge_id": "E001",
+    "predicate": "bearer_of",
+    "source": "P-ENG",
+    "target": "R-ENG"
+   },
+   {
+    "edge_id": "E002",
+    "predicate": "bearer_of",
+    "source": "P-QM",
+    "target": "R-QM"
+   },
+   {
+    "edge_id": "E003",
+    "predicate": "bearer_of",
+    "source": "P-PM",
+    "target": "R-PM"
+   },
+   {
+    "edge_id": "E004",
+    "predicate": "bearer_of",
+    "source": "P-INSP",
+    "target": "R-INSP"
+   },
+   {
+    "edge_id": "E018",
+    "predicate": "has_output",
+    "source": "ACT-MFG",
+    "target": "LOT-1"
+   },
+   {
+    "edge_id": "E019",
+    "predicate": "has_output",
+    "source": "ACT-MFG",
+    "target": "LOT-2"
+   },
+   {
+    "edge_id": "E020",
+    "predicate": "has_output",
+    "source": "ACT-MFG",
+    "target": "LOT-3"
+   },
+   {
+    "edge_id": "E021",
+    "predicate": "has_output",
+    "source": "ACT-MFG",
+    "target": "LOT-4"
+   },
+   {
+    "edge_id": "E022",
+    "predicate": "bearer_of",
+    "source": "LOT-1",
+    "target": "Q-1"
+   },
+   {
+    "edge_id": "E023",
+    "predicate": "bearer_of",
+    "source": "LOT-2",
+    "target": "Q-2"
+   },
+   {
+    "edge_id": "E024",
+    "predicate": "bearer_of",
+    "source": "LOT-3",
+    "target": "Q-3"
+   },
+   {
+    "edge_id": "E025",
+    "predicate": "bearer_of",
+    "source": "LOT-4",
+    "target": "Q-4"
+   },
+   {
+    "edge_id": "E026",
+    "predicate": "prescribes",
+    "source": "SPEC",
+    "target": "Q-1"
+   },
+   {
+    "edge_id": "E027",
+    "predicate": "prescribes",
+    "source": "SPEC",
+    "target": "Q-2"
+   },
+   {
+    "edge_id": "E028",
+    "predicate": "prescribes",
+    "source": "SPEC",
+    "target": "Q-3"
+   },
+   {
+    "edge_id": "E029",
+    "predicate": "prescribes",
+    "source": "SPEC",
+    "target": "Q-4"
+   },
+   {
+    "edge_id": "E034",
+    "predicate": "has_output",
+    "source": "ACT-M1",
+    "target": "M-1"
+   },
+   {
+    "edge_id": "E035",
+    "predicate": "has_output",
+    "source": "ACT-M2",
+    "target": "M-2"
+   },
+   {
+    "edge_id": "E036",
+    "predicate": "has_output",
+    "source": "ACT-M3",
+    "target": "M-3"
+   },
+   {
+    "edge_id": "E037",
+    "predicate": "has_output",
+    "source": "ACT-M4",
+    "target": "M-4"
+   },
+   {
+    "edge_id": "E038",
+    "predicate": "is_a_measurement_of",
+    "source": "M-1",
+    "target": "Q-1"
+   },
+   {
+    "edge_id": "E039",
+    "predicate": "is_a_measurement_of",
+    "source": "M-2",
+    "target": "Q-2"
+   },
+   {
+    "edge_id": "E040",
+    "predicate": "is_a_measurement_of",
+    "source": "M-3",
+    "target": "Q-3"
+   },
+   {
+    "edge_id": "E041",
+    "predicate": "is_a_measurement_of",
+    "source": "M-4",
+    "target": "Q-4"
+   },
+   {
+    "edge_id": "E042",
+    "predicate": "precedes",
+    "source": "ACT-M1",
+    "target": "ACT-M2"
+   },
+   {
+    "edge_id": "E043",
+    "predicate": "precedes",
+    "source": "ACT-M2",
+    "target": "ACT-M3"
+   },
+   {
+    "edge_id": "E044",
+    "predicate": "precedes",
+    "source": "ACT-M3",
+    "target": "ACT-M4"
+   },
+   {
+    "edge_id": "E054",
+    "predicate": "has_input",
+    "source": "ACT-NCR",
+    "target": "M-2"
+   },
+   {
+    "edge_id": "E055",
+    "predicate": "has_input",
+    "source": "ACT-NCR",
+    "target": "M-3"
+   },
+   {
+    "edge_id": "E056",
+    "predicate": "has_input",
+    "source": "ACT-NCR",
+    "target": "M-4"
+   },
+   {
+    "edge_id": "E057",
+    "predicate": "has_output",
+    "source": "ACT-NCR",
+    "target": "NCR"
+   },
+   {
+    "edge_id": "E058",
+    "predicate": "is_about",
+    "source": "NCR",
+    "target": "LOT-4"
+   },
+   {
+    "edge_id": "E059",
+    "predicate": "is_about",
+    "source": "NCR",
+    "target": "Q-4"
+   },
+   {
+    "edge_id": "E060",
+    "predicate": "precedes",
+    "source": "ACT-M4",
+    "target": "ACT-NCR"
+   },
+   {
+    "edge_id": "E061",
+    "predicate": "precedes",
+    "source": "ACT-NCR",
+    "target": "ACT-EMAIL"
+   },
+   {
+    "edge_id": "E063",
+    "predicate": "has_input",
+    "source": "ACT-EMAIL",
+    "target": "NCR"
+   },
+   {
+    "edge_id": "E064",
+    "predicate": "has_recipient",
+    "source": "ACT-EMAIL",
+    "target": "P-QM"
+   },
+   {
+    "edge_id": "E065",
+    "predicate": "has_recipient",
+    "source": "ACT-EMAIL",
+    "target": "P-PM"
+   },
+   {
+    "edge_id": "E067",
+    "predicate": "has_recipient",
+    "source": "ACT-REPLY",
+    "target": "P-ENG"
+   },
+   {
+    "edge_id": "E068",
+    "predicate": "precedes",
+    "source": "ACT-EMAIL",
+    "target": "ACT-REPLY"
+   },
+   {
+    "edge_id": "E069",
+    "predicate": "precedes",
+    "source": "ACT-EMAIL",
+    "target": "ACT-DEC"
+   },
+   {
+    "edge_id": "E072",
+    "predicate": "has_input",
+    "source": "ACT-DEC",
+    "target": "SCHED"
+   },
+   {
+    "edge_id": "E073",
+    "predicate": "has_output",
+    "source": "ACT-DEC",
+    "target": "DIR-CONT"
+   },
+   {
+    "edge_id": "E074",
+    "predicate": "prescribes",
+    "source": "DIR-CONT",
+    "target": "ACT-SHIP"
+   },
+   {
+    "edge_id": "E075",
+    "predicate": "is_about",
+    "source": "DIR-CONT",
+    "target": "LOT-4"
+   },
+   {
+    "edge_id": "E077",
+    "predicate": "precedes",
+    "source": "ACT-DEC",
+    "target": "ACT-SHIP"
+   },
+   {
+    "edge_id": "E078",
+    "predicate": "prescribes",
+    "source": "SCHED",
+    "target": "ACT-SHIP"
+   },
+   {
+    "edge_id": "E083",
+    "predicate": "has_recipient",
+    "source": "ACT-SHIPNOTE",
+    "target": "ORG-HTA"
+   },
+   {
+    "edge_id": "E084",
+    "predicate": "has_input",
+    "source": "ACT-SHIPNOTE",
+    "target": "CERT"
+   },
+   {
+    "edge_id": "E085",
+    "predicate": "is_about",
+    "source": "CERT",
+    "target": "LOT-4"
+   },
+   {
+    "edge_id": "E094",
+    "predicate": "precedes",
+    "source": "ACT-SHIP",
+    "target": "PROC-BRAKE"
+   },
+   {
+    "edge_id": "E095",
+    "predicate": "bearer_of",
+    "source": "LOT-4",
+    "target": "D-LEAK"
+   },
+   {
+    "edge_id": "E096",
+    "predicate": "prescribes",
+    "source": "REG",
+    "target": "PROC-QMS"
+   }
+  ],
+  "entities": [
+   {
+    "attributes": {},
+    "id": "A-ACT",
+    "label": "brake actuator assembly batch 2026-Q3",
+    "type": "Material Artifact",
+    "type_iri": "https://www.commoncoreontologies.org/ont00000995"
+   },
+   {
+    "attributes": {},
+    "id": "A-CMM",
+    "label": "coordinate measuring machine CMM-2",
+    "type": "Material Artifact",
+    "type_iri": "https://www.commoncoreontologies.org/ont00000995"
+   },
+   {
+    "attributes": {},
+    "id": "A-MILL",
+    "label": "machining center MC-7",
+    "type": "Material Artifact",
+    "type_iri": "https://www.commoncoreontologies.org/ont00000995"
+   },
+   {
+    "attributes": {
+     "kind": "decision"
+    },
+    "id": "ACT-DEC",
+    "label": "production continuation decision",
+    "type": "Planned Act",
+    "type_iri": "https://www.commoncoreontologies.org/ont00000228"
+   },
+   {
+    "attributes": {
+     "kind": "escalation"
+    },
+    "id": "ACT-EMAIL",
+    "label": "escalation email of NCR-0417 to management",
+    "type": "Email Messaging",
+    "type_iri": "https://www.commoncoreontologies.org/ont00000492"
+   },
+   {
+    "attributes": {
+     "sequence": 1
+    },
+    "id": "ACT-M1",
+    "label": "dimensional inspection of lot 1",
+    "type": "Act of Measuring",
+    "type_iri": "https://www.commoncoreontologies.org/ont00000345"
+   },
+   {
+    "attributes": {
+     "sequence": 2
+    },
+    "id": "ACT-M2",
+    "label": "dimensional inspection of lot 2",
+    "type": "Act of Measuring",
+    "type_iri": "https://www.commoncoreontologies.org/ont00000345"
+   },
+   {
+    "attributes": {
+     "sequence": 3
+    },
+    "id": "ACT-M3",
+    "label": "dimensional inspection of lot 3",
+    "type": "Act of Measuring",
+    "type_iri": "https://www.commoncoreontologies.org/ont00000345"
+   },
+   {
+    "attributes": {
+     "sequence": 4
+    },
+    "id": "ACT-M4",
+    "label": "dimensional inspection of lot 4",
+    "type": "Act of Measuring",
+    "type_iri": "https://www.commoncoreontologies.org/ont00000345"
+   },
+   {
+    "attributes": {},
+    "id": "ACT-MFG",
+    "label": "machining of valve body lots 1-4",
+    "type": "Act of Manufacturing",
+    "type_iri": "https://www.commoncoreontologies.org/ont00001359"
+   },
+   {
+    "attributes": {
+     "kind": "nonconformance_reporting"
+    },
+    "id": "ACT-NCR",
+    "label": "writing of nonconformance report NCR-0417",
+    "type": "Act of Reporting",
+    "type_iri": "https://www.commoncoreontologies.org/ont00000151"
+   },
+   {
+    "attributes": {
+     "kind": "acknowledgement"
+    },
+    "id": "ACT-REPLY",
+    "label": "acknowledgement reply from quality manager",
+    "type": "Email Messaging",
+    "type_iri": "https://www.commoncoreontologies.org/ont00000492"
+   },
+   {
+    "attributes": {},
+    "id": "ACT-SHIP",
+    "label": "shipment of valve body lot 4 to Harbor Transit",
+    "type": "Act of Cargo Transportation",
+    "type_iri": "https://www.commoncoreontologies.org/ont00000595"
+   },
+   {
+    "attributes": {
+     "kind": "shipping_notice"
+    },
+    "id": "ACT-SHIPNOTE",
+    "label": "shipping notice with certificate to Harbor Transit",
+    "type": "Act of Communication",
+    "type_iri": "https://www.commoncoreontologies.org/ont00000402"
+   },
+   {
+    "attributes": {},
+    "id": "AGG-PASS",
+    "label": "Harbor Transit bus passengers",
+    "type": "Group of Persons",
+    "type_iri": "https://www.commoncoreontologies.org/ont00000914"
+   },
+   {
+    "attributes": {
+     "asserts_conformance": true
+    },
+    "id": "CERT",
+    "label": "certificate of conformance for valve body lot 4",
+    "type": "Certificate",
+    "type_iri": "https://www.commoncoreontologies.org/ont00002002"
+   },
+   {
+    "attributes": {
+     "safety_relevant": true
+    },
+    "id": "D-LEAK",
+    "label": "internal leakage disposition of valve body lot 4",
+    "type": "disposition",
+    "type_iri": "http://purl.obolibrary.org/obo/BFO_0000016"
+   },
+   {
+    "attributes": {
+     "kind": "directive"
+    },
+    "id": "DIR-CONT",
+    "label": "directive: continue production and ship lot 4",
+    "type": "Prescriptive Information Content Entity",
+    "type_iri": "https://www.commoncoreontologies.org/ont00000965"
+   },
+   {
+    "attributes": {},
+    "id": "LOT-1",
+    "label": "valve body lot 1",
+    "type": "Portion of Processed Material",
+    "type_iri": "https://www.commoncoreontologies.org/ont00001084"
+   },
+   {
+    "attributes": {},
+    "id": "LOT-2",
+    "label": "valve body lot 2",
+    "type": "Portion of Processed Material",
+    "type_iri": "https://www.commoncoreontologies.org/ont00001084"
+   },
+   {
+    "attributes": {},
+    "id": "LOT-3",
+    "label": "valve body lot 3",
+    "type": "Portion of Processed Material",
+    "type_iri": "https://www.commoncoreontologies.org/ont00001084"
+   },
+   {
+    "attributes": {},
+    "id": "LOT-4",
+    "label": "valve body lot 4",
+    "type": "Portion of Processed Material",
+    "type_iri": "https://www.commoncoreontologies.org/ont00001084"
+   },
+   {
+    "attributes": {
+     "measurand_kind": "bore_diameter",
+     "unit": "mm",
+     "value": 12.003
+    },
+    "id": "M-1",
+    "label": "bore diameter measurement of lot 1",
+    "type": "Ratio Measurement Information Content Entity",
+    "type_iri": "https://www.commoncoreontologies.org/ont00001022"
+   },
+   {
+    "attributes": {
+     "measurand_kind": "bore_diameter",
+     "unit": "mm",
+     "value": 12.006
+    },
+    "id": "M-2",
+    "label": "bore diameter measurement of lot 2",
+    "type": "Ratio Measurement Information Content Entity",
+    "type_iri": "https://www.commoncoreontologies.org/ont00001022"
+   },
+   {
+    "attributes": {
+     "measurand_kind": "bore_diameter",
+     "unit": "mm",
+     "value": 12.009
+    },
+    "id": "M-3",
+    "label": "bore diameter measurement of lot 3",
+    "type": "Ratio Measurement Information Content Entity",
+    "type_iri": "https://www.commoncoreontologies.org/ont00001022"
+   },
+   {
+    "attributes": {
+     "measurand_kind": "bore_diameter",
+     "unit": "mm",
+     "value": 12.013
+    },
+    "id": "M-4",
+    "label": "bore diameter measurement of lot 4",
+    "type": "Ratio Measurement Information Content Entity",
+    "type_iri": "https://www.commoncoreontologies.org/ont00001022"
+   },
+   {
+    "attributes": {
+     "kind": "nonconformance_report",
+     "safety_relevant": true
+    },
+    "id": "NCR",
+    "label": "nonconformance report NCR-0417",
+    "type": "Report",
+    "type_iri": "https://www.commoncoreontologies.org/ont00002043"
+   },
+   {
+    "attributes": {},
+    "id": "ORG-HTA",
+    "label": "Harbor Transit Authority",
+    "type": "Organization",
+    "type_iri": "https://www.commoncoreontologies.org/ont00001180"
+   },
+   {
+    "attributes": {},
+    "id": "ORG-NPC",
+    "label": "Northline Precision Components",
+    "type": "Commercial Organization",
+    "type_iri": "https://www.commoncoreontologies.org/ont00000443"
+   },
+   {
+    "attributes": {},
+    "id": "ORG-REG",
+    "label": "Vehicle Component Safety Office",
+    "type": "Government Organization",
+    "type_iri": "https://www.commoncoreontologies.org/ont00000408"
+   },
+   {
+    "attributes": {},
+    "id": "P-ENG",
+    "label": "Dana Okafor",
+    "type": "Person",
+    "type_iri": "https://www.commoncoreontologies.org/ont00001262"
+   },
+   {
+    "attributes": {},
+    "id": "P-INSP",
+    "label": "Miguel Ortega",
+    "type": "Person",
+    "type_iri": "https://www.commoncoreontologies.org/ont00001262"
+   },
+   {
+    "attributes": {},
+    "id": "P-PM",
+    "label": "Victor Lindqvist",
+    "type": "Person",
+    "type_iri": "https://www.commoncoreontologies.org/ont00001262"
+   },
+   {
+    "attributes": {},
+    "id": "P-QM",
+    "label": "Ruth Salazar",
+    "type": "Person",
+    "type_iri": "https://www.commoncoreontologies.org/ont00001262"
+   },
+   {
+    "attributes": {
+     "kind": "operational_use"
+    },
+    "id": "PROC-BRAKE",
+    "label": "in-service brake actuation on Harbor Transit buses",
+    "type": "Act of Artifact Employment",
+    "type_iri": "https://www.commoncoreontologies.org/ont00000566"
+   },
+   {
+    "attributes": {
+     "kind": "quality_management_process"
+    },
+    "id": "PROC-QMS",
+    "label": "Northline quality management process",
+    "type": "Act",
+    "type_iri": "https://www.commoncoreontologies.org/ont00000005"
+   },
+   {
+    "attributes": {
+     "quality_kind": "bore_diameter"
+    },
+    "id": "Q-1",
+    "label": "bore diameter of valve body lot 1",
+    "type": "quality",
+    "type_iri": "http://purl.obolibrary.org/obo/BFO_0000019"
+   },
+   {
+    "attributes": {
+     "quality_kind": "bore_diameter"
+    },
+    "id": "Q-2",
+    "label": "bore diameter of valve body lot 2",
+    "type": "quality",
+    "type_iri": "http://purl.obolibrary.org/obo/BFO_0000019"
+   },
+   {
+    "attributes": {
+     "quality_kind": "bore_diameter"
+    },
+    "id": "Q-3",
+    "label": "bore diameter of valve body lot 3",
+    "type": "quality",
+    "type_iri": "http://purl.obolibrary.org/obo/BFO_0000019"
+   },
+   {
+    "attributes": {
+     "quality_kind": "bore_diameter"
+    },
+    "id": "Q-4",
+    "label": "bore diameter of valve body lot 4",
+    "type": "quality",
+    "type_iri": "http://purl.obolibrary.org/obo/BFO_0000019"
+   },
+   {
+    "attributes": {
+     "kind": "engineering"
+    },
+    "id": "R-ENG",
+    "label": "process engineer role",
+    "type": "Occupation Role",
+    "type_iri": "https://www.commoncoreontologies.org/ont00000984"
+   },
+   {
+    "attributes": {
+     "kind": "inspection"
+    },
+    "id": "R-INSP",
+    "label": "dimensional inspector role",
+    "type": "Occupation Role",
+    "type_iri": "https://www.commoncoreontologies.org/ont00000984"
+   },
+   {
+    "attributes": {
+     "kind": "management"
+    },
+    "id": "R-PM",
+    "label": "plant manager role",
+    "type": "Occupation Role",
+    "type_iri": "https://www.commoncoreontologies.org/ont00000984"
+   },
+   {
+    "attributes": {
+     "kind": "quality_management"
+    },
+    "id": "R-QM",
+    "label": "quality manager role",
+    "type": "Occupation Role",
+    "type_iri": "https://www.commoncoreontologies.org/ont00000984"
+   },
+   {
+    "attributes": {
+     "kind": "regulation"
+    },
+    "id": "REG",
+    "label": "safety-related nonconformance notification regulation",
+    "type": "Process Regulation",
+    "type_iri": "https://www.commoncoreontologies.org/ont00001324"
+   },
+   {
+    "attributes": {
+     "kind": "schedule"
+    },
+    "id": "SCHED",
+    "label": "Q3 delivery schedule",
+    "type": "Plan",
+    "type_iri": "https://www.commoncoreontologies.org/ont00000974"
+   },
+   {
+    "attributes": {
+     "lower": 11.99,
+     "quality_kind": "bore_diameter",
+     "unit": "mm",
+     "upper": 12.01
+    },
+    "id": "SPEC",
+    "label": "valve body bore diameter specification VB-12",
+    "type": "Dimension Specification",
+    "type_iri": "https://www.commoncoreontologies.org/ont00001304"
+   }
+  ]
+ },
+ "firewall_passed": true,
+ "objectives": {
+  "OBJ-01": {
+   "description": "Manufactured artifacts conform to the qualities their specifications prescribe.",
+   "id": "OBJ-01",
+   "label": "maintain artifact conformity to specification"
+  },
+  "OBJ-03": {
+   "description": "Obligations attached to roles, quality systems and regulations are discharged.",
+   "id": "OBJ-03",
+   "label": "satisfy institutional and regulatory obligations"
+  },
+  "OBJ-04": {
+   "description": "Parties with an interest in a process receive the information needed to act on it.",
+   "id": "OBJ-04",
+   "label": "preserve informed agency of affected persons"
+  },
+  "OBJ-05": {
+   "description": "Organizational decisions take the relevant records as input and close escalation loops.",
+   "id": "OBJ-05",
+   "label": "maintain reliable organizational decision information"
+  }
+ },
+ "packet_hash": "1060f208241a4b537297b00ad7aad993eb483192a067aa38bcd0f93814e64139",
+ "packet_id": "PKT-1060f208241a",
+ "reference_conditions": [
+  {
+   "description": "Where a specification prescribes a quality borne by an artifact and a measurement of that quality exists, the measured value must lie within the specification's prescribed bounds.",
+   "domain": "artifact_specification_conformance",
+   "id": "RC-01",
+   "label": "Specification conformance of a measured quality",
+   "objectives": [
+    {
+     "objective": "OBJ-01",
+     "rationale": "A measured value outside the prescribed bounds is a direct non-conformity of the artifact to its specification."
+    }
+   ],
+   "prescribed": {
+    "constraints": [
+     [
+      "?m.value",
+      "within",
+      "?spec.lower",
+      "?spec.upper"
+     ]
+    ],
+    "kind": "value_constraint"
+   },
+   "remediation": {
+    "value_fact_steps": [
+     {
+      "action_type": "rework_or_segregate",
+      "actor": "responder",
+      "effect": "bring the artifact's quality back within the prescribed bounds or segregate it",
+      "operation": "create",
+      "relation": "has_participant",
+      "source": "NEW:Act of Artifact Modification:rework",
+      "target": "?lot"
+     }
+    ]
+   },
+   "satisfaction_condition": "Every measurement of the prescribed quality lies within the specification bounds, or the artifact is segregated by a rework act."
+  },
+  {
+   "description": "Where a nonconformance report is about a lot, a corrective-action act taking that report as input must exist.",
+   "domain": "quality_process_monitoring",
+   "id": "RC-03",
+   "label": "Corrective action on a nonconformance report",
+   "objectives": [
+    {
+     "objective": "OBJ-03",
+     "rationale": "Quality-system obligations require every nonconformance report to be closed by a corrective action."
+    }
+   ],
+   "prescribed": {
+    "edges": [
+     [
+      "?ca",
+      "has_input",
+      "?ncr"
+     ]
+    ],
+    "kind": "exists",
+    "nodes": {
+     "?ca": {
+      "attributes": {
+       "kind": "corrective_action"
+      },
+      "type": "Planned Act"
+     }
+    }
+   },
+   "remediation": {},
+   "satisfaction_condition": "A corrective-action act has the nonconformance report as input."
+  },
+  {
+   "description": "Where a nonconformance report and a directive are both about the same lot and the directive is the output of a decision act, that decision act must have the report as input.",
+   "domain": "artifact_specification_conformance",
+   "id": "RC-04",
+   "label": "Nonconforming product control in directives",
+   "objectives": [
+    {
+     "objective": "OBJ-03",
+     "rationale": "Disposition of nonconforming product must be decided with the nonconformance record before it."
+    },
+    {
+     "objective": "OBJ-05",
+     "rationale": "A directive about a lot issued without its nonconformance record is a decision made on incomplete information."
+    }
+   ],
+   "prescribed": {
+    "edges": [
+     [
+      "?dec",
+      "has_input",
+      "?ncr"
+     ]
+    ],
+    "kind": "exists",
+    "nodes": {}
+   },
+   "remediation": {},
+   "satisfaction_condition": "The decision act that produced the directive has the nonconformance report as input."
+  },
+  {
+   "description": "Where a communication delivers a conformance-asserting certificate about a lot to a recipient and a nonconformance report about the same lot exists, a communication delivering that report to the same recipient must exist.",
+   "domain": "reporting_communication",
+   "id": "RC-06",
+   "label": "Completeness of conformance communication",
+   "objectives": [
+    {
+     "objective": "OBJ-04",
+     "rationale": "A recipient who holds only the conformance assertion cannot exercise informed judgment about the lot."
+    }
+   ],
+   "prescribed": {
+    "edges": [
+     [
+      "?c2",
+      "has_input",
+      "?ncr"
+     ],
+     [
+      "?c2",
+      "has_recipient",
+      "?party"
+     ]
+    ],
+    "kind": "exists",
+    "nodes": {
+     "?c2": {
+      "type": "Act of Communication"
+     }
+    }
+   },
+   "remediation": {},
+   "satisfaction_condition": "The recipient of the certificate has also received the nonconformance report."
+  },
+  {
+   "description": "Where a regulation prescribes a quality-management process and a safety-relevant nonconformance report exists, a communication delivering that report to a government organization must exist.",
+   "domain": "organizational_accountability",
+   "id": "RC-10",
+   "label": "Regulatory notification of a safety-relevant nonconformance",
+   "objectives": [
+    {
+     "objective": "OBJ-03",
+     "rationale": "The regulation makes notification of safety-relevant nonconformance an institutional obligation."
+    }
+   ],
+   "prescribed": {
+    "edges": [
+     [
+      "?c",
+      "has_input",
+      "?ncr"
+     ],
+     [
+      "?c",
+      "has_recipient",
+      "?gov"
+     ]
+    ],
+    "kind": "exists",
+    "nodes": {
+     "?c": {},
+     "?gov": {
+      "type": "Government Organization"
+     }
+    }
+   },
+   "remediation": {},
+   "satisfaction_condition": "A government organization has received a communication carrying the nonconformance report."
+  },
+  {
+   "description": "Where a communication carrying a nonconformance report precedes a decision act, the decision act must have that report as input.",
+   "domain": "organizational_accountability",
+   "id": "RC-11",
+   "label": "Decision informed by a preceding report communication",
+   "objectives": [
+    {
+     "objective": "OBJ-05",
+     "rationale": "A decision that follows a report but does not take it as input is made on unreliable information."
+    }
+   ],
+   "prescribed": {
+    "edges": [
+     [
+      "?dec",
+      "has_input",
+      "?rep"
+     ]
+    ],
+    "kind": "exists",
+    "nodes": {}
+   },
+   "remediation": {},
+   "satisfaction_condition": "The decision act has the communicated report as input."
+  }
+ ],
+ "responder_entity_id": "P-ENG",
+ "response_schema": {
+  "workflow": {
+   "proposed_entities": [
+    {
+     "attributes": {},
+     "id": "string",
+     "type": "CCO/BFO class label"
+    }
+   ],
+   "satisfaction_conditions": [
+    {
+     "condition": "string",
+     "discrepancy_id": "string",
+     "reference_id": "string"
+    }
+   ],
+   "steps": [
+    {
+     "action_type": "string",
+     "actor": "entity id",
+     "addresses_mode": "resolve|mitigate|defer",
+     "discrepancy_id": "string",
+     "intended_local_effect": "string",
+     "operation": "create|remove|amplify|attenuate|preserve",
+     "reference_id": "string",
+     "relation": "predicate id",
+     "source_entity": "entity id or proposed id",
+     "source_witness_element": "witness element ref",
+     "step_id": "string",
+     "target_entity": "entity id or proposed id"
+    }
+   ]
+  }
+ },
+ "schema": "wrm-poc/blind_packet/v1",
+ "significance": [
+  {
+   "discrepancy_id": "D-RC-01-80f2d643",
+   "evidence_edge_ids": [
+    "E025",
+    "E029",
+    "E041"
+   ],
+   "objective_id": "OBJ-01",
+   "objective_label": "maintain artifact conformity to specification",
+   "reference_id": "RC-01",
+   "required_absent_edges": [],
+   "significance_id": "SIG-D-RC-01-80f2d643-OBJ-01",
+   "why_linked": "A measured value outside the prescribed bounds is a direct non-conformity of the artifact to its specification."
+  },
+  {
+   "discrepancy_id": "D-RC-03-8a7079dc",
+   "evidence_edge_ids": [
+    "E058"
+   ],
+   "objective_id": "OBJ-03",
+   "objective_label": "satisfy institutional and regulatory obligations",
+   "reference_id": "RC-03",
+   "required_absent_edges": [
+    {
+     "predicate": "has_input",
+     "source": "?ca",
+     "source_spec": {
+      "attributes": {
+       "kind": "corrective_action"
+      },
+      "type": "Planned Act"
+     },
+     "target": "NCR",
+     "target_spec": {}
+    }
+   ],
+   "significance_id": "SIG-D-RC-03-8a7079dc-OBJ-03",
+   "why_linked": "Quality-system obligations require every nonconformance report to be closed by a corrective action."
+  },
+  {
+   "discrepancy_id": "D-RC-04-9f7e9c12",
+   "evidence_edge_ids": [
+    "E058",
+    "E073",
+    "E075"
+   ],
+   "objective_id": "OBJ-03",
+   "objective_label": "satisfy institutional and regulatory obligations",
+   "reference_id": "RC-04",
+   "required_absent_edges": [
+    {
+     "predicate": "has_input",
+     "source": "ACT-DEC",
+     "source_spec": {},
+     "target": "NCR",
+     "target_spec": {}
+    }
+   ],
+   "significance_id": "SIG-D-RC-04-9f7e9c12-OBJ-03",
+   "why_linked": "Disposition of nonconforming product must be decided with the nonconformance record before it."
+  },
+  {
+   "discrepancy_id": "D-RC-04-9f7e9c12",
+   "evidence_edge_ids": [
+    "E058",
+    "E073",
+    "E075"
+   ],
+   "objective_id": "OBJ-05",
+   "objective_label": "maintain reliable organizational decision information",
+   "reference_id": "RC-04",
+   "required_absent_edges": [
+    {
+     "predicate": "has_input",
+     "source": "ACT-DEC",
+     "source_spec": {},
+     "target": "NCR",
+     "target_spec": {}
+    }
+   ],
+   "significance_id": "SIG-D-RC-04-9f7e9c12-OBJ-05",
+   "why_linked": "A directive about a lot issued without its nonconformance record is a decision made on incomplete information."
+  },
+  {
+   "discrepancy_id": "D-RC-06-c00c8eb0",
+   "evidence_edge_ids": [
+    "E058",
+    "E083",
+    "E084",
+    "E085"
+   ],
+   "objective_id": "OBJ-04",
+   "objective_label": "preserve informed agency of affected persons",
+   "reference_id": "RC-06",
+   "required_absent_edges": [
+    {
+     "predicate": "has_input",
+     "source": "?c2",
+     "source_spec": {
+      "type": "Act of Communication"
+     },
+     "target": "NCR",
+     "target_spec": {}
+    },
+    {
+     "predicate": "has_recipient",
+     "source": "?c2",
+     "source_spec": {
+      "type": "Act of Communication"
+     },
+     "target": "ORG-HTA",
+     "target_spec": {}
+    }
+   ],
+   "significance_id": "SIG-D-RC-06-c00c8eb0-OBJ-04",
+   "why_linked": "A recipient who holds only the conformance assertion cannot exercise informed judgment about the lot."
+  },
+  {
+   "discrepancy_id": "D-RC-10-baae974f",
+   "evidence_edge_ids": [
+    "E058",
+    "E096"
+   ],
+   "objective_id": "OBJ-03",
+   "objective_label": "satisfy institutional and regulatory obligations",
+   "reference_id": "RC-10",
+   "required_absent_edges": [
+    {
+     "predicate": "has_input",
+     "source": "?c",
+     "source_spec": {},
+     "target": "NCR",
+     "target_spec": {}
+    },
+    {
+     "predicate": "has_recipient",
+     "source": "?c",
+     "source_spec": {},
+     "target": "?gov",
+     "target_spec": {
+      "type": "Government Organization"
+     }
+    }
+   ],
+   "significance_id": "SIG-D-RC-10-baae974f-OBJ-03",
+   "why_linked": "The regulation makes notification of safety-relevant nonconformance an institutional obligation."
+  },
+  {
+   "discrepancy_id": "D-RC-11-06b365f7",
+   "evidence_edge_ids": [
+    "E063",
+    "E069"
+   ],
+   "objective_id": "OBJ-05",
+   "objective_label": "maintain reliable organizational decision information",
+   "reference_id": "RC-11",
+   "required_absent_edges": [
+    {
+     "predicate": "has_input",
+     "source": "ACT-DEC",
+     "source_spec": {},
+     "target": "NCR",
+     "target_spec": {}
+    }
+   ],
+   "significance_id": "SIG-D-RC-11-06b365f7-OBJ-05",
+   "why_linked": "A decision that follows a report but does not take it as input is made on unreliable information."
+  }
+ ],
+ "value_disposition": {
+  "bearer_entity_id": "P-ENG",
+  "definition": "The disposition of an agent to initiate or sustain a corrective act in the face of foreseeable personal or institutional cost when a discrepancy with a standard is present.",
+  "id": "VD-COURAGE",
+  "label": "Courage"
+ }
+}

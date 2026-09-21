@@ -1,0 +1,1584 @@
+{
+ "fragile": false,
+ "n": 7,
+ "n_gate_a_fail": 0,
+ "rows": [
+  {
+   "all_lineage_pass": true,
+   "description": "Materialism drops boundary predicate is_a_measurement_of",
+   "diff_vs_credited": {
+    "Dynamism": {
+     "activated_added": [],
+     "activated_removed": [],
+     "live_added": [],
+     "live_removed": [],
+     "objectives_added": [],
+     "objectives_removed": [],
+     "witness_edges_added": [],
+     "witness_edges_removed": []
+    },
+    "Materialism": {
+     "activated_added": [],
+     "activated_removed": [],
+     "live_added": [],
+     "live_removed": [],
+     "objectives_added": [],
+     "objectives_removed": [],
+     "witness_edges_added": [],
+     "witness_edges_removed": []
+    },
+    "Pneumatism": {
+     "activated_added": [],
+     "activated_removed": [],
+     "live_added": [],
+     "live_removed": [],
+     "objectives_added": [],
+     "objectives_removed": [],
+     "witness_edges_added": [],
+     "witness_edges_removed": []
+    },
+    "Rationalism": {
+     "activated_added": [],
+     "activated_removed": [],
+     "live_added": [],
+     "live_removed": [],
+     "objectives_added": [],
+     "objectives_removed": [],
+     "witness_edges_added": [],
+     "witness_edges_removed": []
+    }
+   },
+   "divergence_median": 0.6616,
+   "families": {
+    "Dynamism": [
+     "affects",
+     "has_agent",
+     "has_input",
+     "has_output",
+     "has_participant",
+     "is_cause_of",
+     "precedes",
+     "realizes"
+    ],
+    "Materialism": [
+     "bearer_of",
+     "has_continuant_part",
+     "has_output",
+     "has_participant",
+     "is_cause_of",
+     "precedes",
+     "uses"
+    ],
+    "Pneumatism": [
+     "affects",
+     "bearer_of",
+     "has_agent",
+     "has_interest_in",
+     "has_organizational_context",
+     "has_participant",
+     "has_recipient",
+     "is_affiliated_with",
+     "is_subordinate_role_to",
+     "supervises"
+    ],
+    "Rationalism": [
+     "bearer_of",
+     "has_input",
+     "has_output",
+     "has_recipient",
+     "is_a_measurement_of",
+     "is_about",
+     "precedes",
+     "prescribes"
+    ]
+   },
+   "foreign_full_pass_fraction": 0.0,
+   "gate_a_1_to_4": true,
+   "id": "PT-01",
+   "mean_pairwise_distance": {
+    "activated_refs": 0.9259,
+    "edge_ids": 0.6928,
+    "objective_ids": 0.6639,
+    "witness_edges": 0.8734
+   },
+   "per_setting": {
+    "Dynamism": {
+     "activated_refs": [
+      "RC-02",
+      "RC-11",
+      "RC-12",
+      "RC-13"
+     ],
+     "evaluable_refs": [
+      "RC-02",
+      "RC-11",
+      "RC-12",
+      "RC-13"
+     ],
+     "live_refs": [
+      "RC-02",
+      "RC-11",
+      "RC-12",
+      "RC-13"
+     ],
+     "n_activations": 5,
+     "n_edges": 54,
+     "n_live": 5,
+     "n_witness_edges": 20,
+     "objectives": [
+      "OBJ-01",
+      "OBJ-02",
+      "OBJ-05"
+     ]
+    },
+    "Materialism": {
+     "activated_refs": [
+      "RC-02",
+      "RC-05",
+      "RC-14"
+     ],
+     "evaluable_refs": [
+      "RC-02",
+      "RC-05",
+      "RC-14"
+     ],
+     "live_refs": [
+      "RC-02",
+      "RC-05",
+      "RC-14"
+     ],
+     "n_activations": 4,
+     "n_edges": 42,
+     "n_live": 4,
+     "n_witness_edges": 16,
+     "objectives": [
+      "OBJ-01",
+      "OBJ-02"
+     ]
+    },
+    "Pneumatism": {
+     "activated_refs": [
+      "RC-05",
+      "RC-07",
+      "RC-08",
+      "RC-09"
+     ],
+     "evaluable_refs": [
+      "RC-07",
+      "RC-08",
+      "RC-09"
+     ],
+     "live_refs": [
+      "RC-08",
+      "RC-09"
+     ],
+     "n_activations": 7,
+     "n_edges": 50,
+     "n_live": 2,
+     "n_witness_edges": 8,
+     "objectives": [
+      "OBJ-04",
+      "OBJ-05"
+     ]
+    },
+    "Rationalism": {
+     "activated_refs": [
+      "RC-01",
+      "RC-03",
+      "RC-04",
+      "RC-06",
+      "RC-10",
+      "RC-11"
+     ],
+     "evaluable_refs": [
+      "RC-01",
+      "RC-03",
+      "RC-04",
+      "RC-06",
+      "RC-10",
+      "RC-11"
+     ],
+     "live_refs": [
+      "RC-01",
+      "RC-03",
+      "RC-04",
+      "RC-06",
+      "RC-10",
+      "RC-11"
+     ],
+     "n_activations": 9,
+     "n_edges": 53,
+     "n_live": 6,
+     "n_witness_edges": 12,
+     "objectives": [
+      "OBJ-01",
+      "OBJ-03",
+      "OBJ-04",
+      "OBJ-05"
+     ]
+    }
+   },
+   "sds": 0.9259
+  },
+  {
+   "all_lineage_pass": true,
+   "description": "Rationalism drops boundary predicate precedes",
+   "diff_vs_credited": {
+    "Dynamism": {
+     "activated_added": [],
+     "activated_removed": [],
+     "live_added": [],
+     "live_removed": [],
+     "objectives_added": [],
+     "objectives_removed": [],
+     "witness_edges_added": [],
+     "witness_edges_removed": []
+    },
+    "Materialism": {
+     "activated_added": [],
+     "activated_removed": [],
+     "live_added": [],
+     "live_removed": [],
+     "objectives_added": [],
+     "objectives_removed": [],
+     "witness_edges_added": [],
+     "witness_edges_removed": []
+    },
+    "Pneumatism": {
+     "activated_added": [],
+     "activated_removed": [],
+     "live_added": [],
+     "live_removed": [],
+     "objectives_added": [],
+     "objectives_removed": [],
+     "witness_edges_added": [],
+     "witness_edges_removed": []
+    },
+    "Rationalism": {
+     "activated_added": [],
+     "activated_removed": [
+      "RC-11"
+     ],
+     "live_added": [],
+     "live_removed": [
+      "RC-11"
+     ],
+     "objectives_added": [],
+     "objectives_removed": [],
+     "witness_edges_added": [],
+     "witness_edges_removed": [
+      "E063",
+      "E069"
+     ]
+    }
+   },
+   "divergence_median": 0.6616,
+   "families": {
+    "Dynamism": [
+     "affects",
+     "has_agent",
+     "has_input",
+     "has_output",
+     "has_participant",
+     "is_cause_of",
+     "precedes",
+     "realizes"
+    ],
+    "Materialism": [
+     "bearer_of",
+     "has_continuant_part",
+     "has_output",
+     "has_participant",
+     "is_a_measurement_of",
+     "is_cause_of",
+     "precedes",
+     "uses"
+    ],
+    "Pneumatism": [
+     "affects",
+     "bearer_of",
+     "has_agent",
+     "has_interest_in",
+     "has_organizational_context",
+     "has_participant",
+     "has_recipient",
+     "is_affiliated_with",
+     "is_subordinate_role_to",
+     "supervises"
+    ],
+    "Rationalism": [
+     "bearer_of",
+     "has_input",
+     "has_output",
+     "has_recipient",
+     "is_a_measurement_of",
+     "is_about",
+     "prescribes"
+    ]
+   },
+   "foreign_full_pass_fraction": 0.0,
+   "gate_a_1_to_4": true,
+   "id": "PT-02",
+   "mean_pairwise_distance": {
+    "activated_refs": 0.9444,
+    "edge_ids": 0.727,
+    "objective_ids": 0.6639,
+    "witness_edges": 0.8845
+   },
+   "per_setting": {
+    "Dynamism": {
+     "activated_refs": [
+      "RC-02",
+      "RC-11",
+      "RC-12",
+      "RC-13"
+     ],
+     "evaluable_refs": [
+      "RC-02",
+      "RC-11",
+      "RC-12",
+      "RC-13"
+     ],
+     "live_refs": [
+      "RC-02",
+      "RC-11",
+      "RC-12",
+      "RC-13"
+     ],
+     "n_activations": 5,
+     "n_edges": 54,
+     "n_live": 5,
+     "n_witness_edges": 20,
+     "objectives": [
+      "OBJ-01",
+      "OBJ-02",
+      "OBJ-05"
+     ]
+    },
+    "Materialism": {
+     "activated_refs": [
+      "RC-02",
+      "RC-05",
+      "RC-14"
+     ],
+     "evaluable_refs": [
+      "RC-02",
+      "RC-05",
+      "RC-14"
+     ],
+     "live_refs": [
+      "RC-02",
+      "RC-05",
+      "RC-14"
+     ],
+     "n_activations": 4,
+     "n_edges": 46,
+     "n_live": 4,
+     "n_witness_edges": 16,
+     "objectives": [
+      "OBJ-01",
+      "OBJ-02"
+     ]
+    },
+    "Pneumatism": {
+     "activated_refs": [
+      "RC-05",
+      "RC-07",
+      "RC-08",
+      "RC-09"
+     ],
+     "evaluable_refs": [
+      "RC-07",
+      "RC-08",
+      "RC-09"
+     ],
+     "live_refs": [
+      "RC-08",
+      "RC-09"
+     ],
+     "n_activations": 7,
+     "n_edges": 50,
+     "n_live": 2,
+     "n_witness_edges": 8,
+     "objectives": [
+      "OBJ-04",
+      "OBJ-05"
+     ]
+    },
+    "Rationalism": {
+     "activated_refs": [
+      "RC-01",
+      "RC-03",
+      "RC-04",
+      "RC-06",
+      "RC-10"
+     ],
+     "evaluable_refs": [
+      "RC-01",
+      "RC-03",
+      "RC-04",
+      "RC-06",
+      "RC-10"
+     ],
+     "live_refs": [
+      "RC-01",
+      "RC-03",
+      "RC-04",
+      "RC-06",
+      "RC-10"
+     ],
+     "n_activations": 8,
+     "n_edges": 44,
+     "n_live": 5,
+     "n_witness_edges": 10,
+     "objectives": [
+      "OBJ-01",
+      "OBJ-03",
+      "OBJ-04",
+      "OBJ-05"
+     ]
+    }
+   },
+   "sds": 0.9444
+  },
+  {
+   "all_lineage_pass": true,
+   "description": "Dynamism drops boundary predicate has_input",
+   "diff_vs_credited": {
+    "Dynamism": {
+     "activated_added": [],
+     "activated_removed": [
+      "RC-11",
+      "RC-12",
+      "RC-13"
+     ],
+     "live_added": [],
+     "live_removed": [
+      "RC-11",
+      "RC-12",
+      "RC-13"
+     ],
+     "objectives_added": [],
+     "objectives_removed": [
+      "OBJ-02",
+      "OBJ-05"
+     ],
+     "witness_edges_added": [],
+     "witness_edges_removed": [
+      "E057",
+      "E063",
+      "E069",
+      "E070",
+      "E076",
+      "E080",
+      "E090",
+      "E091"
+     ]
+    },
+    "Materialism": {
+     "activated_added": [],
+     "activated_removed": [],
+     "live_added": [],
+     "live_removed": [],
+     "objectives_added": [],
+     "objectives_removed": [],
+     "witness_edges_added": [],
+     "witness_edges_removed": []
+    },
+    "Pneumatism": {
+     "activated_added": [],
+     "activated_removed": [],
+     "live_added": [],
+     "live_removed": [],
+     "objectives_added": [],
+     "objectives_removed": [],
+     "witness_edges_added": [],
+     "witness_edges_removed": []
+    },
+    "Rationalism": {
+     "activated_added": [],
+     "activated_removed": [],
+     "live_added": [],
+     "live_removed": [],
+     "objectives_added": [],
+     "objectives_removed": [],
+     "witness_edges_added": [],
+     "witness_edges_removed": []
+    }
+   },
+   "divergence_median": 0.7297,
+   "families": {
+    "Dynamism": [
+     "affects",
+     "has_agent",
+     "has_output",
+     "has_participant",
+     "is_cause_of",
+     "precedes",
+     "realizes"
+    ],
+    "Materialism": [
+     "bearer_of",
+     "has_continuant_part",
+     "has_output",
+     "has_participant",
+     "is_a_measurement_of",
+     "is_cause_of",
+     "precedes",
+     "uses"
+    ],
+    "Pneumatism": [
+     "affects",
+     "bearer_of",
+     "has_agent",
+     "has_interest_in",
+     "has_organizational_context",
+     "has_participant",
+     "has_recipient",
+     "is_affiliated_with",
+     "is_subordinate_role_to",
+     "supervises"
+    ],
+    "Rationalism": [
+     "bearer_of",
+     "has_input",
+     "has_output",
+     "has_recipient",
+     "is_a_measurement_of",
+     "is_about",
+     "precedes",
+     "prescribes"
+    ]
+   },
+   "foreign_full_pass_fraction": 0.083,
+   "gate_a_1_to_4": true,
+   "id": "PT-03",
+   "mean_pairwise_distance": {
+    "activated_refs": 0.9167,
+    "edge_ids": 0.6908,
+    "objective_ids": 0.7583,
+    "witness_edges": 0.8598
+   },
+   "per_setting": {
+    "Dynamism": {
+     "activated_refs": [
+      "RC-02"
+     ],
+     "evaluable_refs": [
+      "RC-02"
+     ],
+     "live_refs": [
+      "RC-02"
+     ],
+     "n_activations": 2,
+     "n_edges": 48,
+     "n_live": 2,
+     "n_witness_edges": 12,
+     "objectives": [
+      "OBJ-01"
+     ]
+    },
+    "Materialism": {
+     "activated_refs": [
+      "RC-02",
+      "RC-05",
+      "RC-14"
+     ],
+     "evaluable_refs": [
+      "RC-02",
+      "RC-05",
+      "RC-14"
+     ],
+     "live_refs": [
+      "RC-02",
+      "RC-05",
+      "RC-14"
+     ],
+     "n_activations": 4,
+     "n_edges": 46,
+     "n_live": 4,
+     "n_witness_edges": 16,
+     "objectives": [
+      "OBJ-01",
+      "OBJ-02"
+     ]
+    },
+    "Pneumatism": {
+     "activated_refs": [
+      "RC-05",
+      "RC-07",
+      "RC-08",
+      "RC-09"
+     ],
+     "evaluable_refs": [
+      "RC-07",
+      "RC-08",
+      "RC-09"
+     ],
+     "live_refs": [
+      "RC-08",
+      "RC-09"
+     ],
+     "n_activations": 7,
+     "n_edges": 50,
+     "n_live": 2,
+     "n_witness_edges": 8,
+     "objectives": [
+      "OBJ-04",
+      "OBJ-05"
+     ]
+    },
+    "Rationalism": {
+     "activated_refs": [
+      "RC-01",
+      "RC-03",
+      "RC-04",
+      "RC-06",
+      "RC-10",
+      "RC-11"
+     ],
+     "evaluable_refs": [
+      "RC-01",
+      "RC-03",
+      "RC-04",
+      "RC-06",
+      "RC-10",
+      "RC-11"
+     ],
+     "live_refs": [
+      "RC-01",
+      "RC-03",
+      "RC-04",
+      "RC-06",
+      "RC-10",
+      "RC-11"
+     ],
+     "n_activations": 9,
+     "n_edges": 53,
+     "n_live": 6,
+     "n_witness_edges": 12,
+     "objectives": [
+      "OBJ-01",
+      "OBJ-03",
+      "OBJ-04",
+      "OBJ-05"
+     ]
+    }
+   },
+   "sds": 0.9167
+  },
+  {
+   "all_lineage_pass": true,
+   "description": "Pneumatism drops boundary predicate has_participant",
+   "diff_vs_credited": {
+    "Dynamism": {
+     "activated_added": [],
+     "activated_removed": [],
+     "live_added": [],
+     "live_removed": [],
+     "objectives_added": [],
+     "objectives_removed": [],
+     "witness_edges_added": [],
+     "witness_edges_removed": []
+    },
+    "Materialism": {
+     "activated_added": [],
+     "activated_removed": [],
+     "live_added": [],
+     "live_removed": [],
+     "objectives_added": [],
+     "objectives_removed": [],
+     "witness_edges_added": [],
+     "witness_edges_removed": []
+    },
+    "Pneumatism": {
+     "activated_added": [],
+     "activated_removed": [
+      "RC-05",
+      "RC-09"
+     ],
+     "live_added": [],
+     "live_removed": [
+      "RC-09"
+     ],
+     "objectives_added": [],
+     "objectives_removed": [
+      "OBJ-04"
+     ],
+     "witness_edges_added": [],
+     "witness_edges_removed": [
+      "E090",
+      "E092",
+      "E095"
+     ]
+    },
+    "Rationalism": {
+     "activated_added": [],
+     "activated_removed": [],
+     "live_added": [],
+     "live_removed": [],
+     "objectives_added": [],
+     "objectives_removed": [],
+     "witness_edges_added": [],
+     "witness_edges_removed": []
+    }
+   },
+   "divergence_median": 0.6636,
+   "families": {
+    "Dynamism": [
+     "affects",
+     "has_agent",
+     "has_input",
+     "has_output",
+     "has_participant",
+     "is_cause_of",
+     "precedes",
+     "realizes"
+    ],
+    "Materialism": [
+     "bearer_of",
+     "has_continuant_part",
+     "has_output",
+     "has_participant",
+     "is_a_measurement_of",
+     "is_cause_of",
+     "precedes",
+     "uses"
+    ],
+    "Pneumatism": [
+     "affects",
+     "bearer_of",
+     "has_agent",
+     "has_interest_in",
+     "has_organizational_context",
+     "has_recipient",
+     "is_affiliated_with",
+     "is_subordinate_role_to",
+     "supervises"
+    ],
+    "Rationalism": [
+     "bearer_of",
+     "has_input",
+     "has_output",
+     "has_recipient",
+     "is_a_measurement_of",
+     "is_about",
+     "precedes",
+     "prescribes"
+    ]
+   },
+   "foreign_full_pass_fraction": 0.0,
+   "gate_a_1_to_4": true,
+   "id": "PT-04",
+   "mean_pairwise_distance": {
+    "activated_refs": 0.9537,
+    "edge_ids": 0.7243,
+    "objective_ids": 0.6917,
+    "witness_edges": 0.8947
+   },
+   "per_setting": {
+    "Dynamism": {
+     "activated_refs": [
+      "RC-02",
+      "RC-11",
+      "RC-12",
+      "RC-13"
+     ],
+     "evaluable_refs": [
+      "RC-02",
+      "RC-11",
+      "RC-12",
+      "RC-13"
+     ],
+     "live_refs": [
+      "RC-02",
+      "RC-11",
+      "RC-12",
+      "RC-13"
+     ],
+     "n_activations": 5,
+     "n_edges": 54,
+     "n_live": 5,
+     "n_witness_edges": 20,
+     "objectives": [
+      "OBJ-01",
+      "OBJ-02",
+      "OBJ-05"
+     ]
+    },
+    "Materialism": {
+     "activated_refs": [
+      "RC-02",
+      "RC-05",
+      "RC-14"
+     ],
+     "evaluable_refs": [
+      "RC-02",
+      "RC-05",
+      "RC-14"
+     ],
+     "live_refs": [
+      "RC-02",
+      "RC-05",
+      "RC-14"
+     ],
+     "n_activations": 4,
+     "n_edges": 46,
+     "n_live": 4,
+     "n_witness_edges": 16,
+     "objectives": [
+      "OBJ-01",
+      "OBJ-02"
+     ]
+    },
+    "Pneumatism": {
+     "activated_refs": [
+      "RC-07",
+      "RC-08"
+     ],
+     "evaluable_refs": [
+      "RC-07",
+      "RC-08"
+     ],
+     "live_refs": [
+      "RC-08"
+     ],
+     "n_activations": 4,
+     "n_edges": 41,
+     "n_live": 1,
+     "n_witness_edges": 5,
+     "objectives": [
+      "OBJ-05"
+     ]
+    },
+    "Rationalism": {
+     "activated_refs": [
+      "RC-01",
+      "RC-03",
+      "RC-04",
+      "RC-06",
+      "RC-10",
+      "RC-11"
+     ],
+     "evaluable_refs": [
+      "RC-01",
+      "RC-03",
+      "RC-04",
+      "RC-06",
+      "RC-10",
+      "RC-11"
+     ],
+     "live_refs": [
+      "RC-01",
+      "RC-03",
+      "RC-04",
+      "RC-06",
+      "RC-10",
+      "RC-11"
+     ],
+     "n_activations": 9,
+     "n_edges": 53,
+     "n_live": 6,
+     "n_witness_edges": 12,
+     "objectives": [
+      "OBJ-01",
+      "OBJ-03",
+      "OBJ-04",
+      "OBJ-05"
+     ]
+    }
+   },
+   "sds": 0.9537
+  },
+  {
+   "all_lineage_pass": true,
+   "description": "Rationalism gains overlapping membership has_participant",
+   "diff_vs_credited": {
+    "Dynamism": {
+     "activated_added": [],
+     "activated_removed": [],
+     "live_added": [],
+     "live_removed": [],
+     "objectives_added": [],
+     "objectives_removed": [],
+     "witness_edges_added": [],
+     "witness_edges_removed": []
+    },
+    "Materialism": {
+     "activated_added": [],
+     "activated_removed": [],
+     "live_added": [],
+     "live_removed": [],
+     "objectives_added": [],
+     "objectives_removed": [],
+     "witness_edges_added": [],
+     "witness_edges_removed": []
+    },
+    "Pneumatism": {
+     "activated_added": [],
+     "activated_removed": [],
+     "live_added": [],
+     "live_removed": [],
+     "objectives_added": [],
+     "objectives_removed": [],
+     "witness_edges_added": [],
+     "witness_edges_removed": []
+    },
+    "Rationalism": {
+     "activated_added": [
+      "RC-02",
+      "RC-05"
+     ],
+     "activated_removed": [],
+     "live_added": [
+      "RC-02",
+      "RC-05"
+     ],
+     "live_removed": [],
+     "objectives_added": [
+      "OBJ-02"
+     ],
+     "objectives_removed": [],
+     "witness_edges_added": [
+      "E016",
+      "E020",
+      "E021",
+      "E032",
+      "E033",
+      "E034",
+      "E035",
+      "E036",
+      "E037",
+      "E042",
+      "E043",
+      "E044",
+      "E090",
+      "E095"
+     ],
+     "witness_edges_removed": []
+    }
+   },
+   "divergence_median": 0.6616,
+   "families": {
+    "Dynamism": [
+     "affects",
+     "has_agent",
+     "has_input",
+     "has_output",
+     "has_participant",
+     "is_cause_of",
+     "precedes",
+     "realizes"
+    ],
+    "Materialism": [
+     "bearer_of",
+     "has_continuant_part",
+     "has_output",
+     "has_participant",
+     "is_a_measurement_of",
+     "is_cause_of",
+     "precedes",
+     "uses"
+    ],
+    "Pneumatism": [
+     "affects",
+     "bearer_of",
+     "has_agent",
+     "has_interest_in",
+     "has_organizational_context",
+     "has_participant",
+     "has_recipient",
+     "is_affiliated_with",
+     "is_subordinate_role_to",
+     "supervises"
+    ],
+    "Rationalism": [
+     "bearer_of",
+     "has_input",
+     "has_output",
+     "has_participant",
+     "has_recipient",
+     "is_a_measurement_of",
+     "is_about",
+     "precedes",
+     "prescribes"
+    ]
+   },
+   "foreign_full_pass_fraction": 0.0,
+   "gate_a_1_to_4": true,
+   "id": "PT-05",
+   "mean_pairwise_distance": {
+    "activated_refs": 0.8589,
+    "edge_ids": 0.6316,
+    "objective_ids": 0.6139,
+    "witness_edges": 0.7101
+   },
+   "per_setting": {
+    "Dynamism": {
+     "activated_refs": [
+      "RC-02",
+      "RC-11",
+      "RC-12",
+      "RC-13"
+     ],
+     "evaluable_refs": [
+      "RC-02",
+      "RC-11",
+      "RC-12",
+      "RC-13"
+     ],
+     "live_refs": [
+      "RC-02",
+      "RC-11",
+      "RC-12",
+      "RC-13"
+     ],
+     "n_activations": 5,
+     "n_edges": 54,
+     "n_live": 5,
+     "n_witness_edges": 20,
+     "objectives": [
+      "OBJ-01",
+      "OBJ-02",
+      "OBJ-05"
+     ]
+    },
+    "Materialism": {
+     "activated_refs": [
+      "RC-02",
+      "RC-05",
+      "RC-14"
+     ],
+     "evaluable_refs": [
+      "RC-02",
+      "RC-05",
+      "RC-14"
+     ],
+     "live_refs": [
+      "RC-02",
+      "RC-05",
+      "RC-14"
+     ],
+     "n_activations": 4,
+     "n_edges": 46,
+     "n_live": 4,
+     "n_witness_edges": 16,
+     "objectives": [
+      "OBJ-01",
+      "OBJ-02"
+     ]
+    },
+    "Pneumatism": {
+     "activated_refs": [
+      "RC-05",
+      "RC-07",
+      "RC-08",
+      "RC-09"
+     ],
+     "evaluable_refs": [
+      "RC-07",
+      "RC-08",
+      "RC-09"
+     ],
+     "live_refs": [
+      "RC-08",
+      "RC-09"
+     ],
+     "n_activations": 7,
+     "n_edges": 50,
+     "n_live": 2,
+     "n_witness_edges": 8,
+     "objectives": [
+      "OBJ-04",
+      "OBJ-05"
+     ]
+    },
+    "Rationalism": {
+     "activated_refs": [
+      "RC-01",
+      "RC-02",
+      "RC-03",
+      "RC-04",
+      "RC-05",
+      "RC-06",
+      "RC-10",
+      "RC-11"
+     ],
+     "evaluable_refs": [
+      "RC-01",
+      "RC-02",
+      "RC-03",
+      "RC-04",
+      "RC-05",
+      "RC-06",
+      "RC-10",
+      "RC-11"
+     ],
+     "live_refs": [
+      "RC-01",
+      "RC-02",
+      "RC-03",
+      "RC-04",
+      "RC-05",
+      "RC-06",
+      "RC-10",
+      "RC-11"
+     ],
+     "n_activations": 12,
+     "n_edges": 62,
+     "n_live": 9,
+     "n_witness_edges": 26,
+     "objectives": [
+      "OBJ-01",
+      "OBJ-02",
+      "OBJ-03",
+      "OBJ-04",
+      "OBJ-05"
+     ]
+    }
+   },
+   "sds": 0.8589
+  },
+  {
+   "all_lineage_pass": true,
+   "description": "Exchange: Materialism gives up uses and takes affects (Dynamism's effect relation)",
+   "diff_vs_credited": {
+    "Dynamism": {
+     "activated_added": [],
+     "activated_removed": [],
+     "live_added": [],
+     "live_removed": [],
+     "objectives_added": [],
+     "objectives_removed": [],
+     "witness_edges_added": [],
+     "witness_edges_removed": []
+    },
+    "Materialism": {
+     "activated_added": [],
+     "activated_removed": [],
+     "live_added": [],
+     "live_removed": [],
+     "objectives_added": [],
+     "objectives_removed": [],
+     "witness_edges_added": [],
+     "witness_edges_removed": []
+    },
+    "Pneumatism": {
+     "activated_added": [],
+     "activated_removed": [],
+     "live_added": [],
+     "live_removed": [],
+     "objectives_added": [],
+     "objectives_removed": [],
+     "witness_edges_added": [],
+     "witness_edges_removed": []
+    },
+    "Rationalism": {
+     "activated_added": [],
+     "activated_removed": [],
+     "live_added": [],
+     "live_removed": [],
+     "objectives_added": [],
+     "objectives_removed": [],
+     "witness_edges_added": [],
+     "witness_edges_removed": []
+    }
+   },
+   "divergence_median": 0.6616,
+   "families": {
+    "Dynamism": [
+     "affects",
+     "has_agent",
+     "has_input",
+     "has_output",
+     "has_participant",
+     "is_cause_of",
+     "precedes",
+     "realizes"
+    ],
+    "Materialism": [
+     "affects",
+     "bearer_of",
+     "has_continuant_part",
+     "has_output",
+     "has_participant",
+     "is_a_measurement_of",
+     "is_cause_of",
+     "precedes"
+    ],
+    "Pneumatism": [
+     "affects",
+     "bearer_of",
+     "has_agent",
+     "has_interest_in",
+     "has_organizational_context",
+     "has_participant",
+     "has_recipient",
+     "is_affiliated_with",
+     "is_subordinate_role_to",
+     "supervises"
+    ],
+    "Rationalism": [
+     "bearer_of",
+     "has_input",
+     "has_output",
+     "has_recipient",
+     "is_a_measurement_of",
+     "is_about",
+     "precedes",
+     "prescribes"
+    ]
+   },
+   "foreign_full_pass_fraction": 0.0,
+   "gate_a_1_to_4": true,
+   "id": "PT-06",
+   "mean_pairwise_distance": {
+    "activated_refs": 0.9259,
+    "edge_ids": 0.6739,
+    "objective_ids": 0.6639,
+    "witness_edges": 0.8734
+   },
+   "per_setting": {
+    "Dynamism": {
+     "activated_refs": [
+      "RC-02",
+      "RC-11",
+      "RC-12",
+      "RC-13"
+     ],
+     "evaluable_refs": [
+      "RC-02",
+      "RC-11",
+      "RC-12",
+      "RC-13"
+     ],
+     "live_refs": [
+      "RC-02",
+      "RC-11",
+      "RC-12",
+      "RC-13"
+     ],
+     "n_activations": 5,
+     "n_edges": 54,
+     "n_live": 5,
+     "n_witness_edges": 20,
+     "objectives": [
+      "OBJ-01",
+      "OBJ-02",
+      "OBJ-05"
+     ]
+    },
+    "Materialism": {
+     "activated_refs": [
+      "RC-02",
+      "RC-05",
+      "RC-14"
+     ],
+     "evaluable_refs": [
+      "RC-02",
+      "RC-05",
+      "RC-14"
+     ],
+     "live_refs": [
+      "RC-02",
+      "RC-05",
+      "RC-14"
+     ],
+     "n_activations": 4,
+     "n_edges": 45,
+     "n_live": 4,
+     "n_witness_edges": 16,
+     "objectives": [
+      "OBJ-01",
+      "OBJ-02"
+     ]
+    },
+    "Pneumatism": {
+     "activated_refs": [
+      "RC-05",
+      "RC-07",
+      "RC-08",
+      "RC-09"
+     ],
+     "evaluable_refs": [
+      "RC-07",
+      "RC-08",
+      "RC-09"
+     ],
+     "live_refs": [
+      "RC-08",
+      "RC-09"
+     ],
+     "n_activations": 7,
+     "n_edges": 50,
+     "n_live": 2,
+     "n_witness_edges": 8,
+     "objectives": [
+      "OBJ-04",
+      "OBJ-05"
+     ]
+    },
+    "Rationalism": {
+     "activated_refs": [
+      "RC-01",
+      "RC-03",
+      "RC-04",
+      "RC-06",
+      "RC-10",
+      "RC-11"
+     ],
+     "evaluable_refs": [
+      "RC-01",
+      "RC-03",
+      "RC-04",
+      "RC-06",
+      "RC-10",
+      "RC-11"
+     ],
+     "live_refs": [
+      "RC-01",
+      "RC-03",
+      "RC-04",
+      "RC-06",
+      "RC-10",
+      "RC-11"
+     ],
+     "n_activations": 9,
+     "n_edges": 53,
+     "n_live": 6,
+     "n_witness_edges": 12,
+     "objectives": [
+      "OBJ-01",
+      "OBJ-03",
+      "OBJ-04",
+      "OBJ-05"
+     ]
+    }
+   },
+   "sds": 0.9259
+  },
+  {
+   "all_lineage_pass": true,
+   "description": "Pneumatism gains is_about (aboutness of content addressed to agents)",
+   "diff_vs_credited": {
+    "Dynamism": {
+     "activated_added": [],
+     "activated_removed": [],
+     "live_added": [],
+     "live_removed": [],
+     "objectives_added": [],
+     "objectives_removed": [],
+     "witness_edges_added": [],
+     "witness_edges_removed": []
+    },
+    "Materialism": {
+     "activated_added": [],
+     "activated_removed": [],
+     "live_added": [],
+     "live_removed": [],
+     "objectives_added": [],
+     "objectives_removed": [],
+     "witness_edges_added": [],
+     "witness_edges_removed": []
+    },
+    "Pneumatism": {
+     "activated_added": [
+      "RC-03"
+     ],
+     "activated_removed": [],
+     "live_added": [],
+     "live_removed": [],
+     "objectives_added": [],
+     "objectives_removed": [],
+     "witness_edges_added": [],
+     "witness_edges_removed": []
+    },
+    "Rationalism": {
+     "activated_added": [],
+     "activated_removed": [],
+     "live_added": [],
+     "live_removed": [],
+     "objectives_added": [],
+     "objectives_removed": [],
+     "witness_edges_added": [],
+     "witness_edges_removed": []
+    }
+   },
+   "divergence_median": 0.6616,
+   "families": {
+    "Dynamism": [
+     "affects",
+     "has_agent",
+     "has_input",
+     "has_output",
+     "has_participant",
+     "is_cause_of",
+     "precedes",
+     "realizes"
+    ],
+    "Materialism": [
+     "bearer_of",
+     "has_continuant_part",
+     "has_output",
+     "has_participant",
+     "is_a_measurement_of",
+     "is_cause_of",
+     "precedes",
+     "uses"
+    ],
+    "Pneumatism": [
+     "affects",
+     "bearer_of",
+     "has_agent",
+     "has_interest_in",
+     "has_organizational_context",
+     "has_participant",
+     "has_recipient",
+     "is_about",
+     "is_affiliated_with",
+     "is_subordinate_role_to",
+     "supervises"
+    ],
+    "Rationalism": [
+     "bearer_of",
+     "has_input",
+     "has_output",
+     "has_recipient",
+     "is_a_measurement_of",
+     "is_about",
+     "precedes",
+     "prescribes"
+    ]
+   },
+   "foreign_full_pass_fraction": 0.0,
+   "gate_a_1_to_4": true,
+   "id": "PT-07",
+   "mean_pairwise_distance": {
+    "activated_refs": 0.9132,
+    "edge_ids": 0.6858,
+    "objective_ids": 0.6639,
+    "witness_edges": 0.8734
+   },
+   "per_setting": {
+    "Dynamism": {
+     "activated_refs": [
+      "RC-02",
+      "RC-11",
+      "RC-12",
+      "RC-13"
+     ],
+     "evaluable_refs": [
+      "RC-02",
+      "RC-11",
+      "RC-12",
+      "RC-13"
+     ],
+     "live_refs": [
+      "RC-02",
+      "RC-11",
+      "RC-12",
+      "RC-13"
+     ],
+     "n_activations": 5,
+     "n_edges": 54,
+     "n_live": 5,
+     "n_witness_edges": 20,
+     "objectives": [
+      "OBJ-01",
+      "OBJ-02",
+      "OBJ-05"
+     ]
+    },
+    "Materialism": {
+     "activated_refs": [
+      "RC-02",
+      "RC-05",
+      "RC-14"
+     ],
+     "evaluable_refs": [
+      "RC-02",
+      "RC-05",
+      "RC-14"
+     ],
+     "live_refs": [
+      "RC-02",
+      "RC-05",
+      "RC-14"
+     ],
+     "n_activations": 4,
+     "n_edges": 46,
+     "n_live": 4,
+     "n_witness_edges": 16,
+     "objectives": [
+      "OBJ-01",
+      "OBJ-02"
+     ]
+    },
+    "Pneumatism": {
+     "activated_refs": [
+      "RC-03",
+      "RC-05",
+      "RC-07",
+      "RC-08",
+      "RC-09"
+     ],
+     "evaluable_refs": [
+      "RC-07",
+      "RC-08",
+      "RC-09"
+     ],
+     "live_refs": [
+      "RC-08",
+      "RC-09"
+     ],
+     "n_activations": 8,
+     "n_edges": 54,
+     "n_live": 2,
+     "n_witness_edges": 8,
+     "objectives": [
+      "OBJ-04",
+      "OBJ-05"
+     ]
+    },
+    "Rationalism": {
+     "activated_refs": [
+      "RC-01",
+      "RC-03",
+      "RC-04",
+      "RC-06",
+      "RC-10",
+      "RC-11"
+     ],
+     "evaluable_refs": [
+      "RC-01",
+      "RC-03",
+      "RC-04",
+      "RC-06",
+      "RC-10",
+      "RC-11"
+     ],
+     "live_refs": [
+      "RC-01",
+      "RC-03",
+      "RC-04",
+      "RC-06",
+      "RC-10",
+      "RC-11"
+     ],
+     "n_activations": 9,
+     "n_edges": 53,
+     "n_live": 6,
+     "n_witness_edges": 12,
+     "objectives": [
+      "OBJ-01",
+      "OBJ-03",
+      "OBJ-04",
+      "OBJ-05"
+     ]
+    }
+   },
+   "sds": 0.9132
+  }
+ ],
+ "summary": "0/7 perturbations fail Gate A criteria 1-4"
+}

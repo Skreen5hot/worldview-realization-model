@@ -1,0 +1,745 @@
+{
+ "admitted_predicates": [
+  "affects",
+  "has_agent",
+  "has_input",
+  "has_output",
+  "has_participant",
+  "is_cause_of",
+  "precedes",
+  "realizes"
+ ],
+ "family": "Dynamism",
+ "graph": {
+  "edges": [
+   {
+    "edge_id": "E015",
+    "predicate": "has_agent",
+    "source": "ACT-MFG",
+    "target": "ORG-NPC"
+   },
+   {
+    "edge_id": "E016",
+    "predicate": "has_participant",
+    "source": "ACT-MFG",
+    "target": "A-MILL"
+   },
+   {
+    "edge_id": "E018",
+    "predicate": "has_output",
+    "source": "ACT-MFG",
+    "target": "LOT-1"
+   },
+   {
+    "edge_id": "E019",
+    "predicate": "has_output",
+    "source": "ACT-MFG",
+    "target": "LOT-2"
+   },
+   {
+    "edge_id": "E020",
+    "predicate": "has_output",
+    "source": "ACT-MFG",
+    "target": "LOT-3"
+   },
+   {
+    "edge_id": "E021",
+    "predicate": "has_output",
+    "source": "ACT-MFG",
+    "target": "LOT-4"
+   },
+   {
+    "edge_id": "E030",
+    "predicate": "has_participant",
+    "source": "ACT-M1",
+    "target": "LOT-1"
+   },
+   {
+    "edge_id": "E031",
+    "predicate": "has_participant",
+    "source": "ACT-M2",
+    "target": "LOT-2"
+   },
+   {
+    "edge_id": "E032",
+    "predicate": "has_participant",
+    "source": "ACT-M3",
+    "target": "LOT-3"
+   },
+   {
+    "edge_id": "E033",
+    "predicate": "has_participant",
+    "source": "ACT-M4",
+    "target": "LOT-4"
+   },
+   {
+    "edge_id": "E034",
+    "predicate": "has_output",
+    "source": "ACT-M1",
+    "target": "M-1"
+   },
+   {
+    "edge_id": "E035",
+    "predicate": "has_output",
+    "source": "ACT-M2",
+    "target": "M-2"
+   },
+   {
+    "edge_id": "E036",
+    "predicate": "has_output",
+    "source": "ACT-M3",
+    "target": "M-3"
+   },
+   {
+    "edge_id": "E037",
+    "predicate": "has_output",
+    "source": "ACT-M4",
+    "target": "M-4"
+   },
+   {
+    "edge_id": "E042",
+    "predicate": "precedes",
+    "source": "ACT-M1",
+    "target": "ACT-M2"
+   },
+   {
+    "edge_id": "E043",
+    "predicate": "precedes",
+    "source": "ACT-M2",
+    "target": "ACT-M3"
+   },
+   {
+    "edge_id": "E044",
+    "predicate": "precedes",
+    "source": "ACT-M3",
+    "target": "ACT-M4"
+   },
+   {
+    "edge_id": "E045",
+    "predicate": "has_agent",
+    "source": "ACT-M1",
+    "target": "P-INSP"
+   },
+   {
+    "edge_id": "E046",
+    "predicate": "has_agent",
+    "source": "ACT-M2",
+    "target": "P-INSP"
+   },
+   {
+    "edge_id": "E047",
+    "predicate": "has_agent",
+    "source": "ACT-M3",
+    "target": "P-INSP"
+   },
+   {
+    "edge_id": "E048",
+    "predicate": "has_agent",
+    "source": "ACT-M4",
+    "target": "P-INSP"
+   },
+   {
+    "edge_id": "E050",
+    "predicate": "has_participant",
+    "source": "ACT-M4",
+    "target": "A-CMM"
+   },
+   {
+    "edge_id": "E051",
+    "predicate": "realizes",
+    "source": "ACT-M4",
+    "target": "R-INSP"
+   },
+   {
+    "edge_id": "E052",
+    "predicate": "has_agent",
+    "source": "ACT-NCR",
+    "target": "P-ENG"
+   },
+   {
+    "edge_id": "E053",
+    "predicate": "realizes",
+    "source": "ACT-NCR",
+    "target": "R-ENG"
+   },
+   {
+    "edge_id": "E054",
+    "predicate": "has_input",
+    "source": "ACT-NCR",
+    "target": "M-2"
+   },
+   {
+    "edge_id": "E055",
+    "predicate": "has_input",
+    "source": "ACT-NCR",
+    "target": "M-3"
+   },
+   {
+    "edge_id": "E056",
+    "predicate": "has_input",
+    "source": "ACT-NCR",
+    "target": "M-4"
+   },
+   {
+    "edge_id": "E057",
+    "predicate": "has_output",
+    "source": "ACT-NCR",
+    "target": "NCR"
+   },
+   {
+    "edge_id": "E060",
+    "predicate": "precedes",
+    "source": "ACT-M4",
+    "target": "ACT-NCR"
+   },
+   {
+    "edge_id": "E061",
+    "predicate": "precedes",
+    "source": "ACT-NCR",
+    "target": "ACT-EMAIL"
+   },
+   {
+    "edge_id": "E062",
+    "predicate": "has_agent",
+    "source": "ACT-EMAIL",
+    "target": "P-ENG"
+   },
+   {
+    "edge_id": "E063",
+    "predicate": "has_input",
+    "source": "ACT-EMAIL",
+    "target": "NCR"
+   },
+   {
+    "edge_id": "E066",
+    "predicate": "has_agent",
+    "source": "ACT-REPLY",
+    "target": "P-QM"
+   },
+   {
+    "edge_id": "E068",
+    "predicate": "precedes",
+    "source": "ACT-EMAIL",
+    "target": "ACT-REPLY"
+   },
+   {
+    "edge_id": "E069",
+    "predicate": "precedes",
+    "source": "ACT-EMAIL",
+    "target": "ACT-DEC"
+   },
+   {
+    "edge_id": "E070",
+    "predicate": "has_agent",
+    "source": "ACT-DEC",
+    "target": "P-PM"
+   },
+   {
+    "edge_id": "E071",
+    "predicate": "realizes",
+    "source": "ACT-DEC",
+    "target": "R-PM"
+   },
+   {
+    "edge_id": "E072",
+    "predicate": "has_input",
+    "source": "ACT-DEC",
+    "target": "SCHED"
+   },
+   {
+    "edge_id": "E073",
+    "predicate": "has_output",
+    "source": "ACT-DEC",
+    "target": "DIR-CONT"
+   },
+   {
+    "edge_id": "E076",
+    "predicate": "is_cause_of",
+    "source": "ACT-DEC",
+    "target": "ACT-SHIP"
+   },
+   {
+    "edge_id": "E077",
+    "predicate": "precedes",
+    "source": "ACT-DEC",
+    "target": "ACT-SHIP"
+   },
+   {
+    "edge_id": "E079",
+    "predicate": "has_agent",
+    "source": "ACT-SHIP",
+    "target": "ORG-NPC"
+   },
+   {
+    "edge_id": "E080",
+    "predicate": "has_participant",
+    "source": "ACT-SHIP",
+    "target": "LOT-4"
+   },
+   {
+    "edge_id": "E081",
+    "predicate": "affects",
+    "source": "ACT-SHIP",
+    "target": "ORG-HTA"
+   },
+   {
+    "edge_id": "E082",
+    "predicate": "has_agent",
+    "source": "ACT-SHIPNOTE",
+    "target": "ORG-NPC"
+   },
+   {
+    "edge_id": "E084",
+    "predicate": "has_input",
+    "source": "ACT-SHIPNOTE",
+    "target": "CERT"
+   },
+   {
+    "edge_id": "E088",
+    "predicate": "has_agent",
+    "source": "PROC-BRAKE",
+    "target": "ORG-HTA"
+   },
+   {
+    "edge_id": "E089",
+    "predicate": "has_participant",
+    "source": "PROC-BRAKE",
+    "target": "A-ACT"
+   },
+   {
+    "edge_id": "E090",
+    "predicate": "has_participant",
+    "source": "PROC-BRAKE",
+    "target": "LOT-4"
+   },
+   {
+    "edge_id": "E091",
+    "predicate": "affects",
+    "source": "PROC-BRAKE",
+    "target": "AGG-PASS"
+   },
+   {
+    "edge_id": "E094",
+    "predicate": "precedes",
+    "source": "ACT-SHIP",
+    "target": "PROC-BRAKE"
+   },
+   {
+    "edge_id": "E097",
+    "predicate": "has_agent",
+    "source": "PROC-QMS",
+    "target": "ORG-NPC"
+   },
+   {
+    "edge_id": "E098",
+    "predicate": "realizes",
+    "source": "PROC-QMS",
+    "target": "R-QM"
+   }
+  ],
+  "entities": [
+   {
+    "attributes": {},
+    "id": "A-ACT",
+    "label": "brake actuator assembly batch 2026-Q3",
+    "type": "Material Artifact",
+    "type_iri": "https://www.commoncoreontologies.org/ont00000995"
+   },
+   {
+    "attributes": {},
+    "id": "A-CMM",
+    "label": "coordinate measuring machine CMM-2",
+    "type": "Material Artifact",
+    "type_iri": "https://www.commoncoreontologies.org/ont00000995"
+   },
+   {
+    "attributes": {},
+    "id": "A-MILL",
+    "label": "machining center MC-7",
+    "type": "Material Artifact",
+    "type_iri": "https://www.commoncoreontologies.org/ont00000995"
+   },
+   {
+    "attributes": {
+     "kind": "decision"
+    },
+    "id": "ACT-DEC",
+    "label": "production continuation decision",
+    "type": "Planned Act",
+    "type_iri": "https://www.commoncoreontologies.org/ont00000228"
+   },
+   {
+    "attributes": {
+     "kind": "escalation"
+    },
+    "id": "ACT-EMAIL",
+    "label": "escalation email of NCR-0417 to management",
+    "type": "Email Messaging",
+    "type_iri": "https://www.commoncoreontologies.org/ont00000492"
+   },
+   {
+    "attributes": {
+     "sequence": 1
+    },
+    "id": "ACT-M1",
+    "label": "dimensional inspection of lot 1",
+    "type": "Act of Measuring",
+    "type_iri": "https://www.commoncoreontologies.org/ont00000345"
+   },
+   {
+    "attributes": {
+     "sequence": 2
+    },
+    "id": "ACT-M2",
+    "label": "dimensional inspection of lot 2",
+    "type": "Act of Measuring",
+    "type_iri": "https://www.commoncoreontologies.org/ont00000345"
+   },
+   {
+    "attributes": {
+     "sequence": 3
+    },
+    "id": "ACT-M3",
+    "label": "dimensional inspection of lot 3",
+    "type": "Act of Measuring",
+    "type_iri": "https://www.commoncoreontologies.org/ont00000345"
+   },
+   {
+    "attributes": {
+     "sequence": 4
+    },
+    "id": "ACT-M4",
+    "label": "dimensional inspection of lot 4",
+    "type": "Act of Measuring",
+    "type_iri": "https://www.commoncoreontologies.org/ont00000345"
+   },
+   {
+    "attributes": {},
+    "id": "ACT-MFG",
+    "label": "machining of valve body lots 1-4",
+    "type": "Act of Manufacturing",
+    "type_iri": "https://www.commoncoreontologies.org/ont00001359"
+   },
+   {
+    "attributes": {
+     "kind": "nonconformance_reporting"
+    },
+    "id": "ACT-NCR",
+    "label": "writing of nonconformance report NCR-0417",
+    "type": "Act of Reporting",
+    "type_iri": "https://www.commoncoreontologies.org/ont00000151"
+   },
+   {
+    "attributes": {
+     "kind": "acknowledgement"
+    },
+    "id": "ACT-REPLY",
+    "label": "acknowledgement reply from quality manager",
+    "type": "Email Messaging",
+    "type_iri": "https://www.commoncoreontologies.org/ont00000492"
+   },
+   {
+    "attributes": {},
+    "id": "ACT-SHIP",
+    "label": "shipment of valve body lot 4 to Harbor Transit",
+    "type": "Act of Cargo Transportation",
+    "type_iri": "https://www.commoncoreontologies.org/ont00000595"
+   },
+   {
+    "attributes": {
+     "kind": "shipping_notice"
+    },
+    "id": "ACT-SHIPNOTE",
+    "label": "shipping notice with certificate to Harbor Transit",
+    "type": "Act of Communication",
+    "type_iri": "https://www.commoncoreontologies.org/ont00000402"
+   },
+   {
+    "attributes": {},
+    "id": "AGG-PASS",
+    "label": "Harbor Transit bus passengers",
+    "type": "Group of Persons",
+    "type_iri": "https://www.commoncoreontologies.org/ont00000914"
+   },
+   {
+    "attributes": {
+     "asserts_conformance": true
+    },
+    "id": "CERT",
+    "label": "certificate of conformance for valve body lot 4",
+    "type": "Certificate",
+    "type_iri": "https://www.commoncoreontologies.org/ont00002002"
+   },
+   {
+    "attributes": {
+     "safety_relevant": true
+    },
+    "id": "D-LEAK",
+    "label": "internal leakage disposition of valve body lot 4",
+    "type": "disposition",
+    "type_iri": "http://purl.obolibrary.org/obo/BFO_0000016"
+   },
+   {
+    "attributes": {
+     "kind": "directive"
+    },
+    "id": "DIR-CONT",
+    "label": "directive: continue production and ship lot 4",
+    "type": "Prescriptive Information Content Entity",
+    "type_iri": "https://www.commoncoreontologies.org/ont00000965"
+   },
+   {
+    "attributes": {},
+    "id": "LOT-1",
+    "label": "valve body lot 1",
+    "type": "Portion of Processed Material",
+    "type_iri": "https://www.commoncoreontologies.org/ont00001084"
+   },
+   {
+    "attributes": {},
+    "id": "LOT-2",
+    "label": "valve body lot 2",
+    "type": "Portion of Processed Material",
+    "type_iri": "https://www.commoncoreontologies.org/ont00001084"
+   },
+   {
+    "attributes": {},
+    "id": "LOT-3",
+    "label": "valve body lot 3",
+    "type": "Portion of Processed Material",
+    "type_iri": "https://www.commoncoreontologies.org/ont00001084"
+   },
+   {
+    "attributes": {},
+    "id": "LOT-4",
+    "label": "valve body lot 4",
+    "type": "Portion of Processed Material",
+    "type_iri": "https://www.commoncoreontologies.org/ont00001084"
+   },
+   {
+    "attributes": {
+     "measurand_kind": "bore_diameter",
+     "unit": "mm",
+     "value": 12.003
+    },
+    "id": "M-1",
+    "label": "bore diameter measurement of lot 1",
+    "type": "Ratio Measurement Information Content Entity",
+    "type_iri": "https://www.commoncoreontologies.org/ont00001022"
+   },
+   {
+    "attributes": {
+     "measurand_kind": "bore_diameter",
+     "unit": "mm",
+     "value": 12.006
+    },
+    "id": "M-2",
+    "label": "bore diameter measurement of lot 2",
+    "type": "Ratio Measurement Information Content Entity",
+    "type_iri": "https://www.commoncoreontologies.org/ont00001022"
+   },
+   {
+    "attributes": {
+     "measurand_kind": "bore_diameter",
+     "unit": "mm",
+     "value": 12.009
+    },
+    "id": "M-3",
+    "label": "bore diameter measurement of lot 3",
+    "type": "Ratio Measurement Information Content Entity",
+    "type_iri": "https://www.commoncoreontologies.org/ont00001022"
+   },
+   {
+    "attributes": {
+     "measurand_kind": "bore_diameter",
+     "unit": "mm",
+     "value": 12.013
+    },
+    "id": "M-4",
+    "label": "bore diameter measurement of lot 4",
+    "type": "Ratio Measurement Information Content Entity",
+    "type_iri": "https://www.commoncoreontologies.org/ont00001022"
+   },
+   {
+    "attributes": {
+     "kind": "nonconformance_report",
+     "safety_relevant": true
+    },
+    "id": "NCR",
+    "label": "nonconformance report NCR-0417",
+    "type": "Report",
+    "type_iri": "https://www.commoncoreontologies.org/ont00002043"
+   },
+   {
+    "attributes": {},
+    "id": "ORG-HTA",
+    "label": "Harbor Transit Authority",
+    "type": "Organization",
+    "type_iri": "https://www.commoncoreontologies.org/ont00001180"
+   },
+   {
+    "attributes": {},
+    "id": "ORG-NPC",
+    "label": "Northline Precision Components",
+    "type": "Commercial Organization",
+    "type_iri": "https://www.commoncoreontologies.org/ont00000443"
+   },
+   {
+    "attributes": {},
+    "id": "ORG-REG",
+    "label": "Vehicle Component Safety Office",
+    "type": "Government Organization",
+    "type_iri": "https://www.commoncoreontologies.org/ont00000408"
+   },
+   {
+    "attributes": {},
+    "id": "P-ENG",
+    "label": "Dana Okafor",
+    "type": "Person",
+    "type_iri": "https://www.commoncoreontologies.org/ont00001262"
+   },
+   {
+    "attributes": {},
+    "id": "P-INSP",
+    "label": "Miguel Ortega",
+    "type": "Person",
+    "type_iri": "https://www.commoncoreontologies.org/ont00001262"
+   },
+   {
+    "attributes": {},
+    "id": "P-PM",
+    "label": "Victor Lindqvist",
+    "type": "Person",
+    "type_iri": "https://www.commoncoreontologies.org/ont00001262"
+   },
+   {
+    "attributes": {},
+    "id": "P-QM",
+    "label": "Ruth Salazar",
+    "type": "Person",
+    "type_iri": "https://www.commoncoreontologies.org/ont00001262"
+   },
+   {
+    "attributes": {
+     "kind": "operational_use"
+    },
+    "id": "PROC-BRAKE",
+    "label": "in-service brake actuation on Harbor Transit buses",
+    "type": "Act of Artifact Employment",
+    "type_iri": "https://www.commoncoreontologies.org/ont00000566"
+   },
+   {
+    "attributes": {
+     "kind": "quality_management_process"
+    },
+    "id": "PROC-QMS",
+    "label": "Northline quality management process",
+    "type": "Act",
+    "type_iri": "https://www.commoncoreontologies.org/ont00000005"
+   },
+   {
+    "attributes": {
+     "quality_kind": "bore_diameter"
+    },
+    "id": "Q-1",
+    "label": "bore diameter of valve body lot 1",
+    "type": "quality",
+    "type_iri": "http://purl.obolibrary.org/obo/BFO_0000019"
+   },
+   {
+    "attributes": {
+     "quality_kind": "bore_diameter"
+    },
+    "id": "Q-2",
+    "label": "bore diameter of valve body lot 2",
+    "type": "quality",
+    "type_iri": "http://purl.obolibrary.org/obo/BFO_0000019"
+   },
+   {
+    "attributes": {
+     "quality_kind": "bore_diameter"
+    },
+    "id": "Q-3",
+    "label": "bore diameter of valve body lot 3",
+    "type": "quality",
+    "type_iri": "http://purl.obolibrary.org/obo/BFO_0000019"
+   },
+   {
+    "attributes": {
+     "quality_kind": "bore_diameter"
+    },
+    "id": "Q-4",
+    "label": "bore diameter of valve body lot 4",
+    "type": "quality",
+    "type_iri": "http://purl.obolibrary.org/obo/BFO_0000019"
+   },
+   {
+    "attributes": {
+     "kind": "engineering"
+    },
+    "id": "R-ENG",
+    "label": "process engineer role",
+    "type": "Occupation Role",
+    "type_iri": "https://www.commoncoreontologies.org/ont00000984"
+   },
+   {
+    "attributes": {
+     "kind": "inspection"
+    },
+    "id": "R-INSP",
+    "label": "dimensional inspector role",
+    "type": "Occupation Role",
+    "type_iri": "https://www.commoncoreontologies.org/ont00000984"
+   },
+   {
+    "attributes": {
+     "kind": "management"
+    },
+    "id": "R-PM",
+    "label": "plant manager role",
+    "type": "Occupation Role",
+    "type_iri": "https://www.commoncoreontologies.org/ont00000984"
+   },
+   {
+    "attributes": {
+     "kind": "quality_management"
+    },
+    "id": "R-QM",
+    "label": "quality manager role",
+    "type": "Occupation Role",
+    "type_iri": "https://www.commoncoreontologies.org/ont00000984"
+   },
+   {
+    "attributes": {
+     "kind": "regulation"
+    },
+    "id": "REG",
+    "label": "safety-related nonconformance notification regulation",
+    "type": "Process Regulation",
+    "type_iri": "https://www.commoncoreontologies.org/ont00001324"
+   },
+   {
+    "attributes": {
+     "kind": "schedule"
+    },
+    "id": "SCHED",
+    "label": "Q3 delivery schedule",
+    "type": "Plan",
+    "type_iri": "https://www.commoncoreontologies.org/ont00000974"
+   },
+   {
+    "attributes": {
+     "lower": 11.99,
+     "quality_kind": "bore_diameter",
+     "unit": "mm",
+     "upper": 12.01
+    },
+    "id": "SPEC",
+    "label": "valve body bore diameter specification VB-12",
+    "type": "Dimension Specification",
+    "type_iri": "https://www.commoncoreontologies.org/ont00001304"
+   }
+  ]
+ },
+ "hash": "fff143f49722a71a7c6691a06eec7dc5032963f7d3b398b55f0ed2f12e3b2263"
+}

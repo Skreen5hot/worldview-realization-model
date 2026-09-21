@@ -1,0 +1,764 @@
+{
+ "audit": {
+  "chains": [
+   {
+    "activation_id": "ACT-RC-02-1804fc59",
+    "discrepancy_id": "D-RC-02-1804fc59",
+    "grounding_edges": [
+     "E016",
+     "E020",
+     "E032",
+     "E034",
+     "E035",
+     "E036",
+     "E042",
+     "E043"
+    ],
+    "reference_id": "RC-02",
+    "significance_ids": [
+     "SIG-D-RC-02-1804fc59-OBJ-01"
+    ],
+    "step_id": "S001",
+    "witness_element": "D-RC-02-1804fc59#present:E016"
+   },
+   {
+    "activation_id": "ACT-RC-02-1804fc59",
+    "discrepancy_id": "D-RC-02-1804fc59",
+    "grounding_edges": [
+     "E016",
+     "E020",
+     "E032",
+     "E034",
+     "E035",
+     "E036",
+     "E042",
+     "E043"
+    ],
+    "reference_id": "RC-02",
+    "significance_ids": [
+     "SIG-D-RC-02-1804fc59-OBJ-01"
+    ],
+    "step_id": "S002",
+    "witness_element": "D-RC-02-1804fc59#present:E020"
+   },
+   {
+    "activation_id": "ACT-RC-02-1804fc59",
+    "discrepancy_id": "D-RC-02-1804fc59",
+    "grounding_edges": [
+     "E016",
+     "E020",
+     "E032",
+     "E034",
+     "E035",
+     "E036",
+     "E042",
+     "E043"
+    ],
+    "reference_id": "RC-02",
+    "significance_ids": [
+     "SIG-D-RC-02-1804fc59-OBJ-01"
+    ],
+    "step_id": "S003",
+    "witness_element": "D-RC-02-1804fc59#present:E032"
+   },
+   {
+    "activation_id": "ACT-RC-02-1804fc59",
+    "discrepancy_id": "D-RC-02-1804fc59",
+    "grounding_edges": [
+     "E016",
+     "E020",
+     "E032",
+     "E034",
+     "E035",
+     "E036",
+     "E042",
+     "E043"
+    ],
+    "reference_id": "RC-02",
+    "significance_ids": [
+     "SIG-D-RC-02-1804fc59-OBJ-01"
+    ],
+    "step_id": "S004",
+    "witness_element": "D-RC-02-1804fc59#present:E034"
+   },
+   {
+    "activation_id": "ACT-RC-02-1804fc59",
+    "discrepancy_id": "D-RC-02-1804fc59",
+    "grounding_edges": [
+     "E016",
+     "E020",
+     "E032",
+     "E034",
+     "E035",
+     "E036",
+     "E042",
+     "E043"
+    ],
+    "reference_id": "RC-02",
+    "significance_ids": [
+     "SIG-D-RC-02-1804fc59-OBJ-01"
+    ],
+    "step_id": "S005",
+    "witness_element": "D-RC-02-1804fc59#present:E035"
+   },
+   {
+    "activation_id": "ACT-RC-02-1804fc59",
+    "discrepancy_id": "D-RC-02-1804fc59",
+    "grounding_edges": [
+     "E016",
+     "E020",
+     "E032",
+     "E034",
+     "E035",
+     "E036",
+     "E042",
+     "E043"
+    ],
+    "reference_id": "RC-02",
+    "significance_ids": [
+     "SIG-D-RC-02-1804fc59-OBJ-01"
+    ],
+    "step_id": "S006",
+    "witness_element": "D-RC-02-1804fc59#present:E036"
+   },
+   {
+    "activation_id": "ACT-RC-02-1804fc59",
+    "discrepancy_id": "D-RC-02-1804fc59",
+    "grounding_edges": [
+     "E016",
+     "E020",
+     "E032",
+     "E034",
+     "E035",
+     "E036",
+     "E042",
+     "E043"
+    ],
+    "reference_id": "RC-02",
+    "significance_ids": [
+     "SIG-D-RC-02-1804fc59-OBJ-01"
+    ],
+    "step_id": "S007",
+    "witness_element": "D-RC-02-1804fc59#present:E042"
+   },
+   {
+    "activation_id": "ACT-RC-02-1804fc59",
+    "discrepancy_id": "D-RC-02-1804fc59",
+    "grounding_edges": [
+     "E016",
+     "E020",
+     "E032",
+     "E034",
+     "E035",
+     "E036",
+     "E042",
+     "E043"
+    ],
+    "reference_id": "RC-02",
+    "significance_ids": [
+     "SIG-D-RC-02-1804fc59-OBJ-01"
+    ],
+    "step_id": "S008",
+    "witness_element": "D-RC-02-1804fc59#present:E043"
+   },
+   {
+    "activation_id": "ACT-RC-02-1804fc59",
+    "discrepancy_id": "D-RC-02-1804fc59",
+    "grounding_edges": [
+     "E016",
+     "E020",
+     "E032",
+     "E034",
+     "E035",
+     "E036",
+     "E042",
+     "E043"
+    ],
+    "reference_id": "RC-02",
+    "significance_ids": [
+     "SIG-D-RC-02-1804fc59-OBJ-01"
+    ],
+    "step_id": "S009",
+    "witness_element": "D-RC-02-1804fc59#absent:0"
+   },
+   {
+    "activation_id": "ACT-RC-02-1804fc59",
+    "discrepancy_id": "D-RC-02-1804fc59",
+    "grounding_edges": [
+     "E016",
+     "E020",
+     "E032",
+     "E034",
+     "E035",
+     "E036",
+     "E042",
+     "E043"
+    ],
+    "reference_id": "RC-02",
+    "significance_ids": [
+     "SIG-D-RC-02-1804fc59-OBJ-01"
+    ],
+    "step_id": "S010",
+    "witness_element": "D-RC-02-1804fc59#absent:1"
+   },
+   {
+    "activation_id": "ACT-RC-02-ba1408e1",
+    "discrepancy_id": "D-RC-02-ba1408e1",
+    "grounding_edges": [
+     "E016",
+     "E021",
+     "E033",
+     "E035",
+     "E036",
+     "E037",
+     "E043",
+     "E044"
+    ],
+    "reference_id": "RC-02",
+    "significance_ids": [
+     "SIG-D-RC-02-ba1408e1-OBJ-01"
+    ],
+    "step_id": "S011",
+    "witness_element": "D-RC-02-ba1408e1#present:E016"
+   },
+   {
+    "activation_id": "ACT-RC-02-ba1408e1",
+    "discrepancy_id": "D-RC-02-ba1408e1",
+    "grounding_edges": [
+     "E016",
+     "E021",
+     "E033",
+     "E035",
+     "E036",
+     "E037",
+     "E043",
+     "E044"
+    ],
+    "reference_id": "RC-02",
+    "significance_ids": [
+     "SIG-D-RC-02-ba1408e1-OBJ-01"
+    ],
+    "step_id": "S012",
+    "witness_element": "D-RC-02-ba1408e1#present:E021"
+   },
+   {
+    "activation_id": "ACT-RC-02-ba1408e1",
+    "discrepancy_id": "D-RC-02-ba1408e1",
+    "grounding_edges": [
+     "E016",
+     "E021",
+     "E033",
+     "E035",
+     "E036",
+     "E037",
+     "E043",
+     "E044"
+    ],
+    "reference_id": "RC-02",
+    "significance_ids": [
+     "SIG-D-RC-02-ba1408e1-OBJ-01"
+    ],
+    "step_id": "S013",
+    "witness_element": "D-RC-02-ba1408e1#present:E033"
+   },
+   {
+    "activation_id": "ACT-RC-02-ba1408e1",
+    "discrepancy_id": "D-RC-02-ba1408e1",
+    "grounding_edges": [
+     "E016",
+     "E021",
+     "E033",
+     "E035",
+     "E036",
+     "E037",
+     "E043",
+     "E044"
+    ],
+    "reference_id": "RC-02",
+    "significance_ids": [
+     "SIG-D-RC-02-ba1408e1-OBJ-01"
+    ],
+    "step_id": "S014",
+    "witness_element": "D-RC-02-ba1408e1#present:E035"
+   },
+   {
+    "activation_id": "ACT-RC-02-ba1408e1",
+    "discrepancy_id": "D-RC-02-ba1408e1",
+    "grounding_edges": [
+     "E016",
+     "E021",
+     "E033",
+     "E035",
+     "E036",
+     "E037",
+     "E043",
+     "E044"
+    ],
+    "reference_id": "RC-02",
+    "significance_ids": [
+     "SIG-D-RC-02-ba1408e1-OBJ-01"
+    ],
+    "step_id": "S015",
+    "witness_element": "D-RC-02-ba1408e1#present:E036"
+   },
+   {
+    "activation_id": "ACT-RC-02-ba1408e1",
+    "discrepancy_id": "D-RC-02-ba1408e1",
+    "grounding_edges": [
+     "E016",
+     "E021",
+     "E033",
+     "E035",
+     "E036",
+     "E037",
+     "E043",
+     "E044"
+    ],
+    "reference_id": "RC-02",
+    "significance_ids": [
+     "SIG-D-RC-02-ba1408e1-OBJ-01"
+    ],
+    "step_id": "S016",
+    "witness_element": "D-RC-02-ba1408e1#present:E037"
+   },
+   {
+    "activation_id": "ACT-RC-02-ba1408e1",
+    "discrepancy_id": "D-RC-02-ba1408e1",
+    "grounding_edges": [
+     "E016",
+     "E021",
+     "E033",
+     "E035",
+     "E036",
+     "E037",
+     "E043",
+     "E044"
+    ],
+    "reference_id": "RC-02",
+    "significance_ids": [
+     "SIG-D-RC-02-ba1408e1-OBJ-01"
+    ],
+    "step_id": "S017",
+    "witness_element": "D-RC-02-ba1408e1#present:E043"
+   },
+   {
+    "activation_id": "ACT-RC-02-ba1408e1",
+    "discrepancy_id": "D-RC-02-ba1408e1",
+    "grounding_edges": [
+     "E016",
+     "E021",
+     "E033",
+     "E035",
+     "E036",
+     "E037",
+     "E043",
+     "E044"
+    ],
+    "reference_id": "RC-02",
+    "significance_ids": [
+     "SIG-D-RC-02-ba1408e1-OBJ-01"
+    ],
+    "step_id": "S018",
+    "witness_element": "D-RC-02-ba1408e1#present:E044"
+   },
+   {
+    "activation_id": "ACT-RC-02-ba1408e1",
+    "discrepancy_id": "D-RC-02-ba1408e1",
+    "grounding_edges": [
+     "E016",
+     "E021",
+     "E033",
+     "E035",
+     "E036",
+     "E037",
+     "E043",
+     "E044"
+    ],
+    "reference_id": "RC-02",
+    "significance_ids": [
+     "SIG-D-RC-02-ba1408e1-OBJ-01"
+    ],
+    "step_id": "S019",
+    "witness_element": "D-RC-02-ba1408e1#absent:0"
+   },
+   {
+    "activation_id": "ACT-RC-02-ba1408e1",
+    "discrepancy_id": "D-RC-02-ba1408e1",
+    "grounding_edges": [
+     "E016",
+     "E021",
+     "E033",
+     "E035",
+     "E036",
+     "E037",
+     "E043",
+     "E044"
+    ],
+    "reference_id": "RC-02",
+    "significance_ids": [
+     "SIG-D-RC-02-ba1408e1-OBJ-01"
+    ],
+    "step_id": "S020",
+    "witness_element": "D-RC-02-ba1408e1#absent:1"
+   },
+   {
+    "activation_id": "ACT-RC-11-06b365f7",
+    "discrepancy_id": "D-RC-11-06b365f7",
+    "grounding_edges": [
+     "E063",
+     "E069"
+    ],
+    "reference_id": "RC-11",
+    "significance_ids": [
+     "SIG-D-RC-11-06b365f7-OBJ-05"
+    ],
+    "step_id": "S021",
+    "witness_element": "D-RC-11-06b365f7#present:E063"
+   },
+   {
+    "activation_id": "ACT-RC-11-06b365f7",
+    "discrepancy_id": "D-RC-11-06b365f7",
+    "grounding_edges": [
+     "E063",
+     "E069"
+    ],
+    "reference_id": "RC-11",
+    "significance_ids": [
+     "SIG-D-RC-11-06b365f7-OBJ-05"
+    ],
+    "step_id": "S022",
+    "witness_element": "D-RC-11-06b365f7#present:E069"
+   },
+   {
+    "activation_id": "ACT-RC-11-06b365f7",
+    "discrepancy_id": "D-RC-11-06b365f7",
+    "grounding_edges": [
+     "E063",
+     "E069"
+    ],
+    "reference_id": "RC-11",
+    "significance_ids": [
+     "SIG-D-RC-11-06b365f7-OBJ-05"
+    ],
+    "step_id": "S023",
+    "witness_element": "D-RC-11-06b365f7#absent:0"
+   },
+   {
+    "activation_id": "ACT-RC-12-81ab1efc",
+    "discrepancy_id": "D-RC-12-81ab1efc",
+    "grounding_edges": [
+     "E063",
+     "E069",
+     "E070",
+     "E076"
+    ],
+    "reference_id": "RC-12",
+    "significance_ids": [
+     "SIG-D-RC-12-81ab1efc-OBJ-02",
+     "SIG-D-RC-12-81ab1efc-OBJ-05"
+    ],
+    "step_id": "S024",
+    "witness_element": "D-RC-12-81ab1efc#present:E063"
+   },
+   {
+    "activation_id": "ACT-RC-12-81ab1efc",
+    "discrepancy_id": "D-RC-12-81ab1efc",
+    "grounding_edges": [
+     "E063",
+     "E069",
+     "E070",
+     "E076"
+    ],
+    "reference_id": "RC-12",
+    "significance_ids": [
+     "SIG-D-RC-12-81ab1efc-OBJ-02",
+     "SIG-D-RC-12-81ab1efc-OBJ-05"
+    ],
+    "step_id": "S025",
+    "witness_element": "D-RC-12-81ab1efc#present:E069"
+   },
+   {
+    "activation_id": "ACT-RC-12-81ab1efc",
+    "discrepancy_id": "D-RC-12-81ab1efc",
+    "grounding_edges": [
+     "E063",
+     "E069",
+     "E070",
+     "E076"
+    ],
+    "reference_id": "RC-12",
+    "significance_ids": [
+     "SIG-D-RC-12-81ab1efc-OBJ-02",
+     "SIG-D-RC-12-81ab1efc-OBJ-05"
+    ],
+    "step_id": "S026",
+    "witness_element": "D-RC-12-81ab1efc#present:E070"
+   },
+   {
+    "activation_id": "ACT-RC-12-81ab1efc",
+    "discrepancy_id": "D-RC-12-81ab1efc",
+    "grounding_edges": [
+     "E063",
+     "E069",
+     "E070",
+     "E076"
+    ],
+    "reference_id": "RC-12",
+    "significance_ids": [
+     "SIG-D-RC-12-81ab1efc-OBJ-02",
+     "SIG-D-RC-12-81ab1efc-OBJ-05"
+    ],
+    "step_id": "S027",
+    "witness_element": "D-RC-12-81ab1efc#present:E076"
+   },
+   {
+    "activation_id": "ACT-RC-12-81ab1efc",
+    "discrepancy_id": "D-RC-12-81ab1efc",
+    "grounding_edges": [
+     "E063",
+     "E069",
+     "E070",
+     "E076"
+    ],
+    "reference_id": "RC-12",
+    "significance_ids": [
+     "SIG-D-RC-12-81ab1efc-OBJ-02",
+     "SIG-D-RC-12-81ab1efc-OBJ-05"
+    ],
+    "step_id": "S028",
+    "witness_element": "D-RC-12-81ab1efc#absent:0"
+   },
+   {
+    "activation_id": "ACT-RC-12-81ab1efc",
+    "discrepancy_id": "D-RC-12-81ab1efc",
+    "grounding_edges": [
+     "E063",
+     "E069",
+     "E070",
+     "E076"
+    ],
+    "reference_id": "RC-12",
+    "significance_ids": [
+     "SIG-D-RC-12-81ab1efc-OBJ-02",
+     "SIG-D-RC-12-81ab1efc-OBJ-05"
+    ],
+    "step_id": "S029",
+    "witness_element": "D-RC-12-81ab1efc#absent:1"
+   },
+   {
+    "activation_id": "ACT-RC-13-9e9b7a18",
+    "discrepancy_id": "D-RC-13-9e9b7a18",
+    "grounding_edges": [
+     "E057",
+     "E063",
+     "E069",
+     "E076",
+     "E080",
+     "E090",
+     "E091"
+    ],
+    "reference_id": "RC-13",
+    "significance_ids": [
+     "SIG-D-RC-13-9e9b7a18-OBJ-02"
+    ],
+    "step_id": "S030",
+    "witness_element": "D-RC-13-9e9b7a18#present:E057"
+   },
+   {
+    "activation_id": "ACT-RC-13-9e9b7a18",
+    "discrepancy_id": "D-RC-13-9e9b7a18",
+    "grounding_edges": [
+     "E057",
+     "E063",
+     "E069",
+     "E076",
+     "E080",
+     "E090",
+     "E091"
+    ],
+    "reference_id": "RC-13",
+    "significance_ids": [
+     "SIG-D-RC-13-9e9b7a18-OBJ-02"
+    ],
+    "step_id": "S031",
+    "witness_element": "D-RC-13-9e9b7a18#present:E063"
+   },
+   {
+    "activation_id": "ACT-RC-13-9e9b7a18",
+    "discrepancy_id": "D-RC-13-9e9b7a18",
+    "grounding_edges": [
+     "E057",
+     "E063",
+     "E069",
+     "E076",
+     "E080",
+     "E090",
+     "E091"
+    ],
+    "reference_id": "RC-13",
+    "significance_ids": [
+     "SIG-D-RC-13-9e9b7a18-OBJ-02"
+    ],
+    "step_id": "S032",
+    "witness_element": "D-RC-13-9e9b7a18#present:E069"
+   },
+   {
+    "activation_id": "ACT-RC-13-9e9b7a18",
+    "discrepancy_id": "D-RC-13-9e9b7a18",
+    "grounding_edges": [
+     "E057",
+     "E063",
+     "E069",
+     "E076",
+     "E080",
+     "E090",
+     "E091"
+    ],
+    "reference_id": "RC-13",
+    "significance_ids": [
+     "SIG-D-RC-13-9e9b7a18-OBJ-02"
+    ],
+    "step_id": "S033",
+    "witness_element": "D-RC-13-9e9b7a18#present:E076"
+   },
+   {
+    "activation_id": "ACT-RC-13-9e9b7a18",
+    "discrepancy_id": "D-RC-13-9e9b7a18",
+    "grounding_edges": [
+     "E057",
+     "E063",
+     "E069",
+     "E076",
+     "E080",
+     "E090",
+     "E091"
+    ],
+    "reference_id": "RC-13",
+    "significance_ids": [
+     "SIG-D-RC-13-9e9b7a18-OBJ-02"
+    ],
+    "step_id": "S034",
+    "witness_element": "D-RC-13-9e9b7a18#present:E080"
+   },
+   {
+    "activation_id": "ACT-RC-13-9e9b7a18",
+    "discrepancy_id": "D-RC-13-9e9b7a18",
+    "grounding_edges": [
+     "E057",
+     "E063",
+     "E069",
+     "E076",
+     "E080",
+     "E090",
+     "E091"
+    ],
+    "reference_id": "RC-13",
+    "significance_ids": [
+     "SIG-D-RC-13-9e9b7a18-OBJ-02"
+    ],
+    "step_id": "S035",
+    "witness_element": "D-RC-13-9e9b7a18#present:E090"
+   },
+   {
+    "activation_id": "ACT-RC-13-9e9b7a18",
+    "discrepancy_id": "D-RC-13-9e9b7a18",
+    "grounding_edges": [
+     "E057",
+     "E063",
+     "E069",
+     "E076",
+     "E080",
+     "E090",
+     "E091"
+    ],
+    "reference_id": "RC-13",
+    "significance_ids": [
+     "SIG-D-RC-13-9e9b7a18-OBJ-02"
+    ],
+    "step_id": "S036",
+    "witness_element": "D-RC-13-9e9b7a18#present:E091"
+   },
+   {
+    "activation_id": "ACT-RC-13-9e9b7a18",
+    "discrepancy_id": "D-RC-13-9e9b7a18",
+    "grounding_edges": [
+     "E057",
+     "E063",
+     "E069",
+     "E076",
+     "E080",
+     "E090",
+     "E091"
+    ],
+    "reference_id": "RC-13",
+    "significance_ids": [
+     "SIG-D-RC-13-9e9b7a18-OBJ-02"
+    ],
+    "step_id": "S037",
+    "witness_element": "D-RC-13-9e9b7a18#absent:0"
+   },
+   {
+    "activation_id": "ACT-RC-13-9e9b7a18",
+    "discrepancy_id": "D-RC-13-9e9b7a18",
+    "grounding_edges": [
+     "E057",
+     "E063",
+     "E069",
+     "E076",
+     "E080",
+     "E090",
+     "E091"
+    ],
+    "reference_id": "RC-13",
+    "significance_ids": [
+     "SIG-D-RC-13-9e9b7a18-OBJ-02"
+    ],
+    "step_id": "S038",
+    "witness_element": "D-RC-13-9e9b7a18#absent:1"
+   }
+  ],
+  "firewall": {
+   "hits": [],
+   "passed": true
+  },
+  "n_addressed": 38,
+  "n_steps": 38,
+  "n_witness_elements": 38,
+  "passed": true,
+  "problems": []
+ },
+ "family": "Dynamism",
+ "packet_id": "PKT-f72b748aea0d",
+ "simulation": [
+  {
+   "discrepancy_id": "D-RC-02-1804fc59",
+   "post_status": "satisfied",
+   "reference_id": "RC-02",
+   "result": "resolved"
+  },
+  {
+   "discrepancy_id": "D-RC-02-ba1408e1",
+   "post_status": "satisfied",
+   "reference_id": "RC-02",
+   "result": "resolved"
+  },
+  {
+   "discrepancy_id": "D-RC-11-06b365f7",
+   "post_status": "satisfied",
+   "reference_id": "RC-11",
+   "result": "resolved"
+  },
+  {
+   "discrepancy_id": "D-RC-12-81ab1efc",
+   "post_status": "satisfied",
+   "reference_id": "RC-12",
+   "result": "resolved"
+  },
+  {
+   "discrepancy_id": "D-RC-13-9e9b7a18",
+   "post_status": "satisfied",
+   "reference_id": "RC-13",
+   "result": "resolved"
+  }
+ ]
+}

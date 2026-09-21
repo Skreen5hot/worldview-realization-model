@@ -1,0 +1,9 @@
+{
+ "key": {
+  "PKT-1060f208241a": "Rationalism",
+  "PKT-545ffd311bbf": "Pneumatism",
+  "PKT-f72b748aea0d": "Dynamism",
+  "PKT-fc1132d3635f": "Materialism"
+ },
+ "note": "Mapping from opaque packet id to family. NOT part of any generator input."
+}

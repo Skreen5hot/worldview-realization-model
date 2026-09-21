@@ -1,0 +1,69 @@
+{
+ "all_domains_nonzero": true,
+ "flags": [
+  "gross imbalance: max/min edge ratio 7.8 > 6.0"
+ ],
+ "rows": [
+  {
+   "domain": "physical_causal",
+   "edge_count": 39,
+   "edge_percent": 39.4,
+   "predicate_count": 6,
+   "predicates": [
+    "bearer_of",
+    "has_continuant_part",
+    "has_output",
+    "has_participant",
+    "is_cause_of",
+    "precedes"
+   ]
+  },
+  {
+   "domain": "agentic",
+   "edge_count": 22,
+   "edge_percent": 22.2,
+   "predicate_count": 4,
+   "predicates": [
+    "has_agent",
+    "realizes",
+    "supervises",
+    "uses"
+   ]
+  },
+  {
+   "domain": "informational",
+   "edge_count": 18,
+   "edge_percent": 18.2,
+   "predicate_count": 4,
+   "predicates": [
+    "has_input",
+    "has_recipient",
+    "is_a_measurement_of",
+    "is_about"
+   ]
+  },
+  {
+   "domain": "evaluative_experiential",
+   "edge_count": 5,
+   "edge_percent": 5.1,
+   "predicate_count": 2,
+   "predicates": [
+    "affects",
+    "has_interest_in"
+   ]
+  },
+  {
+   "domain": "legal_institutional",
+   "edge_count": 15,
+   "edge_percent": 15.2,
+   "predicate_count": 4,
+   "predicates": [
+    "has_organizational_context",
+    "is_affiliated_with",
+    "is_subordinate_role_to",
+    "prescribes"
+   ]
+  }
+ ],
+ "total_edges": 99
+}
