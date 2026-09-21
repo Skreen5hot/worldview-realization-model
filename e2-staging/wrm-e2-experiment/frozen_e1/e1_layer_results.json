@@ -1,0 +1,2793 @@
+{
+ "all_lineage_pass": true,
+ "divergence": {
+  "matrix": {
+   "Dynamism": {
+    "Dynamism": {
+     "A": 0.0,
+     "B": 0.0,
+     "C": 0.0,
+     "D": 0.0,
+     "D_no_shared_relations": false,
+     "total": 0.0
+    },
+    "Materialism": {
+     "A": 0.5,
+     "B": 0.5,
+     "C": 0.3281,
+     "D": 0.25,
+     "D_no_shared_relations": false,
+     "total": 0.3945
+    },
+    "Pneumatism": {
+     "A": 0.9091,
+     "B": 0.8,
+     "C": 0.9375,
+     "D": 0.0,
+     "D_no_shared_relations": false,
+     "total": 0.6616
+    },
+    "Rationalism": {
+     "A": 0.7,
+     "B": 0.6,
+     "C": 0.8667,
+     "D": 0.0,
+     "D_no_shared_relations": false,
+     "total": 0.5417
+    }
+   },
+   "Materialism": {
+    "Dynamism": {
+     "A": 0.5,
+     "B": 0.5,
+     "C": 0.3281,
+     "D": 0.25,
+     "D_no_shared_relations": false,
+     "total": 0.3945
+    },
+    "Materialism": {
+     "A": 0.0,
+     "B": 0.0,
+     "C": 0.0,
+     "D": 0.0,
+     "D_no_shared_relations": false,
+     "total": 0.0
+    },
+    "Pneumatism": {
+     "A": 1.0,
+     "B": 1.0,
+     "C": 0.9189,
+     "D": 0.0,
+     "D_no_shared_relations": true,
+     "total": 0.7297
+    },
+    "Rationalism": {
+     "A": 0.8889,
+     "B": 0.75,
+     "C": 0.9184,
+     "D": 0.5,
+     "D_no_shared_relations": false,
+     "total": 0.7643
+    }
+   },
+   "Pneumatism": {
+    "Dynamism": {
+     "A": 0.9091,
+     "B": 0.8,
+     "C": 0.9375,
+     "D": 0.0,
+     "D_no_shared_relations": false,
+     "total": 0.6616
+    },
+    "Materialism": {
+     "A": 1.0,
+     "B": 1.0,
+     "C": 0.9189,
+     "D": 0.0,
+     "D_no_shared_relations": true,
+     "total": 0.7297
+    },
+    "Pneumatism": {
+     "A": 0.0,
+     "B": 0.0,
+     "C": 0.0,
+     "D": 0.0,
+     "D_no_shared_relations": false,
+     "total": 0.0
+    },
+    "Rationalism": {
+     "A": 1.0,
+     "B": 0.75,
+     "C": 0.8788,
+     "D": 0.0,
+     "D_no_shared_relations": false,
+     "total": 0.6572
+    }
+   },
+   "Rationalism": {
+    "Dynamism": {
+     "A": 0.7,
+     "B": 0.6,
+     "C": 0.8667,
+     "D": 0.0,
+     "D_no_shared_relations": false,
+     "total": 0.5417
+    },
+    "Materialism": {
+     "A": 0.8889,
+     "B": 0.75,
+     "C": 0.9184,
+     "D": 0.5,
+     "D_no_shared_relations": false,
+     "total": 0.7643
+    },
+    "Pneumatism": {
+     "A": 1.0,
+     "B": 0.75,
+     "C": 0.8788,
+     "D": 0.0,
+     "D_no_shared_relations": false,
+     "total": 0.6572
+    },
+    "Rationalism": {
+     "A": 0.0,
+     "B": 0.0,
+     "C": 0.0,
+     "D": 0.0,
+     "D_no_shared_relations": false,
+     "total": 0.0
+    }
+   }
+  },
+  "max": 0.7643,
+  "mean": 0.6248,
+  "median": 0.6616,
+  "min": 0.3945,
+  "pairwise_totals": [
+   0.3945,
+   0.6616,
+   0.5417,
+   0.7297,
+   0.7643,
+   0.6572
+  ]
+ },
+ "foreign_dial_full_pass": {
+  "Dynamism": {
+   "Dynamism": true,
+   "Materialism": false,
+   "Pneumatism": false,
+   "Rationalism": false
+  },
+  "Materialism": {
+   "Dynamism": false,
+   "Materialism": true,
+   "Pneumatism": false,
+   "Rationalism": false
+  },
+  "Pneumatism": {
+   "Dynamism": false,
+   "Materialism": false,
+   "Pneumatism": true,
+   "Rationalism": false
+  },
+  "Rationalism": {
+   "Dynamism": false,
+   "Materialism": false,
+   "Pneumatism": false,
+   "Rationalism": true
+  }
+ },
+ "foreign_full_pass_fraction": 0.0,
+ "gate_a_mean_pairwise_distance": {
+  "activated_refs": 0.9259,
+  "edge_ids": 0.689,
+  "objective_ids": 0.6639,
+  "witness_edges": 0.8734
+ },
+ "gate_a_per_setting": {
+  "Dynamism": {
+   "activated_refs": [
+    "RC-02",
+    "RC-11",
+    "RC-12",
+    "RC-13"
+   ],
+   "evaluable_refs": [
+    "RC-02",
+    "RC-11",
+    "RC-12",
+    "RC-13"
+   ],
+   "live_refs": [
+    "RC-02",
+    "RC-11",
+    "RC-12",
+    "RC-13"
+   ],
+   "n_activations": 5,
+   "n_edges": 54,
+   "n_live": 5,
+   "n_witness_edges": 20,
+   "objectives": [
+    "OBJ-01",
+    "OBJ-02",
+    "OBJ-05"
+   ]
+  },
+  "Materialism": {
+   "activated_refs": [
+    "RC-02",
+    "RC-05",
+    "RC-14"
+   ],
+   "evaluable_refs": [
+    "RC-02",
+    "RC-05",
+    "RC-14"
+   ],
+   "live_refs": [
+    "RC-02",
+    "RC-05",
+    "RC-14"
+   ],
+   "n_activations": 4,
+   "n_edges": 46,
+   "n_live": 4,
+   "n_witness_edges": 16,
+   "objectives": [
+    "OBJ-01",
+    "OBJ-02"
+   ]
+  },
+  "Pneumatism": {
+   "activated_refs": [
+    "RC-05",
+    "RC-07",
+    "RC-08",
+    "RC-09"
+   ],
+   "evaluable_refs": [
+    "RC-07",
+    "RC-08",
+    "RC-09"
+   ],
+   "live_refs": [
+    "RC-08",
+    "RC-09"
+   ],
+   "n_activations": 7,
+   "n_edges": 50,
+   "n_live": 2,
+   "n_witness_edges": 8,
+   "objectives": [
+    "OBJ-04",
+    "OBJ-05"
+   ]
+  },
+  "Rationalism": {
+   "activated_refs": [
+    "RC-01",
+    "RC-03",
+    "RC-04",
+    "RC-06",
+    "RC-10",
+    "RC-11"
+   ],
+   "evaluable_refs": [
+    "RC-01",
+    "RC-03",
+    "RC-04",
+    "RC-06",
+    "RC-10",
+    "RC-11"
+   ],
+   "live_refs": [
+    "RC-01",
+    "RC-03",
+    "RC-04",
+    "RC-06",
+    "RC-10",
+    "RC-11"
+   ],
+   "n_activations": 9,
+   "n_edges": 53,
+   "n_live": 6,
+   "n_witness_edges": 12,
+   "objectives": [
+    "OBJ-01",
+    "OBJ-03",
+    "OBJ-04",
+    "OBJ-05"
+   ]
+  }
+ },
+ "gate_a_sds": 0.9259,
+ "lineage_audit_passed": {
+  "Dynamism": true,
+  "Materialism": true,
+  "Pneumatism": true,
+  "Rationalism": true
+ },
+ "settings": {
+  "Dynamism": {
+   "activations": [
+    {
+     "activation_id": "ACT-RC-02-1804fc59",
+     "bindings": {
+      "?a1": "ACT-M1",
+      "?a2": "ACT-M2",
+      "?a3": "ACT-M3",
+      "?lot3": "LOT-3",
+      "?m1": "M-1",
+      "?m2": "M-2",
+      "?m3": "M-3",
+      "?mach": "A-MILL",
+      "?mfg": "ACT-MFG"
+     },
+     "filtered_graph_hash": "fff143f49722a71a7c6691a06eec7dc5032963f7d3b398b55f0ed2f12e3b2263",
+     "reference_id": "RC-02",
+     "reference_label": "Drift response in a measurement sequence",
+     "setting": "Dynamism",
+     "status": "violated",
+     "supporting_edges": [
+      "E016",
+      "E020",
+      "E032",
+      "E034",
+      "E035",
+      "E036",
+      "E042",
+      "E043"
+     ]
+    },
+    {
+     "activation_id": "ACT-RC-02-ba1408e1",
+     "bindings": {
+      "?a1": "ACT-M2",
+      "?a2": "ACT-M3",
+      "?a3": "ACT-M4",
+      "?lot3": "LOT-4",
+      "?m1": "M-2",
+      "?m2": "M-3",
+      "?m3": "M-4",
+      "?mach": "A-MILL",
+      "?mfg": "ACT-MFG"
+     },
+     "filtered_graph_hash": "fff143f49722a71a7c6691a06eec7dc5032963f7d3b398b55f0ed2f12e3b2263",
+     "reference_id": "RC-02",
+     "reference_label": "Drift response in a measurement sequence",
+     "setting": "Dynamism",
+     "status": "violated",
+     "supporting_edges": [
+      "E016",
+      "E021",
+      "E033",
+      "E035",
+      "E036",
+      "E037",
+      "E043",
+      "E044"
+     ]
+    },
+    {
+     "activation_id": "ACT-RC-11-06b365f7",
+     "bindings": {
+      "?c": "ACT-EMAIL",
+      "?dec": "ACT-DEC",
+      "?rep": "NCR"
+     },
+     "filtered_graph_hash": "fff143f49722a71a7c6691a06eec7dc5032963f7d3b398b55f0ed2f12e3b2263",
+     "reference_id": "RC-11",
+     "reference_label": "Decision informed by a preceding report communication",
+     "setting": "Dynamism",
+     "status": "violated",
+     "supporting_edges": [
+      "E063",
+      "E069"
+     ]
+    },
+    {
+     "activation_id": "ACT-RC-12-81ab1efc",
+     "bindings": {
+      "?c": "ACT-EMAIL",
+      "?dec": "ACT-DEC",
+      "?p": "P-PM",
+      "?rep": "NCR",
+      "?ship": "ACT-SHIP"
+     },
+     "filtered_graph_hash": "fff143f49722a71a7c6691a06eec7dc5032963f7d3b398b55f0ed2f12e3b2263",
+     "reference_id": "RC-12",
+     "reference_label": "Hold by the agent whose decision causes shipment after escalation",
+     "setting": "Dynamism",
+     "status": "violated",
+     "supporting_edges": [
+      "E063",
+      "E069",
+      "E070",
+      "E076"
+     ]
+    },
+    {
+     "activation_id": "ACT-RC-13-9e9b7a18",
+     "bindings": {
+      "?a": "ACT-NCR",
+      "?c": "ACT-EMAIL",
+      "?dec": "ACT-DEC",
+      "?lot": "LOT-4",
+      "?party": "AGG-PASS",
+      "?rep": "NCR",
+      "?ship": "ACT-SHIP",
+      "?use": "PROC-BRAKE"
+     },
+     "filtered_graph_hash": "fff143f49722a71a7c6691a06eec7dc5032963f7d3b398b55f0ed2f12e3b2263",
+     "reference_id": "RC-13",
+     "reference_label": "Interruption of a chain of effect reaching affected persons",
+     "setting": "Dynamism",
+     "status": "violated",
+     "supporting_edges": [
+      "E057",
+      "E063",
+      "E069",
+      "E076",
+      "E080",
+      "E090",
+      "E091"
+     ]
+    }
+   ],
+   "admitted_predicates": [
+    "affects",
+    "has_agent",
+    "has_input",
+    "has_output",
+    "has_participant",
+    "is_cause_of",
+    "precedes",
+    "realizes"
+   ],
+   "boundary_predicates": [
+    "has_input"
+   ],
+   "discrepancies": [
+    {
+     "activation_id": "ACT-RC-02-1804fc59",
+     "bindings": {
+      "?a1": "ACT-M1",
+      "?a2": "ACT-M2",
+      "?a3": "ACT-M3",
+      "?lot3": "LOT-3",
+      "?m1": "M-1",
+      "?m2": "M-2",
+      "?m3": "M-3",
+      "?mach": "A-MILL",
+      "?mfg": "ACT-MFG"
+     },
+     "discrepancy_id": "D-RC-02-1804fc59",
+     "prescribed_kind": "exists",
+     "reference_id": "RC-02",
+     "reference_label": "Drift response in a measurement sequence",
+     "satisfaction_condition": "An act of artifact modification on the producing machine follows the last measuring act of the drifting sequence.",
+     "setting": "Dynamism",
+     "status": "violated",
+     "witness": {
+      "offending_edges": [],
+      "present_edges": [
+       "E016",
+       "E020",
+       "E032",
+       "E034",
+       "E035",
+       "E036",
+       "E042",
+       "E043"
+      ],
+      "required_absent_edges": [
+       {
+        "predicate": "has_participant",
+        "source": "?adj",
+        "source_spec": {
+         "type": "Act of Artifact Modification"
+        },
+        "target": "A-MILL",
+        "target_spec": {}
+       },
+       {
+        "predicate": "precedes",
+        "source": "ACT-M3",
+        "source_spec": {},
+        "target": "?adj",
+        "target_spec": {
+         "type": "Act of Artifact Modification"
+        }
+       }
+      ],
+      "value_facts": []
+     },
+     "witness_edge_ids": [
+      "E016",
+      "E020",
+      "E032",
+      "E034",
+      "E035",
+      "E036",
+      "E042",
+      "E043"
+     ]
+    },
+    {
+     "activation_id": "ACT-RC-02-ba1408e1",
+     "bindings": {
+      "?a1": "ACT-M2",
+      "?a2": "ACT-M3",
+      "?a3": "ACT-M4",
+      "?lot3": "LOT-4",
+      "?m1": "M-2",
+      "?m2": "M-3",
+      "?m3": "M-4",
+      "?mach": "A-MILL",
+      "?mfg": "ACT-MFG"
+     },
+     "discrepancy_id": "D-RC-02-ba1408e1",
+     "prescribed_kind": "exists",
+     "reference_id": "RC-02",
+     "reference_label": "Drift response in a measurement sequence",
+     "satisfaction_condition": "An act of artifact modification on the producing machine follows the last measuring act of the drifting sequence.",
+     "setting": "Dynamism",
+     "status": "violated",
+     "witness": {
+      "offending_edges": [],
+      "present_edges": [
+       "E016",
+       "E021",
+       "E033",
+       "E035",
+       "E036",
+       "E037",
+       "E043",
+       "E044"
+      ],
+      "required_absent_edges": [
+       {
+        "predicate": "has_participant",
+        "source": "?adj",
+        "source_spec": {
+         "type": "Act of Artifact Modification"
+        },
+        "target": "A-MILL",
+        "target_spec": {}
+       },
+       {
+        "predicate": "precedes",
+        "source": "ACT-M4",
+        "source_spec": {},
+        "target": "?adj",
+        "target_spec": {
+         "type": "Act of Artifact Modification"
+        }
+       }
+      ],
+      "value_facts": []
+     },
+     "witness_edge_ids": [
+      "E016",
+      "E021",
+      "E033",
+      "E035",
+      "E036",
+      "E037",
+      "E043",
+      "E044"
+     ]
+    },
+    {
+     "activation_id": "ACT-RC-11-06b365f7",
+     "bindings": {
+      "?c": "ACT-EMAIL",
+      "?dec": "ACT-DEC",
+      "?rep": "NCR"
+     },
+     "discrepancy_id": "D-RC-11-06b365f7",
+     "prescribed_kind": "exists",
+     "reference_id": "RC-11",
+     "reference_label": "Decision informed by a preceding report communication",
+     "satisfaction_condition": "The decision act has the communicated report as input.",
+     "setting": "Dynamism",
+     "status": "violated",
+     "witness": {
+      "offending_edges": [],
+      "present_edges": [
+       "E063",
+       "E069"
+      ],
+      "required_absent_edges": [
+       {
+        "predicate": "has_input",
+        "source": "ACT-DEC",
+        "source_spec": {},
+        "target": "NCR",
+        "target_spec": {}
+       }
+      ],
+      "value_facts": []
+     },
+     "witness_edge_ids": [
+      "E063",
+      "E069"
+     ]
+    },
+    {
+     "activation_id": "ACT-RC-12-81ab1efc",
+     "bindings": {
+      "?c": "ACT-EMAIL",
+      "?dec": "ACT-DEC",
+      "?p": "P-PM",
+      "?rep": "NCR",
+      "?ship": "ACT-SHIP"
+     },
+     "discrepancy_id": "D-RC-12-81ab1efc",
+     "prescribed_kind": "exists",
+     "reference_id": "RC-12",
+     "reference_label": "Hold by the agent whose decision causes shipment after escalation",
+     "satisfaction_condition": "A hold act by the deciding person precedes the shipment.",
+     "setting": "Dynamism",
+     "status": "violated",
+     "witness": {
+      "offending_edges": [],
+      "present_edges": [
+       "E063",
+       "E069",
+       "E070",
+       "E076"
+      ],
+      "required_absent_edges": [
+       {
+        "predicate": "has_agent",
+        "source": "?hold",
+        "source_spec": {
+         "attributes": {
+          "kind": "hold"
+         },
+         "type": "Planned Act"
+        },
+        "target": "P-PM",
+        "target_spec": {}
+       },
+       {
+        "predicate": "precedes",
+        "source": "?hold",
+        "source_spec": {
+         "attributes": {
+          "kind": "hold"
+         },
+         "type": "Planned Act"
+        },
+        "target": "ACT-SHIP",
+        "target_spec": {}
+       }
+      ],
+      "value_facts": []
+     },
+     "witness_edge_ids": [
+      "E063",
+      "E069",
+      "E070",
+      "E076"
+     ]
+    },
+    {
+     "activation_id": "ACT-RC-13-9e9b7a18",
+     "bindings": {
+      "?a": "ACT-NCR",
+      "?c": "ACT-EMAIL",
+      "?dec": "ACT-DEC",
+      "?lot": "LOT-4",
+      "?party": "AGG-PASS",
+      "?rep": "NCR",
+      "?ship": "ACT-SHIP",
+      "?use": "PROC-BRAKE"
+     },
+     "discrepancy_id": "D-RC-13-9e9b7a18",
+     "prescribed_kind": "exists",
+     "reference_id": "RC-13",
+     "reference_label": "Interruption of a chain of effect reaching affected persons",
+     "satisfaction_condition": "A hazard-control act on the lot precedes the use that affects the party.",
+     "setting": "Dynamism",
+     "status": "violated",
+     "witness": {
+      "offending_edges": [],
+      "present_edges": [
+       "E057",
+       "E063",
+       "E069",
+       "E076",
+       "E080",
+       "E090",
+       "E091"
+      ],
+      "required_absent_edges": [
+       {
+        "predicate": "has_participant",
+        "source": "?ctrl",
+        "source_spec": {
+         "attributes": {
+          "kind": "hazard_control"
+         },
+         "type": "Planned Act"
+        },
+        "target": "LOT-4",
+        "target_spec": {}
+       },
+       {
+        "predicate": "precedes",
+        "source": "?ctrl",
+        "source_spec": {
+         "attributes": {
+          "kind": "hazard_control"
+         },
+         "type": "Planned Act"
+        },
+        "target": "PROC-BRAKE",
+        "target_spec": {}
+       }
+      ],
+      "value_facts": []
+     },
+     "witness_edge_ids": [
+      "E057",
+      "E063",
+      "E069",
+      "E076",
+      "E080",
+      "E090",
+      "E091"
+     ]
+    }
+   ],
+   "filtered_edge_ids": [
+    "E015",
+    "E016",
+    "E018",
+    "E019",
+    "E020",
+    "E021",
+    "E030",
+    "E031",
+    "E032",
+    "E033",
+    "E034",
+    "E035",
+    "E036",
+    "E037",
+    "E042",
+    "E043",
+    "E044",
+    "E045",
+    "E046",
+    "E047",
+    "E048",
+    "E050",
+    "E051",
+    "E052",
+    "E053",
+    "E054",
+    "E055",
+    "E056",
+    "E057",
+    "E060",
+    "E061",
+    "E062",
+    "E063",
+    "E066",
+    "E068",
+    "E069",
+    "E070",
+    "E071",
+    "E072",
+    "E073",
+    "E076",
+    "E077",
+    "E079",
+    "E080",
+    "E081",
+    "E082",
+    "E084",
+    "E088",
+    "E089",
+    "E090",
+    "E091",
+    "E094",
+    "E097",
+    "E098"
+   ],
+   "filtered_graph_hash": "fff143f49722a71a7c6691a06eec7dc5032963f7d3b398b55f0ed2f12e3b2263",
+   "idempotent": true,
+   "in_scope_entity_ids": [
+    "A-ACT",
+    "A-CMM",
+    "A-MILL",
+    "ACT-DEC",
+    "ACT-EMAIL",
+    "ACT-M1",
+    "ACT-M2",
+    "ACT-M3",
+    "ACT-M4",
+    "ACT-MFG",
+    "ACT-NCR",
+    "ACT-REPLY",
+    "ACT-SHIP",
+    "ACT-SHIPNOTE",
+    "AGG-PASS",
+    "CERT",
+    "DIR-CONT",
+    "LOT-1",
+    "LOT-2",
+    "LOT-3",
+    "LOT-4",
+    "M-1",
+    "M-2",
+    "M-3",
+    "M-4",
+    "NCR",
+    "ORG-HTA",
+    "ORG-NPC",
+    "P-ENG",
+    "P-INSP",
+    "P-PM",
+    "P-QM",
+    "PROC-BRAKE",
+    "PROC-QMS",
+    "R-ENG",
+    "R-INSP",
+    "R-PM",
+    "R-QM",
+    "SCHED"
+   ],
+   "setting": "Dynamism",
+   "significance": [
+    {
+     "discrepancy_id": "D-RC-02-1804fc59",
+     "evidence_edge_ids": [
+      "E016",
+      "E020",
+      "E032",
+      "E034",
+      "E035",
+      "E036",
+      "E042",
+      "E043"
+     ],
+     "objective_id": "OBJ-01",
+     "objective_label": "maintain artifact conformity to specification",
+     "reference_id": "RC-02",
+     "required_absent_edges": [
+      {
+       "predicate": "has_participant",
+       "source": "?adj",
+       "source_spec": {
+        "type": "Act of Artifact Modification"
+       },
+       "target": "A-MILL",
+       "target_spec": {}
+      },
+      {
+       "predicate": "precedes",
+       "source": "ACT-M3",
+       "source_spec": {},
+       "target": "?adj",
+       "target_spec": {
+        "type": "Act of Artifact Modification"
+       }
+      }
+     ],
+     "setting": "Dynamism",
+     "significance_id": "SIG-D-RC-02-1804fc59-OBJ-01",
+     "why_linked": "An unanswered monotone drift foreseeably carries the produced quality out of conformity."
+    },
+    {
+     "discrepancy_id": "D-RC-02-ba1408e1",
+     "evidence_edge_ids": [
+      "E016",
+      "E021",
+      "E033",
+      "E035",
+      "E036",
+      "E037",
+      "E043",
+      "E044"
+     ],
+     "objective_id": "OBJ-01",
+     "objective_label": "maintain artifact conformity to specification",
+     "reference_id": "RC-02",
+     "required_absent_edges": [
+      {
+       "predicate": "has_participant",
+       "source": "?adj",
+       "source_spec": {
+        "type": "Act of Artifact Modification"
+       },
+       "target": "A-MILL",
+       "target_spec": {}
+      },
+      {
+       "predicate": "precedes",
+       "source": "ACT-M4",
+       "source_spec": {},
+       "target": "?adj",
+       "target_spec": {
+        "type": "Act of Artifact Modification"
+       }
+      }
+     ],
+     "setting": "Dynamism",
+     "significance_id": "SIG-D-RC-02-ba1408e1-OBJ-01",
+     "why_linked": "An unanswered monotone drift foreseeably carries the produced quality out of conformity."
+    },
+    {
+     "discrepancy_id": "D-RC-11-06b365f7",
+     "evidence_edge_ids": [
+      "E063",
+      "E069"
+     ],
+     "objective_id": "OBJ-05",
+     "objective_label": "maintain reliable organizational decision information",
+     "reference_id": "RC-11",
+     "required_absent_edges": [
+      {
+       "predicate": "has_input",
+       "source": "ACT-DEC",
+       "source_spec": {},
+       "target": "NCR",
+       "target_spec": {}
+      }
+     ],
+     "setting": "Dynamism",
+     "significance_id": "SIG-D-RC-11-06b365f7-OBJ-05",
+     "why_linked": "A decision that follows a report but does not take it as input is made on unreliable information."
+    },
+    {
+     "discrepancy_id": "D-RC-12-81ab1efc",
+     "evidence_edge_ids": [
+      "E063",
+      "E069",
+      "E070",
+      "E076"
+     ],
+     "objective_id": "OBJ-02",
+     "objective_label": "prevent foreseeable harm to persons",
+     "reference_id": "RC-12",
+     "required_absent_edges": [
+      {
+       "predicate": "has_agent",
+       "source": "?hold",
+       "source_spec": {
+        "attributes": {
+         "kind": "hold"
+        },
+        "type": "Planned Act"
+       },
+       "target": "P-PM",
+       "target_spec": {}
+      },
+      {
+       "predicate": "precedes",
+       "source": "?hold",
+       "source_spec": {
+        "attributes": {
+         "kind": "hold"
+        },
+        "type": "Planned Act"
+       },
+       "target": "ACT-SHIP",
+       "target_spec": {}
+      }
+     ],
+     "setting": "Dynamism",
+     "significance_id": "SIG-D-RC-12-81ab1efc-OBJ-02",
+     "why_linked": "The agent whose decision propagates a reported nonconformance is positioned to interrupt it."
+    },
+    {
+     "discrepancy_id": "D-RC-12-81ab1efc",
+     "evidence_edge_ids": [
+      "E063",
+      "E069",
+      "E070",
+      "E076"
+     ],
+     "objective_id": "OBJ-05",
+     "objective_label": "maintain reliable organizational decision information",
+     "reference_id": "RC-12",
+     "required_absent_edges": [
+      {
+       "predicate": "has_agent",
+       "source": "?hold",
+       "source_spec": {
+        "attributes": {
+         "kind": "hold"
+        },
+        "type": "Planned Act"
+       },
+       "target": "P-PM",
+       "target_spec": {}
+      },
+      {
+       "predicate": "precedes",
+       "source": "?hold",
+       "source_spec": {
+        "attributes": {
+         "kind": "hold"
+        },
+        "type": "Planned Act"
+       },
+       "target": "ACT-SHIP",
+       "target_spec": {}
+      }
+     ],
+     "setting": "Dynamism",
+     "significance_id": "SIG-D-RC-12-81ab1efc-OBJ-05",
+     "why_linked": "A hold records that the reported information reached the decision."
+    },
+    {
+     "discrepancy_id": "D-RC-13-9e9b7a18",
+     "evidence_edge_ids": [
+      "E057",
+      "E063",
+      "E069",
+      "E076",
+      "E080",
+      "E090",
+      "E091"
+     ],
+     "objective_id": "OBJ-02",
+     "objective_label": "prevent foreseeable harm to persons",
+     "reference_id": "RC-13",
+     "required_absent_edges": [
+      {
+       "predicate": "has_participant",
+       "source": "?ctrl",
+       "source_spec": {
+        "attributes": {
+         "kind": "hazard_control"
+        },
+        "type": "Planned Act"
+       },
+       "target": "LOT-4",
+       "target_spec": {}
+      },
+      {
+       "predicate": "precedes",
+       "source": "?ctrl",
+       "source_spec": {
+        "attributes": {
+         "kind": "hazard_control"
+        },
+        "type": "Planned Act"
+       },
+       "target": "PROC-BRAKE",
+       "target_spec": {}
+      }
+     ],
+     "setting": "Dynamism",
+     "significance_id": "SIG-D-RC-13-9e9b7a18-OBJ-02",
+     "why_linked": "The chain from reported nonconformance to affected persons is uninterrupted."
+    }
+   ]
+  },
+  "Materialism": {
+   "activations": [
+    {
+     "activation_id": "ACT-RC-02-1804fc59",
+     "bindings": {
+      "?a1": "ACT-M1",
+      "?a2": "ACT-M2",
+      "?a3": "ACT-M3",
+      "?lot3": "LOT-3",
+      "?m1": "M-1",
+      "?m2": "M-2",
+      "?m3": "M-3",
+      "?mach": "A-MILL",
+      "?mfg": "ACT-MFG"
+     },
+     "filtered_graph_hash": "961f20e45255841f3fc2b81f57acbe37f6076d3bb4dd30c219abed068ce539c2",
+     "reference_id": "RC-02",
+     "reference_label": "Drift response in a measurement sequence",
+     "setting": "Materialism",
+     "status": "violated",
+     "supporting_edges": [
+      "E016",
+      "E020",
+      "E032",
+      "E034",
+      "E035",
+      "E036",
+      "E042",
+      "E043"
+     ]
+    },
+    {
+     "activation_id": "ACT-RC-02-ba1408e1",
+     "bindings": {
+      "?a1": "ACT-M2",
+      "?a2": "ACT-M3",
+      "?a3": "ACT-M4",
+      "?lot3": "LOT-4",
+      "?m1": "M-2",
+      "?m2": "M-3",
+      "?m3": "M-4",
+      "?mach": "A-MILL",
+      "?mfg": "ACT-MFG"
+     },
+     "filtered_graph_hash": "961f20e45255841f3fc2b81f57acbe37f6076d3bb4dd30c219abed068ce539c2",
+     "reference_id": "RC-02",
+     "reference_label": "Drift response in a measurement sequence",
+     "setting": "Materialism",
+     "status": "violated",
+     "supporting_edges": [
+      "E016",
+      "E021",
+      "E033",
+      "E035",
+      "E036",
+      "E037",
+      "E043",
+      "E044"
+     ]
+    },
+    {
+     "activation_id": "ACT-RC-05-5fdb3604",
+     "bindings": {
+      "?d": "D-LEAK",
+      "?lot": "LOT-4",
+      "?use": "PROC-BRAKE"
+     },
+     "filtered_graph_hash": "961f20e45255841f3fc2b81f57acbe37f6076d3bb4dd30c219abed068ce539c2",
+     "reference_id": "RC-05",
+     "reference_label": "Hazard control before operational use",
+     "setting": "Materialism",
+     "status": "violated",
+     "supporting_edges": [
+      "E090",
+      "E095"
+     ]
+    },
+    {
+     "activation_id": "ACT-RC-14-5c650403",
+     "bindings": {
+      "?assy": "A-ACT",
+      "?d": "D-LEAK",
+      "?lot": "LOT-4"
+     },
+     "filtered_graph_hash": "961f20e45255841f3fc2b81f57acbe37f6076d3bb4dd30c219abed068ce539c2",
+     "reference_id": "RC-14",
+     "reference_label": "Containment of material bearing a safety-relevant disposition",
+     "setting": "Materialism",
+     "status": "violated",
+     "supporting_edges": [
+      "E086",
+      "E095"
+     ]
+    }
+   ],
+   "admitted_predicates": [
+    "bearer_of",
+    "has_continuant_part",
+    "has_output",
+    "has_participant",
+    "is_a_measurement_of",
+    "is_cause_of",
+    "precedes",
+    "uses"
+   ],
+   "boundary_predicates": [
+    "is_a_measurement_of",
+    "uses"
+   ],
+   "discrepancies": [
+    {
+     "activation_id": "ACT-RC-02-1804fc59",
+     "bindings": {
+      "?a1": "ACT-M1",
+      "?a2": "ACT-M2",
+      "?a3": "ACT-M3",
+      "?lot3": "LOT-3",
+      "?m1": "M-1",
+      "?m2": "M-2",
+      "?m3": "M-3",
+      "?mach": "A-MILL",
+      "?mfg": "ACT-MFG"
+     },
+     "discrepancy_id": "D-RC-02-1804fc59",
+     "prescribed_kind": "exists",
+     "reference_id": "RC-02",
+     "reference_label": "Drift response in a measurement sequence",
+     "satisfaction_condition": "An act of artifact modification on the producing machine follows the last measuring act of the drifting sequence.",
+     "setting": "Materialism",
+     "status": "violated",
+     "witness": {
+      "offending_edges": [],
+      "present_edges": [
+       "E016",
+       "E020",
+       "E032",
+       "E034",
+       "E035",
+       "E036",
+       "E042",
+       "E043"
+      ],
+      "required_absent_edges": [
+       {
+        "predicate": "has_participant",
+        "source": "?adj",
+        "source_spec": {
+         "type": "Act of Artifact Modification"
+        },
+        "target": "A-MILL",
+        "target_spec": {}
+       },
+       {
+        "predicate": "precedes",
+        "source": "ACT-M3",
+        "source_spec": {},
+        "target": "?adj",
+        "target_spec": {
+         "type": "Act of Artifact Modification"
+        }
+       }
+      ],
+      "value_facts": []
+     },
+     "witness_edge_ids": [
+      "E016",
+      "E020",
+      "E032",
+      "E034",
+      "E035",
+      "E036",
+      "E042",
+      "E043"
+     ]
+    },
+    {
+     "activation_id": "ACT-RC-02-ba1408e1",
+     "bindings": {
+      "?a1": "ACT-M2",
+      "?a2": "ACT-M3",
+      "?a3": "ACT-M4",
+      "?lot3": "LOT-4",
+      "?m1": "M-2",
+      "?m2": "M-3",
+      "?m3": "M-4",
+      "?mach": "A-MILL",
+      "?mfg": "ACT-MFG"
+     },
+     "discrepancy_id": "D-RC-02-ba1408e1",
+     "prescribed_kind": "exists",
+     "reference_id": "RC-02",
+     "reference_label": "Drift response in a measurement sequence",
+     "satisfaction_condition": "An act of artifact modification on the producing machine follows the last measuring act of the drifting sequence.",
+     "setting": "Materialism",
+     "status": "violated",
+     "witness": {
+      "offending_edges": [],
+      "present_edges": [
+       "E016",
+       "E021",
+       "E033",
+       "E035",
+       "E036",
+       "E037",
+       "E043",
+       "E044"
+      ],
+      "required_absent_edges": [
+       {
+        "predicate": "has_participant",
+        "source": "?adj",
+        "source_spec": {
+         "type": "Act of Artifact Modification"
+        },
+        "target": "A-MILL",
+        "target_spec": {}
+       },
+       {
+        "predicate": "precedes",
+        "source": "ACT-M4",
+        "source_spec": {},
+        "target": "?adj",
+        "target_spec": {
+         "type": "Act of Artifact Modification"
+        }
+       }
+      ],
+      "value_facts": []
+     },
+     "witness_edge_ids": [
+      "E016",
+      "E021",
+      "E033",
+      "E035",
+      "E036",
+      "E037",
+      "E043",
+      "E044"
+     ]
+    },
+    {
+     "activation_id": "ACT-RC-05-5fdb3604",
+     "bindings": {
+      "?d": "D-LEAK",
+      "?lot": "LOT-4",
+      "?use": "PROC-BRAKE"
+     },
+     "discrepancy_id": "D-RC-05-5fdb3604",
+     "prescribed_kind": "exists",
+     "reference_id": "RC-05",
+     "reference_label": "Hazard control before operational use",
+     "satisfaction_condition": "A hazard-control act on the lot precedes its operational use.",
+     "setting": "Materialism",
+     "status": "violated",
+     "witness": {
+      "offending_edges": [],
+      "present_edges": [
+       "E090",
+       "E095"
+      ],
+      "required_absent_edges": [
+       {
+        "predicate": "has_participant",
+        "source": "?ctrl",
+        "source_spec": {
+         "attributes": {
+          "kind": "hazard_control"
+         },
+         "type": "Planned Act"
+        },
+        "target": "LOT-4",
+        "target_spec": {}
+       },
+       {
+        "predicate": "precedes",
+        "source": "?ctrl",
+        "source_spec": {
+         "attributes": {
+          "kind": "hazard_control"
+         },
+         "type": "Planned Act"
+        },
+        "target": "PROC-BRAKE",
+        "target_spec": {}
+       }
+      ],
+      "value_facts": []
+     },
+     "witness_edge_ids": [
+      "E090",
+      "E095"
+     ]
+    },
+    {
+     "activation_id": "ACT-RC-14-5c650403",
+     "bindings": {
+      "?assy": "A-ACT",
+      "?d": "D-LEAK",
+      "?lot": "LOT-4"
+     },
+     "discrepancy_id": "D-RC-14-5c650403",
+     "prescribed_kind": "absent",
+     "reference_id": "RC-14",
+     "reference_label": "Containment of material bearing a safety-relevant disposition",
+     "satisfaction_condition": "No operational-use process has the containing assembly as participant.",
+     "setting": "Materialism",
+     "status": "violated",
+     "witness": {
+      "offending_edges": [
+       "E089"
+      ],
+      "present_edges": [
+       "E086",
+       "E095"
+      ],
+      "required_absent_edges": [],
+      "value_facts": []
+     },
+     "witness_edge_ids": [
+      "E086",
+      "E089",
+      "E095"
+     ]
+    }
+   ],
+   "filtered_edge_ids": [
+    "E001",
+    "E002",
+    "E003",
+    "E004",
+    "E016",
+    "E017",
+    "E018",
+    "E019",
+    "E020",
+    "E021",
+    "E022",
+    "E023",
+    "E024",
+    "E025",
+    "E030",
+    "E031",
+    "E032",
+    "E033",
+    "E034",
+    "E035",
+    "E036",
+    "E037",
+    "E038",
+    "E039",
+    "E040",
+    "E041",
+    "E042",
+    "E043",
+    "E044",
+    "E049",
+    "E050",
+    "E057",
+    "E060",
+    "E061",
+    "E068",
+    "E069",
+    "E073",
+    "E076",
+    "E077",
+    "E080",
+    "E086",
+    "E087",
+    "E089",
+    "E090",
+    "E094",
+    "E095"
+   ],
+   "filtered_graph_hash": "961f20e45255841f3fc2b81f57acbe37f6076d3bb4dd30c219abed068ce539c2",
+   "idempotent": true,
+   "in_scope_entity_ids": [
+    "A-ACT",
+    "A-CMM",
+    "A-MILL",
+    "ACT-DEC",
+    "ACT-EMAIL",
+    "ACT-M1",
+    "ACT-M2",
+    "ACT-M3",
+    "ACT-M4",
+    "ACT-MFG",
+    "ACT-NCR",
+    "ACT-REPLY",
+    "ACT-SHIP",
+    "D-LEAK",
+    "DIR-CONT",
+    "LOT-1",
+    "LOT-2",
+    "LOT-3",
+    "LOT-4",
+    "M-1",
+    "M-2",
+    "M-3",
+    "M-4",
+    "NCR",
+    "ORG-HTA",
+    "ORG-NPC",
+    "P-ENG",
+    "P-INSP",
+    "P-PM",
+    "P-QM",
+    "PROC-BRAKE",
+    "Q-1",
+    "Q-2",
+    "Q-3",
+    "Q-4",
+    "R-ENG",
+    "R-INSP",
+    "R-PM",
+    "R-QM"
+   ],
+   "setting": "Materialism",
+   "significance": [
+    {
+     "discrepancy_id": "D-RC-02-1804fc59",
+     "evidence_edge_ids": [
+      "E016",
+      "E020",
+      "E032",
+      "E034",
+      "E035",
+      "E036",
+      "E042",
+      "E043"
+     ],
+     "objective_id": "OBJ-01",
+     "objective_label": "maintain artifact conformity to specification",
+     "reference_id": "RC-02",
+     "required_absent_edges": [
+      {
+       "predicate": "has_participant",
+       "source": "?adj",
+       "source_spec": {
+        "type": "Act of Artifact Modification"
+       },
+       "target": "A-MILL",
+       "target_spec": {}
+      },
+      {
+       "predicate": "precedes",
+       "source": "ACT-M3",
+       "source_spec": {},
+       "target": "?adj",
+       "target_spec": {
+        "type": "Act of Artifact Modification"
+       }
+      }
+     ],
+     "setting": "Materialism",
+     "significance_id": "SIG-D-RC-02-1804fc59-OBJ-01",
+     "why_linked": "An unanswered monotone drift foreseeably carries the produced quality out of conformity."
+    },
+    {
+     "discrepancy_id": "D-RC-02-ba1408e1",
+     "evidence_edge_ids": [
+      "E016",
+      "E021",
+      "E033",
+      "E035",
+      "E036",
+      "E037",
+      "E043",
+      "E044"
+     ],
+     "objective_id": "OBJ-01",
+     "objective_label": "maintain artifact conformity to specification",
+     "reference_id": "RC-02",
+     "required_absent_edges": [
+      {
+       "predicate": "has_participant",
+       "source": "?adj",
+       "source_spec": {
+        "type": "Act of Artifact Modification"
+       },
+       "target": "A-MILL",
+       "target_spec": {}
+      },
+      {
+       "predicate": "precedes",
+       "source": "ACT-M4",
+       "source_spec": {},
+       "target": "?adj",
+       "target_spec": {
+        "type": "Act of Artifact Modification"
+       }
+      }
+     ],
+     "setting": "Materialism",
+     "significance_id": "SIG-D-RC-02-ba1408e1-OBJ-01",
+     "why_linked": "An unanswered monotone drift foreseeably carries the produced quality out of conformity."
+    },
+    {
+     "discrepancy_id": "D-RC-05-5fdb3604",
+     "evidence_edge_ids": [
+      "E090",
+      "E095"
+     ],
+     "objective_id": "OBJ-02",
+     "objective_label": "prevent foreseeable harm to persons",
+     "reference_id": "RC-05",
+     "required_absent_edges": [
+      {
+       "predicate": "has_participant",
+       "source": "?ctrl",
+       "source_spec": {
+        "attributes": {
+         "kind": "hazard_control"
+        },
+        "type": "Planned Act"
+       },
+       "target": "LOT-4",
+       "target_spec": {}
+      },
+      {
+       "predicate": "precedes",
+       "source": "?ctrl",
+       "source_spec": {
+        "attributes": {
+         "kind": "hazard_control"
+        },
+        "type": "Planned Act"
+       },
+       "target": "PROC-BRAKE",
+       "target_spec": {}
+      }
+     ],
+     "setting": "Materialism",
+     "significance_id": "SIG-D-RC-05-5fdb3604-OBJ-02",
+     "why_linked": "A safety-relevant disposition in service without prior control is a foreseeable path to harm."
+    },
+    {
+     "discrepancy_id": "D-RC-14-5c650403",
+     "evidence_edge_ids": [
+      "E086",
+      "E089",
+      "E095"
+     ],
+     "objective_id": "OBJ-02",
+     "objective_label": "prevent foreseeable harm to persons",
+     "reference_id": "RC-14",
+     "required_absent_edges": [],
+     "setting": "Materialism",
+     "significance_id": "SIG-D-RC-14-5c650403-OBJ-02",
+     "why_linked": "Material with an uncontrolled safety-relevant disposition must be contained, not placed in service."
+    }
+   ]
+  },
+  "Pneumatism": {
+   "activations": [
+    {
+     "activation_id": "ACT-RC-05-5fdb3604",
+     "bindings": {
+      "?d": "D-LEAK",
+      "?lot": "LOT-4",
+      "?use": "PROC-BRAKE"
+     },
+     "filtered_graph_hash": "43bd83f80db39724a5d6098527c5e2f269dac4c20ac71f31f6efaba3d02ef72c",
+     "missing_predicates": [
+      "precedes"
+     ],
+     "reference_id": "RC-05",
+     "reference_label": "Hazard control before operational use",
+     "setting": "Pneumatism",
+     "status": "not_evaluable",
+     "supporting_edges": [
+      "E090",
+      "E095"
+     ]
+    },
+    {
+     "activation_id": "ACT-RC-07-413845d6",
+     "bindings": {
+      "?a": "ACT-NCR",
+      "?p": "P-ENG",
+      "?r1": "R-ENG",
+      "?r2": "R-PM",
+      "?sup": "P-PM"
+     },
+     "filtered_graph_hash": "43bd83f80db39724a5d6098527c5e2f269dac4c20ac71f31f6efaba3d02ef72c",
+     "reference_id": "RC-07",
+     "reference_label": "Role obligation to report upward",
+     "setting": "Pneumatism",
+     "status": "satisfied",
+     "supporting_edges": [
+      "E001",
+      "E003",
+      "E011",
+      "E052"
+     ]
+    },
+    {
+     "activation_id": "ACT-RC-07-32a473e5",
+     "bindings": {
+      "?a": "ACT-NCR",
+      "?p": "P-ENG",
+      "?r1": "R-ENG",
+      "?r2": "R-QM",
+      "?sup": "P-QM"
+     },
+     "filtered_graph_hash": "43bd83f80db39724a5d6098527c5e2f269dac4c20ac71f31f6efaba3d02ef72c",
+     "reference_id": "RC-07",
+     "reference_label": "Role obligation to report upward",
+     "setting": "Pneumatism",
+     "status": "satisfied",
+     "supporting_edges": [
+      "E001",
+      "E002",
+      "E009",
+      "E052"
+     ]
+    },
+    {
+     "activation_id": "ACT-RC-08-5f88093a",
+     "bindings": {
+      "?c": "ACT-EMAIL",
+      "?p": "P-ENG",
+      "?r1": "R-ENG",
+      "?r2": "R-PM",
+      "?sup": "P-PM"
+     },
+     "filtered_graph_hash": "43bd83f80db39724a5d6098527c5e2f269dac4c20ac71f31f6efaba3d02ef72c",
+     "reference_id": "RC-08",
+     "reference_label": "Supervisory response to an escalation",
+     "setting": "Pneumatism",
+     "status": "violated",
+     "supporting_edges": [
+      "E001",
+      "E003",
+      "E011",
+      "E062",
+      "E065"
+     ]
+    },
+    {
+     "activation_id": "ACT-RC-08-15f65215",
+     "bindings": {
+      "?c": "ACT-EMAIL",
+      "?p": "P-ENG",
+      "?r1": "R-ENG",
+      "?r2": "R-QM",
+      "?sup": "P-QM"
+     },
+     "filtered_graph_hash": "43bd83f80db39724a5d6098527c5e2f269dac4c20ac71f31f6efaba3d02ef72c",
+     "reference_id": "RC-08",
+     "reference_label": "Supervisory response to an escalation",
+     "setting": "Pneumatism",
+     "status": "satisfied",
+     "supporting_edges": [
+      "E001",
+      "E002",
+      "E009",
+      "E062",
+      "E064"
+     ]
+    },
+    {
+     "activation_id": "ACT-RC-09-511c4f58",
+     "bindings": {
+      "?d": "D-LEAK",
+      "?lot": "LOT-4",
+      "?party": "AGG-PASS",
+      "?use": "PROC-BRAKE"
+     },
+     "filtered_graph_hash": "43bd83f80db39724a5d6098527c5e2f269dac4c20ac71f31f6efaba3d02ef72c",
+     "reference_id": "RC-09",
+     "reference_label": "Information to interested parties about a hazardous lot in use",
+     "setting": "Pneumatism",
+     "status": "violated",
+     "supporting_edges": [
+      "E090",
+      "E092",
+      "E095"
+     ]
+    },
+    {
+     "activation_id": "ACT-RC-09-5dc2a0db",
+     "bindings": {
+      "?d": "D-LEAK",
+      "?lot": "LOT-4",
+      "?party": "ORG-HTA",
+      "?use": "PROC-BRAKE"
+     },
+     "filtered_graph_hash": "43bd83f80db39724a5d6098527c5e2f269dac4c20ac71f31f6efaba3d02ef72c",
+     "reference_id": "RC-09",
+     "reference_label": "Information to interested parties about a hazardous lot in use",
+     "setting": "Pneumatism",
+     "status": "satisfied",
+     "supporting_edges": [
+      "E090",
+      "E093",
+      "E095"
+     ]
+    }
+   ],
+   "admitted_predicates": [
+    "affects",
+    "bearer_of",
+    "has_agent",
+    "has_interest_in",
+    "has_organizational_context",
+    "has_participant",
+    "has_recipient",
+    "is_affiliated_with",
+    "is_subordinate_role_to",
+    "supervises"
+   ],
+   "boundary_predicates": [
+    "bearer_of",
+    "has_participant"
+   ],
+   "discrepancies": [
+    {
+     "activation_id": "ACT-RC-08-5f88093a",
+     "bindings": {
+      "?c": "ACT-EMAIL",
+      "?p": "P-ENG",
+      "?r1": "R-ENG",
+      "?r2": "R-PM",
+      "?sup": "P-PM"
+     },
+     "discrepancy_id": "D-RC-08-5f88093a",
+     "prescribed_kind": "exists",
+     "reference_id": "RC-08",
+     "reference_label": "Supervisory response to an escalation",
+     "satisfaction_condition": "Each superior who received the escalation has performed an act with the escalating person as recipient.",
+     "setting": "Pneumatism",
+     "status": "violated",
+     "witness": {
+      "offending_edges": [],
+      "present_edges": [
+       "E001",
+       "E003",
+       "E011",
+       "E062",
+       "E065"
+      ],
+      "required_absent_edges": [
+       {
+        "predicate": "has_agent",
+        "source": "?r",
+        "source_spec": {},
+        "target": "P-PM",
+        "target_spec": {}
+       },
+       {
+        "predicate": "has_recipient",
+        "source": "?r",
+        "source_spec": {},
+        "target": "P-ENG",
+        "target_spec": {}
+       }
+      ],
+      "value_facts": []
+     },
+     "witness_edge_ids": [
+      "E001",
+      "E003",
+      "E011",
+      "E062",
+      "E065"
+     ]
+    },
+    {
+     "activation_id": "ACT-RC-09-511c4f58",
+     "bindings": {
+      "?d": "D-LEAK",
+      "?lot": "LOT-4",
+      "?party": "AGG-PASS",
+      "?use": "PROC-BRAKE"
+     },
+     "discrepancy_id": "D-RC-09-511c4f58",
+     "prescribed_kind": "exists",
+     "reference_id": "RC-09",
+     "reference_label": "Information to interested parties about a hazardous lot in use",
+     "satisfaction_condition": "Every interested party has been the recipient of a communication.",
+     "setting": "Pneumatism",
+     "status": "violated",
+     "witness": {
+      "offending_edges": [],
+      "present_edges": [
+       "E090",
+       "E092",
+       "E095"
+      ],
+      "required_absent_edges": [
+       {
+        "predicate": "has_recipient",
+        "source": "?c",
+        "source_spec": {},
+        "target": "AGG-PASS",
+        "target_spec": {}
+       }
+      ],
+      "value_facts": []
+     },
+     "witness_edge_ids": [
+      "E090",
+      "E092",
+      "E095"
+     ]
+    }
+   ],
+   "filtered_edge_ids": [
+    "E001",
+    "E002",
+    "E003",
+    "E004",
+    "E005",
+    "E006",
+    "E007",
+    "E008",
+    "E009",
+    "E010",
+    "E011",
+    "E012",
+    "E013",
+    "E014",
+    "E015",
+    "E016",
+    "E022",
+    "E023",
+    "E024",
+    "E025",
+    "E030",
+    "E031",
+    "E032",
+    "E033",
+    "E045",
+    "E046",
+    "E047",
+    "E048",
+    "E050",
+    "E052",
+    "E062",
+    "E064",
+    "E065",
+    "E066",
+    "E067",
+    "E070",
+    "E079",
+    "E080",
+    "E081",
+    "E082",
+    "E083",
+    "E088",
+    "E089",
+    "E090",
+    "E091",
+    "E092",
+    "E093",
+    "E095",
+    "E097",
+    "E099"
+   ],
+   "filtered_graph_hash": "43bd83f80db39724a5d6098527c5e2f269dac4c20ac71f31f6efaba3d02ef72c",
+   "idempotent": true,
+   "in_scope_entity_ids": [
+    "A-ACT",
+    "A-CMM",
+    "A-MILL",
+    "ACT-DEC",
+    "ACT-EMAIL",
+    "ACT-M1",
+    "ACT-M2",
+    "ACT-M3",
+    "ACT-M4",
+    "ACT-MFG",
+    "ACT-NCR",
+    "ACT-REPLY",
+    "ACT-SHIP",
+    "ACT-SHIPNOTE",
+    "AGG-PASS",
+    "D-LEAK",
+    "LOT-1",
+    "LOT-2",
+    "LOT-3",
+    "LOT-4",
+    "ORG-HTA",
+    "ORG-NPC",
+    "ORG-REG",
+    "P-ENG",
+    "P-INSP",
+    "P-PM",
+    "P-QM",
+    "PROC-BRAKE",
+    "PROC-QMS",
+    "Q-1",
+    "Q-2",
+    "Q-3",
+    "Q-4",
+    "R-ENG",
+    "R-INSP",
+    "R-PM",
+    "R-QM"
+   ],
+   "setting": "Pneumatism",
+   "significance": [
+    {
+     "discrepancy_id": "D-RC-08-5f88093a",
+     "evidence_edge_ids": [
+      "E001",
+      "E003",
+      "E011",
+      "E062",
+      "E065"
+     ],
+     "objective_id": "OBJ-05",
+     "objective_label": "maintain reliable organizational decision information",
+     "reference_id": "RC-08",
+     "required_absent_edges": [
+      {
+       "predicate": "has_agent",
+       "source": "?r",
+       "source_spec": {},
+       "target": "P-PM",
+       "target_spec": {}
+      },
+      {
+       "predicate": "has_recipient",
+       "source": "?r",
+       "source_spec": {},
+       "target": "P-ENG",
+       "target_spec": {}
+      }
+     ],
+     "setting": "Pneumatism",
+     "significance_id": "SIG-D-RC-08-5f88093a-OBJ-05",
+     "why_linked": "An escalation with no response leaves the organization's information loop open."
+    },
+    {
+     "discrepancy_id": "D-RC-09-511c4f58",
+     "evidence_edge_ids": [
+      "E090",
+      "E092",
+      "E095"
+     ],
+     "objective_id": "OBJ-04",
+     "objective_label": "preserve informed agency of affected persons",
+     "reference_id": "RC-09",
+     "required_absent_edges": [
+      {
+       "predicate": "has_recipient",
+       "source": "?c",
+       "source_spec": {},
+       "target": "AGG-PASS",
+       "target_spec": {}
+      }
+     ],
+     "setting": "Pneumatism",
+     "significance_id": "SIG-D-RC-09-511c4f58-OBJ-04",
+     "why_linked": "Persons with an interest in a process cannot participate in decisions about it unless addressed."
+    }
+   ]
+  },
+  "Rationalism": {
+   "activations": [
+    {
+     "activation_id": "ACT-RC-01-3becdc6f",
+     "bindings": {
+      "?lot": "LOT-1",
+      "?m": "M-1",
+      "?q": "Q-1",
+      "?spec": "SPEC"
+     },
+     "filtered_graph_hash": "98f4e159b6208ac6652591ef12f84e2152b9ceb92766155bbe575ed8810cbe27",
+     "reference_id": "RC-01",
+     "reference_label": "Specification conformance of a measured quality",
+     "setting": "Rationalism",
+     "status": "satisfied",
+     "supporting_edges": [
+      "E022",
+      "E026",
+      "E038"
+     ]
+    },
+    {
+     "activation_id": "ACT-RC-01-015f499b",
+     "bindings": {
+      "?lot": "LOT-2",
+      "?m": "M-2",
+      "?q": "Q-2",
+      "?spec": "SPEC"
+     },
+     "filtered_graph_hash": "98f4e159b6208ac6652591ef12f84e2152b9ceb92766155bbe575ed8810cbe27",
+     "reference_id": "RC-01",
+     "reference_label": "Specification conformance of a measured quality",
+     "setting": "Rationalism",
+     "status": "satisfied",
+     "supporting_edges": [
+      "E023",
+      "E027",
+      "E039"
+     ]
+    },
+    {
+     "activation_id": "ACT-RC-01-bd897561",
+     "bindings": {
+      "?lot": "LOT-3",
+      "?m": "M-3",
+      "?q": "Q-3",
+      "?spec": "SPEC"
+     },
+     "filtered_graph_hash": "98f4e159b6208ac6652591ef12f84e2152b9ceb92766155bbe575ed8810cbe27",
+     "reference_id": "RC-01",
+     "reference_label": "Specification conformance of a measured quality",
+     "setting": "Rationalism",
+     "status": "satisfied",
+     "supporting_edges": [
+      "E024",
+      "E028",
+      "E040"
+     ]
+    },
+    {
+     "activation_id": "ACT-RC-01-80f2d643",
+     "bindings": {
+      "?lot": "LOT-4",
+      "?m": "M-4",
+      "?q": "Q-4",
+      "?spec": "SPEC"
+     },
+     "filtered_graph_hash": "98f4e159b6208ac6652591ef12f84e2152b9ceb92766155bbe575ed8810cbe27",
+     "reference_id": "RC-01",
+     "reference_label": "Specification conformance of a measured quality",
+     "setting": "Rationalism",
+     "status": "violated",
+     "supporting_edges": [
+      "E025",
+      "E029",
+      "E041"
+     ]
+    },
+    {
+     "activation_id": "ACT-RC-03-8a7079dc",
+     "bindings": {
+      "?lot": "LOT-4",
+      "?ncr": "NCR"
+     },
+     "filtered_graph_hash": "98f4e159b6208ac6652591ef12f84e2152b9ceb92766155bbe575ed8810cbe27",
+     "reference_id": "RC-03",
+     "reference_label": "Corrective action on a nonconformance report",
+     "setting": "Rationalism",
+     "status": "violated",
+     "supporting_edges": [
+      "E058"
+     ]
+    },
+    {
+     "activation_id": "ACT-RC-04-9f7e9c12",
+     "bindings": {
+      "?dec": "ACT-DEC",
+      "?dir": "DIR-CONT",
+      "?lot": "LOT-4",
+      "?ncr": "NCR"
+     },
+     "filtered_graph_hash": "98f4e159b6208ac6652591ef12f84e2152b9ceb92766155bbe575ed8810cbe27",
+     "reference_id": "RC-04",
+     "reference_label": "Nonconforming product control in directives",
+     "setting": "Rationalism",
+     "status": "violated",
+     "supporting_edges": [
+      "E058",
+      "E073",
+      "E075"
+     ]
+    },
+    {
+     "activation_id": "ACT-RC-06-c00c8eb0",
+     "bindings": {
+      "?c": "ACT-SHIPNOTE",
+      "?cert": "CERT",
+      "?lot": "LOT-4",
+      "?ncr": "NCR",
+      "?party": "ORG-HTA"
+     },
+     "filtered_graph_hash": "98f4e159b6208ac6652591ef12f84e2152b9ceb92766155bbe575ed8810cbe27",
+     "reference_id": "RC-06",
+     "reference_label": "Completeness of conformance communication",
+     "setting": "Rationalism",
+     "status": "violated",
+     "supporting_edges": [
+      "E058",
+      "E083",
+      "E084",
+      "E085"
+     ]
+    },
+    {
+     "activation_id": "ACT-RC-10-baae974f",
+     "bindings": {
+      "?lot": "LOT-4",
+      "?ncr": "NCR",
+      "?qms": "PROC-QMS",
+      "?reg": "REG"
+     },
+     "filtered_graph_hash": "98f4e159b6208ac6652591ef12f84e2152b9ceb92766155bbe575ed8810cbe27",
+     "reference_id": "RC-10",
+     "reference_label": "Regulatory notification of a safety-relevant nonconformance",
+     "setting": "Rationalism",
+     "status": "violated",
+     "supporting_edges": [
+      "E058",
+      "E096"
+     ]
+    },
+    {
+     "activation_id": "ACT-RC-11-06b365f7",
+     "bindings": {
+      "?c": "ACT-EMAIL",
+      "?dec": "ACT-DEC",
+      "?rep": "NCR"
+     },
+     "filtered_graph_hash": "98f4e159b6208ac6652591ef12f84e2152b9ceb92766155bbe575ed8810cbe27",
+     "reference_id": "RC-11",
+     "reference_label": "Decision informed by a preceding report communication",
+     "setting": "Rationalism",
+     "status": "violated",
+     "supporting_edges": [
+      "E063",
+      "E069"
+     ]
+    }
+   ],
+   "admitted_predicates": [
+    "bearer_of",
+    "has_input",
+    "has_output",
+    "has_recipient",
+    "is_a_measurement_of",
+    "is_about",
+    "precedes",
+    "prescribes"
+   ],
+   "boundary_predicates": [
+    "bearer_of",
+    "has_output",
+    "has_recipient",
+    "precedes"
+   ],
+   "discrepancies": [
+    {
+     "activation_id": "ACT-RC-01-80f2d643",
+     "bindings": {
+      "?lot": "LOT-4",
+      "?m": "M-4",
+      "?q": "Q-4",
+      "?spec": "SPEC"
+     },
+     "discrepancy_id": "D-RC-01-80f2d643",
+     "prescribed_kind": "value_constraint",
+     "reference_id": "RC-01",
+     "reference_label": "Specification conformance of a measured quality",
+     "satisfaction_condition": "Every measurement of the prescribed quality lies within the specification bounds, or the artifact is segregated by a rework act.",
+     "setting": "Rationalism",
+     "status": "violated",
+     "witness": {
+      "offending_edges": [],
+      "present_edges": [
+       "E025",
+       "E029",
+       "E041"
+      ],
+      "required_absent_edges": [],
+      "value_facts": [
+       {
+        "constraint": [
+         "?m.value",
+         "within",
+         "?spec.lower",
+         "?spec.upper"
+        ],
+        "values": {
+         "?m.value": 12.013,
+         "?spec.lower": 11.99,
+         "?spec.upper": 12.01
+        }
+       }
+      ]
+     },
+     "witness_edge_ids": [
+      "E025",
+      "E029",
+      "E041"
+     ]
+    },
+    {
+     "activation_id": "ACT-RC-03-8a7079dc",
+     "bindings": {
+      "?lot": "LOT-4",
+      "?ncr": "NCR"
+     },
+     "discrepancy_id": "D-RC-03-8a7079dc",
+     "prescribed_kind": "exists",
+     "reference_id": "RC-03",
+     "reference_label": "Corrective action on a nonconformance report",
+     "satisfaction_condition": "A corrective-action act has the nonconformance report as input.",
+     "setting": "Rationalism",
+     "status": "violated",
+     "witness": {
+      "offending_edges": [],
+      "present_edges": [
+       "E058"
+      ],
+      "required_absent_edges": [
+       {
+        "predicate": "has_input",
+        "source": "?ca",
+        "source_spec": {
+         "attributes": {
+          "kind": "corrective_action"
+         },
+         "type": "Planned Act"
+        },
+        "target": "NCR",
+        "target_spec": {}
+       }
+      ],
+      "value_facts": []
+     },
+     "witness_edge_ids": [
+      "E058"
+     ]
+    },
+    {
+     "activation_id": "ACT-RC-04-9f7e9c12",
+     "bindings": {
+      "?dec": "ACT-DEC",
+      "?dir": "DIR-CONT",
+      "?lot": "LOT-4",
+      "?ncr": "NCR"
+     },
+     "discrepancy_id": "D-RC-04-9f7e9c12",
+     "prescribed_kind": "exists",
+     "reference_id": "RC-04",
+     "reference_label": "Nonconforming product control in directives",
+     "satisfaction_condition": "The decision act that produced the directive has the nonconformance report as input.",
+     "setting": "Rationalism",
+     "status": "violated",
+     "witness": {
+      "offending_edges": [],
+      "present_edges": [
+       "E058",
+       "E073",
+       "E075"
+      ],
+      "required_absent_edges": [
+       {
+        "predicate": "has_input",
+        "source": "ACT-DEC",
+        "source_spec": {},
+        "target": "NCR",
+        "target_spec": {}
+       }
+      ],
+      "value_facts": []
+     },
+     "witness_edge_ids": [
+      "E058",
+      "E073",
+      "E075"
+     ]
+    },
+    {
+     "activation_id": "ACT-RC-06-c00c8eb0",
+     "bindings": {
+      "?c": "ACT-SHIPNOTE",
+      "?cert": "CERT",
+      "?lot": "LOT-4",
+      "?ncr": "NCR",
+      "?party": "ORG-HTA"
+     },
+     "discrepancy_id": "D-RC-06-c00c8eb0",
+     "prescribed_kind": "exists",
+     "reference_id": "RC-06",
+     "reference_label": "Completeness of conformance communication",
+     "satisfaction_condition": "The recipient of the certificate has also received the nonconformance report.",
+     "setting": "Rationalism",
+     "status": "violated",
+     "witness": {
+      "offending_edges": [],
+      "present_edges": [
+       "E058",
+       "E083",
+       "E084",
+       "E085"
+      ],
+      "required_absent_edges": [
+       {
+        "predicate": "has_input",
+        "source": "?c2",
+        "source_spec": {
+         "type": "Act of Communication"
+        },
+        "target": "NCR",
+        "target_spec": {}
+       },
+       {
+        "predicate": "has_recipient",
+        "source": "?c2",
+        "source_spec": {
+         "type": "Act of Communication"
+        },
+        "target": "ORG-HTA",
+        "target_spec": {}
+       }
+      ],
+      "value_facts": []
+     },
+     "witness_edge_ids": [
+      "E058",
+      "E083",
+      "E084",
+      "E085"
+     ]
+    },
+    {
+     "activation_id": "ACT-RC-10-baae974f",
+     "bindings": {
+      "?lot": "LOT-4",
+      "?ncr": "NCR",
+      "?qms": "PROC-QMS",
+      "?reg": "REG"
+     },
+     "discrepancy_id": "D-RC-10-baae974f",
+     "prescribed_kind": "exists",
+     "reference_id": "RC-10",
+     "reference_label": "Regulatory notification of a safety-relevant nonconformance",
+     "satisfaction_condition": "A government organization has received a communication carrying the nonconformance report.",
+     "setting": "Rationalism",
+     "status": "violated",
+     "witness": {
+      "offending_edges": [],
+      "present_edges": [
+       "E058",
+       "E096"
+      ],
+      "required_absent_edges": [
+       {
+        "predicate": "has_input",
+        "source": "?c",
+        "source_spec": {},
+        "target": "NCR",
+        "target_spec": {}
+       },
+       {
+        "predicate": "has_recipient",
+        "source": "?c",
+        "source_spec": {},
+        "target": "?gov",
+        "target_spec": {
+         "type": "Government Organization"
+        }
+       }
+      ],
+      "value_facts": []
+     },
+     "witness_edge_ids": [
+      "E058",
+      "E096"
+     ]
+    },
+    {
+     "activation_id": "ACT-RC-11-06b365f7",
+     "bindings": {
+      "?c": "ACT-EMAIL",
+      "?dec": "ACT-DEC",
+      "?rep": "NCR"
+     },
+     "discrepancy_id": "D-RC-11-06b365f7",
+     "prescribed_kind": "exists",
+     "reference_id": "RC-11",
+     "reference_label": "Decision informed by a preceding report communication",
+     "satisfaction_condition": "The decision act has the communicated report as input.",
+     "setting": "Rationalism",
+     "status": "violated",
+     "witness": {
+      "offending_edges": [],
+      "present_edges": [
+       "E063",
+       "E069"
+      ],
+      "required_absent_edges": [
+       {
+        "predicate": "has_input",
+        "source": "ACT-DEC",
+        "source_spec": {},
+        "target": "NCR",
+        "target_spec": {}
+       }
+      ],
+      "value_facts": []
+     },
+     "witness_edge_ids": [
+      "E063",
+      "E069"
+     ]
+    }
+   ],
+   "filtered_edge_ids": [
+    "E001",
+    "E002",
+    "E003",
+    "E004",
+    "E018",
+    "E019",
+    "E020",
+    "E021",
+    "E022",
+    "E023",
+    "E024",
+    "E025",
+    "E026",
+    "E027",
+    "E028",
+    "E029",
+    "E034",
+    "E035",
+    "E036",
+    "E037",
+    "E038",
+    "E039",
+    "E040",
+    "E041",
+    "E042",
+    "E043",
+    "E044",
+    "E054",
+    "E055",
+    "E056",
+    "E057",
+    "E058",
+    "E059",
+    "E060",
+    "E061",
+    "E063",
+    "E064",
+    "E065",
+    "E067",
+    "E068",
+    "E069",
+    "E072",
+    "E073",
+    "E074",
+    "E075",
+    "E077",
+    "E078",
+    "E083",
+    "E084",
+    "E085",
+    "E094",
+    "E095",
+    "E096"
+   ],
+   "filtered_graph_hash": "98f4e159b6208ac6652591ef12f84e2152b9ceb92766155bbe575ed8810cbe27",
+   "idempotent": true,
+   "in_scope_entity_ids": [
+    "ACT-DEC",
+    "ACT-EMAIL",
+    "ACT-M1",
+    "ACT-M2",
+    "ACT-M3",
+    "ACT-M4",
+    "ACT-MFG",
+    "ACT-NCR",
+    "ACT-REPLY",
+    "ACT-SHIP",
+    "ACT-SHIPNOTE",
+    "CERT",
+    "D-LEAK",
+    "DIR-CONT",
+    "LOT-1",
+    "LOT-2",
+    "LOT-3",
+    "LOT-4",
+    "M-1",
+    "M-2",
+    "M-3",
+    "M-4",
+    "NCR",
+    "ORG-HTA",
+    "P-ENG",
+    "P-INSP",
+    "P-PM",
+    "P-QM",
+    "PROC-BRAKE",
+    "PROC-QMS",
+    "Q-1",
+    "Q-2",
+    "Q-3",
+    "Q-4",
+    "R-ENG",
+    "R-INSP",
+    "R-PM",
+    "R-QM",
+    "REG",
+    "SCHED",
+    "SPEC"
+   ],
+   "setting": "Rationalism",
+   "significance": [
+    {
+     "discrepancy_id": "D-RC-01-80f2d643",
+     "evidence_edge_ids": [
+      "E025",
+      "E029",
+      "E041"
+     ],
+     "objective_id": "OBJ-01",
+     "objective_label": "maintain artifact conformity to specification",
+     "reference_id": "RC-01",
+     "required_absent_edges": [],
+     "setting": "Rationalism",
+     "significance_id": "SIG-D-RC-01-80f2d643-OBJ-01",
+     "why_linked": "A measured value outside the prescribed bounds is a direct non-conformity of the artifact to its specification."
+    },
+    {
+     "discrepancy_id": "D-RC-03-8a7079dc",
+     "evidence_edge_ids": [
+      "E058"
+     ],
+     "objective_id": "OBJ-03",
+     "objective_label": "satisfy institutional and regulatory obligations",
+     "reference_id": "RC-03",
+     "required_absent_edges": [
+      {
+       "predicate": "has_input",
+       "source": "?ca",
+       "source_spec": {
+        "attributes": {
+         "kind": "corrective_action"
+        },
+        "type": "Planned Act"
+       },
+       "target": "NCR",
+       "target_spec": {}
+      }
+     ],
+     "setting": "Rationalism",
+     "significance_id": "SIG-D-RC-03-8a7079dc-OBJ-03",
+     "why_linked": "Quality-system obligations require every nonconformance report to be closed by a corrective action."
+    },
+    {
+     "discrepancy_id": "D-RC-04-9f7e9c12",
+     "evidence_edge_ids": [
+      "E058",
+      "E073",
+      "E075"
+     ],
+     "objective_id": "OBJ-03",
+     "objective_label": "satisfy institutional and regulatory obligations",
+     "reference_id": "RC-04",
+     "required_absent_edges": [
+      {
+       "predicate": "has_input",
+       "source": "ACT-DEC",
+       "source_spec": {},
+       "target": "NCR",
+       "target_spec": {}
+      }
+     ],
+     "setting": "Rationalism",
+     "significance_id": "SIG-D-RC-04-9f7e9c12-OBJ-03",
+     "why_linked": "Disposition of nonconforming product must be decided with the nonconformance record before it."
+    },
+    {
+     "discrepancy_id": "D-RC-04-9f7e9c12",
+     "evidence_edge_ids": [
+      "E058",
+      "E073",
+      "E075"
+     ],
+     "objective_id": "OBJ-05",
+     "objective_label": "maintain reliable organizational decision information",
+     "reference_id": "RC-04",
+     "required_absent_edges": [
+      {
+       "predicate": "has_input",
+       "source": "ACT-DEC",
+       "source_spec": {},
+       "target": "NCR",
+       "target_spec": {}
+      }
+     ],
+     "setting": "Rationalism",
+     "significance_id": "SIG-D-RC-04-9f7e9c12-OBJ-05",
+     "why_linked": "A directive about a lot issued without its nonconformance record is a decision made on incomplete information."
+    },
+    {
+     "discrepancy_id": "D-RC-06-c00c8eb0",
+     "evidence_edge_ids": [
+      "E058",
+      "E083",
+      "E084",
+      "E085"
+     ],
+     "objective_id": "OBJ-04",
+     "objective_label": "preserve informed agency of affected persons",
+     "reference_id": "RC-06",
+     "required_absent_edges": [
+      {
+       "predicate": "has_input",
+       "source": "?c2",
+       "source_spec": {
+        "type": "Act of Communication"
+       },
+       "target": "NCR",
+       "target_spec": {}
+      },
+      {
+       "predicate": "has_recipient",
+       "source": "?c2",
+       "source_spec": {
+        "type": "Act of Communication"
+       },
+       "target": "ORG-HTA",
+       "target_spec": {}
+      }
+     ],
+     "setting": "Rationalism",
+     "significance_id": "SIG-D-RC-06-c00c8eb0-OBJ-04",
+     "why_linked": "A recipient who holds only the conformance assertion cannot exercise informed judgment about the lot."
+    },
+    {
+     "discrepancy_id": "D-RC-10-baae974f",
+     "evidence_edge_ids": [
+      "E058",
+      "E096"
+     ],
+     "objective_id": "OBJ-03",
+     "objective_label": "satisfy institutional and regulatory obligations",
+     "reference_id": "RC-10",
+     "required_absent_edges": [
+      {
+       "predicate": "has_input",
+       "source": "?c",
+       "source_spec": {},
+       "target": "NCR",
+       "target_spec": {}
+      },
+      {
+       "predicate": "has_recipient",
+       "source": "?c",
+       "source_spec": {},
+       "target": "?gov",
+       "target_spec": {
+        "type": "Government Organization"
+       }
+      }
+     ],
+     "setting": "Rationalism",
+     "significance_id": "SIG-D-RC-10-baae974f-OBJ-03",
+     "why_linked": "The regulation makes notification of safety-relevant nonconformance an institutional obligation."
+    },
+    {
+     "discrepancy_id": "D-RC-11-06b365f7",
+     "evidence_edge_ids": [
+      "E063",
+      "E069"
+     ],
+     "objective_id": "OBJ-05",
+     "objective_label": "maintain reliable organizational decision information",
+     "reference_id": "RC-11",
+     "required_absent_edges": [
+      {
+       "predicate": "has_input",
+       "source": "ACT-DEC",
+       "source_spec": {},
+       "target": "NCR",
+       "target_spec": {}
+      }
+     ],
+     "setting": "Rationalism",
+     "significance_id": "SIG-D-RC-11-06b365f7-OBJ-05",
+     "why_linked": "A decision that follows a report but does not take it as input is made on unreliable information."
+    }
+   ]
+  }
+ },
+ "simulations": {
+  "Dynamism": [
+   "resolved",
+   "resolved",
+   "resolved",
+   "resolved",
+   "resolved"
+  ],
+  "Materialism": [
+   "resolved",
+   "resolved",
+   "resolved",
+   "resolved"
+  ],
+  "Pneumatism": [
+   "resolved",
+   "resolved"
+  ],
+  "Rationalism": [
+   "mitigated",
+   "resolved",
+   "resolved",
+   "resolved",
+   "resolved",
+   "resolved"
+  ]
+ },
+ "source_run": "credited_run_3c60bcdf3c",
+ "workflow_hashes": {
+  "Dynamism": "fa7135cd44141f91279fe2f3b9fc6e4a6614855a441298d1e732d59df807e890",
+  "Materialism": "45b037d748e8f6c876b477c26a884a253318012ba4618d25dd31d9eed384b25e",
+  "Pneumatism": "3f4d8c2bc977d0ff4c90444c07027a8d8ed3826bed91aab72e238513b7e08fee",
+  "Rationalism": "3cd0cf7414ae91e05a39bc72b2b0525a1018f755e592a33af7ef5d6be84dcfaa"
+ }
+}

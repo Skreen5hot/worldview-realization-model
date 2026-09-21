@@ -1,0 +1,37 @@
+{
+  "schema": "wrm-poc/metric/v1",
+  "note": "Frozen before the credited run. Do not change after seeing output.",
+  "weights": {
+    "A_target_entity_jaccard": 0.25,
+    "B_relation_type_jaccard": 0.25,
+    "C_typed_graph_edit_distance": 0.25,
+    "D_operation_polarity": 0.25
+  },
+  "edit_costs": {
+    "node_insert_delete": 1,
+    "edge_insert_delete": 1,
+    "same_type_substitution": 0,
+    "different_type_substitution": 1
+  },
+  "step_node_type": [
+    "operation",
+    "relation"
+  ],
+  "polarity_cost": {
+    "identical": 0.0,
+    "preserve_vs_change": 0.5,
+    "create_vs_remove": 1.0,
+    "amplify_vs_attenuate": 1.0,
+    "other": 0.5
+  },
+  "polarity_no_shared_relations": 0.0,
+  "offending_edge_operation": {
+    "default": "remove",
+    "has_participant": "attenuate",
+    "has_continuant_part": "attenuate"
+  },
+  "target_entity_scope": "entities (existing, not proposed) that are the source or target of non-preserve steps",
+  "relation_type_scope": "relations manipulated by non-preserve steps",
+  "graph_c_scope": "all steps; node type = (operation, relation); edges = consecutive step pairs typed by their node types",
+  "polarity_scope": "per shared relation type among non-preserve steps: 0 if the two operation sets are identical; else mean pairwise cost over the operations unique to each side (or the 'other' cost when only one side has unique operations); then mean over shared types"
+}

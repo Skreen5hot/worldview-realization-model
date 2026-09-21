@@ -1,0 +1,11 @@
+{
+ "schema": "wrm-e2/packet_scan_allowlist/v1",
+ "note": "Reviewed non-leak hits of the extended lexicon inside the authoring packet. Each entry names the file, the term and why it carries no experimental information. Entries are recorded in the freeze record; they never silence the scan.",
+ "entries": [
+  {
+   "path": "ontology/permitted_class_inventory.json",
+   "term": "spiritual",
+   "justification": "The term occurs inside the CCO 2.0 definition of the class `Religion` (Agent module), copied verbatim from the ontology. It is ontology content that predates and is independent of the programme; the class is irrelevant to the domain, is not used by any pattern, and the inventory is the complete module set by construction (prereg \u00a73.2.3). Reviewed 2026-09-21."
+  }
+ ]
+}

@@ -1,0 +1,17 @@
+{
+  "schema": "wrm-e2/experiment/v1",
+  "families": ["Materialism", "Rationalism", "Dynamism", "Pneumatism"],
+  "random_seed": 20260921,
+  "gate_a": {"min_families_with_live_discrepancy": 3, "min_pairs_differing_activation": 2, "min_pairs_differing_witness": 2, "placebo_percentile_required": 90, "placebo_percentile_inconclusive": 50},
+  "placebo": {"n_samples_uniform": 30, "n_samples_domain": 30, "match_family_sizes": true, "note": "E1 placebo parameters retained only for the replay smoke test; E2 credited nulls are governed by `nulls` below"},
+  "nulls": {"n_domain_structured": 1000, "n_uniform": 1000, "seed_domain": 20260921, "seed_uniform": 20260922, "synthesis_subset": 100, "synthesis_subset_rule": "first 100 covers in the seeded sample order (or rng(seed).sample of the exhaustive population)", "primary_null": "domain_structured"},
+  "primary": {"statistic": "structured_differentiation_score", "alpha": 0.05, "test": "one-sided empirical permutation, p = (1 + #{null >= observed}) / (n + 1)"},
+  "secondary": {"coverage_all_families_live": true, "foreign_dial_epsilon": 0.0, "qualitative_gate_criteria": "E1 Gate A criteria 1-4"},
+  "adequacy": {"count_band": [15, 25], "engagement_floor": 0.40},
+  "perturbation_fragile_fraction": 0.5,
+  "value_disposition": {"id": "VD-COURAGE", "label": "Courage", "definition": "The disposition of an agent to initiate or sustain a corrective act in the face of foreseeable personal or institutional cost when a discrepancy with a standard is present.", "bearer_entity_id": "P-ENG", "note": "Fixed; identical to E1."},
+  "responder_entity_id": "P-ENG",
+  "authoring_repo": "../manufacturing-reference-condition-authoring",
+  "commissioning": {"model": "claude-opus-5", "max_tokens": 32000, "temperature_as_specified": 0, "send_temperature": false,
+    "note": "Appendix C specifies temperature 0. The Claude Opus 5 Messages API rejects sampling parameters (temperature/top_p/top_k return 400). send_temperature=false omits it; the owner must resolve this Appendix C discrepancy before the freeze act (see docs/OWNER_ACTIONS.md)."}
+}

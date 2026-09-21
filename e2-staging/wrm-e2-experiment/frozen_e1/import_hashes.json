@@ -1,0 +1,19 @@
+{
+ "e1_artifact_hashes": {
+  "scenario": "1bbc43ef9d793c3cbcd8ec410ab3af319c796be4fae6242230023a5a7776c40d",
+  "assignments": "7372de6f637e578cfac169d7cc7fe07ecefc937d738bdcee819d90bbcff27956",
+  "ontology_predicates": "3175158574ee9facb4426cbf04c581693de47563d04e6a4699c138c724f4f3f0",
+  "metric": "d71e3d12493100289325b6dfa88765598b275a863b6170cfacab63fc5e6d4250",
+  "perturbations": "4400ded39a7fe7607b38413f4ff2d86c9ef28fecf57e7676f530d5fb327dac7c",
+  "firewall_lexicon": "b2db065aa67616ff0b0b138744ada258e9fe781b273936725bf0df7134cb5797",
+  "reference_library": "aa8fb2c65190a9dcd79884b8391fe3cc3d0cff584292a4e092f98f2e01e40e4e",
+  "objectives": "163b741a1870e2d28a176be7545a74cd0c25cc632aa5c7cd1e385c9e73bea3d5",
+  "experiment": "21aa7225ce5b35f64e1033748d597e6ba85979a35c09fb1412953da6aa3d9d9e"
+ },
+ "derived": {
+  "e1_manifest.json": "0cb14854619d528134e606e2d580de9152a10320ae568016038168581194a232",
+  "e1_layer_results.json": "82cd79c3722aae625eed92623e437f0645b61493c17cb80b4b153b7736b3663a",
+  "e1_gate_a.json": "d7cafcdad340677f7d07d9cf2fbff6b97fec42fd637d989cbfd8860f16510297"
+ },
+ "all_match_e1_manifest": true
+}

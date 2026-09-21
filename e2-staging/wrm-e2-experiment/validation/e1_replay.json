@@ -1,0 +1,27 @@
+{
+ "schema": "wrm-e2/replay/v1",
+ "source_run": "credited_run_3c60bcdf3c",
+ "passed": true,
+ "mismatches": [],
+ "reproduced": {
+  "sds": 0.9259,
+  "mean_pairwise_distance": {
+   "edge_ids": 0.689,
+   "activated_refs": 0.9259,
+   "witness_edges": 0.8734,
+   "objective_ids": 0.6639
+  },
+  "foreign_full_pass_fraction": 0.0,
+  "workflow_hashes": {
+   "Materialism": "45b037d748e8f6c876b477c26a884a253318012ba4618d25dd31d9eed384b25e",
+   "Rationalism": "3cd0cf7414ae91e05a39bc72b2b0525a1018f755e592a33af7ef5d6be84dcfaa",
+   "Dynamism": "fa7135cd44141f91279fe2f3b9fc6e4a6614855a441298d1e732d59df807e890",
+   "Pneumatism": "3f4d8c2bc977d0ff4c90444c07027a8d8ed3826bed91aab72e238513b7e08fee"
+  },
+  "all_lineage_pass": true,
+  "settings_hash": "9fe98de02ec890c0e3a42f9bebdce3cdde54647a338abfc164df823d4360fc84"
+ },
+ "e1_settings_hash": "9fe98de02ec890c0e3a42f9bebdce3cdde54647a338abfc164df823d4360fc84",
+ "code_hash": "253cbdfd946ad95194dfc826554e7e9c301aedd7a2d29791b6408bb8969df4d6",
+ "timestamp_utc": "2026-09-21T19:34:14.050122+00:00"
+}

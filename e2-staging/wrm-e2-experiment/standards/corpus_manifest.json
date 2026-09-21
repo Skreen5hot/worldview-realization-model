@@ -1,0 +1,104 @@
+{
+ "schema": "wrm-e2/corpus_manifest/v1",
+ "status": "AWAITING OWNER \u2014 no document pinned yet; the build environment cannot obtain any of these (licensed texts unavailable; e-CFR and UNECE blocked by the egress proxy). Assembly verifies, never chooses.",
+ "documents": [
+  {
+   "expected_filename": "IATF-16949-2016.pdf",
+   "title": "IATF 16949:2016",
+   "edition": "1st edition (October 2016)",
+   "sha256": null,
+   "date_pinned": null
+  },
+  {
+   "expected_filename": "ISO-9001-2015.pdf",
+   "title": "ISO 9001:2015",
+   "edition": "2015",
+   "sha256": null,
+   "date_pinned": null
+  },
+  {
+   "expected_filename": "ISO-26262-1-2018.pdf",
+   "title": "ISO 26262-1:2018",
+   "edition": "2nd edition",
+   "sha256": null,
+   "date_pinned": null
+  },
+  {
+   "expected_filename": "ISO-26262-2-2018.pdf",
+   "title": "ISO 26262-2:2018",
+   "edition": "2nd edition",
+   "sha256": null,
+   "date_pinned": null
+  },
+  {
+   "expected_filename": "ISO-26262-8-2018.pdf",
+   "title": "ISO 26262-8:2018",
+   "edition": "2nd edition",
+   "sha256": null,
+   "date_pinned": null
+  },
+  {
+   "expected_filename": "49CFR-571.105-2026-09-21.xml",
+   "title": "FMVSS 105 (49 CFR 571.105)",
+   "edition": "e-CFR snapshot 2026-09-21",
+   "sha256": null,
+   "date_pinned": null
+  },
+  {
+   "expected_filename": "49CFR-571.135-2026-09-21.xml",
+   "title": "FMVSS 135 (49 CFR 571.135)",
+   "edition": "e-CFR snapshot 2026-09-21",
+   "sha256": null,
+   "date_pinned": null
+  },
+  {
+   "expected_filename": "UN-R13-consolidated-2026-09-21.pdf",
+   "title": "UN Regulation No. 13",
+   "edition": "UNECE consolidated snapshot 2026-09-21",
+   "sha256": null,
+   "date_pinned": null
+  },
+  {
+   "expected_filename": "UN-R13H-consolidated-2026-09-21.pdf",
+   "title": "UN Regulation No. 13-H",
+   "edition": "UNECE consolidated snapshot 2026-09-21",
+   "sha256": null,
+   "date_pinned": null
+  },
+  {
+   "expected_filename": "VDA-6.3-2023.pdf",
+   "title": "VDA 6.3 Process Audit",
+   "edition": "4th revised edition (2023)",
+   "sha256": null,
+   "date_pinned": null
+  },
+  {
+   "expected_filename": "AIAG-PPAP-4th-2006.pdf",
+   "title": "AIAG PPAP",
+   "edition": "4th edition (2006)",
+   "sha256": null,
+   "date_pinned": null
+  },
+  {
+   "expected_filename": "AIAG-APQP-3rd-2024.pdf",
+   "title": "AIAG APQP",
+   "edition": "3rd edition (2024)",
+   "sha256": null,
+   "date_pinned": null
+  },
+  {
+   "expected_filename": "AIAG-VDA-FMEA-2019.pdf",
+   "title": "AIAG-VDA FMEA Handbook",
+   "edition": "1st edition (2019)",
+   "sha256": null,
+   "date_pinned": null
+  },
+  {
+   "expected_filename": "ISO-45001-2018.pdf",
+   "title": "ISO 45001:2018",
+   "edition": "2018",
+   "sha256": null,
+   "date_pinned": null
+  }
+ ]
+}

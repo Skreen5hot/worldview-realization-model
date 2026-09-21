@@ -1,0 +1,12 @@
+{
+  "schema": "wrm-e2/null_generation/v1",
+  "method": "predicate relabeling within the intended cover's own incidence structure (prereg §5.1)",
+  "invariants_by_construction": ["family sizes", "total membership multiplicity", "full pairwise-overlap structure"],
+  "domain_structured": {"restriction": "relabeling permutes predicates only within relational-domain blocks (primary MRC domain from the frozen registry)", "n": 1000, "seed": 20260921},
+  "uniform": {"restriction": "none", "n": 1000, "seed": 20260922},
+  "dedup": "canonical form = tuple over families (fixed order) of sorted predicate tuples; identity cover excluded; unique covers only",
+  "exhaustive_rule": "if the unique non-identity population is <= n, enumerate exhaustively and record the size",
+  "p_value": "(1 + #{null >= observed}) / (n + 1), n = null count actually used",
+  "synthesis_subset": {"n": 100, "rule": "first 100 covers in seeded sample order; for an exhaustive population, random.Random(seed).sample(range(N), 100)"},
+  "implementation": "src/wrm_e2/nulls.py (hash recorded at the freeze act)"
+}

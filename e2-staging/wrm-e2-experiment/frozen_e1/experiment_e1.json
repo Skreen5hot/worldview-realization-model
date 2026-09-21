@@ -1,0 +1,40 @@
+{
+  "schema": "wrm-poc/experiment/v1",
+  "families": [
+    "Materialism",
+    "Rationalism",
+    "Dynamism",
+    "Pneumatism"
+  ],
+  "random_seed": 20260921,
+  "placebo": {
+    "n_samples_uniform": 30,
+    "n_samples_domain": 30,
+    "match_family_sizes": true
+  },
+  "gate_a": {
+    "min_families_with_live_discrepancy": 3,
+    "min_pairs_differing_activation": 2,
+    "min_pairs_differing_witness": 2,
+    "placebo_percentile_required": 90,
+    "placebo_percentile_inconclusive": 50
+  },
+  "perturbation_fragile_fraction": 0.5,
+  "value_disposition": {
+    "id": "VD-COURAGE",
+    "label": "Courage",
+    "definition": "The disposition of an agent to initiate or sustain a corrective act in the face of foreseeable personal or institutional cost when a discrepancy with a standard is present.",
+    "bearer_entity_id": "P-ENG",
+    "note": "Fixed for all settings. Never redefined per family."
+  },
+  "responder_entity_id": "P-ENG",
+  "llm": {
+    "enabled_if_env": "ANTHROPIC_API_KEY",
+    "model": "claude-opus-5",
+    "thinking": "adaptive",
+    "effort": "high",
+    "generations_per_packet": 3,
+    "max_tokens": 16000,
+    "note": "Runs only when a credential is present. Model/parameters recorded verbatim in the run outputs."
+  }
+}

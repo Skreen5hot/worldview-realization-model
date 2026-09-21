@@ -1,0 +1,31 @@
+{
+ "note": "INTERNAL ONLY (never enters the authoring packet): classes occurring in the frozen scenario S, for the superset check of the module-selected inventory.",
+ "classes": [
+  "Act",
+  "Act of Artifact Employment",
+  "Act of Cargo Transportation",
+  "Act of Communication",
+  "Act of Manufacturing",
+  "Act of Measuring",
+  "Act of Reporting",
+  "Certificate",
+  "Commercial Organization",
+  "Dimension Specification",
+  "Email Messaging",
+  "Government Organization",
+  "Group of Persons",
+  "Material Artifact",
+  "Occupation Role",
+  "Organization",
+  "Person",
+  "Plan",
+  "Planned Act",
+  "Portion of Processed Material",
+  "Prescriptive Information Content Entity",
+  "Process Regulation",
+  "Ratio Measurement Information Content Entity",
+  "Report",
+  "disposition",
+  "quality"
+ ]
+}

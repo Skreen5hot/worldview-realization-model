@@ -1,0 +1,43 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Reference-condition library",
+  "type": "object",
+  "required": ["schema", "reference_conditions"],
+  "properties": {
+    "schema": {"const": "reference-condition-library/v1"},
+    "reference_conditions": {
+      "type": "array", "minItems": 15, "maxItems": 25,
+      "items": {
+        "type": "object",
+        "required": ["id", "label", "description", "applicability", "prescribed", "objective", "provenance", "satisfaction_condition"],
+        "properties": {
+          "id": {"type": "string", "pattern": "^RC-[A-Za-z0-9_-]+$"},
+          "label": {"type": "string"},
+          "description": {"type": "string", "description": "the condition in one or two sentences of domain language"},
+          "domain": {"type": "string", "description": "optional free-text topic, e.g. calibration, training, record control"},
+          "applicability": {
+            "type": "object", "required": ["nodes", "edges"],
+            "properties": {
+              "nodes": {"type": "object", "additionalProperties": {"type": "object", "properties": {"type": {"type": "string"}, "attributes": {"type": "object"}}}},
+              "edges": {"type": "array", "minItems": 1, "items": {"type": "array", "minItems": 3, "maxItems": 3, "items": {"type": "string"}}},
+              "constraints": {"type": "array", "items": {"type": "array"}}
+            }
+          },
+          "prescribed": {
+            "type": "object", "required": ["kind"],
+            "properties": {
+              "kind": {"enum": ["exists", "absent", "value_constraint"]},
+              "nodes": {"type": "object"},
+              "edges": {"type": "array", "items": {"type": "array", "minItems": 3, "maxItems": 3, "items": {"type": "string"}}},
+              "constraints": {"type": "array", "items": {"type": "array"}}
+            }
+          },
+          "objective": {"type": "object", "required": ["label", "description"], "properties": {"label": {"type": "string"}, "description": {"type": "string"}, "rationale": {"type": "string", "description": "why the prescribed state serves the objective"}}},
+          "provenance": {"type": "object", "required": ["document", "clause"], "properties": {"document": {"type": "string"}, "clause": {"type": "string"}, "quote": {"type": "string", "description": "optional short excerpt"}}},
+          "satisfaction_condition": {"type": "string"},
+          "remediation": {"type": "object", "description": "optional; for value_constraint conditions, steps that a responder could take, each with action_type, operation (create|remove|amplify|attenuate|preserve), relation, source, target, actor, effect"}
+        }
+      }
+    }
+  }
+}
