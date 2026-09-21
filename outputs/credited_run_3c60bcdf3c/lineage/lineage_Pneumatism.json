@@ -1,0 +1,210 @@
+{
+ "audit": {
+  "chains": [
+   {
+    "activation_id": "ACT-RC-08-5f88093a",
+    "discrepancy_id": "D-RC-08-5f88093a",
+    "grounding_edges": [
+     "E001",
+     "E003",
+     "E011",
+     "E062",
+     "E065"
+    ],
+    "reference_id": "RC-08",
+    "significance_ids": [
+     "SIG-D-RC-08-5f88093a-OBJ-05"
+    ],
+    "step_id": "S001",
+    "witness_element": "D-RC-08-5f88093a#present:E001"
+   },
+   {
+    "activation_id": "ACT-RC-08-5f88093a",
+    "discrepancy_id": "D-RC-08-5f88093a",
+    "grounding_edges": [
+     "E001",
+     "E003",
+     "E011",
+     "E062",
+     "E065"
+    ],
+    "reference_id": "RC-08",
+    "significance_ids": [
+     "SIG-D-RC-08-5f88093a-OBJ-05"
+    ],
+    "step_id": "S002",
+    "witness_element": "D-RC-08-5f88093a#present:E003"
+   },
+   {
+    "activation_id": "ACT-RC-08-5f88093a",
+    "discrepancy_id": "D-RC-08-5f88093a",
+    "grounding_edges": [
+     "E001",
+     "E003",
+     "E011",
+     "E062",
+     "E065"
+    ],
+    "reference_id": "RC-08",
+    "significance_ids": [
+     "SIG-D-RC-08-5f88093a-OBJ-05"
+    ],
+    "step_id": "S003",
+    "witness_element": "D-RC-08-5f88093a#present:E011"
+   },
+   {
+    "activation_id": "ACT-RC-08-5f88093a",
+    "discrepancy_id": "D-RC-08-5f88093a",
+    "grounding_edges": [
+     "E001",
+     "E003",
+     "E011",
+     "E062",
+     "E065"
+    ],
+    "reference_id": "RC-08",
+    "significance_ids": [
+     "SIG-D-RC-08-5f88093a-OBJ-05"
+    ],
+    "step_id": "S004",
+    "witness_element": "D-RC-08-5f88093a#present:E062"
+   },
+   {
+    "activation_id": "ACT-RC-08-5f88093a",
+    "discrepancy_id": "D-RC-08-5f88093a",
+    "grounding_edges": [
+     "E001",
+     "E003",
+     "E011",
+     "E062",
+     "E065"
+    ],
+    "reference_id": "RC-08",
+    "significance_ids": [
+     "SIG-D-RC-08-5f88093a-OBJ-05"
+    ],
+    "step_id": "S005",
+    "witness_element": "D-RC-08-5f88093a#present:E065"
+   },
+   {
+    "activation_id": "ACT-RC-08-5f88093a",
+    "discrepancy_id": "D-RC-08-5f88093a",
+    "grounding_edges": [
+     "E001",
+     "E003",
+     "E011",
+     "E062",
+     "E065"
+    ],
+    "reference_id": "RC-08",
+    "significance_ids": [
+     "SIG-D-RC-08-5f88093a-OBJ-05"
+    ],
+    "step_id": "S006",
+    "witness_element": "D-RC-08-5f88093a#absent:0"
+   },
+   {
+    "activation_id": "ACT-RC-08-5f88093a",
+    "discrepancy_id": "D-RC-08-5f88093a",
+    "grounding_edges": [
+     "E001",
+     "E003",
+     "E011",
+     "E062",
+     "E065"
+    ],
+    "reference_id": "RC-08",
+    "significance_ids": [
+     "SIG-D-RC-08-5f88093a-OBJ-05"
+    ],
+    "step_id": "S007",
+    "witness_element": "D-RC-08-5f88093a#absent:1"
+   },
+   {
+    "activation_id": "ACT-RC-09-511c4f58",
+    "discrepancy_id": "D-RC-09-511c4f58",
+    "grounding_edges": [
+     "E090",
+     "E092",
+     "E095"
+    ],
+    "reference_id": "RC-09",
+    "significance_ids": [
+     "SIG-D-RC-09-511c4f58-OBJ-04"
+    ],
+    "step_id": "S008",
+    "witness_element": "D-RC-09-511c4f58#present:E090"
+   },
+   {
+    "activation_id": "ACT-RC-09-511c4f58",
+    "discrepancy_id": "D-RC-09-511c4f58",
+    "grounding_edges": [
+     "E090",
+     "E092",
+     "E095"
+    ],
+    "reference_id": "RC-09",
+    "significance_ids": [
+     "SIG-D-RC-09-511c4f58-OBJ-04"
+    ],
+    "step_id": "S009",
+    "witness_element": "D-RC-09-511c4f58#present:E092"
+   },
+   {
+    "activation_id": "ACT-RC-09-511c4f58",
+    "discrepancy_id": "D-RC-09-511c4f58",
+    "grounding_edges": [
+     "E090",
+     "E092",
+     "E095"
+    ],
+    "reference_id": "RC-09",
+    "significance_ids": [
+     "SIG-D-RC-09-511c4f58-OBJ-04"
+    ],
+    "step_id": "S010",
+    "witness_element": "D-RC-09-511c4f58#present:E095"
+   },
+   {
+    "activation_id": "ACT-RC-09-511c4f58",
+    "discrepancy_id": "D-RC-09-511c4f58",
+    "grounding_edges": [
+     "E090",
+     "E092",
+     "E095"
+    ],
+    "reference_id": "RC-09",
+    "significance_ids": [
+     "SIG-D-RC-09-511c4f58-OBJ-04"
+    ],
+    "step_id": "S011",
+    "witness_element": "D-RC-09-511c4f58#absent:0"
+   }
+  ],
+  "firewall": {
+   "hits": [],
+   "passed": true
+  },
+  "n_addressed": 11,
+  "n_steps": 11,
+  "n_witness_elements": 11,
+  "passed": true,
+  "problems": []
+ },
+ "family": "Pneumatism",
+ "packet_id": "PKT-545ffd311bbf",
+ "simulation": [
+  {
+   "discrepancy_id": "D-RC-08-5f88093a",
+   "post_status": "satisfied",
+   "reference_id": "RC-08",
+   "result": "resolved"
+  },
+  {
+   "discrepancy_id": "D-RC-09-511c4f58",
+   "post_status": "satisfied",
+   "reference_id": "RC-09",
+   "result": "resolved"
+  }
+ ]
+}

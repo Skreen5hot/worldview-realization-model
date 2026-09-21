@@ -1,0 +1,271 @@
+{
+ "generator": "deterministic-baseline-v1",
+ "operation_signature": [
+  [
+   "ACT-EMAIL",
+   "has_agent",
+   "P-ENG",
+   "preserve"
+  ],
+  [
+   "ACT-EMAIL",
+   "has_recipient",
+   "P-PM",
+   "preserve"
+  ],
+  [
+   "AGG-PASS",
+   "has_interest_in",
+   "PROC-BRAKE",
+   "preserve"
+  ],
+  [
+   "LOT-4",
+   "bearer_of",
+   "D-LEAK",
+   "preserve"
+  ],
+  [
+   "NEW-c-511c4f",
+   "has_recipient",
+   "AGG-PASS",
+   "create"
+  ],
+  [
+   "NEW-r-5f8809",
+   "has_agent",
+   "P-PM",
+   "create"
+  ],
+  [
+   "NEW-r-5f8809",
+   "has_recipient",
+   "P-ENG",
+   "create"
+  ],
+  [
+   "P-ENG",
+   "bearer_of",
+   "R-ENG",
+   "preserve"
+  ],
+  [
+   "P-PM",
+   "bearer_of",
+   "R-PM",
+   "preserve"
+  ],
+  [
+   "PROC-BRAKE",
+   "has_participant",
+   "LOT-4",
+   "preserve"
+  ],
+  [
+   "R-ENG",
+   "is_subordinate_role_to",
+   "R-PM",
+   "preserve"
+  ]
+ ],
+ "packet_hash": "545ffd311bbf35f9f143e5b5db48d88714363541cd5074609f4849197600e036",
+ "packet_id": "PKT-545ffd311bbf",
+ "proposed_entities": [
+  {
+   "attributes": {},
+   "for_discrepancy": "D-RC-08-5f88093a",
+   "id": "NEW-r-5f8809",
+   "type": "Planned Act"
+  },
+  {
+   "attributes": {},
+   "for_discrepancy": "D-RC-09-511c4f58",
+   "id": "NEW-c-511c4f",
+   "type": "Planned Act"
+  }
+ ],
+ "satisfaction_conditions": [
+  {
+   "binding": {
+    "?c": "ACT-EMAIL",
+    "?p": "P-ENG",
+    "?r1": "R-ENG",
+    "?r2": "R-PM",
+    "?sup": "P-PM"
+   },
+   "condition": "Each superior who received the escalation has performed an act with the escalating person as recipient.",
+   "discrepancy_id": "D-RC-08-5f88093a",
+   "reference_id": "RC-08"
+  },
+  {
+   "binding": {
+    "?d": "D-LEAK",
+    "?lot": "LOT-4",
+    "?party": "AGG-PASS",
+    "?use": "PROC-BRAKE"
+   },
+   "condition": "Every interested party has been the recipient of a communication.",
+   "discrepancy_id": "D-RC-09-511c4f58",
+   "reference_id": "RC-09"
+  }
+ ],
+ "schema": "wrm-poc/workflow/v1",
+ "steps": [
+  {
+   "action_type": "preserve_evidence",
+   "actor": "P-ENG",
+   "addresses_mode": "resolve",
+   "discrepancy_id": "D-RC-08-5f88093a",
+   "intended_local_effect": "keep the evidential relation bearer_of from P-ENG to R-ENG on record",
+   "operation": "preserve",
+   "reference_id": "RC-08",
+   "relation": "bearer_of",
+   "source_entity": "P-ENG",
+   "source_witness_element": "D-RC-08-5f88093a#present:E001",
+   "step_id": "S001",
+   "target_entity": "R-ENG"
+  },
+  {
+   "action_type": "preserve_evidence",
+   "actor": "P-ENG",
+   "addresses_mode": "resolve",
+   "discrepancy_id": "D-RC-08-5f88093a",
+   "intended_local_effect": "keep the evidential relation bearer_of from P-PM to R-PM on record",
+   "operation": "preserve",
+   "reference_id": "RC-08",
+   "relation": "bearer_of",
+   "source_entity": "P-PM",
+   "source_witness_element": "D-RC-08-5f88093a#present:E003",
+   "step_id": "S002",
+   "target_entity": "R-PM"
+  },
+  {
+   "action_type": "preserve_evidence",
+   "actor": "P-ENG",
+   "addresses_mode": "resolve",
+   "discrepancy_id": "D-RC-08-5f88093a",
+   "intended_local_effect": "keep the evidential relation is_subordinate_role_to from R-ENG to R-PM on record",
+   "operation": "preserve",
+   "reference_id": "RC-08",
+   "relation": "is_subordinate_role_to",
+   "source_entity": "R-ENG",
+   "source_witness_element": "D-RC-08-5f88093a#present:E011",
+   "step_id": "S003",
+   "target_entity": "R-PM"
+  },
+  {
+   "action_type": "preserve_evidence",
+   "actor": "P-ENG",
+   "addresses_mode": "resolve",
+   "discrepancy_id": "D-RC-08-5f88093a",
+   "intended_local_effect": "keep the evidential relation has_agent from ACT-EMAIL to P-ENG on record",
+   "operation": "preserve",
+   "reference_id": "RC-08",
+   "relation": "has_agent",
+   "source_entity": "ACT-EMAIL",
+   "source_witness_element": "D-RC-08-5f88093a#present:E062",
+   "step_id": "S004",
+   "target_entity": "P-ENG"
+  },
+  {
+   "action_type": "preserve_evidence",
+   "actor": "P-ENG",
+   "addresses_mode": "resolve",
+   "discrepancy_id": "D-RC-08-5f88093a",
+   "intended_local_effect": "keep the evidential relation has_recipient from ACT-EMAIL to P-PM on record",
+   "operation": "preserve",
+   "reference_id": "RC-08",
+   "relation": "has_recipient",
+   "source_entity": "ACT-EMAIL",
+   "source_witness_element": "D-RC-08-5f88093a#present:E065",
+   "step_id": "S005",
+   "target_entity": "P-PM"
+  },
+  {
+   "action_type": "propose_act",
+   "actor": "P-PM",
+   "addresses_mode": "resolve",
+   "discrepancy_id": "D-RC-08-5f88093a",
+   "intended_local_effect": "establish the prescribed relation has_agent from NEW-r-5f8809 to P-PM",
+   "operation": "create",
+   "reference_id": "RC-08",
+   "relation": "has_agent",
+   "source_entity": "NEW-r-5f8809",
+   "source_witness_element": "D-RC-08-5f88093a#absent:0",
+   "step_id": "S006",
+   "target_entity": "P-PM"
+  },
+  {
+   "action_type": "propose_act",
+   "actor": "P-ENG",
+   "addresses_mode": "resolve",
+   "discrepancy_id": "D-RC-08-5f88093a",
+   "intended_local_effect": "establish the prescribed relation has_recipient from NEW-r-5f8809 to P-ENG",
+   "operation": "create",
+   "reference_id": "RC-08",
+   "relation": "has_recipient",
+   "source_entity": "NEW-r-5f8809",
+   "source_witness_element": "D-RC-08-5f88093a#absent:1",
+   "step_id": "S007",
+   "target_entity": "P-ENG"
+  },
+  {
+   "action_type": "preserve_evidence",
+   "actor": "P-ENG",
+   "addresses_mode": "resolve",
+   "discrepancy_id": "D-RC-09-511c4f58",
+   "intended_local_effect": "keep the evidential relation has_participant from PROC-BRAKE to LOT-4 on record",
+   "operation": "preserve",
+   "reference_id": "RC-09",
+   "relation": "has_participant",
+   "source_entity": "PROC-BRAKE",
+   "source_witness_element": "D-RC-09-511c4f58#present:E090",
+   "step_id": "S008",
+   "target_entity": "LOT-4"
+  },
+  {
+   "action_type": "preserve_evidence",
+   "actor": "P-ENG",
+   "addresses_mode": "resolve",
+   "discrepancy_id": "D-RC-09-511c4f58",
+   "intended_local_effect": "keep the evidential relation has_interest_in from AGG-PASS to PROC-BRAKE on record",
+   "operation": "preserve",
+   "reference_id": "RC-09",
+   "relation": "has_interest_in",
+   "source_entity": "AGG-PASS",
+   "source_witness_element": "D-RC-09-511c4f58#present:E092",
+   "step_id": "S009",
+   "target_entity": "PROC-BRAKE"
+  },
+  {
+   "action_type": "preserve_evidence",
+   "actor": "P-ENG",
+   "addresses_mode": "resolve",
+   "discrepancy_id": "D-RC-09-511c4f58",
+   "intended_local_effect": "keep the evidential relation bearer_of from LOT-4 to D-LEAK on record",
+   "operation": "preserve",
+   "reference_id": "RC-09",
+   "relation": "bearer_of",
+   "source_entity": "LOT-4",
+   "source_witness_element": "D-RC-09-511c4f58#present:E095",
+   "step_id": "S010",
+   "target_entity": "D-LEAK"
+  },
+  {
+   "action_type": "propose_act",
+   "actor": "P-ENG",
+   "addresses_mode": "resolve",
+   "discrepancy_id": "D-RC-09-511c4f58",
+   "intended_local_effect": "establish the prescribed relation has_recipient from NEW-c-511c4f to AGG-PASS",
+   "operation": "create",
+   "reference_id": "RC-09",
+   "relation": "has_recipient",
+   "source_entity": "NEW-c-511c4f",
+   "source_witness_element": "D-RC-09-511c4f58#absent:0",
+   "step_id": "S011",
+   "target_entity": "AGG-PASS"
+  }
+ ],
+ "value_disposition_id": "VD-COURAGE",
+ "workflow_hash": "3f4d8c2bc977d0ff4c90444c07027a8d8ed3826bed91aab72e238513b7e08fee"
+}

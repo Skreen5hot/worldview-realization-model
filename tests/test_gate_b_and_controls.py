@@ -125,3 +125,26 @@ def test_freeze_manifest_behaviour(bundle, tmp_path, monkeypatch):
     frozen = json.loads(path.read_text()); frozen["artifact_hashes"]["scenario"] = "0" * 64; path.write_text(json.dumps(frozen))
     c = mf.check_frozen(bundle.experiment["random_seed"])
     assert not c["ok"] and "scenario" in c["diff"]
+
+
+def test_adjacency_and_library_mrc(bundle, results, gate_b):
+    from wrm_poc.adjacency import lexical_adjacency, operational_adjacency
+    from wrm_poc.mrc import library_mrc_profile
+    fams = {f.name: f.predicates for f in bundle.assignment.families}
+    lex = lexical_adjacency(fams)
+    for a in fams:
+        assert lex[a][a] == 1.0
+        for b in fams:
+            assert lex[a][b] == lex[b][a]
+    op = operational_adjacency(results, {n: wf for n, (pk, wf) in gate_b.items()})
+    assert len(op["pairs"]) == 6 and all(0 <= v["adj_op"] <= 1 for v in op["pairs"].values())
+    lib = library_mrc_profile(bundle)
+    assert lib["all_domains_nonzero"], lib
+
+
+def test_in_scope_entities(bundle):
+    from wrm_poc.filtering import filter_by_family, in_scope_entities
+    for f in bundle.assignment.families:
+        g = filter_by_family(bundle.graph, f)
+        ins = in_scope_entities(g)
+        assert ins <= set(g.entities) and all(e.source in ins and e.target in ins for e in g.edges.values())

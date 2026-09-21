@@ -1,0 +1,9 @@
+{
+ "note": "Randomized label key. Do not show to reviewers.",
+ "key": {
+  "Workflow A": "Dynamism",
+  "Workflow B": "Rationalism",
+  "Workflow C": "Materialism",
+  "Workflow D": "Pneumatism"
+ }
+}

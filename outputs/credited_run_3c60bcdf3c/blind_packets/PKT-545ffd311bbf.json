@@ -1,0 +1,1192 @@
+{
+ "activations": [
+  {
+   "activation_id": "ACT-RC-05-5fdb3604",
+   "bindings": {
+    "?d": "D-LEAK",
+    "?lot": "LOT-4",
+    "?use": "PROC-BRAKE"
+   },
+   "filtered_graph_hash": "43bd83f80db39724a5d6098527c5e2f269dac4c20ac71f31f6efaba3d02ef72c",
+   "missing_predicates": [
+    "precedes"
+   ],
+   "reference_id": "RC-05",
+   "reference_label": "Hazard control before operational use",
+   "status": "not_evaluable",
+   "supporting_edges": [
+    "E090",
+    "E095"
+   ]
+  },
+  {
+   "activation_id": "ACT-RC-07-413845d6",
+   "bindings": {
+    "?a": "ACT-NCR",
+    "?p": "P-ENG",
+    "?r1": "R-ENG",
+    "?r2": "R-PM",
+    "?sup": "P-PM"
+   },
+   "filtered_graph_hash": "43bd83f80db39724a5d6098527c5e2f269dac4c20ac71f31f6efaba3d02ef72c",
+   "reference_id": "RC-07",
+   "reference_label": "Role obligation to report upward",
+   "status": "satisfied",
+   "supporting_edges": [
+    "E001",
+    "E003",
+    "E011",
+    "E052"
+   ]
+  },
+  {
+   "activation_id": "ACT-RC-07-32a473e5",
+   "bindings": {
+    "?a": "ACT-NCR",
+    "?p": "P-ENG",
+    "?r1": "R-ENG",
+    "?r2": "R-QM",
+    "?sup": "P-QM"
+   },
+   "filtered_graph_hash": "43bd83f80db39724a5d6098527c5e2f269dac4c20ac71f31f6efaba3d02ef72c",
+   "reference_id": "RC-07",
+   "reference_label": "Role obligation to report upward",
+   "status": "satisfied",
+   "supporting_edges": [
+    "E001",
+    "E002",
+    "E009",
+    "E052"
+   ]
+  },
+  {
+   "activation_id": "ACT-RC-08-5f88093a",
+   "bindings": {
+    "?c": "ACT-EMAIL",
+    "?p": "P-ENG",
+    "?r1": "R-ENG",
+    "?r2": "R-PM",
+    "?sup": "P-PM"
+   },
+   "filtered_graph_hash": "43bd83f80db39724a5d6098527c5e2f269dac4c20ac71f31f6efaba3d02ef72c",
+   "reference_id": "RC-08",
+   "reference_label": "Supervisory response to an escalation",
+   "status": "violated",
+   "supporting_edges": [
+    "E001",
+    "E003",
+    "E011",
+    "E062",
+    "E065"
+   ]
+  },
+  {
+   "activation_id": "ACT-RC-08-15f65215",
+   "bindings": {
+    "?c": "ACT-EMAIL",
+    "?p": "P-ENG",
+    "?r1": "R-ENG",
+    "?r2": "R-QM",
+    "?sup": "P-QM"
+   },
+   "filtered_graph_hash": "43bd83f80db39724a5d6098527c5e2f269dac4c20ac71f31f6efaba3d02ef72c",
+   "reference_id": "RC-08",
+   "reference_label": "Supervisory response to an escalation",
+   "status": "satisfied",
+   "supporting_edges": [
+    "E001",
+    "E002",
+    "E009",
+    "E062",
+    "E064"
+   ]
+  },
+  {
+   "activation_id": "ACT-RC-09-511c4f58",
+   "bindings": {
+    "?d": "D-LEAK",
+    "?lot": "LOT-4",
+    "?party": "AGG-PASS",
+    "?use": "PROC-BRAKE"
+   },
+   "filtered_graph_hash": "43bd83f80db39724a5d6098527c5e2f269dac4c20ac71f31f6efaba3d02ef72c",
+   "reference_id": "RC-09",
+   "reference_label": "Information to interested parties about a hazardous lot in use",
+   "status": "violated",
+   "supporting_edges": [
+    "E090",
+    "E092",
+    "E095"
+   ]
+  },
+  {
+   "activation_id": "ACT-RC-09-5dc2a0db",
+   "bindings": {
+    "?d": "D-LEAK",
+    "?lot": "LOT-4",
+    "?party": "ORG-HTA",
+    "?use": "PROC-BRAKE"
+   },
+   "filtered_graph_hash": "43bd83f80db39724a5d6098527c5e2f269dac4c20ac71f31f6efaba3d02ef72c",
+   "reference_id": "RC-09",
+   "reference_label": "Information to interested parties about a hazardous lot in use",
+   "status": "satisfied",
+   "supporting_edges": [
+    "E090",
+    "E093",
+    "E095"
+   ]
+  }
+ ],
+ "admitted_relation_types": [
+  "affects",
+  "bearer_of",
+  "has_agent",
+  "has_interest_in",
+  "has_organizational_context",
+  "has_participant",
+  "has_recipient",
+  "is_affiliated_with",
+  "is_subordinate_role_to",
+  "supervises"
+ ],
+ "discrepancies": [
+  {
+   "activation_id": "ACT-RC-08-5f88093a",
+   "bindings": {
+    "?c": "ACT-EMAIL",
+    "?p": "P-ENG",
+    "?r1": "R-ENG",
+    "?r2": "R-PM",
+    "?sup": "P-PM"
+   },
+   "discrepancy_id": "D-RC-08-5f88093a",
+   "prescribed_kind": "exists",
+   "reference_id": "RC-08",
+   "reference_label": "Supervisory response to an escalation",
+   "satisfaction_condition": "Each superior who received the escalation has performed an act with the escalating person as recipient.",
+   "status": "violated",
+   "witness": {
+    "offending_edges": [],
+    "present_edges": [
+     "E001",
+     "E003",
+     "E011",
+     "E062",
+     "E065"
+    ],
+    "required_absent_edges": [
+     {
+      "predicate": "has_agent",
+      "source": "?r",
+      "source_spec": {},
+      "target": "P-PM",
+      "target_spec": {}
+     },
+     {
+      "predicate": "has_recipient",
+      "source": "?r",
+      "source_spec": {},
+      "target": "P-ENG",
+      "target_spec": {}
+     }
+    ],
+    "value_facts": []
+   },
+   "witness_edge_ids": [
+    "E001",
+    "E003",
+    "E011",
+    "E062",
+    "E065"
+   ]
+  },
+  {
+   "activation_id": "ACT-RC-09-511c4f58",
+   "bindings": {
+    "?d": "D-LEAK",
+    "?lot": "LOT-4",
+    "?party": "AGG-PASS",
+    "?use": "PROC-BRAKE"
+   },
+   "discrepancy_id": "D-RC-09-511c4f58",
+   "prescribed_kind": "exists",
+   "reference_id": "RC-09",
+   "reference_label": "Information to interested parties about a hazardous lot in use",
+   "satisfaction_condition": "Every interested party has been the recipient of a communication.",
+   "status": "violated",
+   "witness": {
+    "offending_edges": [],
+    "present_edges": [
+     "E090",
+     "E092",
+     "E095"
+    ],
+    "required_absent_edges": [
+     {
+      "predicate": "has_recipient",
+      "source": "?c",
+      "source_spec": {},
+      "target": "AGG-PASS",
+      "target_spec": {}
+     }
+    ],
+    "value_facts": []
+   },
+   "witness_edge_ids": [
+    "E090",
+    "E092",
+    "E095"
+   ]
+  }
+ ],
+ "filtered_graph": {
+  "edges": [
+   {
+    "edge_id": "E001",
+    "predicate": "bearer_of",
+    "source": "P-ENG",
+    "target": "R-ENG"
+   },
+   {
+    "edge_id": "E002",
+    "predicate": "bearer_of",
+    "source": "P-QM",
+    "target": "R-QM"
+   },
+   {
+    "edge_id": "E003",
+    "predicate": "bearer_of",
+    "source": "P-PM",
+    "target": "R-PM"
+   },
+   {
+    "edge_id": "E004",
+    "predicate": "bearer_of",
+    "source": "P-INSP",
+    "target": "R-INSP"
+   },
+   {
+    "edge_id": "E005",
+    "predicate": "has_organizational_context",
+    "source": "R-ENG",
+    "target": "ORG-NPC"
+   },
+   {
+    "edge_id": "E006",
+    "predicate": "has_organizational_context",
+    "source": "R-QM",
+    "target": "ORG-NPC"
+   },
+   {
+    "edge_id": "E007",
+    "predicate": "has_organizational_context",
+    "source": "R-PM",
+    "target": "ORG-NPC"
+   },
+   {
+    "edge_id": "E008",
+    "predicate": "has_organizational_context",
+    "source": "R-INSP",
+    "target": "ORG-NPC"
+   },
+   {
+    "edge_id": "E009",
+    "predicate": "is_subordinate_role_to",
+    "source": "R-ENG",
+    "target": "R-QM"
+   },
+   {
+    "edge_id": "E010",
+    "predicate": "is_subordinate_role_to",
+    "source": "R-QM",
+    "target": "R-PM"
+   },
+   {
+    "edge_id": "E011",
+    "predicate": "is_subordinate_role_to",
+    "source": "R-ENG",
+    "target": "R-PM"
+   },
+   {
+    "edge_id": "E012",
+    "predicate": "supervises",
+    "source": "P-QM",
+    "target": "P-ENG"
+   },
+   {
+    "edge_id": "E013",
+    "predicate": "supervises",
+    "source": "P-PM",
+    "target": "P-QM"
+   },
+   {
+    "edge_id": "E014",
+    "predicate": "is_affiliated_with",
+    "source": "ORG-NPC",
+    "target": "ORG-HTA"
+   },
+   {
+    "edge_id": "E015",
+    "predicate": "has_agent",
+    "source": "ACT-MFG",
+    "target": "ORG-NPC"
+   },
+   {
+    "edge_id": "E016",
+    "predicate": "has_participant",
+    "source": "ACT-MFG",
+    "target": "A-MILL"
+   },
+   {
+    "edge_id": "E022",
+    "predicate": "bearer_of",
+    "source": "LOT-1",
+    "target": "Q-1"
+   },
+   {
+    "edge_id": "E023",
+    "predicate": "bearer_of",
+    "source": "LOT-2",
+    "target": "Q-2"
+   },
+   {
+    "edge_id": "E024",
+    "predicate": "bearer_of",
+    "source": "LOT-3",
+    "target": "Q-3"
+   },
+   {
+    "edge_id": "E025",
+    "predicate": "bearer_of",
+    "source": "LOT-4",
+    "target": "Q-4"
+   },
+   {
+    "edge_id": "E030",
+    "predicate": "has_participant",
+    "source": "ACT-M1",
+    "target": "LOT-1"
+   },
+   {
+    "edge_id": "E031",
+    "predicate": "has_participant",
+    "source": "ACT-M2",
+    "target": "LOT-2"
+   },
+   {
+    "edge_id": "E032",
+    "predicate": "has_participant",
+    "source": "ACT-M3",
+    "target": "LOT-3"
+   },
+   {
+    "edge_id": "E033",
+    "predicate": "has_participant",
+    "source": "ACT-M4",
+    "target": "LOT-4"
+   },
+   {
+    "edge_id": "E045",
+    "predicate": "has_agent",
+    "source": "ACT-M1",
+    "target": "P-INSP"
+   },
+   {
+    "edge_id": "E046",
+    "predicate": "has_agent",
+    "source": "ACT-M2",
+    "target": "P-INSP"
+   },
+   {
+    "edge_id": "E047",
+    "predicate": "has_agent",
+    "source": "ACT-M3",
+    "target": "P-INSP"
+   },
+   {
+    "edge_id": "E048",
+    "predicate": "has_agent",
+    "source": "ACT-M4",
+    "target": "P-INSP"
+   },
+   {
+    "edge_id": "E050",
+    "predicate": "has_participant",
+    "source": "ACT-M4",
+    "target": "A-CMM"
+   },
+   {
+    "edge_id": "E052",
+    "predicate": "has_agent",
+    "source": "ACT-NCR",
+    "target": "P-ENG"
+   },
+   {
+    "edge_id": "E062",
+    "predicate": "has_agent",
+    "source": "ACT-EMAIL",
+    "target": "P-ENG"
+   },
+   {
+    "edge_id": "E064",
+    "predicate": "has_recipient",
+    "source": "ACT-EMAIL",
+    "target": "P-QM"
+   },
+   {
+    "edge_id": "E065",
+    "predicate": "has_recipient",
+    "source": "ACT-EMAIL",
+    "target": "P-PM"
+   },
+   {
+    "edge_id": "E066",
+    "predicate": "has_agent",
+    "source": "ACT-REPLY",
+    "target": "P-QM"
+   },
+   {
+    "edge_id": "E067",
+    "predicate": "has_recipient",
+    "source": "ACT-REPLY",
+    "target": "P-ENG"
+   },
+   {
+    "edge_id": "E070",
+    "predicate": "has_agent",
+    "source": "ACT-DEC",
+    "target": "P-PM"
+   },
+   {
+    "edge_id": "E079",
+    "predicate": "has_agent",
+    "source": "ACT-SHIP",
+    "target": "ORG-NPC"
+   },
+   {
+    "edge_id": "E080",
+    "predicate": "has_participant",
+    "source": "ACT-SHIP",
+    "target": "LOT-4"
+   },
+   {
+    "edge_id": "E081",
+    "predicate": "affects",
+    "source": "ACT-SHIP",
+    "target": "ORG-HTA"
+   },
+   {
+    "edge_id": "E082",
+    "predicate": "has_agent",
+    "source": "ACT-SHIPNOTE",
+    "target": "ORG-NPC"
+   },
+   {
+    "edge_id": "E083",
+    "predicate": "has_recipient",
+    "source": "ACT-SHIPNOTE",
+    "target": "ORG-HTA"
+   },
+   {
+    "edge_id": "E088",
+    "predicate": "has_agent",
+    "source": "PROC-BRAKE",
+    "target": "ORG-HTA"
+   },
+   {
+    "edge_id": "E089",
+    "predicate": "has_participant",
+    "source": "PROC-BRAKE",
+    "target": "A-ACT"
+   },
+   {
+    "edge_id": "E090",
+    "predicate": "has_participant",
+    "source": "PROC-BRAKE",
+    "target": "LOT-4"
+   },
+   {
+    "edge_id": "E091",
+    "predicate": "affects",
+    "source": "PROC-BRAKE",
+    "target": "AGG-PASS"
+   },
+   {
+    "edge_id": "E092",
+    "predicate": "has_interest_in",
+    "source": "AGG-PASS",
+    "target": "PROC-BRAKE"
+   },
+   {
+    "edge_id": "E093",
+    "predicate": "has_interest_in",
+    "source": "ORG-HTA",
+    "target": "PROC-BRAKE"
+   },
+   {
+    "edge_id": "E095",
+    "predicate": "bearer_of",
+    "source": "LOT-4",
+    "target": "D-LEAK"
+   },
+   {
+    "edge_id": "E097",
+    "predicate": "has_agent",
+    "source": "PROC-QMS",
+    "target": "ORG-NPC"
+   },
+   {
+    "edge_id": "E099",
+    "predicate": "has_interest_in",
+    "source": "ORG-REG",
+    "target": "PROC-QMS"
+   }
+  ],
+  "entities": [
+   {
+    "attributes": {},
+    "id": "A-ACT",
+    "label": "brake actuator assembly batch 2026-Q3",
+    "type": "Material Artifact",
+    "type_iri": "https://www.commoncoreontologies.org/ont00000995"
+   },
+   {
+    "attributes": {},
+    "id": "A-CMM",
+    "label": "coordinate measuring machine CMM-2",
+    "type": "Material Artifact",
+    "type_iri": "https://www.commoncoreontologies.org/ont00000995"
+   },
+   {
+    "attributes": {},
+    "id": "A-MILL",
+    "label": "machining center MC-7",
+    "type": "Material Artifact",
+    "type_iri": "https://www.commoncoreontologies.org/ont00000995"
+   },
+   {
+    "attributes": {
+     "kind": "decision"
+    },
+    "id": "ACT-DEC",
+    "label": "production continuation decision",
+    "type": "Planned Act",
+    "type_iri": "https://www.commoncoreontologies.org/ont00000228"
+   },
+   {
+    "attributes": {
+     "kind": "escalation"
+    },
+    "id": "ACT-EMAIL",
+    "label": "escalation email of NCR-0417 to management",
+    "type": "Email Messaging",
+    "type_iri": "https://www.commoncoreontologies.org/ont00000492"
+   },
+   {
+    "attributes": {
+     "sequence": 1
+    },
+    "id": "ACT-M1",
+    "label": "dimensional inspection of lot 1",
+    "type": "Act of Measuring",
+    "type_iri": "https://www.commoncoreontologies.org/ont00000345"
+   },
+   {
+    "attributes": {
+     "sequence": 2
+    },
+    "id": "ACT-M2",
+    "label": "dimensional inspection of lot 2",
+    "type": "Act of Measuring",
+    "type_iri": "https://www.commoncoreontologies.org/ont00000345"
+   },
+   {
+    "attributes": {
+     "sequence": 3
+    },
+    "id": "ACT-M3",
+    "label": "dimensional inspection of lot 3",
+    "type": "Act of Measuring",
+    "type_iri": "https://www.commoncoreontologies.org/ont00000345"
+   },
+   {
+    "attributes": {
+     "sequence": 4
+    },
+    "id": "ACT-M4",
+    "label": "dimensional inspection of lot 4",
+    "type": "Act of Measuring",
+    "type_iri": "https://www.commoncoreontologies.org/ont00000345"
+   },
+   {
+    "attributes": {},
+    "id": "ACT-MFG",
+    "label": "machining of valve body lots 1-4",
+    "type": "Act of Manufacturing",
+    "type_iri": "https://www.commoncoreontologies.org/ont00001359"
+   },
+   {
+    "attributes": {
+     "kind": "nonconformance_reporting"
+    },
+    "id": "ACT-NCR",
+    "label": "writing of nonconformance report NCR-0417",
+    "type": "Act of Reporting",
+    "type_iri": "https://www.commoncoreontologies.org/ont00000151"
+   },
+   {
+    "attributes": {
+     "kind": "acknowledgement"
+    },
+    "id": "ACT-REPLY",
+    "label": "acknowledgement reply from quality manager",
+    "type": "Email Messaging",
+    "type_iri": "https://www.commoncoreontologies.org/ont00000492"
+   },
+   {
+    "attributes": {},
+    "id": "ACT-SHIP",
+    "label": "shipment of valve body lot 4 to Harbor Transit",
+    "type": "Act of Cargo Transportation",
+    "type_iri": "https://www.commoncoreontologies.org/ont00000595"
+   },
+   {
+    "attributes": {
+     "kind": "shipping_notice"
+    },
+    "id": "ACT-SHIPNOTE",
+    "label": "shipping notice with certificate to Harbor Transit",
+    "type": "Act of Communication",
+    "type_iri": "https://www.commoncoreontologies.org/ont00000402"
+   },
+   {
+    "attributes": {},
+    "id": "AGG-PASS",
+    "label": "Harbor Transit bus passengers",
+    "type": "Group of Persons",
+    "type_iri": "https://www.commoncoreontologies.org/ont00000914"
+   },
+   {
+    "attributes": {
+     "asserts_conformance": true
+    },
+    "id": "CERT",
+    "label": "certificate of conformance for valve body lot 4",
+    "type": "Certificate",
+    "type_iri": "https://www.commoncoreontologies.org/ont00002002"
+   },
+   {
+    "attributes": {
+     "safety_relevant": true
+    },
+    "id": "D-LEAK",
+    "label": "internal leakage disposition of valve body lot 4",
+    "type": "disposition",
+    "type_iri": "http://purl.obolibrary.org/obo/BFO_0000016"
+   },
+   {
+    "attributes": {
+     "kind": "directive"
+    },
+    "id": "DIR-CONT",
+    "label": "directive: continue production and ship lot 4",
+    "type": "Prescriptive Information Content Entity",
+    "type_iri": "https://www.commoncoreontologies.org/ont00000965"
+   },
+   {
+    "attributes": {},
+    "id": "LOT-1",
+    "label": "valve body lot 1",
+    "type": "Portion of Processed Material",
+    "type_iri": "https://www.commoncoreontologies.org/ont00001084"
+   },
+   {
+    "attributes": {},
+    "id": "LOT-2",
+    "label": "valve body lot 2",
+    "type": "Portion of Processed Material",
+    "type_iri": "https://www.commoncoreontologies.org/ont00001084"
+   },
+   {
+    "attributes": {},
+    "id": "LOT-3",
+    "label": "valve body lot 3",
+    "type": "Portion of Processed Material",
+    "type_iri": "https://www.commoncoreontologies.org/ont00001084"
+   },
+   {
+    "attributes": {},
+    "id": "LOT-4",
+    "label": "valve body lot 4",
+    "type": "Portion of Processed Material",
+    "type_iri": "https://www.commoncoreontologies.org/ont00001084"
+   },
+   {
+    "attributes": {
+     "measurand_kind": "bore_diameter",
+     "unit": "mm",
+     "value": 12.003
+    },
+    "id": "M-1",
+    "label": "bore diameter measurement of lot 1",
+    "type": "Ratio Measurement Information Content Entity",
+    "type_iri": "https://www.commoncoreontologies.org/ont00001022"
+   },
+   {
+    "attributes": {
+     "measurand_kind": "bore_diameter",
+     "unit": "mm",
+     "value": 12.006
+    },
+    "id": "M-2",
+    "label": "bore diameter measurement of lot 2",
+    "type": "Ratio Measurement Information Content Entity",
+    "type_iri": "https://www.commoncoreontologies.org/ont00001022"
+   },
+   {
+    "attributes": {
+     "measurand_kind": "bore_diameter",
+     "unit": "mm",
+     "value": 12.009
+    },
+    "id": "M-3",
+    "label": "bore diameter measurement of lot 3",
+    "type": "Ratio Measurement Information Content Entity",
+    "type_iri": "https://www.commoncoreontologies.org/ont00001022"
+   },
+   {
+    "attributes": {
+     "measurand_kind": "bore_diameter",
+     "unit": "mm",
+     "value": 12.013
+    },
+    "id": "M-4",
+    "label": "bore diameter measurement of lot 4",
+    "type": "Ratio Measurement Information Content Entity",
+    "type_iri": "https://www.commoncoreontologies.org/ont00001022"
+   },
+   {
+    "attributes": {
+     "kind": "nonconformance_report",
+     "safety_relevant": true
+    },
+    "id": "NCR",
+    "label": "nonconformance report NCR-0417",
+    "type": "Report",
+    "type_iri": "https://www.commoncoreontologies.org/ont00002043"
+   },
+   {
+    "attributes": {},
+    "id": "ORG-HTA",
+    "label": "Harbor Transit Authority",
+    "type": "Organization",
+    "type_iri": "https://www.commoncoreontologies.org/ont00001180"
+   },
+   {
+    "attributes": {},
+    "id": "ORG-NPC",
+    "label": "Northline Precision Components",
+    "type": "Commercial Organization",
+    "type_iri": "https://www.commoncoreontologies.org/ont00000443"
+   },
+   {
+    "attributes": {},
+    "id": "ORG-REG",
+    "label": "Vehicle Component Safety Office",
+    "type": "Government Organization",
+    "type_iri": "https://www.commoncoreontologies.org/ont00000408"
+   },
+   {
+    "attributes": {},
+    "id": "P-ENG",
+    "label": "Dana Okafor",
+    "type": "Person",
+    "type_iri": "https://www.commoncoreontologies.org/ont00001262"
+   },
+   {
+    "attributes": {},
+    "id": "P-INSP",
+    "label": "Miguel Ortega",
+    "type": "Person",
+    "type_iri": "https://www.commoncoreontologies.org/ont00001262"
+   },
+   {
+    "attributes": {},
+    "id": "P-PM",
+    "label": "Victor Lindqvist",
+    "type": "Person",
+    "type_iri": "https://www.commoncoreontologies.org/ont00001262"
+   },
+   {
+    "attributes": {},
+    "id": "P-QM",
+    "label": "Ruth Salazar",
+    "type": "Person",
+    "type_iri": "https://www.commoncoreontologies.org/ont00001262"
+   },
+   {
+    "attributes": {
+     "kind": "operational_use"
+    },
+    "id": "PROC-BRAKE",
+    "label": "in-service brake actuation on Harbor Transit buses",
+    "type": "Act of Artifact Employment",
+    "type_iri": "https://www.commoncoreontologies.org/ont00000566"
+   },
+   {
+    "attributes": {
+     "kind": "quality_management_process"
+    },
+    "id": "PROC-QMS",
+    "label": "Northline quality management process",
+    "type": "Act",
+    "type_iri": "https://www.commoncoreontologies.org/ont00000005"
+   },
+   {
+    "attributes": {
+     "quality_kind": "bore_diameter"
+    },
+    "id": "Q-1",
+    "label": "bore diameter of valve body lot 1",
+    "type": "quality",
+    "type_iri": "http://purl.obolibrary.org/obo/BFO_0000019"
+   },
+   {
+    "attributes": {
+     "quality_kind": "bore_diameter"
+    },
+    "id": "Q-2",
+    "label": "bore diameter of valve body lot 2",
+    "type": "quality",
+    "type_iri": "http://purl.obolibrary.org/obo/BFO_0000019"
+   },
+   {
+    "attributes": {
+     "quality_kind": "bore_diameter"
+    },
+    "id": "Q-3",
+    "label": "bore diameter of valve body lot 3",
+    "type": "quality",
+    "type_iri": "http://purl.obolibrary.org/obo/BFO_0000019"
+   },
+   {
+    "attributes": {
+     "quality_kind": "bore_diameter"
+    },
+    "id": "Q-4",
+    "label": "bore diameter of valve body lot 4",
+    "type": "quality",
+    "type_iri": "http://purl.obolibrary.org/obo/BFO_0000019"
+   },
+   {
+    "attributes": {
+     "kind": "engineering"
+    },
+    "id": "R-ENG",
+    "label": "process engineer role",
+    "type": "Occupation Role",
+    "type_iri": "https://www.commoncoreontologies.org/ont00000984"
+   },
+   {
+    "attributes": {
+     "kind": "inspection"
+    },
+    "id": "R-INSP",
+    "label": "dimensional inspector role",
+    "type": "Occupation Role",
+    "type_iri": "https://www.commoncoreontologies.org/ont00000984"
+   },
+   {
+    "attributes": {
+     "kind": "management"
+    },
+    "id": "R-PM",
+    "label": "plant manager role",
+    "type": "Occupation Role",
+    "type_iri": "https://www.commoncoreontologies.org/ont00000984"
+   },
+   {
+    "attributes": {
+     "kind": "quality_management"
+    },
+    "id": "R-QM",
+    "label": "quality manager role",
+    "type": "Occupation Role",
+    "type_iri": "https://www.commoncoreontologies.org/ont00000984"
+   },
+   {
+    "attributes": {
+     "kind": "regulation"
+    },
+    "id": "REG",
+    "label": "safety-related nonconformance notification regulation",
+    "type": "Process Regulation",
+    "type_iri": "https://www.commoncoreontologies.org/ont00001324"
+   },
+   {
+    "attributes": {
+     "kind": "schedule"
+    },
+    "id": "SCHED",
+    "label": "Q3 delivery schedule",
+    "type": "Plan",
+    "type_iri": "https://www.commoncoreontologies.org/ont00000974"
+   },
+   {
+    "attributes": {
+     "lower": 11.99,
+     "quality_kind": "bore_diameter",
+     "unit": "mm",
+     "upper": 12.01
+    },
+    "id": "SPEC",
+    "label": "valve body bore diameter specification VB-12",
+    "type": "Dimension Specification",
+    "type_iri": "https://www.commoncoreontologies.org/ont00001304"
+   }
+  ]
+ },
+ "firewall_passed": true,
+ "objectives": {
+  "OBJ-04": {
+   "description": "Parties with an interest in a process receive the information needed to act on it.",
+   "id": "OBJ-04",
+   "label": "preserve informed agency of affected persons"
+  },
+  "OBJ-05": {
+   "description": "Organizational decisions take the relevant records as input and close escalation loops.",
+   "id": "OBJ-05",
+   "label": "maintain reliable organizational decision information"
+  }
+ },
+ "packet_hash": "545ffd311bbf35f9f143e5b5db48d88714363541cd5074609f4849197600e036",
+ "packet_id": "PKT-545ffd311bbf",
+ "reference_conditions": [
+  {
+   "description": "Where a safety-relevant disposition is borne by a lot that participates in an operational-use process, a hazard-control act on the lot must precede that use.",
+   "domain": "safety_escalation",
+   "id": "RC-05",
+   "label": "Hazard control before operational use",
+   "objectives": [
+    {
+     "objective": "OBJ-02",
+     "rationale": "A safety-relevant disposition in service without prior control is a foreseeable path to harm."
+    }
+   ],
+   "prescribed": {
+    "edges": [
+     [
+      "?ctrl",
+      "has_participant",
+      "?lot"
+     ],
+     [
+      "?ctrl",
+      "precedes",
+      "?use"
+     ]
+    ],
+    "kind": "exists",
+    "nodes": {
+     "?ctrl": {
+      "attributes": {
+       "kind": "hazard_control"
+      },
+      "type": "Planned Act"
+     }
+    }
+   },
+   "remediation": {},
+   "satisfaction_condition": "A hazard-control act on the lot precedes its operational use."
+  },
+  {
+   "description": "Where a person in a role performs a nonconformance-reporting act and their role is subordinate to another role, they must communicate to the bearer of the superior role.",
+   "domain": "role_obligation",
+   "id": "RC-07",
+   "label": "Role obligation to report upward",
+   "objectives": [
+    {
+     "objective": "OBJ-03",
+     "rationale": "Upward reporting is an obligation attached to a subordinate role."
+    }
+   ],
+   "prescribed": {
+    "edges": [
+     [
+      "?c",
+      "has_agent",
+      "?p"
+     ],
+     [
+      "?c",
+      "has_recipient",
+      "?sup"
+     ]
+    ],
+    "kind": "exists",
+    "nodes": {
+     "?c": {}
+    }
+   },
+   "remediation": {},
+   "satisfaction_condition": "The reporting person has communicated to each bearer of a superior role."
+  },
+  {
+   "description": "Where an escalation communication from a subordinate is received by the bearer of a superior role, the superior must perform an act with the subordinate as recipient.",
+   "domain": "role_obligation",
+   "id": "RC-08",
+   "label": "Supervisory response to an escalation",
+   "objectives": [
+    {
+     "objective": "OBJ-05",
+     "rationale": "An escalation with no response leaves the organization's information loop open."
+    }
+   ],
+   "prescribed": {
+    "edges": [
+     [
+      "?r",
+      "has_agent",
+      "?sup"
+     ],
+     [
+      "?r",
+      "has_recipient",
+      "?p"
+     ]
+    ],
+    "kind": "exists",
+    "nodes": {
+     "?r": {}
+    }
+   },
+   "remediation": {},
+   "satisfaction_condition": "Each superior who received the escalation has performed an act with the escalating person as recipient."
+  },
+  {
+   "description": "Where a party has an interest in an operational-use process in which a lot bearing a safety-relevant disposition participates, a communication with that party as recipient must exist.",
+   "domain": "affected_person_agency",
+   "id": "RC-09",
+   "label": "Information to interested parties about a hazardous lot in use",
+   "objectives": [
+    {
+     "objective": "OBJ-04",
+     "rationale": "Persons with an interest in a process cannot participate in decisions about it unless addressed."
+    }
+   ],
+   "prescribed": {
+    "edges": [
+     [
+      "?c",
+      "has_recipient",
+      "?party"
+     ]
+    ],
+    "kind": "exists",
+    "nodes": {
+     "?c": {}
+    }
+   },
+   "remediation": {},
+   "satisfaction_condition": "Every interested party has been the recipient of a communication."
+  }
+ ],
+ "responder_entity_id": "P-ENG",
+ "response_schema": {
+  "workflow": {
+   "proposed_entities": [
+    {
+     "attributes": {},
+     "id": "string",
+     "type": "CCO/BFO class label"
+    }
+   ],
+   "satisfaction_conditions": [
+    {
+     "condition": "string",
+     "discrepancy_id": "string",
+     "reference_id": "string"
+    }
+   ],
+   "steps": [
+    {
+     "action_type": "string",
+     "actor": "entity id",
+     "addresses_mode": "resolve|mitigate|defer",
+     "discrepancy_id": "string",
+     "intended_local_effect": "string",
+     "operation": "create|remove|amplify|attenuate|preserve",
+     "reference_id": "string",
+     "relation": "predicate id",
+     "source_entity": "entity id or proposed id",
+     "source_witness_element": "witness element ref",
+     "step_id": "string",
+     "target_entity": "entity id or proposed id"
+    }
+   ]
+  }
+ },
+ "schema": "wrm-poc/blind_packet/v1",
+ "significance": [
+  {
+   "discrepancy_id": "D-RC-08-5f88093a",
+   "evidence_edge_ids": [
+    "E001",
+    "E003",
+    "E011",
+    "E062",
+    "E065"
+   ],
+   "objective_id": "OBJ-05",
+   "objective_label": "maintain reliable organizational decision information",
+   "reference_id": "RC-08",
+   "required_absent_edges": [
+    {
+     "predicate": "has_agent",
+     "source": "?r",
+     "source_spec": {},
+     "target": "P-PM",
+     "target_spec": {}
+    },
+    {
+     "predicate": "has_recipient",
+     "source": "?r",
+     "source_spec": {},
+     "target": "P-ENG",
+     "target_spec": {}
+    }
+   ],
+   "significance_id": "SIG-D-RC-08-5f88093a-OBJ-05",
+   "why_linked": "An escalation with no response leaves the organization's information loop open."
+  },
+  {
+   "discrepancy_id": "D-RC-09-511c4f58",
+   "evidence_edge_ids": [
+    "E090",
+    "E092",
+    "E095"
+   ],
+   "objective_id": "OBJ-04",
+   "objective_label": "preserve informed agency of affected persons",
+   "reference_id": "RC-09",
+   "required_absent_edges": [
+    {
+     "predicate": "has_recipient",
+     "source": "?c",
+     "source_spec": {},
+     "target": "AGG-PASS",
+     "target_spec": {}
+    }
+   ],
+   "significance_id": "SIG-D-RC-09-511c4f58-OBJ-04",
+   "why_linked": "Persons with an interest in a process cannot participate in decisions about it unless addressed."
+  }
+ ],
+ "value_disposition": {
+  "bearer_entity_id": "P-ENG",
+  "definition": "The disposition of an agent to initiate or sustain a corrective act in the face of foreseeable personal or institutional cost when a discrepancy with a standard is present.",
+  "id": "VD-COURAGE",
+  "label": "Courage"
+ }
+}

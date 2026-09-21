@@ -53,6 +53,14 @@ def lineage_audit(wf: Dict[str, Any], packet: Dict[str, Any], setting_result: Di
         chains.append({"step_id": s["step_id"], "significance_ids": sig_ids, "discrepancy_id": d["discrepancy_id"], "reference_id": a["reference_id"],
                        "activation_id": a["activation_id"], "witness_element": s["source_witness_element"],
                        "grounding_edges": sorted(set(a["supporting_edges"]) | set(d["witness_edge_ids"]))})
+    # 4b. v0.2 §2.5(2): target entities of the workflow are in-scope entities (proposed acts excepted)
+    in_scope = set(setting_result.get("in_scope_entity_ids", packet_edges and {x for e in packet_edges.values() for x in (e["source"], e["target"])}))
+    proposed = {p["id"] for p in wf.get("proposed_entities", [])}
+    for s in wf["steps"]:
+        for k in ("source_entity", "target_entity"):
+            v = s.get(k)
+            if v and v not in proposed and v not in in_scope:
+                problems.append(f"{s['step_id']} {k} {v} is not an in-scope entity")
     # 5. packet blindness
     fw = scan(packet, lexicon, "blind_packet")
     if not fw["passed"]:

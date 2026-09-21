@@ -1,0 +1,138 @@
+{
+ "reference_library": {
+  "all_domains_nonzero": true,
+  "flags": [],
+  "rows": [
+   {
+    "domain": "physical_causal",
+    "reference_count": 11,
+    "references": [
+     "RC-01",
+     "RC-02",
+     "RC-04",
+     "RC-05",
+     "RC-07",
+     "RC-08",
+     "RC-09",
+     "RC-11",
+     "RC-12",
+     "RC-13",
+     "RC-14"
+    ]
+   },
+   {
+    "domain": "agentic",
+    "reference_count": 3,
+    "references": [
+     "RC-07",
+     "RC-08",
+     "RC-12"
+    ]
+   },
+   {
+    "domain": "informational",
+    "reference_count": 11,
+    "references": [
+     "RC-01",
+     "RC-03",
+     "RC-04",
+     "RC-06",
+     "RC-07",
+     "RC-08",
+     "RC-09",
+     "RC-10",
+     "RC-11",
+     "RC-12",
+     "RC-13"
+    ]
+   },
+   {
+    "domain": "evaluative_experiential",
+    "reference_count": 2,
+    "references": [
+     "RC-09",
+     "RC-13"
+    ]
+   },
+   {
+    "domain": "legal_institutional",
+    "reference_count": 4,
+    "references": [
+     "RC-01",
+     "RC-07",
+     "RC-08",
+     "RC-10"
+    ]
+   }
+  ]
+ },
+ "scenario": {
+  "all_domains_nonzero": true,
+  "flags": [
+   "gross imbalance: max/min edge ratio 7.8 > 6.0"
+  ],
+  "rows": [
+   {
+    "domain": "physical_causal",
+    "edge_count": 39,
+    "edge_percent": 39.4,
+    "predicate_count": 6,
+    "predicates": [
+     "bearer_of",
+     "has_continuant_part",
+     "has_output",
+     "has_participant",
+     "is_cause_of",
+     "precedes"
+    ]
+   },
+   {
+    "domain": "agentic",
+    "edge_count": 22,
+    "edge_percent": 22.2,
+    "predicate_count": 4,
+    "predicates": [
+     "has_agent",
+     "realizes",
+     "supervises",
+     "uses"
+    ]
+   },
+   {
+    "domain": "informational",
+    "edge_count": 18,
+    "edge_percent": 18.2,
+    "predicate_count": 4,
+    "predicates": [
+     "has_input",
+     "has_recipient",
+     "is_a_measurement_of",
+     "is_about"
+    ]
+   },
+   {
+    "domain": "evaluative_experiential",
+    "edge_count": 5,
+    "edge_percent": 5.1,
+    "predicate_count": 2,
+    "predicates": [
+     "affects",
+     "has_interest_in"
+    ]
+   },
+   {
+    "domain": "legal_institutional",
+    "edge_count": 15,
+    "edge_percent": 15.2,
+    "predicate_count": 4,
+    "predicates": [
+     "has_organizational_context",
+     "is_affiliated_with",
+     "is_subordinate_role_to",
+     "prescribes"
+    ]
+   }
+  ],
+  "total_edges": 99
+ }
+}

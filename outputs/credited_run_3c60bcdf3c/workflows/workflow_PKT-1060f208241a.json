@@ -1,0 +1,574 @@
+{
+ "generator": "deterministic-baseline-v1",
+ "operation_signature": [
+  [
+   "ACT-DEC",
+   "has_input",
+   "NCR",
+   "create"
+  ],
+  [
+   "ACT-DEC",
+   "has_input",
+   "NCR",
+   "create"
+  ],
+  [
+   "ACT-DEC",
+   "has_output",
+   "DIR-CONT",
+   "preserve"
+  ],
+  [
+   "ACT-EMAIL",
+   "has_input",
+   "NCR",
+   "preserve"
+  ],
+  [
+   "ACT-EMAIL",
+   "precedes",
+   "ACT-DEC",
+   "preserve"
+  ],
+  [
+   "ACT-SHIPNOTE",
+   "has_input",
+   "CERT",
+   "preserve"
+  ],
+  [
+   "ACT-SHIPNOTE",
+   "has_recipient",
+   "ORG-HTA",
+   "preserve"
+  ],
+  [
+   "CERT",
+   "is_about",
+   "LOT-4",
+   "preserve"
+  ],
+  [
+   "DIR-CONT",
+   "is_about",
+   "LOT-4",
+   "preserve"
+  ],
+  [
+   "LOT-4",
+   "bearer_of",
+   "Q-4",
+   "preserve"
+  ],
+  [
+   "M-4",
+   "is_a_measurement_of",
+   "Q-4",
+   "preserve"
+  ],
+  [
+   "NCR",
+   "is_about",
+   "LOT-4",
+   "preserve"
+  ],
+  [
+   "NCR",
+   "is_about",
+   "LOT-4",
+   "preserve"
+  ],
+  [
+   "NCR",
+   "is_about",
+   "LOT-4",
+   "preserve"
+  ],
+  [
+   "NCR",
+   "is_about",
+   "LOT-4",
+   "preserve"
+  ],
+  [
+   "NEW-c-baae97",
+   "has_input",
+   "NCR",
+   "create"
+  ],
+  [
+   "NEW-c-baae97",
+   "has_recipient",
+   "NEW-gov-baae97",
+   "create"
+  ],
+  [
+   "NEW-c2-c00c8e",
+   "has_input",
+   "NCR",
+   "create"
+  ],
+  [
+   "NEW-c2-c00c8e",
+   "has_recipient",
+   "ORG-HTA",
+   "create"
+  ],
+  [
+   "NEW-ca-8a7079",
+   "has_input",
+   "NCR",
+   "create"
+  ],
+  [
+   "NEW-rework-80f2d6",
+   "has_participant",
+   "LOT-4",
+   "create"
+  ],
+  [
+   "REG",
+   "prescribes",
+   "PROC-QMS",
+   "preserve"
+  ],
+  [
+   "SPEC",
+   "prescribes",
+   "Q-4",
+   "preserve"
+  ]
+ ],
+ "packet_hash": "1060f208241a4b537297b00ad7aad993eb483192a067aa38bcd0f93814e64139",
+ "packet_id": "PKT-1060f208241a",
+ "proposed_entities": [
+  {
+   "attributes": {
+    "kind": "rework"
+   },
+   "for_discrepancy": "D-RC-01-80f2d643",
+   "id": "NEW-rework-80f2d6",
+   "type": "Act of Artifact Modification"
+  },
+  {
+   "attributes": {
+    "kind": "corrective_action"
+   },
+   "for_discrepancy": "D-RC-03-8a7079dc",
+   "id": "NEW-ca-8a7079",
+   "type": "Planned Act"
+  },
+  {
+   "attributes": {},
+   "for_discrepancy": "D-RC-06-c00c8eb0",
+   "id": "NEW-c2-c00c8e",
+   "type": "Act of Communication"
+  },
+  {
+   "attributes": {},
+   "for_discrepancy": "D-RC-10-baae974f",
+   "id": "NEW-c-baae97",
+   "type": "Planned Act"
+  },
+  {
+   "attributes": {},
+   "for_discrepancy": "D-RC-10-baae974f",
+   "id": "NEW-gov-baae97",
+   "type": "Government Organization"
+  }
+ ],
+ "satisfaction_conditions": [
+  {
+   "binding": {
+    "?lot": "LOT-4",
+    "?m": "M-4",
+    "?q": "Q-4",
+    "?spec": "SPEC"
+   },
+   "condition": "Every measurement of the prescribed quality lies within the specification bounds, or the artifact is segregated by a rework act.",
+   "discrepancy_id": "D-RC-01-80f2d643",
+   "reference_id": "RC-01"
+  },
+  {
+   "binding": {
+    "?lot": "LOT-4",
+    "?ncr": "NCR"
+   },
+   "condition": "A corrective-action act has the nonconformance report as input.",
+   "discrepancy_id": "D-RC-03-8a7079dc",
+   "reference_id": "RC-03"
+  },
+  {
+   "binding": {
+    "?dec": "ACT-DEC",
+    "?dir": "DIR-CONT",
+    "?lot": "LOT-4",
+    "?ncr": "NCR"
+   },
+   "condition": "The decision act that produced the directive has the nonconformance report as input.",
+   "discrepancy_id": "D-RC-04-9f7e9c12",
+   "reference_id": "RC-04"
+  },
+  {
+   "binding": {
+    "?c": "ACT-SHIPNOTE",
+    "?cert": "CERT",
+    "?lot": "LOT-4",
+    "?ncr": "NCR",
+    "?party": "ORG-HTA"
+   },
+   "condition": "The recipient of the certificate has also received the nonconformance report.",
+   "discrepancy_id": "D-RC-06-c00c8eb0",
+   "reference_id": "RC-06"
+  },
+  {
+   "binding": {
+    "?lot": "LOT-4",
+    "?ncr": "NCR",
+    "?qms": "PROC-QMS",
+    "?reg": "REG"
+   },
+   "condition": "A government organization has received a communication carrying the nonconformance report.",
+   "discrepancy_id": "D-RC-10-baae974f",
+   "reference_id": "RC-10"
+  },
+  {
+   "binding": {
+    "?c": "ACT-EMAIL",
+    "?dec": "ACT-DEC",
+    "?rep": "NCR"
+   },
+   "condition": "The decision act has the communicated report as input.",
+   "discrepancy_id": "D-RC-11-06b365f7",
+   "reference_id": "RC-11"
+  }
+ ],
+ "schema": "wrm-poc/workflow/v1",
+ "steps": [
+  {
+   "action_type": "preserve_evidence",
+   "actor": "P-ENG",
+   "addresses_mode": "resolve",
+   "discrepancy_id": "D-RC-01-80f2d643",
+   "intended_local_effect": "keep the evidential relation bearer_of from LOT-4 to Q-4 on record",
+   "operation": "preserve",
+   "reference_id": "RC-01",
+   "relation": "bearer_of",
+   "source_entity": "LOT-4",
+   "source_witness_element": "D-RC-01-80f2d643#present:E025",
+   "step_id": "S001",
+   "target_entity": "Q-4"
+  },
+  {
+   "action_type": "preserve_evidence",
+   "actor": "P-ENG",
+   "addresses_mode": "resolve",
+   "discrepancy_id": "D-RC-01-80f2d643",
+   "intended_local_effect": "keep the evidential relation prescribes from SPEC to Q-4 on record",
+   "operation": "preserve",
+   "reference_id": "RC-01",
+   "relation": "prescribes",
+   "source_entity": "SPEC",
+   "source_witness_element": "D-RC-01-80f2d643#present:E029",
+   "step_id": "S002",
+   "target_entity": "Q-4"
+  },
+  {
+   "action_type": "preserve_evidence",
+   "actor": "P-ENG",
+   "addresses_mode": "resolve",
+   "discrepancy_id": "D-RC-01-80f2d643",
+   "intended_local_effect": "keep the evidential relation is_a_measurement_of from M-4 to Q-4 on record",
+   "operation": "preserve",
+   "reference_id": "RC-01",
+   "relation": "is_a_measurement_of",
+   "source_entity": "M-4",
+   "source_witness_element": "D-RC-01-80f2d643#present:E041",
+   "step_id": "S003",
+   "target_entity": "Q-4"
+  },
+  {
+   "action_type": "rework_or_segregate",
+   "actor": "P-ENG",
+   "addresses_mode": "mitigate",
+   "discrepancy_id": "D-RC-01-80f2d643",
+   "intended_local_effect": "bring the artifact's quality back within the prescribed bounds or segregate it",
+   "operation": "create",
+   "reference_id": "RC-01",
+   "relation": "has_participant",
+   "source_entity": "NEW-rework-80f2d6",
+   "source_witness_element": "D-RC-01-80f2d643#value:0",
+   "step_id": "S004",
+   "target_entity": "LOT-4"
+  },
+  {
+   "action_type": "preserve_evidence",
+   "actor": "P-ENG",
+   "addresses_mode": "resolve",
+   "discrepancy_id": "D-RC-03-8a7079dc",
+   "intended_local_effect": "keep the evidential relation is_about from NCR to LOT-4 on record",
+   "operation": "preserve",
+   "reference_id": "RC-03",
+   "relation": "is_about",
+   "source_entity": "NCR",
+   "source_witness_element": "D-RC-03-8a7079dc#present:E058",
+   "step_id": "S005",
+   "target_entity": "LOT-4"
+  },
+  {
+   "action_type": "propose_act",
+   "actor": "P-ENG",
+   "addresses_mode": "resolve",
+   "discrepancy_id": "D-RC-03-8a7079dc",
+   "intended_local_effect": "establish the prescribed relation has_input from NEW-ca-8a7079 to NCR",
+   "operation": "create",
+   "reference_id": "RC-03",
+   "relation": "has_input",
+   "source_entity": "NEW-ca-8a7079",
+   "source_witness_element": "D-RC-03-8a7079dc#absent:0",
+   "step_id": "S006",
+   "target_entity": "NCR"
+  },
+  {
+   "action_type": "preserve_evidence",
+   "actor": "P-ENG",
+   "addresses_mode": "resolve",
+   "discrepancy_id": "D-RC-04-9f7e9c12",
+   "intended_local_effect": "keep the evidential relation is_about from NCR to LOT-4 on record",
+   "operation": "preserve",
+   "reference_id": "RC-04",
+   "relation": "is_about",
+   "source_entity": "NCR",
+   "source_witness_element": "D-RC-04-9f7e9c12#present:E058",
+   "step_id": "S007",
+   "target_entity": "LOT-4"
+  },
+  {
+   "action_type": "preserve_evidence",
+   "actor": "P-ENG",
+   "addresses_mode": "resolve",
+   "discrepancy_id": "D-RC-04-9f7e9c12",
+   "intended_local_effect": "keep the evidential relation has_output from ACT-DEC to DIR-CONT on record",
+   "operation": "preserve",
+   "reference_id": "RC-04",
+   "relation": "has_output",
+   "source_entity": "ACT-DEC",
+   "source_witness_element": "D-RC-04-9f7e9c12#present:E073",
+   "step_id": "S008",
+   "target_entity": "DIR-CONT"
+  },
+  {
+   "action_type": "preserve_evidence",
+   "actor": "P-ENG",
+   "addresses_mode": "resolve",
+   "discrepancy_id": "D-RC-04-9f7e9c12",
+   "intended_local_effect": "keep the evidential relation is_about from DIR-CONT to LOT-4 on record",
+   "operation": "preserve",
+   "reference_id": "RC-04",
+   "relation": "is_about",
+   "source_entity": "DIR-CONT",
+   "source_witness_element": "D-RC-04-9f7e9c12#present:E075",
+   "step_id": "S009",
+   "target_entity": "LOT-4"
+  },
+  {
+   "action_type": "record_relation",
+   "actor": "P-ENG",
+   "addresses_mode": "resolve",
+   "discrepancy_id": "D-RC-04-9f7e9c12",
+   "intended_local_effect": "establish the prescribed relation has_input from ACT-DEC to NCR",
+   "operation": "create",
+   "reference_id": "RC-04",
+   "relation": "has_input",
+   "source_entity": "ACT-DEC",
+   "source_witness_element": "D-RC-04-9f7e9c12#absent:0",
+   "step_id": "S010",
+   "target_entity": "NCR"
+  },
+  {
+   "action_type": "preserve_evidence",
+   "actor": "P-ENG",
+   "addresses_mode": "resolve",
+   "discrepancy_id": "D-RC-06-c00c8eb0",
+   "intended_local_effect": "keep the evidential relation is_about from NCR to LOT-4 on record",
+   "operation": "preserve",
+   "reference_id": "RC-06",
+   "relation": "is_about",
+   "source_entity": "NCR",
+   "source_witness_element": "D-RC-06-c00c8eb0#present:E058",
+   "step_id": "S011",
+   "target_entity": "LOT-4"
+  },
+  {
+   "action_type": "preserve_evidence",
+   "actor": "P-ENG",
+   "addresses_mode": "resolve",
+   "discrepancy_id": "D-RC-06-c00c8eb0",
+   "intended_local_effect": "keep the evidential relation has_recipient from ACT-SHIPNOTE to ORG-HTA on record",
+   "operation": "preserve",
+   "reference_id": "RC-06",
+   "relation": "has_recipient",
+   "source_entity": "ACT-SHIPNOTE",
+   "source_witness_element": "D-RC-06-c00c8eb0#present:E083",
+   "step_id": "S012",
+   "target_entity": "ORG-HTA"
+  },
+  {
+   "action_type": "preserve_evidence",
+   "actor": "P-ENG",
+   "addresses_mode": "resolve",
+   "discrepancy_id": "D-RC-06-c00c8eb0",
+   "intended_local_effect": "keep the evidential relation has_input from ACT-SHIPNOTE to CERT on record",
+   "operation": "preserve",
+   "reference_id": "RC-06",
+   "relation": "has_input",
+   "source_entity": "ACT-SHIPNOTE",
+   "source_witness_element": "D-RC-06-c00c8eb0#present:E084",
+   "step_id": "S013",
+   "target_entity": "CERT"
+  },
+  {
+   "action_type": "preserve_evidence",
+   "actor": "P-ENG",
+   "addresses_mode": "resolve",
+   "discrepancy_id": "D-RC-06-c00c8eb0",
+   "intended_local_effect": "keep the evidential relation is_about from CERT to LOT-4 on record",
+   "operation": "preserve",
+   "reference_id": "RC-06",
+   "relation": "is_about",
+   "source_entity": "CERT",
+   "source_witness_element": "D-RC-06-c00c8eb0#present:E085",
+   "step_id": "S014",
+   "target_entity": "LOT-4"
+  },
+  {
+   "action_type": "propose_act",
+   "actor": "P-ENG",
+   "addresses_mode": "resolve",
+   "discrepancy_id": "D-RC-06-c00c8eb0",
+   "intended_local_effect": "establish the prescribed relation has_input from NEW-c2-c00c8e to NCR",
+   "operation": "create",
+   "reference_id": "RC-06",
+   "relation": "has_input",
+   "source_entity": "NEW-c2-c00c8e",
+   "source_witness_element": "D-RC-06-c00c8eb0#absent:0",
+   "step_id": "S015",
+   "target_entity": "NCR"
+  },
+  {
+   "action_type": "propose_act",
+   "actor": "P-ENG",
+   "addresses_mode": "resolve",
+   "discrepancy_id": "D-RC-06-c00c8eb0",
+   "intended_local_effect": "establish the prescribed relation has_recipient from NEW-c2-c00c8e to ORG-HTA",
+   "operation": "create",
+   "reference_id": "RC-06",
+   "relation": "has_recipient",
+   "source_entity": "NEW-c2-c00c8e",
+   "source_witness_element": "D-RC-06-c00c8eb0#absent:1",
+   "step_id": "S016",
+   "target_entity": "ORG-HTA"
+  },
+  {
+   "action_type": "preserve_evidence",
+   "actor": "P-ENG",
+   "addresses_mode": "resolve",
+   "discrepancy_id": "D-RC-10-baae974f",
+   "intended_local_effect": "keep the evidential relation is_about from NCR to LOT-4 on record",
+   "operation": "preserve",
+   "reference_id": "RC-10",
+   "relation": "is_about",
+   "source_entity": "NCR",
+   "source_witness_element": "D-RC-10-baae974f#present:E058",
+   "step_id": "S017",
+   "target_entity": "LOT-4"
+  },
+  {
+   "action_type": "preserve_evidence",
+   "actor": "P-ENG",
+   "addresses_mode": "resolve",
+   "discrepancy_id": "D-RC-10-baae974f",
+   "intended_local_effect": "keep the evidential relation prescribes from REG to PROC-QMS on record",
+   "operation": "preserve",
+   "reference_id": "RC-10",
+   "relation": "prescribes",
+   "source_entity": "REG",
+   "source_witness_element": "D-RC-10-baae974f#present:E096",
+   "step_id": "S018",
+   "target_entity": "PROC-QMS"
+  },
+  {
+   "action_type": "propose_act",
+   "actor": "P-ENG",
+   "addresses_mode": "resolve",
+   "discrepancy_id": "D-RC-10-baae974f",
+   "intended_local_effect": "establish the prescribed relation has_input from NEW-c-baae97 to NCR",
+   "operation": "create",
+   "reference_id": "RC-10",
+   "relation": "has_input",
+   "source_entity": "NEW-c-baae97",
+   "source_witness_element": "D-RC-10-baae974f#absent:0",
+   "step_id": "S019",
+   "target_entity": "NCR"
+  },
+  {
+   "action_type": "propose_act",
+   "actor": "P-ENG",
+   "addresses_mode": "resolve",
+   "discrepancy_id": "D-RC-10-baae974f",
+   "intended_local_effect": "establish the prescribed relation has_recipient from NEW-c-baae97 to NEW-gov-baae97",
+   "operation": "create",
+   "reference_id": "RC-10",
+   "relation": "has_recipient",
+   "source_entity": "NEW-c-baae97",
+   "source_witness_element": "D-RC-10-baae974f#absent:1",
+   "step_id": "S020",
+   "target_entity": "NEW-gov-baae97"
+  },
+  {
+   "action_type": "preserve_evidence",
+   "actor": "P-ENG",
+   "addresses_mode": "resolve",
+   "discrepancy_id": "D-RC-11-06b365f7",
+   "intended_local_effect": "keep the evidential relation has_input from ACT-EMAIL to NCR on record",
+   "operation": "preserve",
+   "reference_id": "RC-11",
+   "relation": "has_input",
+   "source_entity": "ACT-EMAIL",
+   "source_witness_element": "D-RC-11-06b365f7#present:E063",
+   "step_id": "S021",
+   "target_entity": "NCR"
+  },
+  {
+   "action_type": "preserve_evidence",
+   "actor": "P-ENG",
+   "addresses_mode": "resolve",
+   "discrepancy_id": "D-RC-11-06b365f7",
+   "intended_local_effect": "keep the evidential relation precedes from ACT-EMAIL to ACT-DEC on record",
+   "operation": "preserve",
+   "reference_id": "RC-11",
+   "relation": "precedes",
+   "source_entity": "ACT-EMAIL",
+   "source_witness_element": "D-RC-11-06b365f7#present:E069",
+   "step_id": "S022",
+   "target_entity": "ACT-DEC"
+  },
+  {
+   "action_type": "record_relation",
+   "actor": "P-ENG",
+   "addresses_mode": "resolve",
+   "discrepancy_id": "D-RC-11-06b365f7",
+   "intended_local_effect": "establish the prescribed relation has_input from ACT-DEC to NCR",
+   "operation": "create",
+   "reference_id": "RC-11",
+   "relation": "has_input",
+   "source_entity": "ACT-DEC",
+   "source_witness_element": "D-RC-11-06b365f7#absent:0",
+   "step_id": "S023",
+   "target_entity": "NCR"
+  }
+ ],
+ "value_disposition_id": "VD-COURAGE",
+ "workflow_hash": "3cd0cf7414ae91e05a39bc72b2b0525a1018f755e592a33af7ef5d6be84dcfaa"
+}

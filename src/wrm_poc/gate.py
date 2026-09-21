@@ -100,4 +100,5 @@ def evaluate_gate_a(results: Dict[str, Dict[str, Any]], config: Dict[str, Any], 
                             "live_refs": sorted(profiles[n]["live_refs"]), "n_activations": profiles[n]["n_activations"], "n_live": profiles[n]["n_live"],
                             "n_witness_edges": len(profiles[n]["witness_edges"]), "objectives": sorted(profiles[n]["objective_ids"])} for n in names},
         "difference_explanations": trace["difference_explanations"],
+        "derived_triage": {n: {"prima_facie_relevant": profiles[n]["n_live"] > 0, "live_references": sorted(profiles[n]["live_refs"])} for n in names},
     }

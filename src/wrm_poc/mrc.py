@@ -30,3 +30,17 @@ def mrc_profile(bundle: Bundle, imbalance_ratio: float = 6.0) -> Dict[str, Any]:
     if mn and mx / mn > imbalance_ratio:
         flags.append(f"gross imbalance: max/min edge ratio {mx / mn:.1f} > {imbalance_ratio}")
     return {"rows": rows, "total_edges": total, "all_domains_nonzero": not empty, "flags": flags}
+
+
+def library_mrc_profile(bundle: Bundle) -> Dict[str, Any]:
+    """v0.2 §2.4: the reference-condition library must carry standards across every domain of D. A standard is counted in a
+    domain when its applicability pattern uses at least one predicate whose primary domain is that domain."""
+    pred_domain = {p["id"]: p["relational_domain"] for p in bundle.predicates_doc["predicates"]}
+    by_domain: Dict[str, set] = {d: set() for d in DOMAINS}
+    for rc in bundle.reference_conditions:
+        preds = {p for _, p, _ in rc["applicability"].get("edges", [])} | {p for _, p, _ in rc["prescribed"].get("edges", [])}
+        for pr in preds:
+            by_domain[pred_domain[pr]].add(rc["id"])
+    rows = [{"domain": d, "reference_count": len(by_domain[d]), "references": sorted(by_domain[d])} for d in DOMAINS]
+    empty = [r["domain"] for r in rows if r["reference_count"] == 0]
+    return {"rows": rows, "all_domains_nonzero": not empty, "flags": ([f"library domains with no standard: {empty}"] if empty else [])}

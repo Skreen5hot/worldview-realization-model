@@ -1,0 +1,36 @@
+{
+ "artifact_hashes": {
+  "assignments": "7372de6f637e578cfac169d7cc7fe07ecefc937d738bdcee819d90bbcff27956",
+  "experiment": "21aa7225ce5b35f64e1033748d597e6ba85979a35c09fb1412953da6aa3d9d9e",
+  "experiment_protocol": "8ba8017646d41deeb73cfa818f7274c48b607338b0098048e711dcc76528d042",
+  "firewall_lexicon": "b2db065aa67616ff0b0b138744ada258e9fe781b273936725bf0df7134cb5797",
+  "metric": "d71e3d12493100289325b6dfa88765598b275a863b6170cfacab63fc5e6d4250",
+  "objectives": "163b741a1870e2d28a176be7545a74cd0c25cc632aa5c7cd1e385c9e73bea3d5",
+  "ontology_predicates": "3175158574ee9facb4426cbf04c581693de47563d04e6a4699c138c724f4f3f0",
+  "perturbations": "4400ded39a7fe7607b38413f4ff2d86c9ef28fecf57e7676f530d5fb327dac7c",
+  "reference_library": "aa8fb2c65190a9dcd79884b8391fe3cc3d0cff584292a4e092f98f2e01e40e4e",
+  "scenario": "1bbc43ef9d793c3cbcd8ec410ab3af319c796be4fae6242230023a5a7776c40d"
+ },
+ "code_hash": "bafb1cfa694e2bc0e70e7f3887a6eaf05e19791bb888aa048e8bd69e291f1e28",
+ "credited": true,
+ "dependency_versions": {
+  "anthropic": "1.7.0",
+  "networkx": "3.6.1",
+  "pytest": "9.1.1"
+ },
+ "firewall_passed": true,
+ "frozen_identity": "3c60bcdf3ccc2baa33b4bd39cc0ba7e962477b8db0ff556c304e93405d28f174",
+ "git_commit": "4e23a7a8da1c89396ff0e96ca7464bbf55a90789",
+ "platform": "Linux-6.18.44-fc-v37-x86_64-with-glibc2.39",
+ "python_version": "3.11.15 (main, Mar  3 2026, 09:26:23) [GCC 13.3.0]",
+ "random_seed": 20260921,
+ "run_id": "credited_run_3c60bcdf3c",
+ "schema": "wrm-poc/manifest/v1",
+ "validation": {
+  "assignments": [],
+  "experiment": [],
+  "library": [],
+  "predicates": [],
+  "scenario": []
+ }
+}

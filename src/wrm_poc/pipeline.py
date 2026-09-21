@@ -2,7 +2,7 @@
 from __future__ import annotations
 from typing import Any, Dict, List
 from .models import Bundle, Assignment, Family, Graph
-from .filtering import filter_by_family, is_idempotent
+from .filtering import filter_by_family, is_idempotent, in_scope_entities
 from .discrepancy import run_layers_2_3
 from .significance import run_layer_4
 from .hashing import sha256_json
@@ -20,6 +20,7 @@ def run_setting(bundle: Bundle, family: Family, setting_id: str) -> Dict[str, An
         "filtered_graph": g,
         "filtered_graph_hash": ghash,
         "filtered_edge_ids": g.edge_ids(),
+        "in_scope_entity_ids": sorted(in_scope_entities(g)),
         "idempotent": is_idempotent(bundle.graph, family),
         "activations": l23["activations"],
         "discrepancies": l23["discrepancies"],

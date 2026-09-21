@@ -45,7 +45,14 @@ def summarize(bundle: Bundle, assignment: Assignment, gate_cfg: Dict[str, Any]) 
     fams = {f.name: f.predicates for f in assignment.families}
     gate = evaluate_gate_a(res, gate_cfg, set(bundle.graph.edges), fams, bundle.reference_conditions)
     n_chains = sum(len(v["significance"]) for v in res.values())
+    from .synthesis import gate_b
+    gb = gate_b(bundle, res, assignment)
     return {
+        "divergence_median": gb["divergence"]["median"],
+        "divergence_mean": gb["divergence"]["mean"],
+        "all_lineage_pass": gb["all_lineage_pass"],
+        "foreign_full_pass_fraction": gb["foreign_full_pass_fraction"],
+        "distinct_satisfaction_condition_sets": gb["distinct_satisfaction_condition_sets"],
         "families": {f.name: sorted(f.predicates) for f in assignment.families},
         "n_activations": sum(p["n_activations"] for p in profiles.values()),
         "n_live": sum(p["n_live"] for p in profiles.values()),
@@ -101,6 +108,12 @@ def run_placebo(bundle: Bundle, intended_summary: Dict[str, Any]) -> Dict[str, A
             "mean_activation_distance": round(sum(s["mean_activation_distance"] for s in samples) / n, 4),
             "mean_witness_distance": round(sum(s["mean_witness_distance"] for s in samples) / n, 4),
             "mean_lineage_chains": round(sum(s["complete_lineage_chains"] for s in samples) / n, 2),
+            "divergence_median_values": sorted(s["divergence_median"] for s in samples),
+            "divergence_median_mean": round(sum(s["divergence_median"] for s in samples) / n, 4),
+            "divergence_median_p90": sorted(s["divergence_median"] for s in samples)[min(n - 1, int(round(0.9 * (n - 1))))],
+            "intended_divergence_median_percentile": round(percentile_rank(intended_summary.get("divergence_median", 0.0), [s["divergence_median"] for s in samples]), 1),
+            "mean_foreign_full_pass_fraction": round(sum(s["foreign_full_pass_fraction"] for s in samples) / n, 3),
+            "fraction_all_lineage_pass": round(sum(1 for s in samples if s["all_lineage_pass"]) / n, 3),
         }
         out["nulls"][null_name] = {"stats": stats, "samples": samples}
     req, inc = gate_cfg["placebo_percentile_required"], gate_cfg["placebo_percentile_inconclusive"]

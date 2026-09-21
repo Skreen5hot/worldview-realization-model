@@ -5,8 +5,15 @@ One frozen, ontology-grounded situation graph; four candidate predicate families
 activation → discrepancy witness → significance → label-blind workflow; matched random-cover controls; foreign-dial and
 perturbation controls; exact edge-level lineage. No LLM is needed for any credited result.
 
-**Important:** the normative source `WRM-Formal-Model-v0_2.md` was not available when this was built. See `source/README.md`
-and `docs/assumptions.md` (A-01).
+**Source note:** `source/WRM-Formal-Model-v0_2.md` was supplied after the first credited run; see `source/README.md` and the
+reconciliation table in `source/WRM-v0_2-prototype-interpretation.md`.
+
+## Credited run history
+
+| run | inputs | code | status |
+|---|---|---|---|
+| `outputs/credited_run_8d27617749` | frozen data v1 | pre-reconciliation | superseded (kept for the record; all its numbers are reproduced by the next run) |
+| `outputs/credited_run_3c60bcdf3c` | frozen data v1 (identical hashes) | post-reconciliation (companion statistics added) | **current** — see its `report.md` |
 
 ## Run
 

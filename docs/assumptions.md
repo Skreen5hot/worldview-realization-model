@@ -2,12 +2,12 @@
 
 Each entry: ID, decision, reason, consequence. Entries were written before the credited run unless marked.
 
-* **A-01 Missing primary source.** `WRM-Formal-Model-v0_2.md` was not in the workspace, the repository remote, or
-  any sibling repository (Integral-Ethics-Engine, Ontology-of-Freedom, IntegratedAgent were checked). The task's
-  own restatement of v0.2 (§2.1–2.6, §3, §5 D-1, §8, §10) was treated as the operational specification. No text
-  was fabricated in its name; `source/README.md` records the gap. Consequence: falsifier wording, the Visibility
-  Lemma, and the exact D-1 metric are implemented as restated in the task and must be re-checked against the real
-  document.
+* **A-01 Primary source timing.** `WRM-Formal-Model-v0_2.md` was not in the workspace, the repository remote, or
+  any sibling repository during the initial build; the task's restatement was treated as the operational specification and
+  credited run `8d27617749` was produced from it. The document was supplied afterwards and the implementation was reconciled
+  against it (`source/WRM-v0_2-prototype-interpretation.md`); the frozen data artifacts were unchanged, the code gained
+  companion statistics only, and the experiment was re-frozen and re-run under a new identifier. Not implemented from v0.2:
+  rival bases (§6), the calibrated divergence floor and paraphrased-scenario control (§5.1), a live dial UI (§10).
 * **A-02 No BFO/CCO files in the workspace.** The task says "where the workspace contains the supplied BFO/CCO
   ontology files". None were supplied, so the CCO GitHub repository (CommonCoreOntology/CommonCoreOntologies,
   `src/cco-merged/CommonCoreOntologiesMerged.ttl`, which imports BFO 2020) was cloned read-only and every
@@ -67,3 +67,9 @@ Each entry: ID, decision, reason, consequence. Entries were written before the c
   operation of the other on a shared relation type, so a workflow compared with itself scored D > 0 when it used two operations on
   one relation. Redefined (config/metric.json `polarity_scope`) so identical operation sets score 0 and only the operations unique
   to each side are compared. Found by the identity test before the freeze; no credited output existed.
+* **A-18 Divergence-magnitude companion finding is reported, not gated.** The placebo-through-synthesis comparison
+  (v0.2 §2.5.3) was added after the first credited run and shows random covers matching or exceeding the intended cover on
+  workflow divergence. Adding a new pass/fail criterion after seeing this would be post-hoc tuning in either direction, so the
+  pre-registered classification logic (protocol §9) is left unchanged, the finding is carried as a caveat in the executive
+  result, and falsifier V5 is marked partially triggered. A future protocol should pre-register a divergence-percentile
+  criterion.

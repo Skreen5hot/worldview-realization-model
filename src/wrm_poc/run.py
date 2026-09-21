@@ -14,6 +14,9 @@ from .perturbation import apply_perturbation, compare
 from .workflow import build_blind_packet, synthesize, simulate
 from .audit import lineage_audit, foreign_dial
 from .metrics import divergence_matrix
+from .synthesis import gate_b as shared_gate_b
+from .adjacency import lexical_adjacency, operational_adjacency
+from .mrc import library_mrc_profile
 from .manifest import build_manifest, check_frozen, write_frozen_manifest
 from .hashing import short, sha256_json
 from . import reporting
@@ -25,32 +28,17 @@ def _dump(path: Path, obj: Any):
 
 
 def gate_b(bundle: Bundle, results: Dict[str, Dict[str, Any]], assignment, out: Path | None) -> Dict[str, Any]:
-    packets, workflows, audits, sims, foreign = {}, {}, {}, {}, {}
-    disposition_id = bundle.experiment["value_disposition"]["id"]
-    for name, res in results.items():
-        pk = build_blind_packet(res, bundle.reference_conditions, bundle.objectives, bundle.experiment, bundle.lexicon_doc)
-        wf = synthesize(pk, bundle.metric)
-        packets[name], workflows[name] = pk, wf
-        audits[name] = lineage_audit(wf, pk, res, bundle.graph.edges, assignment.by_name(name).predicates, bundle.reference_conditions, bundle.lexicon_doc, disposition_id)
-        sims[name] = simulate(wf, pk, bundle.reference_conditions)
-    for name, wf in workflows.items():
-        foreign[name] = foreign_dial(wf, name, results)
-    div = divergence_matrix(workflows, bundle.metric)
+    gb = shared_gate_b(bundle, results, assignment)
     if out is not None:
         for name in results:
-            pk = packets[name]
+            pk = gb["packets"][name]
             _dump(out / "blind_packets" / f"{pk['packet_id']}.json", pk)
-            _dump(out / "workflows" / f"workflow_{pk['packet_id']}.json", workflows[name])
-            _dump(out / "lineage" / f"lineage_{name}.json", {"family": name, "packet_id": pk["packet_id"], "audit": audits[name], "simulation": sims[name]})
-        _dump(out / "lineage" / "packet_key.json", {"note": "Mapping from opaque packet id to family. NOT part of any generator input.", "key": {packets[n]["packet_id"]: n for n in packets}})
-        _dump(out / "controls" / "foreign_dial.json", foreign)
-        _dump(out / "workflows" / "divergence_matrix.json", div)
-    n_foreign = sum(1 for h in foreign.values() for f, v in h.items() if not v["is_home"])
-    n_foreign_pass = sum(1 for h in foreign.values() for f, v in h.items() if not v["is_home"] and v["full_pass"])
-    return {"packets": packets, "workflows": workflows, "audits": audits, "simulations": sims, "foreign_dial": foreign, "divergence": div,
-            "all_lineage_pass": all(a["passed"] for a in audits.values()),
-            "foreign_full_pass_fraction": round(n_foreign_pass / n_foreign, 3) if n_foreign else 0.0,
-            "within_condition_variance": 0.0, "within_condition_note": "deterministic generator: zero by construction; this does not establish the D-1 noise band"}
+            _dump(out / "workflows" / f"workflow_{pk['packet_id']}.json", gb["workflows"][name])
+            _dump(out / "lineage" / f"lineage_{name}.json", {"family": name, "packet_id": pk["packet_id"], "audit": gb["audits"][name], "simulation": gb["simulations"][name]})
+        _dump(out / "lineage" / "packet_key.json", {"note": "Mapping from opaque packet id to family. NOT part of any generator input.", "key": {gb["packets"][n]["packet_id"]: n for n in gb["packets"]}})
+        _dump(out / "controls" / "foreign_dial.json", gb["foreign_dial"])
+        _dump(out / "workflows" / "divergence_matrix.json", gb["divergence"])
+    return gb
 
 
 def run_llm_gate_b(bundle: Bundle, packets: Dict[str, Dict[str, Any]], out: Path) -> Dict[str, Any]:
@@ -103,7 +91,12 @@ def classify(gate_a: Dict[str, Any], placebo: Dict[str, Any], gb: Dict[str, Any]
         return {"result": "INCONCLUSIVE", "reasons": ["intended SDS between the 50th and 90th percentile of a null distribution"]}
     if gb is None:
         return {"result": "INCONCLUSIVE", "reasons": ["Gate B not executed"]}
-    return {"result": "GO", "reasons": ["Gate A criteria 1-5 hold; lineage audits pass; foreign-dial selective; perturbations not fragile; disposition invariant"]}
+    caveats = []
+    for k, v in placebo["nulls"].items():
+        pct = v["stats"].get("intended_divergence_median_percentile")
+        if pct is not None and pct < 50:
+            caveats.append(f"workflow-divergence magnitude does not discriminate: intended median divergence is at the {pct}th percentile of null `{k}` (companion statistic, not a pre-registered criterion)")
+    return {"result": "GO", "reasons": ["Gate A criteria 1-5 hold; lineage audits pass; foreign-dial selective; perturbations not fragile; disposition invariant"], "caveats": caveats}
 
 
 def falsifiers(gate_a, placebo, gb, pert, invariance_ok) -> List[Dict[str, Any]]:
@@ -121,7 +114,26 @@ def falsifiers(gate_a, placebo, gb, pert, invariance_ok) -> List[Dict[str, Any]]
     add("F7", "workflow differences are generic prose differences unsupported by lineage", gb is not None and not gb["all_lineage_pass"], "all lineage audits pass" if (gb and gb["all_lineage_pass"]) else "see lineage")
     add("F8", "assignment perturbations routinely reverse results", pert["fragile"], pert["summary"])
     add("F9", "the fixed value disposition must be redefined by setting", not invariance_ok, "disposition id identical in all workflows" if invariance_ok else "differs")
-    return F
+    # v0.2 §5 enumeration (seven falsifiers, verbatim mapping)
+    V = []
+    def addv(id_, text, status, evidence):
+        V.append({"id": id_, "falsifier": text, "status": status, "evidence": evidence})
+    addv("V1", "the p_w converge within the calibrated noise band (the dial does nothing)",
+         "NOT TESTABLE (deterministic generator: noise band is zero; divergence positive but uncalibrated)" if gb else "Gate B not run",
+         gb["divergence"]["median"] if gb else None)
+    addv("V2", "divergence appears but lineage or the blind-packet manifest fails", "TRIGGERED" if (gb and not gb["all_lineage_pass"]) else "not triggered", "all lineage audits pass; packets firewall-scanned and hashed" if gb else None)
+    no_act = [n for n, p in ps.items() if not p["activated_refs"]]
+    addv("V3", "a dial setting yields no activatable standard on an MRC-certified scenario that contains that family's domain", "TRIGGERED" if no_act else "not triggered", {"settings_without_activation": no_act})
+    addv("V4", "the negative lineage control passes under foreign dials", "TRIGGERED" if (gb and gb["foreign_full_pass_fraction"] > 0.5) else "not triggered", gb["foreign_full_pass_fraction"] if gb else None)
+    div_pcts = {k: v["stats"].get("intended_divergence_median_percentile") for k, v in placebo["nulls"].items()}
+    struct_ok = placebo["reading"] == "PASS"
+    div_comparable = any(p is not None and p < 50 for p in div_pcts.values())
+    v5 = "TRIGGERED" if not struct_ok else ("PARTIALLY TRIGGERED: comparable on workflow-divergence magnitude; not comparable on activation structure, coverage or foreign-dial selectivity" if div_comparable else "not triggered")
+    addv("V5", "the placebo filter performs comparably", v5, {"sds_percentile": {k: v["stats"]["intended_sds_percentile"] for k, v in placebo["nulls"].items()}, "divergence_median_percentile": div_pcts,
+         "null_mean_foreign_full_pass": {k: v["stats"].get("mean_foreign_full_pass_fraction") for k, v in placebo["nulls"].items()}, "intended_foreign_full_pass": gb["foreign_full_pass_fraction"] if gb else None})
+    addv("V6", "ASSIGNMENT-FRAGILE at the frozen tolerance", "TRIGGERED" if pert["fragile"] else "not triggered", pert["summary"])
+    addv("V7", "invariance breaks (d must be split to make outputs coherent)", "TRIGGERED" if not invariance_ok else "not triggered", "one disposition id across all workflows")
+    return F + V
 
 
 def execute(credited: bool, out_root: Path | None = None, skip_llm: bool = False) -> Path:
@@ -137,6 +149,7 @@ def execute(credited: bool, out_root: Path | None = None, skip_llm: bool = False
     if not all(r["passed"] for r in fw.values()):
         raise SystemExit("firewall failed: " + json.dumps({k: r["hits"] for k, r in fw.items() if not r["passed"]}, indent=1))
     mrc = mrc_profile(bundle)
+    lib_mrc = library_mrc_profile(bundle)
     if credited:
         chk = check_frozen(seed)
         if not chk["ok"]:
@@ -154,7 +167,7 @@ def execute(credited: bool, out_root: Path | None = None, skip_llm: bool = False
     manifest = dict(manifest, run_id=run_id, credited=credited, validation=v, firewall_passed=True)
     _dump(out / "manifest.json", manifest)
     _dump(out / "controls" / "firewall_report.json", fw)
-    _dump(out / "controls" / "mrc_report.json", mrc)
+    _dump(out / "controls" / "mrc_report.json", {"scenario": mrc, "reference_library": lib_mrc})
 
     # ---- Gate A
     results = run_assignment(bundle, bundle.assignment)
@@ -194,12 +207,14 @@ def execute(credited: bool, out_root: Path | None = None, skip_llm: bool = False
             "summary": f"{n_fail}/{len(pert_rows)} perturbations fail Gate A criteria 1-4"}
     _dump(out / "controls" / "perturbations.json", pert)
     invariance_ok = gb is None or len(set(w["value_disposition_id"] for w in gb["workflows"].values())) == 1
+    adjacency = {"lexical": lexical_adjacency(fams), "operational": operational_adjacency(results, gb["workflows"]) if gb else None}
+    _dump(out / "controls" / "adjacency.json", adjacency)
     cls = classify(gate_a, placebo, gb, pert, invariance_ok)
     fals = falsifiers(gate_a, placebo, gb, pert, invariance_ok)
     results_json = {"run_id": run_id, "credited": credited, "classification": cls, "gate_a": gate_a, "placebo": {"reading": placebo["reading"], "intended_sds": placebo["intended_sds"],
                     "nulls": {k: v["stats"] for k, v in placebo["nulls"].items()}}, "settings": strip_graphs(results), "mrc": mrc,
-                    "gate_b": None if gb is None else {k: v for k, v in gb.items() if k not in ("packets",)}, "llm": llm, "perturbations": pert, "falsifiers": fals, "invariance_ok": invariance_ok,
+                    "gate_b": None if gb is None else {k: v for k, v in gb.items() if k not in ("packets",)}, "llm": llm, "perturbations": pert, "falsifiers": fals, "invariance_ok": invariance_ok, "adjacency": adjacency, "library_mrc": lib_mrc,
                     "packet_ids": None if gb is None else {n: p["packet_id"] for n, p in gb["packets"].items()}}
     _dump(out / "results.json", results_json)
-    reporting.write_reports(out, bundle, manifest, results_json, results, gb, placebo, pert, fals, cls, mrc, fw)
+    reporting.write_reports(out, bundle, manifest, results_json, results, gb, placebo, pert, fals, cls, mrc, fw, lib_mrc, adjacency)
     return out

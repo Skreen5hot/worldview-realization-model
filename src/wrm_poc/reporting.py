@@ -21,7 +21,7 @@ def _jt(mat: Dict[str, Dict[str, float]]) -> str:
     return _table([""] + names, [[a] + [mat[a][b] for b in names] for a in names])
 
 
-def write_reports(out: Path, bundle, manifest, res, results, gb, placebo, pert, fals, cls, mrc, fw):
+def write_reports(out: Path, bundle, manifest, res, results, gb, placebo, pert, fals, cls, mrc, fw, lib_mrc, adjacency):
     fam_names = bundle.assignment.names()
     ga = res["gate_a"]
     L = []
@@ -30,7 +30,9 @@ def write_reports(out: Path, bundle, manifest, res, results, gb, placebo, pert, 
     L.append("## A. Executive result\n")
     L.append(f"**Primary classification: {cls['result']}**\n")
     L.append("Why: " + "; ".join(cls["reasons"]) + "\n")
-    L.append("Primary source caveat: `WRM-Formal-Model-v0_2.md` was unavailable; the task's restatement of v0.2 was implemented (see `docs/assumptions.md` A-01).\n")
+    if cls.get("caveats"):
+        L.append("**Caveats that do not change the pre-registered classification but bound its meaning:**\n\n" + "\n".join(f"* {c}" for c in cls["caveats"]) + "\n")
+    L.append("Primary source: `source/WRM-Formal-Model-v0_2.md` (reconciliation in `source/WRM-v0_2-prototype-interpretation.md`; see `docs/assumptions.md` A-01).\n")
     # B
     L.append("## B. What was actually demonstrated\n")
     L.append("* **Computational feasibility**: the full deterministic pipeline (filter → activation → witness → significance → workflow → audit) runs from one command in seconds with exact edge-level lineage.")
@@ -49,6 +51,8 @@ def write_reports(out: Path, bundle, manifest, res, results, gb, placebo, pert, 
     L.append(f"Entities: {len(g.entities)}; edges: {len(g.edges)}; predicate types: {len(g.predicates)}. Firewall: {'PASS' if all(r['passed'] for r in fw.values()) else 'FAIL'}.\n")
     L.append(_table(["domain", "edges", "predicates", "% edges"], [[r["domain"], r["edge_count"], r["predicate_count"], r["edge_percent"]] for r in mrc["rows"]]))
     L.append("\nMRC flags: " + ("; ".join(mrc["flags"]) if mrc["flags"] else "none") + "\n")
+    L.append("Reference-library MRC audit (v0.2 §2.4; a standard counts in a domain when its patterns use a predicate of that domain):\n\n" + _table(["domain", "#standards", "standards"], [[r["domain"], r["reference_count"], ", ".join(r["references"])] for r in lib_mrc["rows"]]))
+    L.append("\nLibrary flags: " + ("; ".join(lib_mrc["flags"]) if lib_mrc["flags"] else "none") + "\n")
     # E
     L.append("## E. Four intended families\n")
     rows = []
@@ -62,6 +66,11 @@ def write_reports(out: Path, bundle, manifest, res, results, gb, placebo, pert, 
             overlaps.append([fl[i].name, fl[j].name, ", ".join(sorted(fl[i].predicates & fl[j].predicates)) or "—"])
     L.append("\nOverlaps:\n\n" + _table(["family", "family", "shared predicates"], overlaps))
     L.append("\nFiltered-edge Jaccard similarity:\n\n" + _jt(ga["jaccard"]["filtered_edges"]) + "\n")
+    L.append("Lexical adjacency adj_Π (v0.2 §2.2, constructional statistic only):\n\n" + _jt(adjacency["lexical"]) + "\n")
+    if adjacency.get("operational"):
+        op = adjacency["operational"]["pairs"]
+        L.append("Operational adjacency adj_op (activation similarity, witness similarity, polarity agreement on shared targeted edges):\n\n" + _table(["pair", "activation sim.", "witness sim.", "shared targeted edges", "polarity agreement", "adj_op"], [[k, v["activation_similarity"], v["witness_similarity"], v["n_shared_targeted_edges"], v["polarity_agreement_on_shared_edges"], v["adj_op"]] for k, v in op.items()]) + "\n\n" + adjacency["operational"]["note"] + "\n")
+    L.append("Derived triage (v0.2 §7.5: w is prima facie relevant iff F_w(S) activates ≥1 standard with a live discrepancy):\n\n" + _table(["family", "relevant", "live references"], [[n, v["prima_facie_relevant"], ", ".join(v["live_references"])] for n, v in ga["derived_triage"].items()]) + "\n")
     # F
     L.append("## F. Layer 2–4 results per family\n")
     for name in fam_names:
@@ -91,6 +100,7 @@ def write_reports(out: Path, bundle, manifest, res, results, gb, placebo, pert, 
         s = v["stats"]
         prow.append([k, s["n"], s["sds_mean"], s["sds_median"], s["sds_p90"], s["sds_max"], s["intended_sds_percentile"], s["fraction_passing_gate_a_1_to_4"], s["mean_n_live"], s["mean_families_with_live"], s["mean_activation_distance"], s["mean_witness_distance"], s["mean_lineage_chains"]])
     L.append(_table(["null", "n", "SDS mean", "SDS median", "SDS p90", "SDS max", "intended percentile", "frac passing Gate A 1–4", "mean live", "mean families w/ live", "mean act. dist", "mean witness dist", "mean lineage chains"], prow))
+    L.append("\nNull covers run through the same synthesis pipeline (v0.2 §2.5.3):\n\n" + _table(["null", "median workflow divergence: mean", "p90", "intended median percentile", "mean foreign full-pass fraction", "frac all lineage pass"], [[k, v["stats"]["divergence_median_mean"], v["stats"]["divergence_median_p90"], v["stats"]["intended_divergence_median_percentile"], v["stats"]["mean_foreign_full_pass_fraction"], v["stats"]["fraction_all_lineage_pass"]] for k, v in placebo["nulls"].items()]))
     L.append(f"\nPre-registered reading: **{placebo['reading']}** (PASS requires ≥ 90th percentile on both nulls).\n")
     for k, v in placebo["nulls"].items():
         L.append(f"Null `{k}` SDS values (sorted): {sorted(v['stats']['sds_values'])}\n")
@@ -113,6 +123,7 @@ def write_reports(out: Path, bundle, manifest, res, results, gb, placebo, pert, 
                 d = gb["divergence"]["matrix"][a][b]
                 comp.append([a, b, d["A"], d["B"], d["C"], d["D"], d["D_no_shared_relations"], d["total"]])
         L.append("\n" + _table(["pair", "", "A target", "B relation", "C GED", "D polarity", "D undefined", "total"], comp))
+        L.append("\nD-1 criterion 2 (distinct value realization): satisfaction-condition sets per family — " + "; ".join(f"{n}: {', '.join(v)}" for n, v in gb["satisfaction_condition_sets"].items()) + f". Distinct sets: {gb['distinct_satisfaction_condition_sets']}/{len(gb['satisfaction_condition_sets'])}; disposition `{bundle.experiment['value_disposition']['id']}` unchanged in all.\n")
         L.append(f"\nMedian {gb['divergence']['median']}, min {gb['divergence']['min']}, max {gb['divergence']['max']}. Within-condition variance: 0 by construction (deterministic); this does not establish the D-1 noise threshold.\n")
         L.append("LLM generator: " + json.dumps(res["llm"], indent=1)[:1500] + "\n")
     else:
@@ -145,12 +156,12 @@ def write_reports(out: Path, bundle, manifest, res, results, gb, placebo, pert, 
     L.append(f"\n{pert['summary']} → {'**ASSIGNMENT-FRAGILE**' if pert['fragile'] else 'not labelled fragile (threshold ≥ half)'}.\n")
     # L
     L.append("## L. Falsifiers triggered\n")
-    L.append(_table(["id", "falsifier (D-1, as restated)", "status", "evidence"], [[f["id"], f["falsifier"], f["status"], str(f["evidence"])[:140]] for f in fals]) + "\n")
+    L.append("F1–F9 follow the task specification's list; V1–V7 follow the v0.2 §5 enumeration verbatim.\n\n" + _table(["id", "falsifier", "status", "evidence"], [[f["id"], f["falsifier"], f["status"], str(f["evidence"])[:140]] for f in fals]) + "\n")
     # M
     L.append("## M. Interpretation ceiling\n")
     L.append("""This experiment does **not** establish: Steiner's twelve worldviews; the completeness of any worldview inventory; moral truth; that the four family labels name psychological or philosophical natural kinds; the operational adjacency or topology of families; the full WRM architecture (Pepper-4, Dilthey-3, IEA integration, governance); or the D-1 divergence threshold (within-condition variance is zero by construction here).
 
-Specific limitations: (1) the reference library and the family assignment were co-designed in one development phase, so the placebo controls, not the design, carry the evidential weight; (2) the library is small (14 conditions) and one scenario is used; (3) the primary source document was unavailable and the task's restatement was implemented; (4) the workflow generator is a generic deterministic synthesizer, so Gate B shows that the *structured pipeline* yields distinct operational outputs, not that a generative model would; (5) the MRC audit flags an evaluative/experiential domain that is thin (see §D); (6) the `not_evaluable` visibility rule (A-03) is a prototype choice that may differ from v0.2's Visibility Lemma.
+Specific limitations: (1) the reference library and the family assignment were co-designed in one development phase, so the placebo controls, not the design, carry the evidential weight; (2) the library is small (14 conditions) and one scenario is used; (3) the primary source document arrived after the build; the implementation was reconciled against it (`source/WRM-v0_2-prototype-interpretation.md`) but rival bases (Pepper-4, Dilthey-3), the calibrated divergence floor and the paraphrased-scenario control were not run; (4) the workflow generator is a generic deterministic synthesizer, so Gate B shows that the *structured pipeline* yields distinct operational outputs, not that a generative model would; (5) the MRC audit flags an evaluative/experiential domain that is thin (see §D); (6) the `not_evaluable` visibility rule (A-03) is a prototype choice that may differ from v0.2's Visibility Lemma.
 """)
     # N
     L.append("## N. Recommended next experiment\n")
@@ -177,6 +188,8 @@ Specific limitations: (1) the reference library and the family assignment were c
         ["invariance (fixed disposition)", res["invariance_ok"]],
         ["LLM Gate B", "executed" if res["llm"].get("executed") else "not executed"],
         ["falsifiers triggered", ", ".join(f["id"] for f in fals if f["status"] == "TRIGGERED") or "none"],
+        ["falsifiers not testable", ", ".join(f["id"] for f in fals if f["status"].startswith("NOT TESTABLE")) or "none"],
+        ["D-1 crit. 2: distinct satisfaction-condition sets", f"{gb['distinct_satisfaction_condition_sets']}/4" if gb else "n/a"],
     ])]
     (out / "scorecard.md").write_text("\n".join(S))
     if gb:

@@ -1,0 +1,186 @@
+{
+ "Dynamism": {
+  "Dynamism": {
+   "fraction_discrepancies_present": 1.0,
+   "fraction_grounding_edges_admitted": 1.0,
+   "fraction_references_activating": 1.0,
+   "full_pass": true,
+   "grounding_edges_admitted": true,
+   "is_home": true,
+   "same_reference_activates": true,
+   "same_significance_licensed": true,
+   "same_witness_exists": true
+  },
+  "Materialism": {
+   "fraction_discrepancies_present": 0.4,
+   "fraction_grounding_edges_admitted": 0.85,
+   "fraction_references_activating": 0.25,
+   "full_pass": false,
+   "grounding_edges_admitted": false,
+   "is_home": false,
+   "same_reference_activates": false,
+   "same_significance_licensed": false,
+   "same_witness_exists": false
+  },
+  "Pneumatism": {
+   "fraction_discrepancies_present": 0.0,
+   "fraction_grounding_edges_admitted": 0.35,
+   "fraction_references_activating": 0.0,
+   "full_pass": false,
+   "grounding_edges_admitted": false,
+   "is_home": false,
+   "same_reference_activates": false,
+   "same_significance_licensed": false,
+   "same_witness_exists": false
+  },
+  "Rationalism": {
+   "fraction_discrepancies_present": 0.2,
+   "fraction_grounding_edges_admitted": 0.6,
+   "fraction_references_activating": 0.25,
+   "full_pass": false,
+   "grounding_edges_admitted": false,
+   "is_home": false,
+   "same_reference_activates": false,
+   "same_significance_licensed": false,
+   "same_witness_exists": false
+  }
+ },
+ "Materialism": {
+  "Dynamism": {
+   "fraction_discrepancies_present": 0.5,
+   "fraction_grounding_edges_admitted": 0.875,
+   "fraction_references_activating": 0.333,
+   "full_pass": false,
+   "grounding_edges_admitted": false,
+   "is_home": false,
+   "same_reference_activates": false,
+   "same_significance_licensed": false,
+   "same_witness_exists": false
+  },
+  "Materialism": {
+   "fraction_discrepancies_present": 1.0,
+   "fraction_grounding_edges_admitted": 1.0,
+   "fraction_references_activating": 1.0,
+   "full_pass": true,
+   "grounding_edges_admitted": true,
+   "is_home": true,
+   "same_reference_activates": true,
+   "same_significance_licensed": true,
+   "same_witness_exists": true
+  },
+  "Pneumatism": {
+   "fraction_discrepancies_present": 0.0,
+   "fraction_grounding_edges_admitted": 0.375,
+   "fraction_references_activating": 0.333,
+   "full_pass": false,
+   "grounding_edges_admitted": false,
+   "is_home": false,
+   "same_reference_activates": false,
+   "same_significance_licensed": false,
+   "same_witness_exists": false
+  },
+  "Rationalism": {
+   "fraction_discrepancies_present": 0.0,
+   "fraction_grounding_edges_admitted": 0.625,
+   "fraction_references_activating": 0.0,
+   "full_pass": false,
+   "grounding_edges_admitted": false,
+   "is_home": false,
+   "same_reference_activates": false,
+   "same_significance_licensed": false,
+   "same_witness_exists": false
+  }
+ },
+ "Pneumatism": {
+  "Dynamism": {
+   "fraction_discrepancies_present": 0.0,
+   "fraction_grounding_edges_admitted": 0.25,
+   "fraction_references_activating": 0.0,
+   "full_pass": false,
+   "grounding_edges_admitted": false,
+   "is_home": false,
+   "same_reference_activates": false,
+   "same_significance_licensed": false,
+   "same_witness_exists": false
+  },
+  "Materialism": {
+   "fraction_discrepancies_present": 0.0,
+   "fraction_grounding_edges_admitted": 0.5,
+   "fraction_references_activating": 0.0,
+   "full_pass": false,
+   "grounding_edges_admitted": false,
+   "is_home": false,
+   "same_reference_activates": false,
+   "same_significance_licensed": false,
+   "same_witness_exists": false
+  },
+  "Pneumatism": {
+   "fraction_discrepancies_present": 1.0,
+   "fraction_grounding_edges_admitted": 1.0,
+   "fraction_references_activating": 1.0,
+   "full_pass": true,
+   "grounding_edges_admitted": true,
+   "is_home": true,
+   "same_reference_activates": true,
+   "same_significance_licensed": true,
+   "same_witness_exists": true
+  },
+  "Rationalism": {
+   "fraction_discrepancies_present": 0.0,
+   "fraction_grounding_edges_admitted": 0.5,
+   "fraction_references_activating": 0.0,
+   "full_pass": false,
+   "grounding_edges_admitted": false,
+   "is_home": false,
+   "same_reference_activates": false,
+   "same_significance_licensed": false,
+   "same_witness_exists": false
+  }
+ },
+ "Rationalism": {
+  "Dynamism": {
+   "fraction_discrepancies_present": 0.167,
+   "fraction_grounding_edges_admitted": 0.333,
+   "fraction_references_activating": 0.167,
+   "full_pass": false,
+   "grounding_edges_admitted": false,
+   "is_home": false,
+   "same_reference_activates": false,
+   "same_significance_licensed": false,
+   "same_witness_exists": false
+  },
+  "Materialism": {
+   "fraction_discrepancies_present": 0.0,
+   "fraction_grounding_edges_admitted": 0.333,
+   "fraction_references_activating": 0.0,
+   "full_pass": false,
+   "grounding_edges_admitted": false,
+   "is_home": false,
+   "same_reference_activates": false,
+   "same_significance_licensed": false,
+   "same_witness_exists": false
+  },
+  "Pneumatism": {
+   "fraction_discrepancies_present": 0.0,
+   "fraction_grounding_edges_admitted": 0.167,
+   "fraction_references_activating": 0.0,
+   "full_pass": false,
+   "grounding_edges_admitted": false,
+   "is_home": false,
+   "same_reference_activates": false,
+   "same_significance_licensed": false,
+   "same_witness_exists": false
+  },
+  "Rationalism": {
+   "fraction_discrepancies_present": 1.0,
+   "fraction_grounding_edges_admitted": 1.0,
+   "fraction_references_activating": 1.0,
+   "full_pass": true,
+   "grounding_edges_admitted": true,
+   "is_home": true,
+   "same_reference_activates": true,
+   "same_significance_licensed": true,
+   "same_witness_exists": true
+  }
+ }
+}

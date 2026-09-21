@@ -1,0 +1,6300 @@
+{
+ "intended_sds": 0.9259,
+ "matched_sizes": [
+  8,
+  8,
+  8,
+  10
+ ],
+ "nulls": {
+  "domain_structured": {
+   "samples": [
+    {
+     "all_lineage_pass": true,
+     "complete_lineage_chains": 12,
+     "distinct_activation_profiles": 3,
+     "distinct_satisfaction_condition_sets": 2,
+     "divergence_mean": 0.375,
+     "divergence_median": 0.75,
+     "families": {
+      "NULL-F1": [
+       "bearer_of",
+       "has_continuant_part",
+       "has_organizational_context",
+       "has_output",
+       "has_participant",
+       "is_cause_of",
+       "is_subordinate_role_to",
+       "precedes"
+      ],
+      "NULL-F2": [
+       "bearer_of",
+       "has_continuant_part",
+       "has_output",
+       "has_participant",
+       "is_affiliated_with",
+       "is_cause_of",
+       "precedes",
+       "supervises"
+      ],
+      "NULL-F3": [
+       "affects",
+       "bearer_of",
+       "has_continuant_part",
+       "has_interest_in",
+       "has_output",
+       "has_participant",
+       "is_cause_of",
+       "precedes"
+      ],
+      "NULL-F4": [
+       "has_agent",
+       "has_organizational_context",
+       "has_output",
+       "has_participant",
+       "is_affiliated_with",
+       "is_subordinate_role_to",
+       "prescribes",
+       "realizes",
+       "supervises",
+       "uses"
+      ]
+     },
+     "families_with_live": 3,
+     "foreign_full_pass_fraction": 0.75,
+     "gate_a_1_to_4": true,
+     "mean_activation_distance": 0.5833,
+     "mean_edge_distance": 0.4572,
+     "mean_witness_distance": 0.5,
+     "n_activations": 14,
+     "n_live": 12,
+     "per_family": {
+      "NULL-F1": {
+       "activated": [
+        "RC-02",
+        "RC-05",
+        "RC-14"
+       ],
+       "live": [
+        "RC-02",
+        "RC-05",
+        "RC-14"
+       ],
+       "n_edges": 46
+      },
+      "NULL-F2": {
+       "activated": [
+        "RC-02",
+        "RC-05",
+        "RC-14"
+       ],
+       "live": [
+        "RC-02",
+        "RC-05",
+        "RC-14"
+       ],
+       "n_edges": 42
+      },
+      "NULL-F3": {
+       "activated": [
+        "RC-02",
+        "RC-05",
+        "RC-09",
+        "RC-14"
+       ],
+       "live": [
+        "RC-02",
+        "RC-05",
+        "RC-14"
+       ],
+       "n_edges": 44
+      },
+      "NULL-F4": {
+       "activated": [],
+       "live": [],
+       "n_edges": 56
+      }
+     },
+     "sample_seed": 20270921,
+     "sds": 0.4375
+    },
+    {
+     "all_lineage_pass": true,
+     "complete_lineage_chains": 7,
+     "distinct_activation_profiles": 4,
+     "distinct_satisfaction_condition_sets": 4,
+     "divergence_mean": 0.6771,
+     "divergence_median": 0.75,
+     "families": {
+      "NULL-F1": [
+       "bearer_of",
+       "has_continuant_part",
+       "has_input",
+       "has_participant",
+       "has_recipient",
+       "is_a_measurement_of",
+       "is_about",
+       "is_cause_of"
+      ],
+      "NULL-F2": [
+       "affects",
+       "has_input",
+       "has_interest_in",
+       "has_participant",
+       "has_recipient",
+       "is_a_measurement_of",
+       "is_about",
+       "is_subordinate_role_to"
+      ],
+      "NULL-F3": [
+       "has_agent",
+       "has_output",
+       "has_participant",
+       "is_cause_of",
+       "precedes",
+       "realizes",
+       "supervises",
+       "uses"
+      ],
+      "NULL-F4": [
+       "affects",
+       "has_interest_in",
+       "has_output",
+       "is_about",
+       "is_cause_of",
+       "is_subordinate_role_to",
+       "precedes",
+       "prescribes",
+       "realizes",
+       "uses"
+      ]
+     },
+     "families_with_live": 3,
+     "foreign_full_pass_fraction": 0.333,
+     "gate_a_1_to_4": true,
+     "mean_activation_distance": 0.8472,
+     "mean_edge_distance": 0.7578,
+     "mean_witness_distance": 0.9048,
+     "n_activations": 11,
+     "n_live": 7,
+     "per_family": {
+      "NULL-F1": {
+       "activated": [
+        "RC-03",
+        "RC-05",
+        "RC-06",
+        "RC-14"
+       ],
+       "live": [
+        "RC-03",
+        "RC-06",
+        "RC-14"
+       ],
+       "n_edges": 38
+      },
+      "NULL-F2": {
+       "activated": [
+        "RC-03",
+        "RC-06"
+       ],
+       "live": [
+        "RC-03",
+        "RC-06"
+       ],
+       "n_edges": 35
+      },
+      "NULL-F3": {
+       "activated": [
+        "RC-02"
+       ],
+       "live": [
+        "RC-02"
+       ],
+       "n_edges": 51
+      },
+      "NULL-F4": {
+       "activated": [
+        "RC-03",
+        "RC-04",
+        "RC-10"
+       ],
+       "live": [],
+       "n_edges": 46
+      }
+     },
+     "sample_seed": 20270922,
+     "sds": 0.6354
+    },
+    {
+     "all_lineage_pass": true,
+     "complete_lineage_chains": 3,
+     "distinct_activation_profiles": 3,
+     "distinct_satisfaction_condition_sets": 2,
+     "divergence_mean": 0.375,
+     "divergence_median": 0.75,
+     "families": {
+      "NULL-F1": [
+       "bearer_of",
+       "has_organizational_context",
+       "has_output",
+       "has_participant",
+       "is_affiliated_with",
+       "is_cause_of",
+       "is_subordinate_role_to",
+       "precedes"
+      ],
+      "NULL-F2": [
+       "affects",
+       "has_interest_in",
+       "has_organizational_context",
+       "is_about",
+       "is_affiliated_with",
+       "is_subordinate_role_to",
+       "prescribes",
+       "supervises"
+      ],
+      "NULL-F3": [
+       "has_continuant_part",
+       "has_input",
+       "has_organizational_context",
+       "has_output",
+       "is_affiliated_with",
+       "is_subordinate_role_to",
+       "prescribes",
+       "realizes"
+      ],
+      "NULL-F4": [
+       "affects",
+       "has_continuant_part",
+       "has_organizational_context",
+       "has_output",
+       "has_participant",
+       "has_recipient",
+       "is_affiliated_with",
+       "is_subordinate_role_to",
+       "prescribes",
+       "realizes"
+      ]
+     },
+     "families_with_live": 1,
+     "foreign_full_pass_fraction": 0.75,
+     "gate_a_1_to_4": false,
+     "mean_activation_distance": 0.8333,
+     "mean_edge_distance": 0.6583,
+     "mean_witness_distance": 0.5,
+     "n_activations": 5,
+     "n_live": 3,
+     "per_family": {
+      "NULL-F1": {
+       "activated": [
+        "RC-02",
+        "RC-05"
+       ],
+       "live": [
+        "RC-02",
+        "RC-05"
+       ],
+       "n_edges": 46
+      },
+      "NULL-F2": {
+       "activated": [
+        "RC-03",
+        "RC-10"
+       ],
+       "live": [],
+       "n_edges": 26
+      },
+      "NULL-F3": {
+       "activated": [],
+       "live": [],
+       "n_edges": 36
+      },
+      "NULL-F4": {
+       "activated": [],
+       "live": [],
+       "n_edges": 45
+      }
+     },
+     "sample_seed": 20270923,
+     "sds": 0.2083
+    },
+    {
+     "all_lineage_pass": true,
+     "complete_lineage_chains": 10,
+     "distinct_activation_profiles": 4,
+     "distinct_satisfaction_condition_sets": 4,
+     "divergence_mean": 0.6466,
+     "divergence_median": 0.75,
+     "families": {
+      "NULL-F1": [
+       "has_agent",
+       "has_input",
+       "has_output",
+       "has_recipient",
+       "is_a_measurement_of",
+       "is_about",
+       "is_affiliated_with",
+       "supervises"
+      ],
+      "NULL-F2": [
+       "affects",
+       "has_agent",
+       "has_organizational_context",
+       "has_participant",
+       "is_affiliated_with",
+       "is_subordinate_role_to",
+       "prescribes",
+       "uses"
+      ],
+      "NULL-F3": [
+       "affects",
+       "has_input",
+       "has_interest_in",
+       "has_organizational_context",
+       "has_recipient",
+       "is_a_measurement_of",
+       "is_about",
+       "is_affiliated_with"
+      ],
+      "NULL-F4": [
+       "bearer_of",
+       "has_agent",
+       "has_continuant_part",
+       "has_output",
+       "has_participant",
+       "is_cause_of",
+       "precedes",
+       "realizes",
+       "supervises",
+       "uses"
+      ]
+     },
+     "families_with_live": 3,
+     "foreign_full_pass_fraction": 0.333,
+     "gate_a_1_to_4": true,
+     "mean_activation_distance": 0.8889,
+     "mean_edge_distance": 0.7838,
+     "mean_witness_distance": 0.8889,
+     "n_activations": 9,
+     "n_live": 9,
+     "per_family": {
+      "NULL-F1": {
+       "activated": [
+        "RC-03",
+        "RC-04",
+        "RC-06"
+       ],
+       "live": [
+        "RC-03",
+        "RC-04",
+        "RC-06"
+       ],
+       "n_edges": 44
+      },
+      "NULL-F2": {
+       "activated": [],
+       "live": [],
+       "n_edges": 42
+      },
+      "NULL-F3": {
+       "activated": [
+        "RC-03",
+        "RC-06"
+       ],
+       "live": [
+        "RC-03",
+        "RC-06"
+       ],
+       "n_edges": 28
+      },
+      "NULL-F4": {
+       "activated": [
+        "RC-02",
+        "RC-05",
+        "RC-14"
+       ],
+       "live": [
+        "RC-02",
+        "RC-05",
+        "RC-14"
+       ],
+       "n_edges": 61
+      }
+     },
+     "sample_seed": 20270924,
+     "sds": 0.6667
+    },
+    {
+     "all_lineage_pass": true,
+     "complete_lineage_chains": 18,
+     "distinct_activation_profiles": 4,
+     "distinct_satisfaction_condition_sets": 4,
+     "divergence_mean": 0.575,
+     "divergence_median": 0.7453,
+     "families": {
+      "NULL-F1": [
+       "bearer_of",
+       "has_continuant_part",
+       "has_input",
+       "has_output",
+       "has_participant",
+       "is_cause_of",
+       "is_subordinate_role_to",
+       "precedes"
+      ],
+      "NULL-F2": [
+       "has_input",
+       "has_organizational_context",
+       "has_recipient",
+       "is_a_measurement_of",
+       "is_about",
+       "is_affiliated_with",
+       "precedes",
+       "supervises"
+      ],
+      "NULL-F3": [
+       "bearer_of",
+       "has_agent",
+       "has_interest_in",
+       "has_organizational_context",
+       "is_a_measurement_of",
+       "is_affiliated_with",
+       "is_subordinate_role_to",
+       "prescribes"
+      ],
+      "NULL-F4": [
+       "bearer_of",
+       "has_continuant_part",
+       "has_input",
+       "has_output",
+       "has_participant",
+       "has_recipient",
+       "is_a_measurement_of",
+       "is_about",
+       "is_cause_of",
+       "precedes"
+      ]
+     },
+     "families_with_live": 4,
+     "foreign_full_pass_fraction": 0.167,
+     "gate_a_1_to_4": true,
+     "mean_activation_distance": 0.8056,
+     "mean_edge_distance": 0.696,
+     "mean_witness_distance": 0.8182,
+     "n_activations": 22,
+     "n_live": 17,
+     "per_family": {
+      "NULL-F1": {
+       "activated": [
+        "RC-02",
+        "RC-05",
+        "RC-11",
+        "RC-14"
+       ],
+       "live": [
+        "RC-02",
+        "RC-05",
+        "RC-11",
+        "RC-14"
+       ],
+       "n_edges": 48
+      },
+      "NULL-F2": {
+       "activated": [
+        "RC-03",
+        "RC-06",
+        "RC-11"
+       ],
+       "live": [
+        "RC-03",
+        "RC-06",
+        "RC-11"
+       ],
+       "n_edges": 34
+      },
+      "NULL-F3": {
+       "activated": [
+        "RC-01",
+        "RC-07"
+       ],
+       "live": [
+        "RC-01"
+       ],
+       "n_edges": 44
+      },
+      "NULL-F4": {
+       "activated": [
+        "RC-02",
+        "RC-03",
+        "RC-04",
+        "RC-05",
+        "RC-06",
+        "RC-11",
+        "RC-14"
+       ],
+       "live": [
+        "RC-02",
+        "RC-03",
+        "RC-04",
+        "RC-05",
+        "RC-06",
+        "RC-11",
+        "RC-14"
+       ],
+       "n_edges": 57
+      }
+     },
+     "sample_seed": 20270925,
+     "sds": 0.8056
+    },
+    {
+     "all_lineage_pass": true,
+     "complete_lineage_chains": 12,
+     "distinct_activation_profiles": 4,
+     "distinct_satisfaction_condition_sets": 4,
+     "divergence_mean": 0.4287,
+     "divergence_median": 0.7432,
+     "families": {
+      "NULL-F1": [
+       "affects",
+       "bearer_of",
+       "has_continuant_part",
+       "has_interest_in",
+       "has_output",
+       "has_participant",
+       "is_cause_of",
+       "precedes"
+      ],
+      "NULL-F2": [
+       "has_input",
+       "has_organizational_context",
+       "has_recipient",
+       "is_a_measurement_of",
+       "is_about",
+       "is_affiliated_with",
+       "is_subordinate_role_to",
+       "prescribes"
+      ],
+      "NULL-F3": [
+       "has_continuant_part",
+       "has_input",
+       "has_participant",
+       "has_recipient",
+       "is_a_measurement_of",
+       "is_about",
+       "is_cause_of",
+       "precedes"
+      ],
+      "NULL-F4": [
+       "affects",
+       "has_continuant_part",
+       "has_input",
+       "has_interest_in",
+       "has_recipient",
+       "is_a_measurement_of",
+       "is_about",
+       "is_subordinate_role_to",
+       "supervises",
+       "uses"
+      ]
+     },
+     "families_with_live": 4,
+     "foreign_full_pass_fraction": 0.167,
+     "gate_a_1_to_4": true,
+     "mean_activation_distance": 0.6944,
+     "mean_edge_distance": 0.7337,
+     "mean_witness_distance": 0.6603,
+     "n_activations": 14,
+     "n_live": 12,
+     "per_family": {
+      "NULL-F1": {
+       "activated": [
+        "RC-02",
+        "RC-05",
+        "RC-09",
+        "RC-14"
+       ],
+       "live": [
+        "RC-02",
+        "RC-05",
+        "RC-14"
+       ],
+       "n_edges": 44
+      },
+      "NULL-F2": {
+       "activated": [
+        "RC-03",
+        "RC-06",
+        "RC-10"
+       ],
+       "live": [
+        "RC-03",
+        "RC-06",
+        "RC-10"
+       ],
+       "n_edges": 33
+      },
+      "NULL-F3": {
+       "activated": [
+        "RC-03",
+        "RC-06",
+        "RC-11"
+       ],
+       "live": [
+        "RC-03",
+        "RC-06",
+        "RC-11"
+       ],
+       "n_edges": 38
+      },
+      "NULL-F4": {
+       "activated": [
+        "RC-03",
+        "RC-06"
+       ],
+       "live": [
+        "RC-03",
+        "RC-06"
+       ],
+       "n_edges": 32
+      }
+     },
+     "sample_seed": 20270926,
+     "sds": 0.6944
+    },
+    {
+     "all_lineage_pass": true,
+     "complete_lineage_chains": 5,
+     "distinct_activation_profiles": 4,
+     "distinct_satisfaction_condition_sets": 3,
+     "divergence_mean": 0.625,
+     "divergence_median": 0.75,
+     "families": {
+      "NULL-F1": [
+       "has_input",
+       "has_organizational_context",
+       "has_recipient",
+       "is_a_measurement_of",
+       "is_about",
+       "is_affiliated_with",
+       "is_subordinate_role_to",
+       "prescribes"
+      ],
+      "NULL-F2": [
+       "affects",
+       "has_agent",
+       "has_input",
+       "has_interest_in",
+       "has_organizational_context",
+       "has_output",
+       "prescribes",
+       "supervises"
+      ],
+      "NULL-F3": [
+       "affects",
+       "has_interest_in",
+       "has_organizational_context",
+       "is_about",
+       "is_affiliated_with",
+       "is_cause_of",
+       "is_subordinate_role_to",
+       "prescribes"
+      ],
+      "NULL-F4": [
+       "affects",
+       "has_agent",
+       "has_interest_in",
+       "has_output",
+       "has_participant",
+       "is_a_measurement_of",
+       "precedes",
+       "realizes",
+       "supervises",
+       "uses"
+      ]
+     },
+     "families_with_live": 2,
+     "foreign_full_pass_fraction": 0.5,
+     "gate_a_1_to_4": false,
+     "mean_activation_distance": 0.8889,
+     "mean_edge_distance": 0.7423,
+     "mean_witness_distance": 0.8333,
+     "n_activations": 7,
+     "n_live": 5,
+     "per_family": {
+      "NULL-F1": {
+       "activated": [
+        "RC-03",
+        "RC-06",
+        "RC-10"
+       ],
+       "live": [
+        "RC-03",
+        "RC-06",
+        "RC-10"
+       ],
+       "n_edges": 33
+      },
+      "NULL-F2": {
+       "activated": [],
+       "live": [],
+       "n_edges": 47
+      },
+      "NULL-F3": {
+       "activated": [
+        "RC-03",
+        "RC-10"
+       ],
+       "live": [],
+       "n_edges": 25
+      },
+      "NULL-F4": {
+       "activated": [
+        "RC-02"
+       ],
+       "live": [
+        "RC-02"
+       ],
+       "n_edges": 59
+      }
+     },
+     "sample_seed": 20270927,
+     "sds": 0.4444
+    },
+    {
+     "all_lineage_pass": true,
+     "complete_lineage_chains": 9,
+     "distinct_activation_profiles": 4,
+     "distinct_satisfaction_condition_sets": 4,
+     "divergence_mean": 0.6338,
+     "divergence_median": 0.75,
+     "families": {
+      "NULL-F1": [
+       "has_agent",
+       "has_input",
+       "has_interest_in",
+       "has_participant",
+       "has_recipient",
+       "is_a_measurement_of",
+       "is_about",
+       "prescribes"
+      ],
+      "NULL-F2": [
+       "bearer_of",
+       "has_input",
+       "has_interest_in",
+       "has_organizational_context",
+       "is_affiliated_with",
+       "is_cause_of",
+       "is_subordinate_role_to",
+       "prescribes"
+      ],
+      "NULL-F3": [
+       "affects",
+       "has_input",
+       "has_interest_in",
+       "has_recipient",
+       "is_a_measurement_of",
+       "is_about",
+       "is_cause_of",
+       "uses"
+      ],
+      "NULL-F4": [
+       "bearer_of",
+       "has_continuant_part",
+       "has_interest_in",
+       "has_output",
+       "has_participant",
+       "is_affiliated_with",
+       "is_cause_of",
+       "precedes",
+       "prescribes",
+       "realizes"
+      ]
+     },
+     "families_with_live": 3,
+     "foreign_full_pass_fraction": 0.333,
+     "gate_a_1_to_4": true,
+     "mean_activation_distance": 0.8889,
+     "mean_edge_distance": 0.7675,
+     "mean_witness_distance": 0.8667,
+     "n_activations": 11,
+     "n_live": 9,
+     "per_family": {
+      "NULL-F1": {
+       "activated": [
+        "RC-03",
+        "RC-06",
+        "RC-10"
+       ],
+       "live": [
+        "RC-03",
+        "RC-06",
+        "RC-10"
+       ],
+       "n_edges": 50
+      },
+      "NULL-F2": {
+       "activated": [],
+       "live": [],
+       "n_edges": 34
+      },
+      "NULL-F3": {
+       "activated": [
+        "RC-03",
+        "RC-06"
+       ],
+       "live": [
+        "RC-03",
+        "RC-06"
+       ],
+       "n_edges": 27
+      },
+      "NULL-F4": {
+       "activated": [
+        "RC-02",
+        "RC-05",
+        "RC-09",
+        "RC-14"
+       ],
+       "live": [
+        "RC-02",
+        "RC-05",
+        "RC-14"
+       ],
+       "n_edges": 54
+      }
+     },
+     "sample_seed": 20270928,
+     "sds": 0.6667
+    },
+    {
+     "all_lineage_pass": true,
+     "complete_lineage_chains": 2,
+     "distinct_activation_profiles": 3,
+     "distinct_satisfaction_condition_sets": 2,
+     "divergence_mean": 0.375,
+     "divergence_median": 0.75,
+     "families": {
+      "NULL-F1": [
+       "has_agent",
+       "has_organizational_context",
+       "is_affiliated_with",
+       "is_subordinate_role_to",
+       "prescribes",
+       "realizes",
+       "supervises",
+       "uses"
+      ],
+      "NULL-F2": [
+       "has_continuant_part",
+       "has_input",
+       "has_interest_in",
+       "has_recipient",
+       "is_a_measurement_of",
+       "is_about",
+       "is_cause_of",
+       "is_subordinate_role_to"
+      ],
+      "NULL-F3": [
+       "has_agent",
+       "has_recipient",
+       "is_a_measurement_of",
+       "is_cause_of",
+       "is_subordinate_role_to",
+       "realizes",
+       "supervises",
+       "uses"
+      ],
+      "NULL-F4": [
+       "affects",
+       "has_agent",
+       "has_interest_in",
+       "has_output",
+       "has_participant",
+       "is_a_measurement_of",
+       "is_about",
+       "realizes",
+       "supervises",
+       "uses"
+      ]
+     },
+     "families_with_live": 1,
+     "foreign_full_pass_fraction": 0.75,
+     "gate_a_1_to_4": false,
+     "mean_activation_distance": 0.7778,
+     "mean_edge_distance": 0.7098,
+     "mean_witness_distance": 0.5,
+     "n_activations": 4,
+     "n_live": 2,
+     "per_family": {
+      "NULL-F1": {
+       "activated": [],
+       "live": [],
+       "n_edges": 37
+      },
+      "NULL-F2": {
+       "activated": [
+        "RC-03",
+        "RC-06"
+       ],
+       "live": [
+        "RC-03",
+        "RC-06"
+       ],
+       "n_edges": 26
+      },
+      "NULL-F3": {
+       "activated": [],
+       "live": [],
+       "n_edges": 34
+      },
+      "NULL-F4": {
+       "activated": [
+        "RC-03",
+        "RC-04"
+       ],
+       "live": [],
+       "n_edges": 54
+      }
+     },
+     "sample_seed": 20270929,
+     "sds": 0.1944
+    },
+    {
+     "all_lineage_pass": true,
+     "complete_lineage_chains": 6,
+     "distinct_activation_profiles": 4,
+     "distinct_satisfaction_condition_sets": 3,
+     "divergence_mean": 0.5252,
+     "divergence_median": 0.75,
+     "families": {
+      "NULL-F1": [
+       "has_input",
+       "has_recipient",
+       "is_a_measurement_of",
+       "is_about",
+       "is_subordinate_role_to",
+       "precedes",
+       "supervises",
+       "uses"
+      ],
+      "NULL-F2": [
+       "has_input",
+       "has_interest_in",
+       "has_recipient",
+       "is_a_measurement_of",
+       "is_about",
+       "is_subordinate_role_to",
+       "prescribes",
+       "realizes"
+      ],
+      "NULL-F3": [
+       "has_agent",
+       "has_interest_in",
+       "has_participant",
+       "is_cause_of",
+       "prescribes",
+       "realizes",
+       "supervises",
+       "uses"
+      ],
+      "NULL-F4": [
+       "affects",
+       "bearer_of",
+       "has_agent",
+       "has_continuant_part",
+       "has_interest_in",
+       "is_about",
+       "precedes",
+       "realizes",
+       "supervises",
+       "uses"
+      ]
+     },
+     "families_with_live": 2,
+     "foreign_full_pass_fraction": 0.5,
+     "gate_a_1_to_4": false,
+     "mean_activation_distance": 0.8333,
+     "mean_edge_distance": 0.7482,
+     "mean_witness_distance": 0.7381,
+     "n_activations": 8,
+     "n_live": 6,
+     "per_family": {
+      "NULL-F1": {
+       "activated": [
+        "RC-03",
+        "RC-06",
+        "RC-11"
+       ],
+       "live": [
+        "RC-03",
+        "RC-06",
+        "RC-11"
+       ],
+       "n_edges": 35
+      },
+      "NULL-F2": {
+       "activated": [
+        "RC-03",
+        "RC-06",
+        "RC-10"
+       ],
+       "live": [
+        "RC-03",
+        "RC-06",
+        "RC-10"
+       ],
+       "n_edges": 35
+      },
+      "NULL-F3": {
+       "activated": [],
+       "live": [],
+       "n_edges": 42
+      },
+      "NULL-F4": {
+       "activated": [
+        "RC-03",
+        "RC-14"
+       ],
+       "live": [],
+       "n_edges": 50
+      }
+     },
+     "sample_seed": 20270930,
+     "sds": 0.4167
+    },
+    {
+     "all_lineage_pass": true,
+     "complete_lineage_chains": 10,
+     "distinct_activation_profiles": 3,
+     "distinct_satisfaction_condition_sets": 3,
+     "divergence_mean": 0.4502,
+     "divergence_median": 0.75,
+     "families": {
+      "NULL-F1": [
+       "bearer_of",
+       "has_continuant_part",
+       "has_output",
+       "has_participant",
+       "is_cause_of",
+       "precedes",
+       "prescribes",
+       "uses"
+      ],
+      "NULL-F2": [
+       "has_agent",
+       "has_organizational_context",
+       "is_affiliated_with",
+       "is_subordinate_role_to",
+       "prescribes",
+       "realizes",
+       "supervises",
+       "uses"
+      ],
+      "NULL-F3": [
+       "bearer_of",
+       "has_continuant_part",
+       "has_output",
+       "has_participant",
+       "is_cause_of",
+       "is_subordinate_role_to",
+       "precedes",
+       "uses"
+      ],
+      "NULL-F4": [
+       "affects",
+       "has_agent",
+       "has_output",
+       "has_participant",
+       "is_about",
+       "is_affiliated_with",
+       "precedes",
+       "realizes",
+       "supervises",
+       "uses"
+      ]
+     },
+     "families_with_live": 3,
+     "foreign_full_pass_fraction": 0.583,
+     "gate_a_1_to_4": true,
+     "mean_activation_distance": 0.7667,
+     "mean_edge_distance": 0.6346,
+     "mean_witness_distance": 0.5833,
+     "n_activations": 12,
+     "n_live": 10,
+     "per_family": {
+      "NULL-F1": {
+       "activated": [
+        "RC-02",
+        "RC-05",
+        "RC-14"
+       ],
+       "live": [
+        "RC-02",
+        "RC-05",
+        "RC-14"
+       ],
+       "n_edges": 49
+      },
+      "NULL-F2": {
+       "activated": [],
+       "live": [],
+       "n_edges": 37
+      },
+      "NULL-F3": {
+       "activated": [
+        "RC-02",
+        "RC-05",
+        "RC-14"
+       ],
+       "live": [
+        "RC-02",
+        "RC-05",
+        "RC-14"
+       ],
+       "n_edges": 45
+      },
+      "NULL-F4": {
+       "activated": [
+        "RC-02",
+        "RC-03",
+        "RC-04"
+       ],
+       "live": [
+        "RC-02"
+       ],
+       "n_edges": 57
+      }
+     },
+     "sample_seed": 20270931,
+     "sds": 0.575
+    },
+    {
+     "all_lineage_pass": true,
+     "complete_lineage_chains": 4,
+     "distinct_activation_profiles": 3,
+     "distinct_satisfaction_condition_sets": 3,
+     "divergence_mean": 0.625,
+     "divergence_median": 0.75,
+     "families": {
+      "NULL-F1": [
+       "has_agent",
+       "has_organizational_context",
+       "has_output",
+       "has_participant",
+       "is_affiliated_with",
+       "is_subordinate_role_to",
+       "prescribes",
+       "uses"
+      ],
+      "NULL-F2": [
+       "has_agent",
+       "has_organizational_context",
+       "is_affiliated_with",
+       "is_subordinate_role_to",
+       "prescribes",
+       "realizes",
+       "supervises",
+       "uses"
+      ],
+      "NULL-F3": [
+       "has_input",
+       "has_recipient",
+       "is_a_measurement_of",
+       "is_about",
+       "is_affiliated_with",
+       "is_subordinate_role_to",
+       "precedes",
+       "realizes"
+      ],
+      "NULL-F4": [
+       "bearer_of",
+       "has_agent",
+       "has_continuant_part",
+       "has_interest_in",
+       "has_organizational_context",
+       "has_participant",
+       "is_affiliated_with",
+       "is_subordinate_role_to",
+       "prescribes",
+       "uses"
+      ]
+     },
+     "families_with_live": 2,
+     "foreign_full_pass_fraction": 0.5,
+     "gate_a_1_to_4": false,
+     "mean_activation_distance": 0.8333,
+     "mean_edge_distance": 0.6773,
+     "mean_witness_distance": 0.8333,
+     "n_activations": 9,
+     "n_live": 4,
+     "per_family": {
+      "NULL-F1": {
+       "activated": [],
+       "live": [],
+       "n_edges": 50
+      },
+      "NULL-F2": {
+       "activated": [],
+       "live": [],
+       "n_edges": 37
+      },
+      "NULL-F3": {
+       "activated": [
+        "RC-03",
+        "RC-06",
+        "RC-11"
+       ],
+       "live": [
+        "RC-03",
+        "RC-06",
+        "RC-11"
+       ],
+       "n_edges": 35
+      },
+      "NULL-F4": {
+       "activated": [
+        "RC-05",
+        "RC-07",
+        "RC-09",
+        "RC-14"
+       ],
+       "live": [
+        "RC-14"
+       ],
+       "n_edges": 53
+      }
+     },
+     "sample_seed": 20270932,
+     "sds": 0.4167
+    },
+    {
+     "all_lineage_pass": true,
+     "complete_lineage_chains": 5,
+     "distinct_activation_profiles": 3,
+     "distinct_satisfaction_condition_sets": 3,
+     "divergence_mean": 0.5088,
+     "divergence_median": 0.75,
+     "families": {
+      "NULL-F1": [
+       "has_agent",
+       "has_input",
+       "has_recipient",
+       "is_a_measurement_of",
+       "is_about",
+       "realizes",
+       "supervises",
+       "uses"
+      ],
+      "NULL-F2": [
+       "affects",
+       "has_continuant_part",
+       "has_organizational_context",
+       "is_affiliated_with",
+       "is_subordinate_role_to",
+       "prescribes",
+       "supervises",
+       "uses"
+      ],
+      "NULL-F3": [
+       "affects",
+       "bearer_of",
+       "has_agent",
+       "has_interest_in",
+       "has_output",
+       "realizes",
+       "supervises",
+       "uses"
+      ],
+      "NULL-F4": [
+       "has_input",
+       "has_organizational_context",
+       "has_recipient",
+       "is_a_measurement_of",
+       "is_about",
+       "is_affiliated_with",
+       "is_cause_of",
+       "is_subordinate_role_to",
+       "prescribes",
+       "supervises"
+      ]
+     },
+     "families_with_live": 2,
+     "foreign_full_pass_fraction": 0.583,
+     "gate_a_1_to_4": false,
+     "mean_activation_distance": 0.7222,
+     "mean_edge_distance": 0.7784,
+     "mean_witness_distance": 0.7,
+     "n_activations": 5,
+     "n_live": 5,
+     "per_family": {
+      "NULL-F1": {
+       "activated": [
+        "RC-03",
+        "RC-06"
+       ],
+       "live": [
+        "RC-03",
+        "RC-06"
+       ],
+       "n_edges": 40
+      },
+      "NULL-F2": {
+       "activated": [],
+       "live": [],
+       "n_edges": 23
+      },
+      "NULL-F3": {
+       "activated": [],
+       "live": [],
+       "n_edges": 46
+      },
+      "NULL-F4": {
+       "activated": [
+        "RC-03",
+        "RC-06",
+        "RC-10"
+       ],
+       "live": [
+        "RC-03",
+        "RC-06",
+        "RC-10"
+       ],
+       "n_edges": 36
+      }
+     },
+     "sample_seed": 20270933,
+     "sds": 0.3611
+    },
+    {
+     "all_lineage_pass": true,
+     "complete_lineage_chains": 8,
+     "distinct_activation_profiles": 4,
+     "distinct_satisfaction_condition_sets": 3,
+     "divergence_mean": 0.6079,
+     "divergence_median": 0.75,
+     "families": {
+      "NULL-F1": [
+       "bearer_of",
+       "has_continuant_part",
+       "has_input",
+       "has_output",
+       "has_participant",
+       "is_cause_of",
+       "is_subordinate_role_to",
+       "precedes"
+      ],
+      "NULL-F2": [
+       "has_agent",
+       "has_continuant_part",
+       "has_participant",
+       "has_recipient",
+       "is_about",
+       "realizes",
+       "supervises",
+       "uses"
+      ],
+      "NULL-F3": [
+       "has_input",
+       "has_organizational_context",
+       "has_recipient",
+       "is_a_measurement_of",
+       "is_about",
+       "is_affiliated_with",
+       "is_subordinate_role_to",
+       "prescribes"
+      ],
+      "NULL-F4": [
+       "affects",
+       "bearer_of",
+       "has_agent",
+       "has_interest_in",
+       "has_output",
+       "is_cause_of",
+       "precedes",
+       "prescribes",
+       "realizes",
+       "supervises"
+      ]
+     },
+     "families_with_live": 2,
+     "foreign_full_pass_fraction": 0.5,
+     "gate_a_1_to_4": false,
+     "mean_activation_distance": 0.9444,
+     "mean_edge_distance": 0.8234,
+     "mean_witness_distance": 0.8333,
+     "n_activations": 9,
+     "n_live": 8,
+     "per_family": {
+      "NULL-F1": {
+       "activated": [
+        "RC-02",
+        "RC-05",
+        "RC-11",
+        "RC-14"
+       ],
+       "live": [
+        "RC-02",
+        "RC-05",
+        "RC-11",
+        "RC-14"
+       ],
+       "n_edges": 48
+      },
+      "NULL-F2": {
+       "activated": [
+        "RC-03"
+       ],
+       "live": [],
+       "n_edges": 40
+      },
+      "NULL-F3": {
+       "activated": [
+        "RC-03",
+        "RC-06",
+        "RC-10"
+       ],
+       "live": [
+        "RC-03",
+        "RC-06",
+        "RC-10"
+       ],
+       "n_edges": 33
+      },
+      "NULL-F4": {
+       "activated": [],
+       "live": [],
+       "n_edges": 60
+      }
+     },
+     "sample_seed": 20270934,
+     "sds": 0.4722
+    },
+    {
+     "all_lineage_pass": true,
+     "complete_lineage_chains": 12,
+     "distinct_activation_profiles": 3,
+     "distinct_satisfaction_condition_sets": 2,
+     "divergence_mean": 0.5,
+     "divergence_median": 0.75,
+     "families": {
+      "NULL-F1": [
+       "has_agent",
+       "has_input",
+       "has_recipient",
+       "is_a_measurement_of",
+       "is_about",
+       "realizes",
+       "supervises",
+       "uses"
+      ],
+      "NULL-F2": [
+       "affects",
+       "bearer_of",
+       "has_continuant_part",
+       "has_interest_in",
+       "has_output",
+       "has_participant",
+       "is_cause_of",
+       "precedes"
+      ],
+      "NULL-F3": [
+       "has_agent",
+       "has_input",
+       "has_recipient",
+       "is_a_measurement_of",
+       "is_about",
+       "realizes",
+       "supervises",
+       "uses"
+      ],
+      "NULL-F4": [
+       "bearer_of",
+       "has_continuant_part",
+       "has_output",
+       "has_participant",
+       "is_cause_of",
+       "is_subordinate_role_to",
+       "precedes",
+       "prescribes",
+       "supervises",
+       "uses"
+      ]
+     },
+     "families_with_live": 4,
+     "foreign_full_pass_fraction": 0.333,
+     "gate_a_1_to_4": true,
+     "mean_activation_distance": 0.7083,
+     "mean_edge_distance": 0.7044,
+     "mean_witness_distance": 0.6667,
+     "n_activations": 14,
+     "n_live": 12,
+     "per_family": {
+      "NULL-F1": {
+       "activated": [
+        "RC-03",
+        "RC-06"
+       ],
+       "live": [
+        "RC-03",
+        "RC-06"
+       ],
+       "n_edges": 40
+      },
+      "NULL-F2": {
+       "activated": [
+        "RC-02",
+        "RC-05",
+        "RC-09",
+        "RC-14"
+       ],
+       "live": [
+        "RC-02",
+        "RC-05",
+        "RC-14"
+       ],
+       "n_edges": 44
+      },
+      "NULL-F3": {
+       "activated": [
+        "RC-03",
+        "RC-06"
+       ],
+       "live": [
+        "RC-03",
+        "RC-06"
+       ],
+       "n_edges": 40
+      },
+      "NULL-F4": {
+       "activated": [
+        "RC-02",
+        "RC-05",
+        "RC-14"
+       ],
+       "live": [
+        "RC-02",
+        "RC-05",
+        "RC-14"
+       ],
+       "n_edges": 54
+      }
+     },
+     "sample_seed": 20270935,
+     "sds": 0.7083
+    },
+    {
+     "all_lineage_pass": true,
+     "complete_lineage_chains": 12,
+     "distinct_activation_profiles": 3,
+     "distinct_satisfaction_condition_sets": 3,
+     "divergence_mean": 0.4927,
+     "divergence_median": 0.75,
+     "families": {
+      "NULL-F1": [
+       "has_continuant_part",
+       "has_organizational_context",
+       "has_output",
+       "has_participant",
+       "is_affiliated_with",
+       "is_cause_of",
+       "is_subordinate_role_to",
+       "precedes"
+      ],
+      "NULL-F2": [
+       "affects",
+       "bearer_of",
+       "has_agent",
+       "has_organizational_context",
+       "prescribes",
+       "realizes",
+       "supervises",
+       "uses"
+      ],
+      "NULL-F3": [
+       "bearer_of",
+       "has_continuant_part",
+       "has_input",
+       "has_output",
+       "has_participant",
+       "is_a_measurement_of",
+       "is_cause_of",
+       "precedes"
+      ],
+      "NULL-F4": [
+       "bearer_of",
+       "has_continuant_part",
+       "has_input",
+       "has_output",
+       "has_participant",
+       "has_recipient",
+       "is_cause_of",
+       "precedes",
+       "realizes",
+       "uses"
+      ]
+     },
+     "families_with_live": 3,
+     "foreign_full_pass_fraction": 0.583,
+     "gate_a_1_to_4": true,
+     "mean_activation_distance": 0.75,
+     "mean_edge_distance": 0.651,
+     "mean_witness_distance": 0.6111,
+     "n_activations": 12,
+     "n_live": 12,
+     "per_family": {
+      "NULL-F1": {
+       "activated": [
+        "RC-02"
+       ],
+       "live": [
+        "RC-02"
+       ],
+       "n_edges": 38
+      },
+      "NULL-F2": {
+       "activated": [],
+       "live": [],
+       "n_edges": 44
+      },
+      "NULL-F3": {
+       "activated": [
+        "RC-02",
+        "RC-05",
+        "RC-11",
+        "RC-14"
+       ],
+       "live": [
+        "RC-02",
+        "RC-05",
+        "RC-11",
+        "RC-14"
+       ],
+       "n_edges": 49
+      },
+      "NULL-F4": {
+       "activated": [
+        "RC-02",
+        "RC-05",
+        "RC-11",
+        "RC-14"
+       ],
+       "live": [
+        "RC-02",
+        "RC-05",
+        "RC-11",
+        "RC-14"
+       ],
+       "n_edges": 56
+      }
+     },
+     "sample_seed": 20270936,
+     "sds": 0.5625
+    },
+    {
+     "all_lineage_pass": true,
+     "complete_lineage_chains": 6,
+     "distinct_activation_profiles": 3,
+     "distinct_satisfaction_condition_sets": 3,
+     "divergence_mean": 0.625,
+     "divergence_median": 0.75,
+     "families": {
+      "NULL-F1": [
+       "has_agent",
+       "has_input",
+       "has_organizational_context",
+       "has_recipient",
+       "is_a_measurement_of",
+       "is_about",
+       "is_cause_of",
+       "is_subordinate_role_to"
+      ],
+      "NULL-F2": [
+       "bearer_of",
+       "has_continuant_part",
+       "has_output",
+       "has_participant",
+       "is_affiliated_with",
+       "is_cause_of",
+       "precedes",
+       "prescribes"
+      ],
+      "NULL-F3": [
+       "affects",
+       "has_agent",
+       "has_interest_in",
+       "has_recipient",
+       "is_affiliated_with",
+       "precedes",
+       "prescribes",
+       "realizes"
+      ],
+      "NULL-F4": [
+       "affects",
+       "has_agent",
+       "has_input",
+       "has_interest_in",
+       "has_organizational_context",
+       "has_participant",
+       "is_subordinate_role_to",
+       "realizes",
+       "supervises",
+       "uses"
+      ]
+     },
+     "families_with_live": 2,
+     "foreign_full_pass_fraction": 0.5,
+     "gate_a_1_to_4": false,
+     "mean_activation_distance": 0.8333,
+     "mean_edge_distance": 0.7761,
+     "mean_witness_distance": 0.8333,
+     "n_activations": 6,
+     "n_live": 6,
+     "per_family": {
+      "NULL-F1": {
+       "activated": [
+        "RC-03",
+        "RC-06"
+       ],
+       "live": [
+        "RC-03",
+        "RC-06"
+       ],
+       "n_edges": 39
+      },
+      "NULL-F2": {
+       "activated": [
+        "RC-02",
+        "RC-05",
+        "RC-14"
+       ],
+       "live": [
+        "RC-02",
+        "RC-05",
+        "RC-14"
+       ],
+       "n_edges": 47
+      },
+      "NULL-F3": {
+       "activated": [],
+       "live": [],
+       "n_edges": 43
+      },
+      "NULL-F4": {
+       "activated": [],
+       "live": [],
+       "n_edges": 49
+      }
+     },
+     "sample_seed": 20270937,
+     "sds": 0.4167
+    },
+    {
+     "all_lineage_pass": true,
+     "complete_lineage_chains": 2,
+     "distinct_activation_profiles": 4,
+     "distinct_satisfaction_condition_sets": 3,
+     "divergence_mean": 0.625,
+     "divergence_median": 0.75,
+     "families": {
+      "NULL-F1": [
+       "bearer_of",
+       "has_continuant_part",
+       "has_organizational_context",
+       "has_output",
+       "is_affiliated_with",
+       "is_cause_of",
+       "is_subordinate_role_to",
+       "prescribes"
+      ],
+      "NULL-F2": [
+       "affects",
+       "has_agent",
+       "has_input",
+       "has_interest_in",
+       "is_about",
+       "realizes",
+       "supervises",
+       "uses"
+      ],
+      "NULL-F3": [
+       "has_agent",
+       "has_continuant_part",
+       "has_input",
+       "has_recipient",
+       "is_subordinate_role_to",
+       "realizes",
+       "supervises",
+       "uses"
+      ],
+      "NULL-F4": [
+       "affects",
+       "bearer_of",
+       "has_organizational_context",
+       "has_participant",
+       "is_a_measurement_of",
+       "is_about",
+       "is_affiliated_with",
+       "is_subordinate_role_to",
+       "prescribes",
+       "uses"
+      ]
+     },
+     "families_with_live": 2,
+     "foreign_full_pass_fraction": 0.5,
+     "gate_a_1_to_4": false,
+     "mean_activation_distance": 0.9583,
+     "mean_edge_distance": 0.7841,
+     "mean_witness_distance": 0.8333,
+     "n_activations": 9,
+     "n_live": 2,
+     "per_family": {
+      "NULL-F1": {
+       "activated": [
+        "RC-14"
+       ],
+       "live": [],
+       "n_edges": 36
+      },
+      "NULL-F2": {
+       "activated": [
+        "RC-03"
+       ],
+       "live": [
+        "RC-03"
+       ],
+       "n_edges": 37
+      },
+      "NULL-F3": {
+       "activated": [],
+       "live": [],
+       "n_edges": 36
+      },
+      "NULL-F4": {
+       "activated": [
+        "RC-01",
+        "RC-03",
+        "RC-05",
+        "RC-10"
+       ],
+       "live": [
+        "RC-01"
+       ],
+       "n_edges": 46
+      }
+     },
+     "sample_seed": 20270938,
+     "sds": 0.4792
+    },
+    {
+     "all_lineage_pass": true,
+     "complete_lineage_chains": 14,
+     "distinct_activation_profiles": 4,
+     "distinct_satisfaction_condition_sets": 4,
+     "divergence_mean": 0.6522,
+     "divergence_median": 0.75,
+     "families": {
+      "NULL-F1": [
+       "affects",
+       "has_continuant_part",
+       "has_input",
+       "has_organizational_context",
+       "is_about",
+       "is_affiliated_with",
+       "is_subordinate_role_to",
+       "prescribes"
+      ],
+      "NULL-F2": [
+       "affects",
+       "bearer_of",
+       "has_continuant_part",
+       "has_output",
+       "has_participant",
+       "is_cause_of",
+       "precedes",
+       "supervises"
+      ],
+      "NULL-F3": [
+       "affects",
+       "has_continuant_part",
+       "has_interest_in",
+       "has_recipient",
+       "is_a_measurement_of",
+       "precedes",
+       "realizes",
+       "uses"
+      ],
+      "NULL-F4": [
+       "bearer_of",
+       "has_continuant_part",
+       "has_input",
+       "has_output",
+       "has_participant",
+       "has_recipient",
+       "is_a_measurement_of",
+       "is_about",
+       "is_cause_of",
+       "precedes"
+      ]
+     },
+     "families_with_live": 3,
+     "foreign_full_pass_fraction": 0.417,
+     "gate_a_1_to_4": true,
+     "mean_activation_distance": 0.9077,
+     "mean_edge_distance": 0.776,
+     "mean_witness_distance": 0.8819,
+     "n_activations": 14,
+     "n_live": 13,
+     "per_family": {
+      "NULL-F1": {
+       "activated": [
+        "RC-03",
+        "RC-10"
+       ],
+       "live": [
+        "RC-03"
+       ],
+       "n_edges": 28
+      },
+      "NULL-F2": {
+       "activated": [
+        "RC-02",
+        "RC-05",
+        "RC-14"
+       ],
+       "live": [
+        "RC-02",
+        "RC-05",
+        "RC-14"
+       ],
+       "n_edges": 43
+      },
+      "NULL-F3": {
+       "activated": [],
+       "live": [],
+       "n_edges": 30
+      },
+      "NULL-F4": {
+       "activated": [
+        "RC-02",
+        "RC-03",
+        "RC-04",
+        "RC-05",
+        "RC-06",
+        "RC-11",
+        "RC-14"
+       ],
+       "live": [
+        "RC-02",
+        "RC-03",
+        "RC-04",
+        "RC-05",
+        "RC-06",
+        "RC-11",
+        "RC-14"
+       ],
+       "n_edges": 57
+      }
+     },
+     "sample_seed": 20270939,
+     "sds": 0.6808
+    },
+    {
+     "all_lineage_pass": true,
+     "complete_lineage_chains": 11,
+     "distinct_activation_profiles": 4,
+     "distinct_satisfaction_condition_sets": 3,
+     "divergence_mean": 0.6274,
+     "divergence_median": 0.75,
+     "families": {
+      "NULL-F1": [
+       "bearer_of",
+       "has_input",
+       "has_output",
+       "has_recipient",
+       "is_a_measurement_of",
+       "is_about",
+       "precedes",
+       "prescribes"
+      ],
+      "NULL-F2": [
+       "affects",
+       "has_input",
+       "has_interest_in",
+       "has_participant",
+       "is_cause_of",
+       "is_subordinate_role_to",
+       "prescribes",
+       "supervises"
+      ],
+      "NULL-F3": [
+       "affects",
+       "has_agent",
+       "is_about",
+       "is_subordinate_role_to",
+       "prescribes",
+       "realizes",
+       "supervises",
+       "uses"
+      ],
+      "NULL-F4": [
+       "bearer_of",
+       "has_agent",
+       "has_continuant_part",
+       "has_output",
+       "has_participant",
+       "is_cause_of",
+       "precedes",
+       "realizes",
+       "supervises",
+       "uses"
+      ]
+     },
+     "families_with_live": 2,
+     "foreign_full_pass_fraction": 0.5,
+     "gate_a_1_to_4": false,
+     "mean_activation_distance": 0.9444,
+     "mean_edge_distance": 0.7802,
+     "mean_witness_distance": 0.8333,
+     "n_activations": 15,
+     "n_live": 10,
+     "per_family": {
+      "NULL-F1": {
+       "activated": [
+        "RC-01",
+        "RC-03",
+        "RC-04",
+        "RC-06",
+        "RC-10",
+        "RC-11"
+       ],
+       "live": [
+        "RC-01",
+        "RC-03",
+        "RC-04",
+        "RC-06",
+        "RC-10",
+        "RC-11"
+       ],
+       "n_edges": 53
+      },
+      "NULL-F2": {
+       "activated": [],
+       "live": [],
+       "n_edges": 33
+      },
+      "NULL-F3": {
+       "activated": [
+        "RC-03",
+        "RC-10"
+       ],
+       "live": [],
+       "n_edges": 38
+      },
+      "NULL-F4": {
+       "activated": [
+        "RC-02",
+        "RC-05",
+        "RC-14"
+       ],
+       "live": [
+        "RC-02",
+        "RC-05",
+        "RC-14"
+       ],
+       "n_edges": 61
+      }
+     },
+     "sample_seed": 20270940,
+     "sds": 0.4722
+    },
+    {
+     "all_lineage_pass": true,
+     "complete_lineage_chains": 11,
+     "distinct_activation_profiles": 3,
+     "distinct_satisfaction_condition_sets": 3,
+     "divergence_mean": 0.625,
+     "divergence_median": 0.75,
+     "families": {
+      "NULL-F1": [
+       "affects",
+       "has_interest_in",
+       "has_organizational_context",
+       "is_about",
+       "is_affiliated_with",
+       "is_cause_of",
+       "is_subordinate_role_to",
+       "prescribes"
+      ],
+      "NULL-F2": [
+       "affects",
+       "bearer_of",
+       "has_agent",
+       "has_continuant_part",
+       "has_output",
+       "has_participant",
+       "is_cause_of",
+       "precedes"
+      ],
+      "NULL-F3": [
+       "has_input",
+       "has_organizational_context",
+       "has_recipient",
+       "is_a_measurement_of",
+       "is_about",
+       "is_affiliated_with",
+       "is_subordinate_role_to",
+       "prescribes"
+      ],
+      "NULL-F4": [
+       "bearer_of",
+       "has_agent",
+       "has_continuant_part",
+       "has_output",
+       "has_participant",
+       "is_cause_of",
+       "precedes",
+       "realizes",
+       "supervises",
+       "uses"
+      ]
+     },
+     "families_with_live": 3,
+     "foreign_full_pass_fraction": 0.417,
+     "gate_a_1_to_4": true,
+     "mean_activation_distance": 0.7222,
+     "mean_edge_distance": 0.7727,
+     "mean_witness_distance": 0.8333,
+     "n_activations": 13,
+     "n_live": 11,
+     "per_family": {
+      "NULL-F1": {
+       "activated": [
+        "RC-03",
+        "RC-10"
+       ],
+       "live": [],
+       "n_edges": 25
+      },
+      "NULL-F2": {
+       "activated": [
+        "RC-02",
+        "RC-05",
+        "RC-14"
+       ],
+       "live": [
+        "RC-02",
+        "RC-05",
+        "RC-14"
+       ],
+       "n_edges": 54
+      },
+      "NULL-F3": {
+       "activated": [
+        "RC-03",
+        "RC-06",
+        "RC-10"
+       ],
+       "live": [
+        "RC-03",
+        "RC-06",
+        "RC-10"
+       ],
+       "n_edges": 33
+      },
+      "NULL-F4": {
+       "activated": [
+        "RC-02",
+        "RC-05",
+        "RC-14"
+       ],
+       "live": [
+        "RC-02",
+        "RC-05",
+        "RC-14"
+       ],
+       "n_edges": 61
+      }
+     },
+     "sample_seed": 20270941,
+     "sds": 0.5417
+    },
+    {
+     "all_lineage_pass": true,
+     "complete_lineage_chains": 12,
+     "distinct_activation_profiles": 2,
+     "distinct_satisfaction_condition_sets": 2,
+     "divergence_mean": 0.375,
+     "divergence_median": 0.75,
+     "families": {
+      "NULL-F1": [
+       "affects",
+       "bearer_of",
+       "has_continuant_part",
+       "has_interest_in",
+       "has_output",
+       "has_participant",
+       "is_cause_of",
+       "precedes"
+      ],
+      "NULL-F2": [
+       "affects",
+       "bearer_of",
+       "has_continuant_part",
+       "has_interest_in",
+       "has_output",
+       "has_participant",
+       "is_cause_of",
+       "precedes"
+      ],
+      "NULL-F3": [
+       "bearer_of",
+       "has_continuant_part",
+       "has_interest_in",
+       "has_output",
+       "has_participant",
+       "is_cause_of",
+       "precedes",
+       "realizes"
+      ],
+      "NULL-F4": [
+       "has_agent",
+       "has_interest_in",
+       "has_output",
+       "is_about",
+       "is_cause_of",
+       "precedes",
+       "prescribes",
+       "realizes",
+       "supervises",
+       "uses"
+      ]
+     },
+     "families_with_live": 3,
+     "foreign_full_pass_fraction": 0.75,
+     "gate_a_1_to_4": true,
+     "mean_activation_distance": 0.5,
+     "mean_edge_distance": 0.3821,
+     "mean_witness_distance": 0.5,
+     "n_activations": 21,
+     "n_live": 12,
+     "per_family": {
+      "NULL-F1": {
+       "activated": [
+        "RC-02",
+        "RC-05",
+        "RC-09",
+        "RC-14"
+       ],
+       "live": [
+        "RC-02",
+        "RC-05",
+        "RC-14"
+       ],
+       "n_edges": 44
+      },
+      "NULL-F2": {
+       "activated": [
+        "RC-02",
+        "RC-05",
+        "RC-09",
+        "RC-14"
+       ],
+       "live": [
+        "RC-02",
+        "RC-05",
+        "RC-14"
+       ],
+       "n_edges": 44
+      },
+      "NULL-F3": {
+       "activated": [
+        "RC-02",
+        "RC-05",
+        "RC-09",
+        "RC-14"
+       ],
+       "live": [
+        "RC-02",
+        "RC-05",
+        "RC-14"
+       ],
+       "n_edges": 46
+      },
+      "NULL-F4": {
+       "activated": [
+        "RC-03",
+        "RC-04",
+        "RC-10"
+       ],
+       "live": [],
+       "n_edges": 56
+      }
+     },
+     "sample_seed": 20270942,
+     "sds": 0.375
+    },
+    {
+     "all_lineage_pass": true,
+     "complete_lineage_chains": 8,
+     "distinct_activation_profiles": 4,
+     "distinct_satisfaction_condition_sets": 2,
+     "divergence_mean": 0.5,
+     "divergence_median": 0.75,
+     "families": {
+      "NULL-F1": [
+       "bearer_of",
+       "has_continuant_part",
+       "has_output",
+       "has_participant",
+       "is_a_measurement_of",
+       "is_about",
+       "is_cause_of",
+       "precedes"
+      ],
+      "NULL-F2": [
+       "affects",
+       "has_continuant_part",
+       "has_organizational_context",
+       "has_recipient",
+       "is_affiliated_with",
+       "is_cause_of",
+       "is_subordinate_role_to",
+       "prescribes"
+      ],
+      "NULL-F3": [
+       "affects",
+       "bearer_of",
+       "has_agent",
+       "has_continuant_part",
+       "has_interest_in",
+       "has_recipient",
+       "supervises",
+       "uses"
+      ],
+      "NULL-F4": [
+       "bearer_of",
+       "has_continuant_part",
+       "has_output",
+       "has_participant",
+       "is_about",
+       "is_affiliated_with",
+       "is_cause_of",
+       "precedes",
+       "prescribes",
+       "supervises"
+      ]
+     },
+     "families_with_live": 2,
+     "foreign_full_pass_fraction": 0.667,
+     "gate_a_1_to_4": false,
+     "mean_activation_distance": 0.8,
+     "mean_edge_distance": 0.7739,
+     "mean_witness_distance": 0.6667,
+     "n_activations": 14,
+     "n_live": 8,
+     "per_family": {
+      "NULL-F1": {
+       "activated": [
+        "RC-02",
+        "RC-03",
+        "RC-04",
+        "RC-05",
+        "RC-14"
+       ],
+       "live": [
+        "RC-02",
+        "RC-05",
+        "RC-14"
+       ],
+       "n_edges": 47
+      },
+      "NULL-F2": {
+       "activated": [],
+       "live": [],
+       "n_edges": 23
+      },
+      "NULL-F3": {
+       "activated": [
+        "RC-14"
+       ],
+       "live": [],
+       "n_edges": 37
+      },
+      "NULL-F4": {
+       "activated": [
+        "RC-02",
+        "RC-03",
+        "RC-04",
+        "RC-05",
+        "RC-10",
+        "RC-14"
+       ],
+       "live": [
+        "RC-02",
+        "RC-05",
+        "RC-14"
+       ],
+       "n_edges": 53
+      }
+     },
+     "sample_seed": 20270943,
+     "sds": 0.4
+    },
+    {
+     "all_lineage_pass": true,
+     "complete_lineage_chains": 15,
+     "distinct_activation_profiles": 4,
+     "distinct_satisfaction_condition_sets": 4,
+     "divergence_mean": 0.4962,
+     "divergence_median": 0.7204,
+     "families": {
+      "NULL-F1": [
+       "bearer_of",
+       "has_continuant_part",
+       "has_output",
+       "has_participant",
+       "is_affiliated_with",
+       "is_cause_of",
+       "precedes",
+       "prescribes"
+      ],
+      "NULL-F2": [
+       "bearer_of",
+       "has_agent",
+       "has_input",
+       "has_participant",
+       "has_recipient",
+       "is_a_measurement_of",
+       "is_about",
+       "is_affiliated_with"
+      ],
+      "NULL-F3": [
+       "bearer_of",
+       "has_continuant_part",
+       "has_input",
+       "has_output",
+       "has_participant",
+       "has_recipient",
+       "is_a_measurement_of",
+       "is_about"
+      ],
+      "NULL-F4": [
+       "has_input",
+       "has_organizational_context",
+       "has_participant",
+       "has_recipient",
+       "is_a_measurement_of",
+       "is_about",
+       "is_affiliated_with",
+       "is_subordinate_role_to",
+       "precedes",
+       "prescribes"
+      ]
+     },
+     "families_with_live": 4,
+     "foreign_full_pass_fraction": 0.167,
+     "gate_a_1_to_4": true,
+     "mean_activation_distance": 0.6968,
+     "mean_edge_distance": 0.5992,
+     "mean_witness_distance": 0.7524,
+     "n_activations": 16,
+     "n_live": 14,
+     "per_family": {
+      "NULL-F1": {
+       "activated": [
+        "RC-02",
+        "RC-05",
+        "RC-14"
+       ],
+       "live": [
+        "RC-02",
+        "RC-05",
+        "RC-14"
+       ],
+       "n_edges": 47
+      },
+      "NULL-F2": {
+       "activated": [
+        "RC-03",
+        "RC-05",
+        "RC-06"
+       ],
+       "live": [
+        "RC-03",
+        "RC-06"
+       ],
+       "n_edges": 50
+      },
+      "NULL-F3": {
+       "activated": [
+        "RC-03",
+        "RC-04",
+        "RC-05",
+        "RC-06",
+        "RC-14"
+       ],
+       "live": [
+        "RC-03",
+        "RC-04",
+        "RC-06",
+        "RC-14"
+       ],
+       "n_edges": 47
+      },
+      "NULL-F4": {
+       "activated": [
+        "RC-03",
+        "RC-06",
+        "RC-10",
+        "RC-11"
+       ],
+       "live": [
+        "RC-03",
+        "RC-06",
+        "RC-10",
+        "RC-11"
+       ],
+       "n_edges": 51
+      }
+     },
+     "sample_seed": 20270944,
+     "sds": 0.6968
+    },
+    {
+     "all_lineage_pass": true,
+     "complete_lineage_chains": 12,
+     "distinct_activation_profiles": 4,
+     "distinct_satisfaction_condition_sets": 3,
+     "divergence_mean": 0.6228,
+     "divergence_median": 0.75,
+     "families": {
+      "NULL-F1": [
+       "bearer_of",
+       "has_organizational_context",
+       "has_participant",
+       "has_recipient",
+       "is_affiliated_with",
+       "is_subordinate_role_to",
+       "prescribes",
+       "supervises"
+      ],
+      "NULL-F2": [
+       "affects",
+       "has_agent",
+       "has_input",
+       "has_interest_in",
+       "has_output",
+       "has_recipient",
+       "is_a_measurement_of",
+       "is_about"
+      ],
+      "NULL-F3": [
+       "affects",
+       "bearer_of",
+       "has_continuant_part",
+       "has_interest_in",
+       "has_output",
+       "has_participant",
+       "is_cause_of",
+       "precedes"
+      ],
+      "NULL-F4": [
+       "bearer_of",
+       "has_agent",
+       "has_continuant_part",
+       "has_output",
+       "has_participant",
+       "is_cause_of",
+       "precedes",
+       "realizes",
+       "supervises",
+       "uses"
+      ]
+     },
+     "families_with_live": 3,
+     "foreign_full_pass_fraction": 0.417,
+     "gate_a_1_to_4": true,
+     "mean_activation_distance": 0.7778,
+     "mean_edge_distance": 0.7265,
+     "mean_witness_distance": 0.8333,
+     "n_activations": 14,
+     "n_live": 11,
+     "per_family": {
+      "NULL-F1": {
+       "activated": [
+        "RC-05"
+       ],
+       "live": [],
+       "n_edges": 39
+      },
+      "NULL-F2": {
+       "activated": [
+        "RC-03",
+        "RC-04",
+        "RC-06"
+       ],
+       "live": [
+        "RC-03",
+        "RC-04",
+        "RC-06"
+       ],
+       "n_edges": 46
+      },
+      "NULL-F3": {
+       "activated": [
+        "RC-02",
+        "RC-05",
+        "RC-09",
+        "RC-14"
+       ],
+       "live": [
+        "RC-02",
+        "RC-05",
+        "RC-14"
+       ],
+       "n_edges": 44
+      },
+      "NULL-F4": {
+       "activated": [
+        "RC-02",
+        "RC-05",
+        "RC-14"
+       ],
+       "live": [
+        "RC-02",
+        "RC-05",
+        "RC-14"
+       ],
+       "n_edges": 61
+      }
+     },
+     "sample_seed": 20270945,
+     "sds": 0.5833
+    },
+    {
+     "all_lineage_pass": true,
+     "complete_lineage_chains": 9,
+     "distinct_activation_profiles": 4,
+     "distinct_satisfaction_condition_sets": 4,
+     "divergence_mean": 0.6708,
+     "divergence_median": 0.75,
+     "families": {
+      "NULL-F1": [
+       "has_agent",
+       "has_continuant_part",
+       "has_output",
+       "has_participant",
+       "is_cause_of",
+       "precedes",
+       "realizes",
+       "supervises"
+      ],
+      "NULL-F2": [
+       "has_input",
+       "has_participant",
+       "has_recipient",
+       "is_a_measurement_of",
+       "is_about",
+       "is_affiliated_with",
+       "is_cause_of",
+       "realizes"
+      ],
+      "NULL-F3": [
+       "affects",
+       "has_interest_in",
+       "has_organizational_context",
+       "has_participant",
+       "is_affiliated_with",
+       "is_subordinate_role_to",
+       "prescribes",
+       "supervises"
+      ],
+      "NULL-F4": [
+       "affects",
+       "bearer_of",
+       "has_continuant_part",
+       "has_interest_in",
+       "has_output",
+       "has_participant",
+       "has_recipient",
+       "is_cause_of",
+       "precedes",
+       "uses"
+      ]
+     },
+     "families_with_live": 3,
+     "foreign_full_pass_fraction": 0.333,
+     "gate_a_1_to_4": true,
+     "mean_activation_distance": 0.9583,
+     "mean_edge_distance": 0.7692,
+     "mean_witness_distance": 0.8824,
+     "n_activations": 10,
+     "n_live": 9,
+     "per_family": {
+      "NULL-F1": {
+       "activated": [
+        "RC-02"
+       ],
+       "live": [
+        "RC-02"
+       ],
+       "n_edges": 49
+      },
+      "NULL-F2": {
+       "activated": [
+        "RC-03",
+        "RC-06"
+       ],
+       "live": [
+        "RC-03",
+        "RC-06"
+       ],
+       "n_edges": 33
+      },
+      "NULL-F3": {
+       "activated": [],
+       "live": [],
+       "n_edges": 31
+      },
+      "NULL-F4": {
+       "activated": [
+        "RC-02",
+        "RC-05",
+        "RC-09",
+        "RC-14"
+       ],
+       "live": [
+        "RC-02",
+        "RC-05",
+        "RC-09",
+        "RC-14"
+       ],
+       "n_edges": 51
+      }
+     },
+     "sample_seed": 20270946,
+     "sds": 0.7188
+    },
+    {
+     "all_lineage_pass": true,
+     "complete_lineage_chains": 10,
+     "distinct_activation_profiles": 3,
+     "distinct_satisfaction_condition_sets": 3,
+     "divergence_mean": 0.625,
+     "divergence_median": 0.75,
+     "families": {
+      "NULL-F1": [
+       "affects",
+       "bearer_of",
+       "has_continuant_part",
+       "has_interest_in",
+       "has_output",
+       "has_participant",
+       "is_cause_of",
+       "precedes"
+      ],
+      "NULL-F2": [
+       "has_continuant_part",
+       "has_input",
+       "has_recipient",
+       "is_a_measurement_of",
+       "is_about",
+       "is_subordinate_role_to",
+       "prescribes",
+       "uses"
+      ],
+      "NULL-F3": [
+       "has_agent",
+       "has_organizational_context",
+       "is_affiliated_with",
+       "is_subordinate_role_to",
+       "prescribes",
+       "realizes",
+       "supervises",
+       "uses"
+      ],
+      "NULL-F4": [
+       "affects",
+       "has_input",
+       "has_interest_in",
+       "has_organizational_context",
+       "has_recipient",
+       "is_a_measurement_of",
+       "is_about",
+       "is_affiliated_with",
+       "is_subordinate_role_to",
+       "prescribes"
+      ]
+     },
+     "families_with_live": 3,
+     "foreign_full_pass_fraction": 0.417,
+     "gate_a_1_to_4": true,
+     "mean_activation_distance": 0.8333,
+     "mean_edge_distance": 0.7955,
+     "mean_witness_distance": 0.8333,
+     "n_activations": 12,
+     "n_live": 10,
+     "per_family": {
+      "NULL-F1": {
+       "activated": [
+        "RC-02",
+        "RC-05",
+        "RC-09",
+        "RC-14"
+       ],
+       "live": [
+        "RC-02",
+        "RC-05",
+        "RC-14"
+       ],
+       "n_edges": 44
+      },
+      "NULL-F2": {
+       "activated": [
+        "RC-03",
+        "RC-06",
+        "RC-10"
+       ],
+       "live": [
+        "RC-03",
+        "RC-06",
+        "RC-10"
+       ],
+       "n_edges": 32
+      },
+      "NULL-F3": {
+       "activated": [],
+       "live": [],
+       "n_edges": 37
+      },
+      "NULL-F4": {
+       "activated": [
+        "RC-03",
+        "RC-06",
+        "RC-10"
+       ],
+       "live": [
+        "RC-03",
+        "RC-06",
+        "RC-10"
+       ],
+       "n_edges": 38
+      }
+     },
+     "sample_seed": 20270947,
+     "sds": 0.625
+    },
+    {
+     "all_lineage_pass": true,
+     "complete_lineage_chains": 8,
+     "distinct_activation_profiles": 4,
+     "distinct_satisfaction_condition_sets": 4,
+     "divergence_mean": 0.5191,
+     "divergence_median": 0.75,
+     "families": {
+      "NULL-F1": [
+       "bearer_of",
+       "has_agent",
+       "has_input",
+       "has_interest_in",
+       "has_recipient",
+       "is_a_measurement_of",
+       "is_about",
+       "supervises"
+      ],
+      "NULL-F2": [
+       "has_input",
+       "has_organizational_context",
+       "has_output",
+       "is_about",
+       "is_affiliated_with",
+       "is_subordinate_role_to",
+       "prescribes",
+       "uses"
+      ],
+      "NULL-F3": [
+       "has_agent",
+       "has_organizational_context",
+       "is_affiliated_with",
+       "is_subordinate_role_to",
+       "prescribes",
+       "realizes",
+       "supervises",
+       "uses"
+      ],
+      "NULL-F4": [
+       "affects",
+       "has_input",
+       "has_interest_in",
+       "has_recipient",
+       "is_a_measurement_of",
+       "is_about",
+       "is_affiliated_with",
+       "is_subordinate_role_to",
+       "prescribes",
+       "supervises"
+      ]
+     },
+     "families_with_live": 3,
+     "foreign_full_pass_fraction": 0.333,
+     "gate_a_1_to_4": true,
+     "mean_activation_distance": 0.7639,
+     "mean_edge_distance": 0.719,
+     "mean_witness_distance": 0.8151,
+     "n_activations": 8,
+     "n_live": 7,
+     "per_family": {
+      "NULL-F1": {
+       "activated": [
+        "RC-03",
+        "RC-06"
+       ],
+       "live": [
+        "RC-03",
+        "RC-06"
+       ],
+       "n_edges": 45
+      },
+      "NULL-F2": {
+       "activated": [
+        "RC-03",
+        "RC-04",
+        "RC-10"
+       ],
+       "live": [
+        "RC-03",
+        "RC-04"
+       ],
+       "n_edges": 38
+      },
+      "NULL-F3": {
+       "activated": [],
+       "live": [],
+       "n_edges": 37
+      },
+      "NULL-F4": {
+       "activated": [
+        "RC-03",
+        "RC-06",
+        "RC-10"
+       ],
+       "live": [
+        "RC-03",
+        "RC-06",
+        "RC-10"
+       ],
+       "n_edges": 36
+      }
+     },
+     "sample_seed": 20270948,
+     "sds": 0.5729
+    },
+    {
+     "all_lineage_pass": true,
+     "complete_lineage_chains": 9,
+     "distinct_activation_profiles": 4,
+     "distinct_satisfaction_condition_sets": 4,
+     "divergence_mean": 0.607,
+     "divergence_median": 0.75,
+     "families": {
+      "NULL-F1": [
+       "affects",
+       "has_agent",
+       "has_interest_in",
+       "has_output",
+       "has_participant",
+       "has_recipient",
+       "precedes",
+       "supervises"
+      ],
+      "NULL-F2": [
+       "affects",
+       "has_input",
+       "has_interest_in",
+       "has_participant",
+       "has_recipient",
+       "is_a_measurement_of",
+       "is_about",
+       "is_cause_of"
+      ],
+      "NULL-F3": [
+       "affects",
+       "bearer_of",
+       "has_continuant_part",
+       "has_interest_in",
+       "has_output",
+       "has_participant",
+       "is_cause_of",
+       "precedes"
+      ],
+      "NULL-F4": [
+       "has_agent",
+       "has_continuant_part",
+       "has_input",
+       "has_interest_in",
+       "has_participant",
+       "is_about",
+       "prescribes",
+       "realizes",
+       "supervises",
+       "uses"
+      ]
+     },
+     "families_with_live": 4,
+     "foreign_full_pass_fraction": 0.167,
+     "gate_a_1_to_4": true,
+     "mean_activation_distance": 0.9028,
+     "mean_edge_distance": 0.6849,
+     "mean_witness_distance": 0.8333,
+     "n_activations": 12,
+     "n_live": 9,
+     "per_family": {
+      "NULL-F1": {
+       "activated": [
+        "RC-02"
+       ],
+       "live": [
+        "RC-02"
+       ],
+       "n_edges": 52
+      },
+      "NULL-F2": {
+       "activated": [
+        "RC-03",
+        "RC-06"
+       ],
+       "live": [
+        "RC-03",
+        "RC-06"
+       ],
+       "n_edges": 33
+      },
+      "NULL-F3": {
+       "activated": [
+        "RC-02",
+        "RC-05",
+        "RC-09",
+        "RC-14"
+       ],
+       "live": [
+        "RC-02",
+        "RC-05",
+        "RC-14"
+       ],
+       "n_edges": 44
+      },
+      "NULL-F4": {
+       "activated": [
+        "RC-03",
+        "RC-10"
+       ],
+       "live": [
+        "RC-03"
+       ],
+       "n_edges": 52
+      }
+     },
+     "sample_seed": 20270949,
+     "sds": 0.9028
+    },
+    {
+     "all_lineage_pass": true,
+     "complete_lineage_chains": 8,
+     "distinct_activation_profiles": 4,
+     "distinct_satisfaction_condition_sets": 3,
+     "divergence_mean": 0.6239,
+     "divergence_median": 0.75,
+     "families": {
+      "NULL-F1": [
+       "affects",
+       "has_input",
+       "has_interest_in",
+       "has_organizational_context",
+       "has_output",
+       "has_recipient",
+       "is_a_measurement_of",
+       "is_about"
+      ],
+      "NULL-F2": [
+       "affects",
+       "has_interest_in",
+       "has_organizational_context",
+       "has_recipient",
+       "is_affiliated_with",
+       "is_cause_of",
+       "is_subordinate_role_to",
+       "prescribes"
+      ],
+      "NULL-F3": [
+       "affects",
+       "bearer_of",
+       "has_continuant_part",
+       "has_interest_in",
+       "has_organizational_context",
+       "is_subordinate_role_to",
+       "realizes",
+       "uses"
+      ],
+      "NULL-F4": [
+       "affects",
+       "bearer_of",
+       "has_continuant_part",
+       "has_interest_in",
+       "has_organizational_context",
+       "has_output",
+       "has_participant",
+       "is_about",
+       "is_cause_of",
+       "precedes"
+      ]
+     },
+     "families_with_live": 2,
+     "foreign_full_pass_fraction": 0.5,
+     "gate_a_1_to_4": false,
+     "mean_activation_distance": 0.9246,
+     "mean_edge_distance": 0.7478,
+     "mean_witness_distance": 0.8333,
+     "n_activations": 12,
+     "n_live": 7,
+     "per_family": {
+      "NULL-F1": {
+       "activated": [
+        "RC-03",
+        "RC-04",
+        "RC-06"
+       ],
+       "live": [
+        "RC-03",
+        "RC-04",
+        "RC-06"
+       ],
+       "n_edges": 37
+      },
+      "NULL-F2": {
+       "activated": [],
+       "live": [],
+       "n_edges": 25
+      },
+      "NULL-F3": {
+       "activated": [
+        "RC-14"
+       ],
+       "live": [],
+       "n_edges": 29
+      },
+      "NULL-F4": {
+       "activated": [
+        "RC-02",
+        "RC-03",
+        "RC-04",
+        "RC-05",
+        "RC-09",
+        "RC-14"
+       ],
+       "live": [
+        "RC-02",
+        "RC-05",
+        "RC-14"
+       ],
+       "n_edges": 52
+      }
+     },
+     "sample_seed": 20270950,
+     "sds": 0.4623
+    }
+   ],
+   "stats": {
+    "divergence_median_mean": 0.7486,
+    "divergence_median_p90": 0.75,
+    "divergence_median_values": [
+     0.7204,
+     0.7432,
+     0.7453,
+     0.75,
+     0.75,
+     0.75,
+     0.75,
+     0.75,
+     0.75,
+     0.75,
+     0.75,
+     0.75,
+     0.75,
+     0.75,
+     0.75,
+     0.75,
+     0.75,
+     0.75,
+     0.75,
+     0.75,
+     0.75,
+     0.75,
+     0.75,
+     0.75,
+     0.75,
+     0.75,
+     0.75,
+     0.75,
+     0.75,
+     0.75
+    ],
+    "fraction_all_lineage_pass": 1.0,
+    "fraction_passing_gate_a_1_to_4": 0.6,
+    "intended_divergence_median_percentile": 0.0,
+    "intended_sds_percentile": 100.0,
+    "mean_activation_distance": 0.8097,
+    "mean_families_with_live": 2.7,
+    "mean_foreign_full_pass_fraction": 0.458,
+    "mean_lineage_chains": 9.0,
+    "mean_n_live": 8.73,
+    "mean_witness_distance": 0.7534,
+    "n": 30,
+    "sds_max": 0.9028,
+    "sds_mean": 0.5398,
+    "sds_median": 0.5625,
+    "sds_min": 0.1944,
+    "sds_p90": 0.7083,
+    "sds_values": [
+     0.4375,
+     0.6354,
+     0.2083,
+     0.6667,
+     0.8056,
+     0.6944,
+     0.4444,
+     0.6667,
+     0.1944,
+     0.4167,
+     0.575,
+     0.4167,
+     0.3611,
+     0.4722,
+     0.7083,
+     0.5625,
+     0.4167,
+     0.4792,
+     0.6808,
+     0.4722,
+     0.5417,
+     0.375,
+     0.4,
+     0.6968,
+     0.5833,
+     0.7188,
+     0.625,
+     0.5729,
+     0.9028,
+     0.4623
+    ]
+   }
+  },
+  "uniform": {
+   "samples": [
+    {
+     "all_lineage_pass": true,
+     "complete_lineage_chains": 2,
+     "distinct_activation_profiles": 3,
+     "distinct_satisfaction_condition_sets": 2,
+     "divergence_mean": 0.375,
+     "divergence_median": 0.75,
+     "families": {
+      "NULL-F1": [
+       "bearer_of",
+       "has_agent",
+       "has_organizational_context",
+       "has_output",
+       "is_about",
+       "is_cause_of",
+       "prescribes",
+       "supervises"
+      ],
+      "NULL-F2": [
+       "bearer_of",
+       "has_input",
+       "has_interest_in",
+       "has_organizational_context",
+       "is_a_measurement_of",
+       "is_about",
+       "is_affiliated_with",
+       "prescribes"
+      ],
+      "NULL-F3": [
+       "affects",
+       "has_agent",
+       "has_organizational_context",
+       "is_a_measurement_of",
+       "is_affiliated_with",
+       "precedes",
+       "realizes",
+       "supervises"
+      ],
+      "NULL-F4": [
+       "affects",
+       "has_input",
+       "has_organizational_context",
+       "has_recipient",
+       "is_cause_of",
+       "is_subordinate_role_to",
+       "prescribes",
+       "realizes",
+       "supervises",
+       "uses"
+      ]
+     },
+     "families_with_live": 1,
+     "foreign_full_pass_fraction": 0.75,
+     "gate_a_1_to_4": false,
+     "mean_activation_distance": 0.75,
+     "mean_edge_distance": 0.7563,
+     "mean_witness_distance": 0.5,
+     "n_activations": 9,
+     "n_live": 2,
+     "per_family": {
+      "NULL-F1": {
+       "activated": [
+        "RC-03",
+        "RC-04",
+        "RC-10"
+       ],
+       "live": [],
+       "n_edges": 50
+      },
+      "NULL-F2": {
+       "activated": [
+        "RC-01",
+        "RC-03",
+        "RC-10"
+       ],
+       "live": [
+        "RC-01",
+        "RC-03"
+       ],
+       "n_edges": 38
+      },
+      "NULL-F3": {
+       "activated": [],
+       "live": [],
+       "n_edges": 39
+      },
+      "NULL-F4": {
+       "activated": [],
+       "live": [],
+       "n_edges": 36
+      }
+     },
+     "sample_seed": 20260921,
+     "sds": 0.1875
+    },
+    {
+     "all_lineage_pass": true,
+     "complete_lineage_chains": 2,
+     "distinct_activation_profiles": 4,
+     "distinct_satisfaction_condition_sets": 3,
+     "divergence_mean": 0.625,
+     "divergence_median": 0.75,
+     "families": {
+      "NULL-F1": [
+       "affects",
+       "has_agent",
+       "has_continuant_part",
+       "has_participant",
+       "is_a_measurement_of",
+       "is_about",
+       "prescribes",
+       "uses"
+      ],
+      "NULL-F2": [
+       "affects",
+       "bearer_of",
+       "has_agent",
+       "is_about",
+       "is_cause_of",
+       "is_subordinate_role_to",
+       "precedes",
+       "prescribes"
+      ],
+      "NULL-F3": [
+       "has_continuant_part",
+       "has_input",
+       "has_organizational_context",
+       "has_participant",
+       "is_a_measurement_of",
+       "precedes",
+       "prescribes",
+       "uses"
+      ],
+      "NULL-F4": [
+       "bearer_of",
+       "has_interest_in",
+       "has_organizational_context",
+       "has_participant",
+       "has_recipient",
+       "is_a_measurement_of",
+       "is_affiliated_with",
+       "is_subordinate_role_to",
+       "realizes",
+       "supervises"
+      ]
+     },
+     "families_with_live": 2,
+     "foreign_full_pass_fraction": 0.5,
+     "gate_a_1_to_4": false,
+     "mean_activation_distance": 0.8889,
+     "mean_edge_distance": 0.7372,
+     "mean_witness_distance": 0.8333,
+     "n_activations": 10,
+     "n_live": 2,
+     "per_family": {
+      "NULL-F1": {
+       "activated": [
+        "RC-03",
+        "RC-10"
+       ],
+       "live": [],
+       "n_edges": 43
+      },
+      "NULL-F2": {
+       "activated": [
+        "RC-03",
+        "RC-07",
+        "RC-10"
+       ],
+       "live": [],
+       "n_edges": 48
+      },
+      "NULL-F3": {
+       "activated": [
+        "RC-11"
+       ],
+       "live": [
+        "RC-11"
+       ],
+       "n_edges": 43
+      },
+      "NULL-F4": {
+       "activated": [
+        "RC-05",
+        "RC-09"
+       ],
+       "live": [
+        "RC-09"
+       ],
+       "n_edges": 43
+      }
+     },
+     "sample_seed": 20260922,
+     "sds": 0.4444
+    },
+    {
+     "all_lineage_pass": true,
+     "complete_lineage_chains": 1,
+     "distinct_activation_profiles": 4,
+     "distinct_satisfaction_condition_sets": 2,
+     "divergence_mean": 0.375,
+     "divergence_median": 0.75,
+     "families": {
+      "NULL-F1": [
+       "has_continuant_part",
+       "has_organizational_context",
+       "has_output",
+       "has_recipient",
+       "is_about",
+       "precedes",
+       "supervises",
+       "uses"
+      ],
+      "NULL-F2": [
+       "affects",
+       "bearer_of",
+       "has_organizational_context",
+       "has_output",
+       "is_a_measurement_of",
+       "is_cause_of",
+       "prescribes",
+       "supervises"
+      ],
+      "NULL-F3": [
+       "affects",
+       "bearer_of",
+       "has_agent",
+       "has_interest_in",
+       "has_output",
+       "has_participant",
+       "is_a_measurement_of",
+       "is_affiliated_with"
+      ],
+      "NULL-F4": [
+       "affects",
+       "has_agent",
+       "has_input",
+       "has_organizational_context",
+       "has_recipient",
+       "is_a_measurement_of",
+       "is_affiliated_with",
+       "is_subordinate_role_to",
+       "realizes",
+       "uses"
+      ]
+     },
+     "families_with_live": 1,
+     "foreign_full_pass_fraction": 0.75,
+     "gate_a_1_to_4": false,
+     "mean_activation_distance": 1.0,
+     "mean_edge_distance": 0.7766,
+     "mean_witness_distance": 0.5,
+     "n_activations": 9,
+     "n_live": 1,
+     "per_family": {
+      "NULL-F1": {
+       "activated": [
+        "RC-03",
+        "RC-04"
+       ],
+       "live": [],
+       "n_edges": 37
+      },
+      "NULL-F2": {
+       "activated": [
+        "RC-01"
+       ],
+       "live": [
+        "RC-01"
+       ],
+       "n_edges": 39
+      },
+      "NULL-F3": {
+       "activated": [
+        "RC-05",
+        "RC-09"
+       ],
+       "live": [],
+       "n_edges": 51
+      },
+      "NULL-F4": {
+       "activated": [],
+       "live": [],
+       "n_edges": 44
+      }
+     },
+     "sample_seed": 20260923,
+     "sds": 0.25
+    },
+    {
+     "all_lineage_pass": true,
+     "complete_lineage_chains": 4,
+     "distinct_activation_profiles": 4,
+     "distinct_satisfaction_condition_sets": 3,
+     "divergence_mean": 0.588,
+     "divergence_median": 0.75,
+     "families": {
+      "NULL-F1": [
+       "affects",
+       "bearer_of",
+       "has_input",
+       "has_interest_in",
+       "is_affiliated_with",
+       "is_cause_of",
+       "realizes",
+       "supervises"
+      ],
+      "NULL-F2": [
+       "has_continuant_part",
+       "has_participant",
+       "is_a_measurement_of",
+       "is_about",
+       "is_subordinate_role_to",
+       "prescribes",
+       "realizes",
+       "uses"
+      ],
+      "NULL-F3": [
+       "bearer_of",
+       "has_interest_in",
+       "has_organizational_context",
+       "has_participant",
+       "has_recipient",
+       "precedes",
+       "supervises",
+       "uses"
+      ],
+      "NULL-F4": [
+       "has_agent",
+       "has_continuant_part",
+       "has_output",
+       "has_participant",
+       "has_recipient",
+       "is_a_measurement_of",
+       "is_about",
+       "is_subordinate_role_to",
+       "precedes",
+       "prescribes"
+      ]
+     },
+     "families_with_live": 2,
+     "foreign_full_pass_fraction": 0.5,
+     "gate_a_1_to_4": false,
+     "mean_activation_distance": 0.9167,
+     "mean_edge_distance": 0.8086,
+     "mean_witness_distance": 0.8333,
+     "n_activations": 10,
+     "n_live": 4,
+     "per_family": {
+      "NULL-F1": {
+       "activated": [],
+       "live": [],
+       "n_edges": 28
+      },
+      "NULL-F2": {
+       "activated": [
+        "RC-03",
+        "RC-10"
+       ],
+       "live": [],
+       "n_edges": 35
+      },
+      "NULL-F3": {
+       "activated": [
+        "RC-05",
+        "RC-09"
+       ],
+       "live": [
+        "RC-05",
+        "RC-09"
+       ],
+       "n_edges": 43
+      },
+      "NULL-F4": {
+       "activated": [
+        "RC-02",
+        "RC-03",
+        "RC-04",
+        "RC-10"
+       ],
+       "live": [
+        "RC-02"
+       ],
+       "n_edges": 64
+      }
+     },
+     "sample_seed": 20260924,
+     "sds": 0.4583
+    },
+    {
+     "all_lineage_pass": true,
+     "complete_lineage_chains": 6,
+     "distinct_activation_profiles": 3,
+     "distinct_satisfaction_condition_sets": 3,
+     "divergence_mean": 0.6052,
+     "divergence_median": 0.75,
+     "families": {
+      "NULL-F1": [
+       "has_continuant_part",
+       "has_input",
+       "has_recipient",
+       "is_a_measurement_of",
+       "is_about",
+       "is_affiliated_with",
+       "is_cause_of",
+       "prescribes"
+      ],
+      "NULL-F2": [
+       "affects",
+       "has_agent",
+       "has_input",
+       "has_output",
+       "has_participant",
+       "is_affiliated_with",
+       "precedes",
+       "uses"
+      ],
+      "NULL-F3": [
+       "affects",
+       "has_output",
+       "has_recipient",
+       "is_a_measurement_of",
+       "is_affiliated_with",
+       "precedes",
+       "prescribes",
+       "uses"
+      ],
+      "NULL-F4": [
+       "affects",
+       "has_continuant_part",
+       "has_interest_in",
+       "has_organizational_context",
+       "has_participant",
+       "has_recipient",
+       "is_affiliated_with",
+       "prescribes",
+       "realizes",
+       "supervises"
+      ]
+     },
+     "families_with_live": 2,
+     "foreign_full_pass_fraction": 0.5,
+     "gate_a_1_to_4": false,
+     "mean_activation_distance": 0.8333,
+     "mean_edge_distance": 0.7673,
+     "mean_witness_distance": 0.8333,
+     "n_activations": 6,
+     "n_live": 6,
+     "per_family": {
+      "NULL-F1": {
+       "activated": [
+        "RC-03",
+        "RC-06",
+        "RC-10"
+       ],
+       "live": [
+        "RC-03",
+        "RC-06",
+        "RC-10"
+       ],
+       "n_edges": 28
+      },
+      "NULL-F2": {
+       "activated": [
+        "RC-02",
+        "RC-11"
+       ],
+       "live": [
+        "RC-02",
+        "RC-11"
+       ],
+       "n_edges": 53
+      },
+      "NULL-F3": {
+       "activated": [],
+       "live": [],
+       "n_edges": 40
+      },
+      "NULL-F4": {
+       "activated": [],
+       "live": [],
+       "n_edges": 37
+      }
+     },
+     "sample_seed": 20260925,
+     "sds": 0.4167
+    },
+    {
+     "all_lineage_pass": true,
+     "complete_lineage_chains": 5,
+     "distinct_activation_profiles": 4,
+     "distinct_satisfaction_condition_sets": 3,
+     "divergence_mean": 0.625,
+     "divergence_median": 0.75,
+     "families": {
+      "NULL-F1": [
+       "affects",
+       "bearer_of",
+       "has_agent",
+       "has_interest_in",
+       "has_output",
+       "is_a_measurement_of",
+       "realizes",
+       "supervises"
+      ],
+      "NULL-F2": [
+       "has_input",
+       "has_organizational_context",
+       "has_output",
+       "is_about",
+       "is_subordinate_role_to",
+       "precedes",
+       "realizes",
+       "uses"
+      ],
+      "NULL-F3": [
+       "bearer_of",
+       "has_agent",
+       "has_continuant_part",
+       "has_organizational_context",
+       "has_recipient",
+       "is_about",
+       "is_subordinate_role_to",
+       "realizes"
+      ],
+      "NULL-F4": [
+       "affects",
+       "has_continuant_part",
+       "has_interest_in",
+       "has_organizational_context",
+       "has_participant",
+       "is_a_measurement_of",
+       "is_about",
+       "is_cause_of",
+       "prescribes",
+       "uses"
+      ]
+     },
+     "families_with_live": 2,
+     "foreign_full_pass_fraction": 0.5,
+     "gate_a_1_to_4": false,
+     "mean_activation_distance": 0.8972,
+     "mean_edge_distance": 0.7977,
+     "mean_witness_distance": 0.8333,
+     "n_activations": 11,
+     "n_live": 4,
+     "per_family": {
+      "NULL-F1": {
+       "activated": [],
+       "live": [],
+       "n_edges": 47
+      },
+      "NULL-F2": {
+       "activated": [
+        "RC-03",
+        "RC-04",
+        "RC-11"
+       ],
+       "live": [
+        "RC-03",
+        "RC-04",
+        "RC-11"
+       ],
+       "n_edges": 43
+      },
+      "NULL-F3": {
+       "activated": [
+        "RC-03",
+        "RC-07",
+        "RC-08",
+        "RC-14"
+       ],
+       "live": [
+        "RC-08"
+       ],
+       "n_edges": 42
+      },
+      "NULL-F4": {
+       "activated": [
+        "RC-03",
+        "RC-10"
+       ],
+       "live": [],
+       "n_edges": 38
+      }
+     },
+     "sample_seed": 20260926,
+     "sds": 0.4486
+    },
+    {
+     "all_lineage_pass": true,
+     "complete_lineage_chains": 5,
+     "distinct_activation_profiles": 4,
+     "distinct_satisfaction_condition_sets": 3,
+     "divergence_mean": 0.6027,
+     "divergence_median": 0.75,
+     "families": {
+      "NULL-F1": [
+       "bearer_of",
+       "has_agent",
+       "has_continuant_part",
+       "has_organizational_context",
+       "has_output",
+       "is_a_measurement_of",
+       "precedes",
+       "uses"
+      ],
+      "NULL-F2": [
+       "has_agent",
+       "has_continuant_part",
+       "has_interest_in",
+       "has_output",
+       "has_recipient",
+       "is_a_measurement_of",
+       "is_about",
+       "is_affiliated_with"
+      ],
+      "NULL-F3": [
+       "affects",
+       "has_input",
+       "has_participant",
+       "has_recipient",
+       "is_about",
+       "is_affiliated_with",
+       "is_cause_of",
+       "supervises"
+      ],
+      "NULL-F4": [
+       "affects",
+       "bearer_of",
+       "has_continuant_part",
+       "has_input",
+       "has_organizational_context",
+       "has_participant",
+       "has_recipient",
+       "precedes",
+       "prescribes",
+       "uses"
+      ]
+     },
+     "families_with_live": 2,
+     "foreign_full_pass_fraction": 0.5,
+     "gate_a_1_to_4": false,
+     "mean_activation_distance": 0.8889,
+     "mean_edge_distance": 0.7839,
+     "mean_witness_distance": 0.8333,
+     "n_activations": 8,
+     "n_live": 5,
+     "per_family": {
+      "NULL-F1": {
+       "activated": [
+        "RC-14"
+       ],
+       "live": [],
+       "n_edges": 53
+      },
+      "NULL-F2": {
+       "activated": [
+        "RC-03",
+        "RC-04"
+       ],
+       "live": [],
+       "n_edges": 40
+      },
+      "NULL-F3": {
+       "activated": [
+        "RC-03",
+        "RC-06"
+       ],
+       "live": [
+        "RC-03",
+        "RC-06"
+       ],
+       "n_edges": 29
+      },
+      "NULL-F4": {
+       "activated": [
+        "RC-05",
+        "RC-11",
+        "RC-14"
+       ],
+       "live": [
+        "RC-05",
+        "RC-11",
+        "RC-14"
+       ],
+       "n_edges": 54
+      }
+     },
+     "sample_seed": 20260927,
+     "sds": 0.4444
+    },
+    {
+     "all_lineage_pass": true,
+     "complete_lineage_chains": 2,
+     "distinct_activation_profiles": 4,
+     "distinct_satisfaction_condition_sets": 3,
+     "divergence_mean": 0.5972,
+     "divergence_median": 0.75,
+     "families": {
+      "NULL-F1": [
+       "bearer_of",
+       "has_continuant_part",
+       "has_interest_in",
+       "has_organizational_context",
+       "has_output",
+       "has_participant",
+       "is_affiliated_with",
+       "realizes"
+      ],
+      "NULL-F2": [
+       "affects",
+       "bearer_of",
+       "has_input",
+       "has_organizational_context",
+       "has_output",
+       "is_a_measurement_of",
+       "prescribes",
+       "uses"
+      ],
+      "NULL-F3": [
+       "bearer_of",
+       "has_continuant_part",
+       "has_input",
+       "is_affiliated_with",
+       "is_subordinate_role_to",
+       "prescribes",
+       "realizes",
+       "supervises"
+      ],
+      "NULL-F4": [
+       "affects",
+       "has_agent",
+       "has_continuant_part",
+       "has_interest_in",
+       "has_output",
+       "has_recipient",
+       "is_cause_of",
+       "precedes",
+       "prescribes",
+       "realizes"
+      ]
+     },
+     "families_with_live": 2,
+     "foreign_full_pass_fraction": 0.5,
+     "gate_a_1_to_4": false,
+     "mean_activation_distance": 0.9444,
+     "mean_edge_distance": 0.7261,
+     "mean_witness_distance": 0.8333,
+     "n_activations": 9,
+     "n_live": 2,
+     "per_family": {
+      "NULL-F1": {
+       "activated": [
+        "RC-05",
+        "RC-09",
+        "RC-14"
+       ],
+       "live": [
+        "RC-14"
+       ],
+       "n_edges": 41
+      },
+      "NULL-F2": {
+       "activated": [
+        "RC-01"
+       ],
+       "live": [
+        "RC-01"
+       ],
+       "n_edges": 45
+      },
+      "NULL-F3": {
+       "activated": [
+        "RC-14"
+       ],
+       "live": [],
+       "n_edges": 33
+      },
+      "NULL-F4": {
+       "activated": [],
+       "live": [],
+       "n_edges": 54
+      }
+     },
+     "sample_seed": 20260928,
+     "sds": 0.4722
+    },
+    {
+     "all_lineage_pass": true,
+     "complete_lineage_chains": 7,
+     "distinct_activation_profiles": 3,
+     "distinct_satisfaction_condition_sets": 3,
+     "divergence_mean": 0.587,
+     "divergence_median": 0.75,
+     "families": {
+      "NULL-F1": [
+       "has_continuant_part",
+       "has_input",
+       "has_organizational_context",
+       "has_recipient",
+       "is_affiliated_with",
+       "is_subordinate_role_to",
+       "prescribes",
+       "realizes"
+      ],
+      "NULL-F2": [
+       "affects",
+       "has_agent",
+       "has_input",
+       "has_participant",
+       "has_recipient",
+       "is_about",
+       "precedes",
+       "prescribes"
+      ],
+      "NULL-F3": [
+       "has_agent",
+       "is_a_measurement_of",
+       "is_affiliated_with",
+       "is_cause_of",
+       "is_subordinate_role_to",
+       "prescribes",
+       "realizes",
+       "supervises"
+      ],
+      "NULL-F4": [
+       "bearer_of",
+       "has_agent",
+       "has_input",
+       "has_interest_in",
+       "has_output",
+       "is_a_measurement_of",
+       "is_cause_of",
+       "precedes",
+       "realizes",
+       "supervises"
+      ]
+     },
+     "families_with_live": 2,
+     "foreign_full_pass_fraction": 0.5,
+     "gate_a_1_to_4": false,
+     "mean_activation_distance": 0.8,
+     "mean_edge_distance": 0.7296,
+     "mean_witness_distance": 0.7963,
+     "n_activations": 6,
+     "n_live": 6,
+     "per_family": {
+      "NULL-F1": {
+       "activated": [],
+       "live": [],
+       "n_edges": 30
+      },
+      "NULL-F2": {
+       "activated": [
+        "RC-03",
+        "RC-06",
+        "RC-10",
+        "RC-11"
+       ],
+       "live": [
+        "RC-03",
+        "RC-06",
+        "RC-10",
+        "RC-11"
+       ],
+       "n_edges": 54
+      },
+      "NULL-F3": {
+       "activated": [],
+       "live": [],
+       "n_edges": 35
+      },
+      "NULL-F4": {
+       "activated": [
+        "RC-11",
+        "RC-12"
+       ],
+       "live": [
+        "RC-11",
+        "RC-12"
+       ],
+       "n_edges": 61
+      }
+     },
+     "sample_seed": 20260929,
+     "sds": 0.4
+    },
+    {
+     "all_lineage_pass": true,
+     "complete_lineage_chains": 6,
+     "distinct_activation_profiles": 4,
+     "distinct_satisfaction_condition_sets": 3,
+     "divergence_mean": 0.544,
+     "divergence_median": 0.75,
+     "families": {
+      "NULL-F1": [
+       "affects",
+       "has_output",
+       "has_recipient",
+       "is_affiliated_with",
+       "is_cause_of",
+       "is_subordinate_role_to",
+       "precedes",
+       "uses"
+      ],
+      "NULL-F2": [
+       "affects",
+       "has_output",
+       "has_participant",
+       "is_cause_of",
+       "is_subordinate_role_to",
+       "precedes",
+       "prescribes",
+       "supervises"
+      ],
+      "NULL-F3": [
+       "has_agent",
+       "has_interest_in",
+       "has_organizational_context",
+       "is_a_measurement_of",
+       "is_about",
+       "is_subordinate_role_to",
+       "realizes",
+       "uses"
+      ],
+      "NULL-F4": [
+       "affects",
+       "bearer_of",
+       "has_agent",
+       "has_input",
+       "has_output",
+       "has_participant",
+       "is_a_measurement_of",
+       "is_affiliated_with",
+       "is_subordinate_role_to",
+       "precedes"
+      ]
+     },
+     "families_with_live": 2,
+     "foreign_full_pass_fraction": 0.583,
+     "gate_a_1_to_4": false,
+     "mean_activation_distance": 0.9583,
+     "mean_edge_distance": 0.7281,
+     "mean_witness_distance": 0.7083,
+     "n_activations": 9,
+     "n_live": 6,
+     "per_family": {
+      "NULL-F1": {
+       "activated": [],
+       "live": [],
+       "n_edges": 33
+      },
+      "NULL-F2": {
+       "activated": [
+        "RC-02"
+       ],
+       "live": [
+        "RC-02"
+       ],
+       "n_edges": 43
+      },
+      "NULL-F3": {
+       "activated": [
+        "RC-03"
+       ],
+       "live": [],
+       "n_edges": 38
+      },
+      "NULL-F4": {
+       "activated": [
+        "RC-02",
+        "RC-05",
+        "RC-07",
+        "RC-11"
+       ],
+       "live": [
+        "RC-02",
+        "RC-05",
+        "RC-11"
+       ],
+       "n_edges": 66
+      }
+     },
+     "sample_seed": 20260930,
+     "sds": 0.4792
+    },
+    {
+     "all_lineage_pass": true,
+     "complete_lineage_chains": 12,
+     "distinct_activation_profiles": 4,
+     "distinct_satisfaction_condition_sets": 4,
+     "divergence_mean": 0.6946,
+     "divergence_median": 0.75,
+     "families": {
+      "NULL-F1": [
+       "has_agent",
+       "has_continuant_part",
+       "has_input",
+       "has_interest_in",
+       "has_output",
+       "has_recipient",
+       "is_about",
+       "prescribes"
+      ],
+      "NULL-F2": [
+       "affects",
+       "has_organizational_context",
+       "has_output",
+       "has_participant",
+       "is_about",
+       "is_cause_of",
+       "precedes",
+       "uses"
+      ],
+      "NULL-F3": [
+       "affects",
+       "bearer_of",
+       "has_interest_in",
+       "has_recipient",
+       "is_about",
+       "prescribes",
+       "supervises",
+       "uses"
+      ],
+      "NULL-F4": [
+       "bearer_of",
+       "has_agent",
+       "has_input",
+       "has_organizational_context",
+       "has_participant",
+       "has_recipient",
+       "is_a_measurement_of",
+       "is_cause_of",
+       "precedes",
+       "prescribes"
+      ]
+     },
+     "families_with_live": 3,
+     "foreign_full_pass_fraction": 0.25,
+     "gate_a_1_to_4": true,
+     "mean_activation_distance": 0.8083,
+     "mean_edge_distance": 0.7537,
+     "mean_witness_distance": 1.0,
+     "n_activations": 17,
+     "n_live": 10,
+     "per_family": {
+      "NULL-F1": {
+       "activated": [
+        "RC-03",
+        "RC-04",
+        "RC-06",
+        "RC-10"
+       ],
+       "live": [
+        "RC-03",
+        "RC-04",
+        "RC-06",
+        "RC-10"
+       ],
+       "n_edges": 48
+      },
+      "NULL-F2": {
+       "activated": [
+        "RC-02",
+        "RC-03",
+        "RC-04"
+       ],
+       "live": [
+        "RC-02"
+       ],
+       "n_edges": 42
+      },
+      "NULL-F3": {
+       "activated": [
+        "RC-03",
+        "RC-10"
+       ],
+       "live": [],
+       "n_edges": 34
+      },
+      "NULL-F4": {
+       "activated": [
+        "RC-01",
+        "RC-05",
+        "RC-11",
+        "RC-12"
+       ],
+       "live": [
+        "RC-01",
+        "RC-05",
+        "RC-11",
+        "RC-12"
+       ],
+       "n_edges": 66
+      }
+     },
+     "sample_seed": 20260931,
+     "sds": 0.6062
+    },
+    {
+     "all_lineage_pass": true,
+     "complete_lineage_chains": 2,
+     "distinct_activation_profiles": 4,
+     "distinct_satisfaction_condition_sets": 3,
+     "divergence_mean": 0.5714,
+     "divergence_median": 0.75,
+     "families": {
+      "NULL-F1": [
+       "bearer_of",
+       "has_participant",
+       "has_recipient",
+       "is_affiliated_with",
+       "is_cause_of",
+       "prescribes",
+       "supervises",
+       "uses"
+      ],
+      "NULL-F2": [
+       "bearer_of",
+       "has_agent",
+       "has_organizational_context",
+       "has_participant",
+       "has_recipient",
+       "is_about",
+       "precedes",
+       "prescribes"
+      ],
+      "NULL-F3": [
+       "affects",
+       "bearer_of",
+       "has_continuant_part",
+       "has_organizational_context",
+       "has_recipient",
+       "is_a_measurement_of",
+       "is_about",
+       "prescribes"
+      ],
+      "NULL-F4": [
+       "affects",
+       "bearer_of",
+       "has_continuant_part",
+       "has_input",
+       "has_organizational_context",
+       "has_recipient",
+       "is_subordinate_role_to",
+       "prescribes",
+       "realizes",
+       "uses"
+      ]
+     },
+     "families_with_live": 2,
+     "foreign_full_pass_fraction": 0.5,
+     "gate_a_1_to_4": false,
+     "mean_activation_distance": 0.8361,
+     "mean_edge_distance": 0.5827,
+     "mean_witness_distance": 0.8333,
+     "n_activations": 12,
+     "n_live": 2,
+     "per_family": {
+      "NULL-F1": {
+       "activated": [
+        "RC-05"
+       ],
+       "live": [],
+       "n_edges": 36
+      },
+      "NULL-F2": {
+       "activated": [
+        "RC-03",
+        "RC-05",
+        "RC-10"
+       ],
+       "live": [
+        "RC-05"
+       ],
+       "n_edges": 59
+      },
+      "NULL-F3": {
+       "activated": [
+        "RC-01",
+        "RC-03",
+        "RC-10",
+        "RC-14"
+       ],
+       "live": [
+        "RC-01"
+       ],
+       "n_edges": 35
+      },
+      "NULL-F4": {
+       "activated": [
+        "RC-14"
+       ],
+       "live": [],
+       "n_edges": 43
+      }
+     },
+     "sample_seed": 20260932,
+     "sds": 0.4181
+    },
+    {
+     "all_lineage_pass": true,
+     "complete_lineage_chains": 0,
+     "distinct_activation_profiles": 4,
+     "distinct_satisfaction_condition_sets": 1,
+     "divergence_mean": 0.0,
+     "divergence_median": 0.0,
+     "families": {
+      "NULL-F1": [
+       "has_agent",
+       "has_continuant_part",
+       "has_organizational_context",
+       "has_participant",
+       "is_a_measurement_of",
+       "is_about",
+       "is_affiliated_with",
+       "supervises"
+      ],
+      "NULL-F2": [
+       "affects",
+       "has_continuant_part",
+       "has_interest_in",
+       "has_output",
+       "has_participant",
+       "is_a_measurement_of",
+       "is_about",
+       "supervises"
+      ],
+      "NULL-F3": [
+       "affects",
+       "is_a_measurement_of",
+       "is_about",
+       "is_cause_of",
+       "is_subordinate_role_to",
+       "prescribes",
+       "realizes",
+       "uses"
+      ],
+      "NULL-F4": [
+       "has_continuant_part",
+       "has_output",
+       "has_participant",
+       "is_a_measurement_of",
+       "is_about",
+       "is_affiliated_with",
+       "is_subordinate_role_to",
+       "prescribes",
+       "supervises",
+       "uses"
+      ]
+     },
+     "families_with_live": 0,
+     "foreign_full_pass_fraction": 1.0,
+     "gate_a_1_to_4": false,
+     "mean_activation_distance": 0.5,
+     "mean_edge_distance": 0.6546,
+     "mean_witness_distance": 0.0,
+     "n_activations": 8,
+     "n_live": 0,
+     "per_family": {
+      "NULL-F1": {
+       "activated": [
+        "RC-03"
+       ],
+       "live": [],
+       "n_edges": 38
+      },
+      "NULL-F2": {
+       "activated": [
+        "RC-03",
+        "RC-04"
+       ],
+       "live": [],
+       "n_edges": 35
+      },
+      "NULL-F3": {
+       "activated": [
+        "RC-03",
+        "RC-10"
+       ],
+       "live": [],
+       "n_edges": 28
+      },
+      "NULL-F4": {
+       "activated": [
+        "RC-03",
+        "RC-04",
+        "RC-10"
+       ],
+       "live": [],
+       "n_edges": 44
+      }
+     },
+     "sample_seed": 20260933,
+     "sds": 0.0
+    },
+    {
+     "all_lineage_pass": true,
+     "complete_lineage_chains": 7,
+     "distinct_activation_profiles": 3,
+     "distinct_satisfaction_condition_sets": 3,
+     "divergence_mean": 0.5986,
+     "divergence_median": 0.75,
+     "families": {
+      "NULL-F1": [
+       "bearer_of",
+       "has_agent",
+       "has_continuant_part",
+       "has_input",
+       "is_about",
+       "prescribes",
+       "realizes",
+       "uses"
+      ],
+      "NULL-F2": [
+       "has_agent",
+       "has_continuant_part",
+       "has_interest_in",
+       "has_participant",
+       "is_affiliated_with",
+       "is_subordinate_role_to",
+       "precedes",
+       "supervises"
+      ],
+      "NULL-F3": [
+       "has_continuant_part",
+       "has_interest_in",
+       "has_output",
+       "has_participant",
+       "is_cause_of",
+       "is_subordinate_role_to",
+       "realizes",
+       "supervises"
+      ],
+      "NULL-F4": [
+       "has_agent",
+       "has_input",
+       "has_interest_in",
+       "has_output",
+       "has_participant",
+       "is_about",
+       "precedes",
+       "prescribes",
+       "realizes",
+       "supervises"
+      ]
+     },
+     "families_with_live": 2,
+     "foreign_full_pass_fraction": 0.583,
+     "gate_a_1_to_4": false,
+     "mean_activation_distance": 0.7778,
+     "mean_edge_distance": 0.6848,
+     "mean_witness_distance": 0.8235,
+     "n_activations": 9,
+     "n_live": 6,
+     "per_family": {
+      "NULL-F1": {
+       "activated": [
+        "RC-03",
+        "RC-10",
+        "RC-14"
+       ],
+       "live": [
+        "RC-03"
+       ],
+       "n_edges": 47
+      },
+      "NULL-F2": {
+       "activated": [],
+       "live": [],
+       "n_edges": 41
+      },
+      "NULL-F3": {
+       "activated": [],
+       "live": [],
+       "n_edges": 33
+      },
+      "NULL-F4": {
+       "activated": [
+        "RC-02",
+        "RC-03",
+        "RC-04",
+        "RC-10",
+        "RC-11"
+       ],
+       "live": [
+        "RC-02",
+        "RC-03",
+        "RC-04",
+        "RC-11"
+       ],
+       "n_edges": 67
+      }
+     },
+     "sample_seed": 20260934,
+     "sds": 0.3889
+    },
+    {
+     "all_lineage_pass": true,
+     "complete_lineage_chains": 1,
+     "distinct_activation_profiles": 4,
+     "distinct_satisfaction_condition_sets": 2,
+     "divergence_mean": 0.375,
+     "divergence_median": 0.75,
+     "families": {
+      "NULL-F1": [
+       "bearer_of",
+       "has_interest_in",
+       "has_organizational_context",
+       "has_output",
+       "has_recipient",
+       "is_a_measurement_of",
+       "is_affiliated_with",
+       "is_subordinate_role_to"
+      ],
+      "NULL-F2": [
+       "bearer_of",
+       "has_input",
+       "has_interest_in",
+       "is_a_measurement_of",
+       "is_about",
+       "is_affiliated_with",
+       "realizes",
+       "supervises"
+      ],
+      "NULL-F3": [
+       "bearer_of",
+       "has_agent",
+       "has_continuant_part",
+       "is_cause_of",
+       "precedes",
+       "realizes",
+       "supervises",
+       "uses"
+      ],
+      "NULL-F4": [
+       "affects",
+       "has_agent",
+       "is_a_measurement_of",
+       "is_about",
+       "is_affiliated_with",
+       "is_subordinate_role_to",
+       "precedes",
+       "prescribes",
+       "realizes",
+       "uses"
+      ]
+     },
+     "families_with_live": 1,
+     "foreign_full_pass_fraction": 0.75,
+     "gate_a_1_to_4": false,
+     "mean_activation_distance": 0.9167,
+     "mean_edge_distance": 0.7604,
+     "mean_witness_distance": 0.5,
+     "n_activations": 4,
+     "n_live": 1,
+     "per_family": {
+      "NULL-F1": {
+       "activated": [],
+       "live": [],
+       "n_edges": 38
+      },
+      "NULL-F2": {
+       "activated": [
+        "RC-03"
+       ],
+       "live": [
+        "RC-03"
+       ],
+       "n_edges": 33
+      },
+      "NULL-F3": {
+       "activated": [
+        "RC-14"
+       ],
+       "live": [],
+       "n_edges": 42
+      },
+      "NULL-F4": {
+       "activated": [
+        "RC-03",
+        "RC-10"
+       ],
+       "live": [],
+       "n_edges": 50
+      }
+     },
+     "sample_seed": 20260935,
+     "sds": 0.2292
+    },
+    {
+     "all_lineage_pass": true,
+     "complete_lineage_chains": 3,
+     "distinct_activation_profiles": 3,
+     "distinct_satisfaction_condition_sets": 3,
+     "divergence_mean": 0.6024,
+     "divergence_median": 0.75,
+     "families": {
+      "NULL-F1": [
+       "affects",
+       "has_input",
+       "has_interest_in",
+       "has_organizational_context",
+       "has_recipient",
+       "is_a_measurement_of",
+       "supervises",
+       "uses"
+      ],
+      "NULL-F2": [
+       "has_output",
+       "has_participant",
+       "has_recipient",
+       "is_a_measurement_of",
+       "is_subordinate_role_to",
+       "precedes",
+       "supervises",
+       "uses"
+      ],
+      "NULL-F3": [
+       "has_input",
+       "has_organizational_context",
+       "has_participant",
+       "has_recipient",
+       "is_cause_of",
+       "is_subordinate_role_to",
+       "realizes",
+       "uses"
+      ],
+      "NULL-F4": [
+       "affects",
+       "bearer_of",
+       "has_agent",
+       "has_input",
+       "has_interest_in",
+       "has_participant",
+       "is_a_measurement_of",
+       "is_affiliated_with",
+       "prescribes",
+       "uses"
+      ]
+     },
+     "families_with_live": 2,
+     "foreign_full_pass_fraction": 0.5,
+     "gate_a_1_to_4": false,
+     "mean_activation_distance": 0.8333,
+     "mean_edge_distance": 0.7294,
+     "mean_witness_distance": 0.8333,
+     "n_activations": 9,
+     "n_live": 3,
+     "per_family": {
+      "NULL-F1": {
+       "activated": [],
+       "live": [],
+       "n_edges": 28
+      },
+      "NULL-F2": {
+       "activated": [
+        "RC-02"
+       ],
+       "live": [
+        "RC-02"
+       ],
+       "n_edges": 44
+      },
+      "NULL-F3": {
+       "activated": [],
+       "live": [],
+       "n_edges": 34
+      },
+      "NULL-F4": {
+       "activated": [
+        "RC-01",
+        "RC-05",
+        "RC-09"
+       ],
+       "live": [
+        "RC-01"
+       ],
+       "n_edges": 57
+      }
+     },
+     "sample_seed": 20260936,
+     "sds": 0.4167
+    },
+    {
+     "all_lineage_pass": true,
+     "complete_lineage_chains": 0,
+     "distinct_activation_profiles": 4,
+     "distinct_satisfaction_condition_sets": 1,
+     "divergence_mean": 0.0,
+     "divergence_median": 0.0,
+     "families": {
+      "NULL-F1": [
+       "affects",
+       "has_agent",
+       "has_continuant_part",
+       "has_organizational_context",
+       "has_output",
+       "has_recipient",
+       "is_about",
+       "uses"
+      ],
+      "NULL-F2": [
+       "has_organizational_context",
+       "has_recipient",
+       "is_about",
+       "is_cause_of",
+       "precedes",
+       "prescribes",
+       "supervises",
+       "uses"
+      ],
+      "NULL-F3": [
+       "has_agent",
+       "has_input",
+       "has_interest_in",
+       "has_organizational_context",
+       "has_participant",
+       "has_recipient",
+       "prescribes",
+       "supervises"
+      ],
+      "NULL-F4": [
+       "affects",
+       "has_continuant_part",
+       "has_interest_in",
+       "has_organizational_context",
+       "has_output",
+       "is_about",
+       "is_cause_of",
+       "is_subordinate_role_to",
+       "prescribes",
+       "supervises"
+      ]
+     },
+     "families_with_live": 0,
+     "foreign_full_pass_fraction": 1.0,
+     "gate_a_1_to_4": false,
+     "mean_activation_distance": 0.7222,
+     "mean_edge_distance": 0.7066,
+     "mean_witness_distance": 0.0,
+     "n_activations": 7,
+     "n_live": 0,
+     "per_family": {
+      "NULL-F1": {
+       "activated": [
+        "RC-03",
+        "RC-04"
+       ],
+       "live": [],
+       "n_edges": 41
+      },
+      "NULL-F2": {
+       "activated": [
+        "RC-03",
+        "RC-10"
+       ],
+       "live": [],
+       "n_edges": 34
+      },
+      "NULL-F3": {
+       "activated": [],
+       "live": [],
+       "n_edges": 48
+      },
+      "NULL-F4": {
+       "activated": [
+        "RC-03",
+        "RC-04",
+        "RC-10"
+       ],
+       "live": [],
+       "n_edges": 37
+      }
+     },
+     "sample_seed": 20260937,
+     "sds": 0.0
+    },
+    {
+     "all_lineage_pass": true,
+     "complete_lineage_chains": 1,
+     "distinct_activation_profiles": 4,
+     "distinct_satisfaction_condition_sets": 2,
+     "divergence_mean": 0.375,
+     "divergence_median": 0.75,
+     "families": {
+      "NULL-F1": [
+       "bearer_of",
+       "has_agent",
+       "has_recipient",
+       "is_affiliated_with",
+       "is_cause_of",
+       "is_subordinate_role_to",
+       "precedes",
+       "realizes"
+      ],
+      "NULL-F2": [
+       "affects",
+       "has_participant",
+       "is_a_measurement_of",
+       "is_about",
+       "is_subordinate_role_to",
+       "precedes",
+       "prescribes",
+       "realizes"
+      ],
+      "NULL-F3": [
+       "has_agent",
+       "has_interest_in",
+       "has_participant",
+       "has_recipient",
+       "is_a_measurement_of",
+       "is_cause_of",
+       "prescribes",
+       "supervises"
+      ],
+      "NULL-F4": [
+       "affects",
+       "has_continuant_part",
+       "has_organizational_context",
+       "has_output",
+       "has_participant",
+       "is_a_measurement_of",
+       "is_about",
+       "prescribes",
+       "realizes",
+       "supervises"
+      ]
+     },
+     "families_with_live": 1,
+     "foreign_full_pass_fraction": 0.75,
+     "gate_a_1_to_4": false,
+     "mean_activation_distance": 0.8889,
+     "mean_edge_distance": 0.7208,
+     "mean_witness_distance": 0.5,
+     "n_activations": 9,
+     "n_live": 1,
+     "per_family": {
+      "NULL-F1": {
+       "activated": [
+        "RC-07",
+        "RC-08"
+       ],
+       "live": [
+        "RC-08"
+       ],
+       "n_edges": 44
+      },
+      "NULL-F2": {
+       "activated": [
+        "RC-03",
+        "RC-10"
+       ],
+       "live": [],
+       "n_edges": 42
+      },
+      "NULL-F3": {
+       "activated": [],
+       "live": [],
+       "n_edges": 43
+      },
+      "NULL-F4": {
+       "activated": [
+        "RC-03",
+        "RC-04",
+        "RC-10"
+       ],
+       "live": [],
+       "n_edges": 47
+      }
+     },
+     "sample_seed": 20260938,
+     "sds": 0.2222
+    },
+    {
+     "all_lineage_pass": true,
+     "complete_lineage_chains": 1,
+     "distinct_activation_profiles": 3,
+     "distinct_satisfaction_condition_sets": 2,
+     "divergence_mean": 0.375,
+     "divergence_median": 0.75,
+     "families": {
+      "NULL-F1": [
+       "affects",
+       "bearer_of",
+       "has_continuant_part",
+       "has_organizational_context",
+       "has_participant",
+       "has_recipient",
+       "is_cause_of",
+       "realizes"
+      ],
+      "NULL-F2": [
+       "has_interest_in",
+       "has_organizational_context",
+       "has_recipient",
+       "is_cause_of",
+       "is_subordinate_role_to",
+       "prescribes",
+       "realizes",
+       "supervises"
+      ],
+      "NULL-F3": [
+       "has_agent",
+       "has_continuant_part",
+       "has_interest_in",
+       "has_recipient",
+       "is_subordinate_role_to",
+       "precedes",
+       "prescribes",
+       "supervises"
+      ],
+      "NULL-F4": [
+       "affects",
+       "bearer_of",
+       "has_agent",
+       "has_interest_in",
+       "has_organizational_context",
+       "has_output",
+       "has_participant",
+       "is_subordinate_role_to",
+       "supervises",
+       "uses"
+      ]
+     },
+     "families_with_live": 1,
+     "foreign_full_pass_fraction": 0.75,
+     "gate_a_1_to_4": false,
+     "mean_activation_distance": 0.7917,
+     "mean_edge_distance": 0.7518,
+     "mean_witness_distance": 0.5,
+     "n_activations": 7,
+     "n_live": 1,
+     "per_family": {
+      "NULL-F1": {
+       "activated": [
+        "RC-05",
+        "RC-14"
+       ],
+       "live": [
+        "RC-14"
+       ],
+       "n_edges": 34
+      },
+      "NULL-F2": {
+       "activated": [],
+       "live": [],
+       "n_edges": 28
+      },
+      "NULL-F3": {
+       "activated": [],
+       "live": [],
+       "n_edges": 42
+      },
+      "NULL-F4": {
+       "activated": [
+        "RC-05",
+        "RC-07",
+        "RC-09"
+       ],
+       "live": [],
+       "n_edges": 58
+      }
+     },
+     "sample_seed": 20260939,
+     "sds": 0.1979
+    },
+    {
+     "all_lineage_pass": true,
+     "complete_lineage_chains": 2,
+     "distinct_activation_profiles": 3,
+     "distinct_satisfaction_condition_sets": 2,
+     "divergence_mean": 0.375,
+     "divergence_median": 0.75,
+     "families": {
+      "NULL-F1": [
+       "has_interest_in",
+       "has_organizational_context",
+       "is_affiliated_with",
+       "is_subordinate_role_to",
+       "precedes",
+       "prescribes",
+       "realizes",
+       "supervises"
+      ],
+      "NULL-F2": [
+       "affects",
+       "bearer_of",
+       "has_continuant_part",
+       "has_participant",
+       "is_a_measurement_of",
+       "is_about",
+       "prescribes",
+       "supervises"
+      ],
+      "NULL-F3": [
+       "has_agent",
+       "has_organizational_context",
+       "has_output",
+       "is_about",
+       "is_affiliated_with",
+       "precedes",
+       "prescribes",
+       "supervises"
+      ],
+      "NULL-F4": [
+       "affects",
+       "has_agent",
+       "has_continuant_part",
+       "has_interest_in",
+       "has_recipient",
+       "is_affiliated_with",
+       "is_subordinate_role_to",
+       "realizes",
+       "supervises",
+       "uses"
+      ]
+     },
+     "families_with_live": 1,
+     "foreign_full_pass_fraction": 0.75,
+     "gate_a_1_to_4": false,
+     "mean_activation_distance": 0.7778,
+     "mean_edge_distance": 0.7942,
+     "mean_witness_distance": 0.5,
+     "n_activations": 11,
+     "n_live": 2,
+     "per_family": {
+      "NULL-F1": {
+       "activated": [],
+       "live": [],
+       "n_edges": 33
+      },
+      "NULL-F2": {
+       "activated": [
+        "RC-01",
+        "RC-03",
+        "RC-05",
+        "RC-10",
+        "RC-14"
+       ],
+       "live": [
+        "RC-01",
+        "RC-14"
+       ],
+       "n_edges": 38
+      },
+      "NULL-F3": {
+       "activated": [
+        "RC-03",
+        "RC-04",
+        "RC-10"
+       ],
+       "live": [],
+       "n_edges": 50
+      },
+      "NULL-F4": {
+       "activated": [],
+       "live": [],
+       "n_edges": 36
+      }
+     },
+     "sample_seed": 20260940,
+     "sds": 0.1944
+    },
+    {
+     "all_lineage_pass": true,
+     "complete_lineage_chains": 2,
+     "distinct_activation_profiles": 3,
+     "distinct_satisfaction_condition_sets": 2,
+     "divergence_mean": 0.375,
+     "divergence_median": 0.75,
+     "families": {
+      "NULL-F1": [
+       "has_agent",
+       "has_interest_in",
+       "has_output",
+       "is_cause_of",
+       "is_subordinate_role_to",
+       "prescribes",
+       "realizes",
+       "supervises"
+      ],
+      "NULL-F2": [
+       "has_continuant_part",
+       "has_interest_in",
+       "has_organizational_context",
+       "has_recipient",
+       "is_cause_of",
+       "is_subordinate_role_to",
+       "supervises",
+       "uses"
+      ],
+      "NULL-F3": [
+       "has_continuant_part",
+       "has_interest_in",
+       "has_output",
+       "has_recipient",
+       "is_about",
+       "is_affiliated_with",
+       "is_cause_of",
+       "realizes"
+      ],
+      "NULL-F4": [
+       "affects",
+       "bearer_of",
+       "has_agent",
+       "has_input",
+       "has_interest_in",
+       "has_participant",
+       "is_affiliated_with",
+       "precedes",
+       "prescribes",
+       "supervises"
+      ]
+     },
+     "families_with_live": 1,
+     "foreign_full_pass_fraction": 0.75,
+     "gate_a_1_to_4": false,
+     "mean_activation_distance": 0.8333,
+     "mean_edge_distance": 0.8072,
+     "mean_witness_distance": 0.5,
+     "n_activations": 6,
+     "n_live": 2,
+     "per_family": {
+      "NULL-F1": {
+       "activated": [],
+       "live": [],
+       "n_edges": 43
+      },
+      "NULL-F2": {
+       "activated": [],
+       "live": [],
+       "n_edges": 21
+      },
+      "NULL-F3": {
+       "activated": [
+        "RC-03",
+        "RC-04"
+       ],
+       "live": [],
+       "n_edges": 28
+      },
+      "NULL-F4": {
+       "activated": [
+        "RC-05",
+        "RC-09",
+        "RC-11"
+       ],
+       "live": [
+        "RC-05",
+        "RC-11"
+       ],
+       "n_edges": 61
+      }
+     },
+     "sample_seed": 20260941,
+     "sds": 0.2083
+    },
+    {
+     "all_lineage_pass": true,
+     "complete_lineage_chains": 1,
+     "distinct_activation_profiles": 4,
+     "distinct_satisfaction_condition_sets": 2,
+     "divergence_mean": 0.375,
+     "divergence_median": 0.75,
+     "families": {
+      "NULL-F1": [
+       "bearer_of",
+       "has_interest_in",
+       "has_output",
+       "has_recipient",
+       "is_subordinate_role_to",
+       "precedes",
+       "realizes",
+       "supervises"
+      ],
+      "NULL-F2": [
+       "affects",
+       "has_interest_in",
+       "has_organizational_context",
+       "has_output",
+       "is_about",
+       "is_subordinate_role_to",
+       "prescribes",
+       "realizes"
+      ],
+      "NULL-F3": [
+       "affects",
+       "has_continuant_part",
+       "has_interest_in",
+       "has_recipient",
+       "is_a_measurement_of",
+       "is_about",
+       "is_cause_of",
+       "supervises"
+      ],
+      "NULL-F4": [
+       "affects",
+       "bearer_of",
+       "has_input",
+       "has_organizational_context",
+       "is_a_measurement_of",
+       "is_cause_of",
+       "prescribes",
+       "realizes",
+       "supervises",
+       "uses"
+      ]
+     },
+     "families_with_live": 1,
+     "foreign_full_pass_fraction": 0.75,
+     "gate_a_1_to_4": false,
+     "mean_activation_distance": 0.9444,
+     "mean_edge_distance": 0.7793,
+     "mean_witness_distance": 0.5,
+     "n_activations": 8,
+     "n_live": 1,
+     "per_family": {
+      "NULL-F1": {
+       "activated": [],
+       "live": [],
+       "n_edges": 44
+      },
+      "NULL-F2": {
+       "activated": [
+        "RC-03",
+        "RC-04",
+        "RC-10"
+       ],
+       "live": [],
+       "n_edges": 37
+      },
+      "NULL-F3": {
+       "activated": [
+        "RC-03"
+       ],
+       "live": [],
+       "n_edges": 21
+      },
+      "NULL-F4": {
+       "activated": [
+        "RC-01"
+       ],
+       "live": [
+        "RC-01"
+       ],
+       "n_edges": 42
+      }
+     },
+     "sample_seed": 20260942,
+     "sds": 0.2361
+    },
+    {
+     "all_lineage_pass": true,
+     "complete_lineage_chains": 1,
+     "distinct_activation_profiles": 3,
+     "distinct_satisfaction_condition_sets": 2,
+     "divergence_mean": 0.375,
+     "divergence_median": 0.75,
+     "families": {
+      "NULL-F1": [
+       "bearer_of",
+       "has_continuant_part",
+       "has_organizational_context",
+       "is_a_measurement_of",
+       "is_cause_of",
+       "prescribes",
+       "realizes",
+       "supervises"
+      ],
+      "NULL-F2": [
+       "has_continuant_part",
+       "has_participant",
+       "is_a_measurement_of",
+       "is_affiliated_with",
+       "is_cause_of",
+       "precedes",
+       "realizes",
+       "supervises"
+      ],
+      "NULL-F3": [
+       "affects",
+       "bearer_of",
+       "has_continuant_part",
+       "has_recipient",
+       "is_about",
+       "is_affiliated_with",
+       "realizes",
+       "supervises"
+      ],
+      "NULL-F4": [
+       "affects",
+       "has_continuant_part",
+       "has_organizational_context",
+       "has_participant",
+       "has_recipient",
+       "is_a_measurement_of",
+       "is_cause_of",
+       "precedes",
+       "realizes",
+       "supervises"
+      ]
+     },
+     "families_with_live": 1,
+     "foreign_full_pass_fraction": 0.75,
+     "gate_a_1_to_4": false,
+     "mean_activation_distance": 0.7778,
+     "mean_edge_distance": 0.6624,
+     "mean_witness_distance": 0.5,
+     "n_activations": 7,
+     "n_live": 1,
+     "per_family": {
+      "NULL-F1": {
+       "activated": [
+        "RC-01",
+        "RC-14"
+       ],
+       "live": [
+        "RC-01"
+       ],
+       "n_edges": 32
+      },
+      "NULL-F2": {
+       "activated": [],
+       "live": [],
+       "n_edges": 31
+      },
+      "NULL-F3": {
+       "activated": [
+        "RC-03",
+        "RC-14"
+       ],
+       "live": [],
+       "n_edges": 27
+      },
+      "NULL-F4": {
+       "activated": [],
+       "live": [],
+       "n_edges": 40
+      }
+     },
+     "sample_seed": 20260943,
+     "sds": 0.1944
+    },
+    {
+     "all_lineage_pass": true,
+     "complete_lineage_chains": 0,
+     "distinct_activation_profiles": 2,
+     "distinct_satisfaction_condition_sets": 1,
+     "divergence_mean": 0.0,
+     "divergence_median": 0.0,
+     "families": {
+      "NULL-F1": [
+       "affects",
+       "has_continuant_part",
+       "has_interest_in",
+       "has_organizational_context",
+       "has_output",
+       "has_participant",
+       "realizes",
+       "uses"
+      ],
+      "NULL-F2": [
+       "affects",
+       "has_agent",
+       "has_input",
+       "has_output",
+       "is_affiliated_with",
+       "is_cause_of",
+       "is_subordinate_role_to",
+       "realizes"
+      ],
+      "NULL-F3": [
+       "has_agent",
+       "has_organizational_context",
+       "has_output",
+       "is_a_measurement_of",
+       "is_about",
+       "precedes",
+       "realizes",
+       "supervises"
+      ],
+      "NULL-F4": [
+       "has_agent",
+       "has_continuant_part",
+       "has_input",
+       "has_interest_in",
+       "has_participant",
+       "is_cause_of",
+       "prescribes",
+       "realizes",
+       "supervises",
+       "uses"
+      ]
+     },
+     "families_with_live": 0,
+     "foreign_full_pass_fraction": 1.0,
+     "gate_a_1_to_4": false,
+     "mean_activation_distance": 0.5,
+     "mean_edge_distance": 0.6876,
+     "mean_witness_distance": 0.0,
+     "n_activations": 2,
+     "n_live": 0,
+     "per_family": {
+      "NULL-F1": {
+       "activated": [],
+       "live": [],
+       "n_edges": 36
+      },
+      "NULL-F2": {
+       "activated": [],
+       "live": [],
+       "n_edges": 40
+      },
+      "NULL-F3": {
+       "activated": [
+        "RC-03",
+        "RC-04"
+       ],
+       "live": [],
+       "n_edges": 50
+      },
+      "NULL-F4": {
+       "activated": [],
+       "live": [],
+       "n_edges": 49
+      }
+     },
+     "sample_seed": 20260944,
+     "sds": 0.0
+    },
+    {
+     "all_lineage_pass": true,
+     "complete_lineage_chains": 0,
+     "distinct_activation_profiles": 2,
+     "distinct_satisfaction_condition_sets": 1,
+     "divergence_mean": 0.0,
+     "divergence_median": 0.0,
+     "families": {
+      "NULL-F1": [
+       "affects",
+       "bearer_of",
+       "has_interest_in",
+       "is_about",
+       "is_cause_of",
+       "is_subordinate_role_to",
+       "realizes",
+       "uses"
+      ],
+      "NULL-F2": [
+       "has_continuant_part",
+       "has_interest_in",
+       "has_organizational_context",
+       "is_a_measurement_of",
+       "is_about",
+       "is_cause_of",
+       "is_subordinate_role_to",
+       "uses"
+      ],
+      "NULL-F3": [
+       "has_agent",
+       "has_organizational_context",
+       "has_participant",
+       "is_about",
+       "is_affiliated_with",
+       "is_cause_of",
+       "precedes",
+       "uses"
+      ],
+      "NULL-F4": [
+       "affects",
+       "has_agent",
+       "has_continuant_part",
+       "has_interest_in",
+       "has_organizational_context",
+       "has_output",
+       "has_recipient",
+       "is_a_measurement_of",
+       "precedes",
+       "prescribes"
+      ]
+     },
+     "families_with_live": 0,
+     "foreign_full_pass_fraction": 1.0,
+     "gate_a_1_to_4": false,
+     "mean_activation_distance": 0.5,
+     "mean_edge_distance": 0.7842,
+     "mean_witness_distance": 0.0,
+     "n_activations": 3,
+     "n_live": 0,
+     "per_family": {
+      "NULL-F1": {
+       "activated": [
+        "RC-03"
+       ],
+       "live": [],
+       "n_edges": 29
+      },
+      "NULL-F2": {
+       "activated": [
+        "RC-03"
+       ],
+       "live": [],
+       "n_edges": 23
+      },
+      "NULL-F3": {
+       "activated": [
+        "RC-03"
+       ],
+       "live": [],
+       "n_edges": 44
+      },
+      "NULL-F4": {
+       "activated": [],
+       "live": [],
+       "n_edges": 57
+      }
+     },
+     "sample_seed": 20260945,
+     "sds": 0.0
+    },
+    {
+     "all_lineage_pass": true,
+     "complete_lineage_chains": 5,
+     "distinct_activation_profiles": 3,
+     "distinct_satisfaction_condition_sets": 3,
+     "divergence_mean": 0.3339,
+     "divergence_median": 0.4028,
+     "families": {
+      "NULL-F1": [
+       "affects",
+       "has_continuant_part",
+       "has_input",
+       "has_organizational_context",
+       "has_output",
+       "is_affiliated_with",
+       "is_cause_of",
+       "precedes"
+      ],
+      "NULL-F2": [
+       "affects",
+       "has_input",
+       "has_interest_in",
+       "is_affiliated_with",
+       "is_cause_of",
+       "precedes",
+       "realizes",
+       "supervises"
+      ],
+      "NULL-F3": [
+       "bearer_of",
+       "has_continuant_part",
+       "has_input",
+       "is_about",
+       "is_affiliated_with",
+       "is_subordinate_role_to",
+       "prescribes",
+       "realizes"
+      ],
+      "NULL-F4": [
+       "bearer_of",
+       "has_agent",
+       "has_input",
+       "has_participant",
+       "is_a_measurement_of",
+       "is_affiliated_with",
+       "is_subordinate_role_to",
+       "precedes",
+       "supervises",
+       "uses"
+      ]
+     },
+     "families_with_live": 4,
+     "foreign_full_pass_fraction": 0.333,
+     "gate_a_1_to_4": true,
+     "mean_activation_distance": 0.7222,
+     "mean_edge_distance": 0.7489,
+     "mean_witness_distance": 0.6667,
+     "n_activations": 9,
+     "n_live": 5,
+     "per_family": {
+      "NULL-F1": {
+       "activated": [
+        "RC-11"
+       ],
+       "live": [
+        "RC-11"
+       ],
+       "n_edges": 34
+      },
+      "NULL-F2": {
+       "activated": [
+        "RC-11"
+       ],
+       "live": [
+        "RC-11"
+       ],
+       "n_edges": 28
+      },
+      "NULL-F3": {
+       "activated": [
+        "RC-03",
+        "RC-10",
+        "RC-14"
+       ],
+       "live": [
+        "RC-03"
+       ],
+       "n_edges": 35
+      },
+      "NULL-F4": {
+       "activated": [
+        "RC-05",
+        "RC-07",
+        "RC-11"
+       ],
+       "live": [
+        "RC-05",
+        "RC-11"
+       ],
+       "n_edges": 59
+      }
+     },
+     "sample_seed": 20260946,
+     "sds": 0.7222
+    },
+    {
+     "all_lineage_pass": true,
+     "complete_lineage_chains": 6,
+     "distinct_activation_profiles": 4,
+     "distinct_satisfaction_condition_sets": 4,
+     "divergence_mean": 0.7153,
+     "divergence_median": 0.75,
+     "families": {
+      "NULL-F1": [
+       "has_agent",
+       "has_input",
+       "has_interest_in",
+       "has_organizational_context",
+       "is_about",
+       "is_affiliated_with",
+       "is_subordinate_role_to",
+       "realizes"
+      ],
+      "NULL-F2": [
+       "has_agent",
+       "has_input",
+       "is_about",
+       "is_affiliated_with",
+       "is_cause_of",
+       "is_subordinate_role_to",
+       "precedes",
+       "prescribes"
+      ],
+      "NULL-F3": [
+       "affects",
+       "has_agent",
+       "has_interest_in",
+       "has_organizational_context",
+       "is_a_measurement_of",
+       "is_subordinate_role_to",
+       "prescribes",
+       "realizes"
+      ],
+      "NULL-F4": [
+       "affects",
+       "bearer_of",
+       "has_interest_in",
+       "has_organizational_context",
+       "has_participant",
+       "has_recipient",
+       "is_affiliated_with",
+       "is_cause_of",
+       "is_subordinate_role_to",
+       "prescribes"
+      ]
+     },
+     "families_with_live": 3,
+     "foreign_full_pass_fraction": 0.333,
+     "gate_a_1_to_4": true,
+     "mean_activation_distance": 0.9583,
+     "mean_edge_distance": 0.6648,
+     "mean_witness_distance": 0.9667,
+     "n_activations": 8,
+     "n_live": 5,
+     "per_family": {
+      "NULL-F1": {
+       "activated": [
+        "RC-03"
+       ],
+       "live": [
+        "RC-03"
+       ],
+       "n_edges": 38
+      },
+      "NULL-F2": {
+       "activated": [
+        "RC-03",
+        "RC-10",
+        "RC-11",
+        "RC-12"
+       ],
+       "live": [
+        "RC-03",
+        "RC-11",
+        "RC-12"
+       ],
+       "n_edges": 44
+      },
+      "NULL-F3": {
+       "activated": [],
+       "live": [],
+       "n_edges": 40
+      },
+      "NULL-F4": {
+       "activated": [
+        "RC-05",
+        "RC-09"
+       ],
+       "live": [
+        "RC-09"
+       ],
+       "n_edges": 43
+      }
+     },
+     "sample_seed": 20260947,
+     "sds": 0.7188
+    },
+    {
+     "all_lineage_pass": true,
+     "complete_lineage_chains": 1,
+     "distinct_activation_profiles": 4,
+     "distinct_satisfaction_condition_sets": 2,
+     "divergence_mean": 0.375,
+     "divergence_median": 0.75,
+     "families": {
+      "NULL-F1": [
+       "has_agent",
+       "has_input",
+       "has_organizational_context",
+       "has_output",
+       "has_participant",
+       "is_cause_of",
+       "is_subordinate_role_to",
+       "supervises"
+      ],
+      "NULL-F2": [
+       "affects",
+       "bearer_of",
+       "is_about",
+       "is_cause_of",
+       "precedes",
+       "prescribes",
+       "supervises",
+       "uses"
+      ],
+      "NULL-F3": [
+       "bearer_of",
+       "has_continuant_part",
+       "has_input",
+       "has_organizational_context",
+       "has_participant",
+       "has_recipient",
+       "prescribes",
+       "realizes"
+      ],
+      "NULL-F4": [
+       "bearer_of",
+       "has_continuant_part",
+       "has_input",
+       "has_interest_in",
+       "has_recipient",
+       "is_a_measurement_of",
+       "is_subordinate_role_to",
+       "realizes",
+       "supervises",
+       "uses"
+      ]
+     },
+     "families_with_live": 1,
+     "foreign_full_pass_fraction": 0.75,
+     "gate_a_1_to_4": false,
+     "mean_activation_distance": 0.9167,
+     "mean_edge_distance": 0.7799,
+     "mean_witness_distance": 0.5,
+     "n_activations": 5,
+     "n_live": 1,
+     "per_family": {
+      "NULL-F1": {
+       "activated": [],
+       "live": [],
+       "n_edges": 48
+      },
+      "NULL-F2": {
+       "activated": [
+        "RC-03",
+        "RC-10"
+       ],
+       "live": [],
+       "n_edges": 37
+      },
+      "NULL-F3": {
+       "activated": [
+        "RC-05",
+        "RC-14"
+       ],
+       "live": [
+        "RC-14"
+       ],
+       "n_edges": 44
+      },
+      "NULL-F4": {
+       "activated": [
+        "RC-14"
+       ],
+       "live": [],
+       "n_edges": 39
+      }
+     },
+     "sample_seed": 20260948,
+     "sds": 0.2292
+    },
+    {
+     "all_lineage_pass": true,
+     "complete_lineage_chains": 5,
+     "distinct_activation_profiles": 4,
+     "distinct_satisfaction_condition_sets": 4,
+     "divergence_mean": 0.6993,
+     "divergence_median": 0.75,
+     "families": {
+      "NULL-F1": [
+       "has_interest_in",
+       "has_output",
+       "has_participant",
+       "has_recipient",
+       "is_a_measurement_of",
+       "precedes",
+       "prescribes",
+       "uses"
+      ],
+      "NULL-F2": [
+       "has_agent",
+       "has_input",
+       "has_interest_in",
+       "is_a_measurement_of",
+       "is_about",
+       "is_affiliated_with",
+       "precedes",
+       "supervises"
+      ],
+      "NULL-F3": [
+       "bearer_of",
+       "has_interest_in",
+       "has_output",
+       "is_affiliated_with",
+       "is_cause_of",
+       "is_subordinate_role_to",
+       "precedes",
+       "uses"
+      ],
+      "NULL-F4": [
+       "bearer_of",
+       "has_agent",
+       "has_interest_in",
+       "has_participant",
+       "is_about",
+       "is_affiliated_with",
+       "is_cause_of",
+       "precedes",
+       "supervises",
+       "uses"
+      ]
+     },
+     "families_with_live": 3,
+     "foreign_full_pass_fraction": 0.25,
+     "gate_a_1_to_4": true,
+     "mean_activation_distance": 0.9583,
+     "mean_edge_distance": 0.6678,
+     "mean_witness_distance": 1.0,
+     "n_activations": 8,
+     "n_live": 5,
+     "per_family": {
+      "NULL-F1": {
+       "activated": [
+        "RC-02"
+       ],
+       "live": [
+        "RC-02"
+       ],
+       "n_edges": 49
+      },
+      "NULL-F2": {
+       "activated": [
+        "RC-03",
+        "RC-11"
+       ],
+       "live": [
+        "RC-03",
+        "RC-11"
+       ],
+       "n_edges": 42
+      },
+      "NULL-F3": {
+       "activated": [],
+       "live": [],
+       "n_edges": 39
+      },
+      "NULL-F4": {
+       "activated": [
+        "RC-03",
+        "RC-05",
+        "RC-09"
+       ],
+       "live": [
+        "RC-05"
+       ],
+       "n_edges": 54
+      }
+     },
+     "sample_seed": 20260949,
+     "sds": 0.7188
+    },
+    {
+     "all_lineage_pass": true,
+     "complete_lineage_chains": 2,
+     "distinct_activation_profiles": 3,
+     "distinct_satisfaction_condition_sets": 2,
+     "divergence_mean": 0.375,
+     "divergence_median": 0.75,
+     "families": {
+      "NULL-F1": [
+       "affects",
+       "has_continuant_part",
+       "has_interest_in",
+       "has_recipient",
+       "is_cause_of",
+       "is_subordinate_role_to",
+       "realizes",
+       "supervises"
+      ],
+      "NULL-F2": [
+       "affects",
+       "has_continuant_part",
+       "has_input",
+       "has_interest_in",
+       "has_organizational_context",
+       "is_cause_of",
+       "is_subordinate_role_to",
+       "prescribes"
+      ],
+      "NULL-F3": [
+       "has_agent",
+       "has_recipient",
+       "is_about",
+       "is_affiliated_with",
+       "is_subordinate_role_to",
+       "precedes",
+       "realizes",
+       "supervises"
+      ],
+      "NULL-F4": [
+       "bearer_of",
+       "has_continuant_part",
+       "has_input",
+       "has_participant",
+       "is_a_measurement_of",
+       "is_about",
+       "is_affiliated_with",
+       "is_cause_of",
+       "realizes",
+       "uses"
+      ]
+     },
+     "families_with_live": 1,
+     "foreign_full_pass_fraction": 0.75,
+     "gate_a_1_to_4": false,
+     "mean_activation_distance": 0.7778,
+     "mean_edge_distance": 0.8408,
+     "mean_witness_distance": 0.5,
+     "n_activations": 4,
+     "n_live": 2,
+     "per_family": {
+      "NULL-F1": {
+       "activated": [],
+       "live": [],
+       "n_edges": 20
+      },
+      "NULL-F2": {
+       "activated": [],
+       "live": [],
+       "n_edges": 27
+      },
+      "NULL-F3": {
+       "activated": [
+        "RC-03"
+       ],
+       "live": [],
+       "n_edges": 40
+      },
+      "NULL-F4": {
+       "activated": [
+        "RC-03",
+        "RC-05",
+        "RC-14"
+       ],
+       "live": [
+        "RC-03",
+        "RC-14"
+       ],
+       "n_edges": 42
+      }
+     },
+     "sample_seed": 20260950,
+     "sds": 0.1944
+    }
+   ],
+   "stats": {
+    "divergence_median_mean": 0.6384,
+    "divergence_median_p90": 0.75,
+    "divergence_median_values": [
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.4028,
+     0.75,
+     0.75,
+     0.75,
+     0.75,
+     0.75,
+     0.75,
+     0.75,
+     0.75,
+     0.75,
+     0.75,
+     0.75,
+     0.75,
+     0.75,
+     0.75,
+     0.75,
+     0.75,
+     0.75,
+     0.75,
+     0.75,
+     0.75,
+     0.75,
+     0.75,
+     0.75,
+     0.75,
+     0.75
+    ],
+    "fraction_all_lineage_pass": 1.0,
+    "fraction_passing_gate_a_1_to_4": 0.133,
+    "intended_divergence_median_percentile": 16.7,
+    "intended_sds_percentile": 100.0,
+    "mean_activation_distance": 0.8206,
+    "mean_families_with_live": 1.53,
+    "mean_foreign_full_pass_fraction": 0.636,
+    "mean_lineage_chains": 3.07,
+    "mean_n_live": 2.87,
+    "mean_witness_distance": 0.6043,
+    "n": 30,
+    "sds_max": 0.7222,
+    "sds_mean": 0.3299,
+    "sds_median": 0.3889,
+    "sds_min": 0.0,
+    "sds_p90": 0.6062,
+    "sds_values": [
+     0.1875,
+     0.4444,
+     0.25,
+     0.4583,
+     0.4167,
+     0.4486,
+     0.4444,
+     0.4722,
+     0.4,
+     0.4792,
+     0.6062,
+     0.4181,
+     0.0,
+     0.3889,
+     0.2292,
+     0.4167,
+     0.0,
+     0.2222,
+     0.1979,
+     0.1944,
+     0.2083,
+     0.2361,
+     0.1944,
+     0.0,
+     0.0,
+     0.7222,
+     0.7188,
+     0.2292,
+     0.7188,
+     0.1944
+    ]
+   }
+  }
+ },
+ "reading": "PASS",
+ "seed": 20260921
+}

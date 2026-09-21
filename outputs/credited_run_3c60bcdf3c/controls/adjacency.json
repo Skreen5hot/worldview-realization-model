@@ -1,0 +1,75 @@
+{
+ "lexical": {
+  "Dynamism": {
+   "Dynamism": 1.0,
+   "Materialism": 0.3333,
+   "Pneumatism": 0.2,
+   "Rationalism": 0.2308
+  },
+  "Materialism": {
+   "Dynamism": 0.3333,
+   "Materialism": 1.0,
+   "Pneumatism": 0.125,
+   "Rationalism": 0.3333
+  },
+  "Pneumatism": {
+   "Dynamism": 0.2,
+   "Materialism": 0.125,
+   "Pneumatism": 1.0,
+   "Rationalism": 0.125
+  },
+  "Rationalism": {
+   "Dynamism": 0.2308,
+   "Materialism": 0.3333,
+   "Pneumatism": 0.125,
+   "Rationalism": 1.0
+  }
+ },
+ "operational": {
+  "note": "adj_op = mean of activation similarity, witness similarity and (where defined) polarity agreement on shared targeted edges. Prior estimate for the \u00a75 non-adjacency requirement was not available; this is reported post hoc as a companion statistic.",
+  "pairs": {
+   "Dynamism|Materialism": {
+    "activation_similarity": 0.1667,
+    "adj_op": 0.5773,
+    "n_shared_targeted_edges": 4,
+    "polarity_agreement_on_shared_edges": 1.0,
+    "witness_similarity": 0.5652
+   },
+   "Dynamism|Pneumatism": {
+    "activation_similarity": 0.0,
+    "adj_op": 0.0185,
+    "n_shared_targeted_edges": 0,
+    "polarity_agreement_on_shared_edges": null,
+    "witness_similarity": 0.037
+   },
+   "Dynamism|Rationalism": {
+    "activation_similarity": 0.1111,
+    "adj_op": 0.3926,
+    "n_shared_targeted_edges": 1,
+    "polarity_agreement_on_shared_edges": 1.0,
+    "witness_similarity": 0.0667
+   },
+   "Materialism|Pneumatism": {
+    "activation_similarity": 0.1667,
+    "adj_op": 0.1288,
+    "n_shared_targeted_edges": 0,
+    "polarity_agreement_on_shared_edges": null,
+    "witness_similarity": 0.0909
+   },
+   "Materialism|Rationalism": {
+    "activation_similarity": 0.0,
+    "adj_op": 0.0,
+    "n_shared_targeted_edges": 0,
+    "polarity_agreement_on_shared_edges": null,
+    "witness_similarity": 0.0
+   },
+   "Pneumatism|Rationalism": {
+    "activation_similarity": 0.0,
+    "adj_op": 0.0,
+    "n_shared_targeted_edges": 0,
+    "polarity_agreement_on_shared_edges": null,
+    "witness_similarity": 0.0
+   }
+  }
+ }
+}
