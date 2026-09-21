@@ -1,6 +1,0 @@
-{
-  "schema": "wrm-poc/firewall_lexicon/v1",
-  "forbidden_terms": ["Materialism", "Rationalism", "Dynamism", "Pneumatism", "worldview", "Steiner", "spiritual", "materialist", "rationalist", "dynamist", "pneumatist", "Idealism", "Realism", "Sensationalism", "Phenomenalism", "Psychism", "Spiritism", "Monadism", "Mathematism", "world-view"],
-  "excluded_keys": ["metadata_excluded_from_experiment"],
-  "case_insensitive": true
-}

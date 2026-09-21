@@ -1,1 +1,0 @@
-{"schema": "wrm-e2/format_repairs/v1", "repairs": [], "note": "Each entry: {condition_id, field, delivered_value, repaired_value, reason, timestamp}. Content changes are prohibited."}

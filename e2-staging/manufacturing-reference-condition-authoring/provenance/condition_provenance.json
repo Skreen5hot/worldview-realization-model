@@ -1,7 +1,0 @@
-{
-  "schema": "reference-condition-authoring/provenance/v1",
-  "note": "Optional per-condition provenance detail beyond the `provenance` field inside each condition.",
-  "entries": [
-    {"condition_id": "RC-…", "document": "…", "clause": "…", "quote": "…", "interpretation_note": "…"}
-  ]
-}
